@@ -55,7 +55,7 @@ ts:active a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.3"^^ggic-lhk: ;
+    skos:notation "1.3"^^xsd:string ;
     skos:prefLabel "active"@en .
 
 ts:cancelled a skos:Concept ;
@@ -64,7 +64,7 @@ ts:cancelled a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Tenement cancelled. eg, for non-payment of rent on granted tenement"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.3"^^ggic-lhk: ;
+    skos:notation "3.3"^^xsd:string ;
     skos:prefLabel "cancelled"@en .
 
 ts:ceased a skos:Concept ;
@@ -73,7 +73,7 @@ ts:ceased a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.1"^^ggic-lhk: ;
+    skos:notation "3.1"^^xsd:string ;
     skos:prefLabel "ceased"@en .
 
 ts:ceased-and-determined a skos:Concept ;
@@ -82,7 +82,7 @@ ts:ceased-and-determined a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.2"^^ggic-lhk: ;
+    skos:notation "3.2"^^xsd:string ;
     skos:prefLabel "ceased and determined"@en .
 
 ts:consolidated a skos:Concept ;
@@ -91,7 +91,7 @@ ts:consolidated a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.4"^^ggic-lhk: ;
+    skos:notation "3.4"^^xsd:string ;
     skos:prefLabel "consolidated"@en .
 
 ts:current a skos:Concept ;
@@ -100,7 +100,7 @@ ts:current a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.4"^^ggic-lhk: ;
+    skos:notation "1.4"^^xsd:string ;
     skos:prefLabel "current"@en .
 
 ts:declined a skos:Concept ;
@@ -109,7 +109,7 @@ ts:declined a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Application was declined as requirements for application assessment were not satisfied."@en ;
     skos:inScheme cs: ;
-    skos:notation "3.5"^^ggic-lhk: ;
+    skos:notation "3.5"^^xsd:string ;
     skos:prefLabel "declined"@en .
 
 ts:expired a skos:Concept ;
@@ -118,7 +118,7 @@ ts:expired a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - End of term granted tenement or tenement converted to another"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.6"^^ggic-lhk: ;
+    skos:notation "3.6"^^xsd:string ;
     skos:prefLabel "expired"@en .
 
 ts:exploration-release-area a skos:Concept ;
@@ -127,7 +127,7 @@ ts:exploration-release-area a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "Areas under moratorium prior to being released for EL application"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.15"^^ggic-lhk: ;
+    skos:notation "3.15"^^xsd:string ;
     skos:prefLabel "exploration release area"@en .
 
 ts:forfeited a skos:Concept ;
@@ -136,7 +136,7 @@ ts:forfeited a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Tenement forfeited under Mining Act 1929"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.10"^^ggic-lhk: ;
+    skos:notation "3.10"^^xsd:string ;
     skos:prefLabel "forfeited"@en .
 
 ts:grant a skos:Concept ;
@@ -145,7 +145,7 @@ ts:grant a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.5"^^ggic-lhk: ;
+    skos:notation "1.5"^^xsd:string ;
     skos:prefLabel "grant"@en .
 
 ts:granted-cancelled-subject-to-appeal-for-reinstatement a skos:Concept ;
@@ -154,7 +154,7 @@ ts:granted-cancelled-subject-to-appeal-for-reinstatement a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Lease cancelled subject to appeal for reinstatement."@en ;
     skos:inScheme cs: ;
-    skos:notation "1.7"^^ggic-lhk: ;
+    skos:notation "1.7"^^xsd:string ;
     skos:prefLabel "granted (cancelled subject to appeal for reinstatement)"@en .
 
 ts:granted-decision-to-refuse-extension-of-term-under-appeal a skos:Concept ;
@@ -163,7 +163,7 @@ ts:granted-decision-to-refuse-extension-of-term-under-appeal a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Tenement subject to appeal before the Mining Tribunal."@en ;
     skos:inScheme cs: ;
-    skos:notation "1.6"^^ggic-lhk: ;
+    skos:notation "1.6"^^xsd:string ;
     skos:prefLabel "granted (decision to refuse extension of term under appeal)"@en .
 
 ts:granted-decision-to-revoke-subject-to-or-under-appeal a skos:Concept ;
@@ -172,7 +172,7 @@ ts:granted-decision-to-revoke-subject-to-or-under-appeal a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Tenement subject to appeal before the Minister and /or Mining Tribunal."@en ;
     skos:inScheme cs: ;
-    skos:notation "1.8"^^ggic-lhk: ;
+    skos:notation "1.8"^^xsd:string ;
     skos:prefLabel "granted (decision to revoke subject to or under appeal)"@en .
 
 ts:issued a skos:Concept ;
@@ -181,7 +181,7 @@ ts:issued a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "NT - A classification for amalgamated titles formed from two or more granted titles (usually after significant partial relinquishments)"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.1"^^ggic-lhk: ;
+    skos:notation "1.1"^^xsd:string ;
     skos:prefLabel "issued"@en .
 
 ts:lapsed a skos:Concept ;
@@ -191,7 +191,7 @@ ts:lapsed a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "Tenement grant period has expired"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.7"^^ggic-lhk: ;
+    skos:notation "3.7"^^xsd:string ;
     skos:prefLabel "lapsed"@en .
 
 ts:live a skos:Concept ;
@@ -200,7 +200,7 @@ ts:live a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.2"^^ggic-lhk: ;
+    skos:notation "1.2"^^xsd:string ;
     skos:prefLabel "live"@en .
 
 ts:pending a skos:Concept ;
@@ -209,7 +209,7 @@ ts:pending a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "Tenement application is pending approval. Tenement is not yet granted."@en ;
     skos:inScheme cs: ;
-    skos:notation "2.5"^^ggic-lhk: ;
+    skos:notation "2.5"^^xsd:string ;
     skos:prefLabel "pending"@en .
 
 ts:pending-partial-surrender a skos:Concept ;
@@ -218,8 +218,8 @@ ts:pending-partial-surrender a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Part of this area is about to be released as an ERA area balance of area to remain granted."@en ;
     skos:inScheme cs: ;
-    skos:notation "1.12"^^ggic-lhk:,
-        "1.9"^^ggic-lhk: ;
+    skos:notation "1.12"^^xsd:string,
+        "1.9"^^xsd:string ;
     skos:prefLabel "pending partial surrender"@en .
 
 ts:pending-renewal a skos:Concept ;
@@ -228,7 +228,7 @@ ts:pending-renewal a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Tenement subject to application for renewal"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.10"^^ggic-lhk: ;
+    skos:notation "1.10"^^xsd:string ;
     skos:prefLabel "pending renewal"@en .
 
 ts:pending-surrender a skos:Concept ;
@@ -237,7 +237,7 @@ ts:pending-surrender a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "TAS - Tenement undergoing surrender process"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.11"^^ggic-lhk: ;
+    skos:notation "1.11"^^xsd:string ;
     skos:prefLabel "pending surrender"@en .
 
 ts:provisionally-registered a skos:Concept ;
@@ -246,7 +246,7 @@ ts:provisionally-registered a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "2.4"^^ggic-lhk: ;
+    skos:notation "2.4"^^xsd:string ;
     skos:prefLabel "provisionally registered"@en .
 
 ts:reduction-retained a skos:Concept ;
@@ -255,7 +255,7 @@ ts:reduction-retained a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.13"^^ggic-lhk: ;
+    skos:notation "1.13"^^xsd:string ;
     skos:prefLabel "reduction retained"@en .
 
 ts:refused a skos:Concept ;
@@ -264,7 +264,7 @@ ts:refused a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Registered application or renewal refused by Minister"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.8"^^ggic-lhk: ;
+    skos:notation "3.8"^^xsd:string ;
     skos:prefLabel "refused"@en .
 
 ts:rejected a skos:Concept ;
@@ -273,7 +273,7 @@ ts:rejected a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.12"^^ggic-lhk: ;
+    skos:notation "3.12"^^xsd:string ;
     skos:prefLabel "rejected"@en .
 
 ts:renew-retained a skos:Concept ;
@@ -282,7 +282,7 @@ ts:renew-retained a skos:Concept ;
     skos:broader ts:granted ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "1.1399999999999999"^^ggic-lhk: ;
+    skos:notation "1.1399999999999999"^^xsd:string ;
     skos:prefLabel "renew retained"@en .
 
 ts:renewal a skos:Concept ;
@@ -291,7 +291,7 @@ ts:renewal a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "2.6"^^ggic-lhk: ;
+    skos:notation "2.6"^^xsd:string ;
     skos:prefLabel "renewal"@en .
 
 ts:revised-application a skos:Concept ;
@@ -300,7 +300,7 @@ ts:revised-application a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "2.1"^^ggic-lhk: ;
+    skos:notation "2.1"^^xsd:string ;
     skos:prefLabel "revised application"@en .
 
 ts:revoked a skos:Concept ;
@@ -309,7 +309,7 @@ ts:revoked a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Revocation of granted tenement"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.9"^^ggic-lhk: ;
+    skos:notation "3.9"^^xsd:string ;
     skos:prefLabel "revoked"@en .
 
 ts:submitted a skos:Concept ;
@@ -318,7 +318,7 @@ ts:submitted a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "2.3"^^ggic-lhk: ;
+    skos:notation "2.3"^^xsd:string ;
     skos:prefLabel "submitted"@en .
 
 ts:surrendered a skos:Concept ;
@@ -327,7 +327,7 @@ ts:surrendered a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Voluntary relinquishment of granted tenement"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.13"^^ggic-lhk: ;
+    skos:notation "3.13"^^xsd:string ;
     skos:prefLabel "surrendered"@en .
 
 ts:unsubmitted a skos:Concept ;
@@ -336,7 +336,7 @@ ts:unsubmitted a skos:Concept ;
     skos:broader ts:application ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "2.2"^^ggic-lhk: ;
+    skos:notation "2.2"^^xsd:string ;
     skos:prefLabel "unsubmitted"@en .
 
 ts:unsuccessful a skos:Concept ;
@@ -345,7 +345,7 @@ ts:unsuccessful a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "missing"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.11"^^ggic-lhk: ;
+    skos:notation "3.11"^^xsd:string ;
     skos:prefLabel "unsuccessful"@en .
 
 ts:withdrawn a skos:Concept ;
@@ -354,7 +354,7 @@ ts:withdrawn a skos:Concept ;
     skos:broader ts:non-current ;
     skos:definition "TAS - Applicant withdrew application"@en ;
     skos:inScheme cs: ;
-    skos:notation "3.14"^^ggic-lhk: ;
+    skos:notation "3.14"^^xsd:string ;
     skos:prefLabel "withdrawn"@en .
 
 <http://www.geoscience.gov.au> a sdo:GovernmentOrganization ;
@@ -379,7 +379,7 @@ ts:application a skos:Concept ;
         ts:revised-application,
         ts:submitted,
         ts:unsubmitted ;
-    skos:notation "2"^^ggic-lhk: ;
+    skos:notation "2"^^xsd:string ;
     skos:prefLabel "application"@en ;
     skos:topConceptOf cs: .
 
@@ -414,7 +414,7 @@ ts:granted a skos:Concept ;
         ts:pending-surrender,
         ts:reduction-retained,
         ts:renew-retained ;
-    skos:notation "1"^^ggic-lhk: ;
+    skos:notation "1"^^xsd:string ;
     skos:prefLabel "granted"@en ;
     skos:topConceptOf cs: .
 
@@ -453,7 +453,7 @@ ts:non-current a skos:Concept ;
         ts:surrendered,
         ts:unsuccessful,
         ts:withdrawn ;
-    skos:notation "3"^^ggic-lhk: ;
+    skos:notation "3"^^xsd:string ;
     skos:prefLabel "non-current"@en ;
     skos:topConceptOf cs: .
 
@@ -476,7 +476,7 @@ cs: a skos:ConceptScheme ;
         ts:non-current ;
     skos:prefLabel "GGIC Tenement Status"@en .
 
-<http://resource.geoscience.gov.au/classifier/ggic/LocalHierarchyKey>
+ggic-lhk:
   a owl:Class ;
   rdfs:subClassOf xsd:string ;
   skos:prefLabel "Local Hierarchy Key"@en ;
