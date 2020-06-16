@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Data_Classification> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/biology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "the scientific study of living things"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/geochemistry> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "the branch of Earth Science that applies chemical principles to deepen an understanding of the Earth system and systems of other planets"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/geography> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/geology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/geophysics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "a subject of natural science concerned with the physical processes and physical properties of the Earth and its surrounding space environment, and the use of quantitative methods for their analysis"@en ;
     skos:inScheme cs: ;
@@ -40,12 +46,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/geoscience> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "the scientific study of the earth"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geoscience"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Classification/resources> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/14176> ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -64,10 +72,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Data Classification vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Data Classification vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Data_Classification/biology>,
         <http://pid.geoscience.gov.au/def/Data_Classification/geochemistry>,
         <http://pid.geoscience.gov.au/def/Data_Classification/geography>,
@@ -75,5 +84,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Data_Classification/geophysics>,
         <http://pid.geoscience.gov.au/def/Data_Classification/geoscience>,
         <http://pid.geoscience.gov.au/def/Data_Classification/resources> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Data Classification"@en .
+    skos:prefLabel "Data Classification"@en .
 

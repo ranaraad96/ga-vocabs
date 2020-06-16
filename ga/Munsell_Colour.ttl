@@ -1,9 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Munsell_Colour> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -11,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -18,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -25,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -32,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -39,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -46,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10B8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10B8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -53,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -60,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -67,6 +78,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -74,6 +86,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -81,6 +94,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -88,6 +102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -95,6 +110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10BG8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10BG8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -102,6 +118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -109,6 +126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -116,6 +134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -123,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -130,6 +150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -137,6 +158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -144,6 +166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10G8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10G8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -151,6 +174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -158,6 +182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -165,6 +190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -172,6 +198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -179,6 +206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -186,6 +214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -193,6 +222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10GY8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10GY8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -200,6 +230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -207,6 +238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -214,6 +246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -221,6 +254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -228,6 +262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -235,6 +270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R3_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R3/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -242,6 +278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R3_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R3/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -249,6 +286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -256,6 +294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -263,6 +302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -270,6 +310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -277,6 +318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -284,6 +326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R4_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R4/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -291,6 +334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -298,6 +342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -305,6 +350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -312,6 +358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -319,6 +366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -326,6 +374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R5_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R5/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -333,6 +382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -340,6 +390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -347,6 +398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -354,6 +406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -361,6 +414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -368,6 +422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -375,6 +430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -382,6 +438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -389,6 +446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -396,6 +454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -403,6 +462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -410,6 +470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -417,6 +478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -424,6 +486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -431,6 +494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -438,6 +502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10R8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10R8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -445,6 +510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -452,6 +518,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -459,6 +526,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -466,6 +534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -473,6 +542,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -480,6 +550,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -487,6 +558,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10Y8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10Y8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -494,6 +566,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR2_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR2/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -501,6 +574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR2_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR2/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -508,6 +582,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -515,6 +590,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -522,6 +598,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -529,6 +606,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR3_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR3/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -536,6 +614,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR3_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR3/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -543,6 +622,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -550,6 +630,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -557,6 +638,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -564,6 +646,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -571,6 +654,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR4_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR4/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -578,6 +662,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -585,6 +670,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -592,6 +678,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -599,6 +686,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -606,6 +694,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -613,6 +702,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR5_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR5/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -620,6 +710,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -627,6 +718,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -634,6 +726,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -641,6 +734,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -648,6 +742,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -655,6 +750,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -662,6 +758,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -669,6 +766,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -676,6 +774,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -683,6 +782,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -690,6 +790,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -697,6 +798,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -704,6 +806,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -711,6 +814,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -718,6 +822,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -725,6 +830,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -732,6 +838,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -739,6 +846,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/10YR8_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10YR8/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -746,6 +854,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -753,6 +862,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -760,6 +870,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -767,6 +878,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -774,6 +886,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -781,6 +894,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -788,6 +902,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -795,6 +910,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -802,6 +918,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -809,6 +926,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -816,6 +934,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -823,6 +942,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -830,6 +950,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -837,6 +958,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -844,6 +966,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -851,6 +974,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -858,6 +982,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -865,6 +990,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -872,6 +998,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -879,6 +1006,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -886,6 +1014,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -893,6 +1022,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -900,6 +1030,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -907,6 +1038,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -914,6 +1046,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -921,6 +1054,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -928,6 +1062,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -935,6 +1070,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -942,6 +1078,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -949,6 +1086,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -956,6 +1094,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5Y8_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5Y8/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -963,6 +1102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -970,6 +1110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -977,6 +1118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR2_5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR2.5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -984,6 +1126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR2_5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR2.5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -991,6 +1134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -998,6 +1142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1005,6 +1150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1012,6 +1158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR3_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR3/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1019,6 +1166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR3_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR3/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1026,6 +1174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1033,6 +1182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1040,6 +1190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1047,6 +1198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1054,6 +1206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1061,6 +1214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR4_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR4/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1068,6 +1222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1075,6 +1230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1082,6 +1238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1089,6 +1246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1096,6 +1254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1103,6 +1262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR5_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR5/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1110,6 +1270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1117,6 +1278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1124,6 +1286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1131,6 +1294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1138,6 +1302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1145,6 +1310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1152,6 +1318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1159,6 +1326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1166,6 +1334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1173,6 +1342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1180,6 +1350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1187,6 +1358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1194,6 +1366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1201,6 +1374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1208,6 +1382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1215,6 +1390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/2_5YR8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2.5YR8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1222,6 +1398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1229,6 +1406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1236,6 +1414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1243,6 +1422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1250,6 +1430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1257,6 +1438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1264,6 +1446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5B8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5B8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1271,6 +1454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1278,6 +1462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1285,6 +1470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1292,6 +1478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1299,6 +1486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1306,6 +1494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1313,6 +1502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5BG8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5BG8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1320,6 +1510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1327,6 +1518,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1334,6 +1526,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1341,6 +1534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1348,6 +1542,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1355,6 +1550,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1362,6 +1558,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1369,6 +1566,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1376,6 +1574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1383,6 +1582,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1390,6 +1590,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1397,6 +1598,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1404,6 +1606,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1411,6 +1614,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5G8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5G8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1418,6 +1622,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1425,6 +1630,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1432,6 +1638,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1439,6 +1646,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1446,6 +1654,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1453,6 +1662,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1460,6 +1670,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5GY8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5GY8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1467,6 +1678,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1474,6 +1686,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1481,6 +1694,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1488,6 +1702,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1495,6 +1710,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1502,6 +1718,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1509,6 +1726,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5PB8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5PB8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1516,6 +1734,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1523,6 +1742,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1530,6 +1750,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1537,6 +1758,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1544,6 +1766,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1551,6 +1774,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1558,6 +1782,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1565,6 +1790,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1572,6 +1798,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1579,6 +1806,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1586,6 +1814,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1593,6 +1822,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1600,6 +1830,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1607,6 +1838,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1614,6 +1846,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1621,6 +1854,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1628,6 +1862,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1635,6 +1870,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1642,6 +1878,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1649,6 +1886,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1656,6 +1894,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1663,6 +1902,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1670,6 +1910,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1677,6 +1918,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1684,6 +1926,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1691,6 +1934,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1698,6 +1942,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1705,6 +1950,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1712,6 +1958,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1719,6 +1966,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1726,6 +1974,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5Y8_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5Y8/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1733,6 +1982,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1740,6 +1990,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1747,6 +1998,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1754,6 +2006,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1761,6 +2014,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1768,6 +2022,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR3_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR3/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1775,6 +2030,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1782,6 +2038,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1789,6 +2046,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1796,6 +2054,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1803,6 +2062,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR4_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR4/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1810,6 +2070,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1817,6 +2078,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1824,6 +2086,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1831,6 +2094,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1838,6 +2102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1845,6 +2110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR5_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR5/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1852,6 +2118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1859,6 +2126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1866,6 +2134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1873,6 +2142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1880,6 +2150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1887,6 +2158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1894,6 +2166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1901,6 +2174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1908,6 +2182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1915,6 +2190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1922,6 +2198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1929,6 +2206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1936,6 +2214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1943,6 +2222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1950,6 +2230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1957,6 +2238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/5YR8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5YR8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1964,6 +2246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR2_5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR2.5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1971,6 +2254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR2_5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR2.5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1978,6 +2262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR2_5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR2.5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1985,6 +2270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR3_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR3/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1992,6 +2278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR3_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR3/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -1999,6 +2286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR3_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR3/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2006,6 +2294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR3_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR3/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2013,6 +2302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR4_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR4/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2020,6 +2310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR4_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR4/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2027,6 +2318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR4_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR4/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2034,6 +2326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR4_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR4/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2041,6 +2334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR4_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR4/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2048,6 +2342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2055,6 +2350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2062,6 +2358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2069,6 +2366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2076,6 +2374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2083,6 +2382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR5_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR5/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2090,6 +2390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2097,6 +2398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2104,6 +2406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2111,6 +2414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2118,6 +2422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2125,6 +2430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR6_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR6/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2132,6 +2438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2139,6 +2446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2146,6 +2454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2153,6 +2462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2160,6 +2470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2167,6 +2478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR7_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR7/8"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2174,6 +2486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR8_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR8/1"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2181,6 +2494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR8_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR8/2"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2188,6 +2502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR8_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR8/3"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2195,6 +2510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR8_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR8/4"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2202,6 +2518,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/7_5YR8_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7.5YR8/6"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2209,6 +2526,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N2_5_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N2.5/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2216,6 +2534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N3_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N3/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2223,6 +2542,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N4_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N4/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2230,6 +2550,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N5_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N5/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2237,6 +2558,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N6_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N6/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2244,6 +2566,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N7_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N7/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2251,6 +2574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Munsell_Colour/N8_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "N8/"@en ;
     skos:definition "Soil colour"@en ;
     skos:inScheme cs: ;
@@ -2267,11 +2591,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Munsell Colour vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Munsell Colour vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Munsell_Colour/10B2_5_1>,
         <http://pid.geoscience.gov.au/def/Munsell_Colour/10B3_1>,
         <http://pid.geoscience.gov.au/def/Munsell_Colour/10B4_1>,
@@ -2594,5 +2920,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Munsell_Colour/N6_>,
         <http://pid.geoscience.gov.au/def/Munsell_Colour/N7_>,
         <http://pid.geoscience.gov.au/def/Munsell_Colour/N8_> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Munsell Colour"@en .
+    skos:prefLabel "Munsell Colour"@en .
 

@@ -1,76 +1,89 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Iso_Role_Code> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/author> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who authored the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "author"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/custodian> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "custodian"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/distributor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who distributes the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "distributor"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/originator> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who created the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "originator"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/owner> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that owns the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "owner"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/pointOfContact> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who can be contacted for acquiring knowledge about or acquisition of the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pointOfContact"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/principalInvestigator> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "key party responsible for gathering information and conducting research"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "principalInvestigator"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/processor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who has processed the data in a manner such that the resource has been modified"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "processor"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/publisher> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who published the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "publisher"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/resourceProvider> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that supplies the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "resourceProvider"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "unknown party"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Iso_Role_Code/user> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who uses the resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "user"@en ;
@@ -88,10 +101,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Iso Role Code vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Iso Role Code vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Iso_Role_Code/author>,
         <http://pid.geoscience.gov.au/def/Iso_Role_Code/custodian>,
         <http://pid.geoscience.gov.au/def/Iso_Role_Code/distributor>,
@@ -104,5 +118,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Iso_Role_Code/resourceProvider>,
         <http://pid.geoscience.gov.au/def/Iso_Role_Code/unknown>,
         <http://pid.geoscience.gov.au/def/Iso_Role_Code/user> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Iso Role Code"@en .
+    skos:prefLabel "Iso Role Code"@en .
 

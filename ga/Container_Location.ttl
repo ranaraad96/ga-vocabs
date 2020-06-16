@@ -1,82 +1,96 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Container_Location> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cold Store"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Cores"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cold Store 1"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Sample Buckets"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cold Store 2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/External_Client> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "External Client"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Gas_Store_Rm_L_076> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gas Store Rm L.076"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Geochemistry> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Geochemistry"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Geochemistry_Coolroom> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Geochemistry Coolroom"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Internal_Client> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Internal Client"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Micro_Palaeo_Slides_LG_033> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Working Slide Collection"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Micro Palaeo Slides LG.033"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Palaeontology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Palaeontology"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Repository> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Repository"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Rock_Store> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rock Store"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Container_Location/Sedimentology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sedimentology"@en ;
@@ -94,10 +108,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Container Location vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Container Location vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store>,
         <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store_1>,
         <http://pid.geoscience.gov.au/def/Container_Location/Cold_Store_2>,
@@ -111,5 +126,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Container_Location/Repository>,
         <http://pid.geoscience.gov.au/def/Container_Location/Rock_Store>,
         <http://pid.geoscience.gov.au/def/Container_Location/Sedimentology> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Container Location"@en .
+    skos:prefLabel "Container Location"@en .
 

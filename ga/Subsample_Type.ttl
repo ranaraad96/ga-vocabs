@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Subsample_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Aromatic_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Aromatic hydrocarbons are a special kind unsaturated hydrocarbon in which the double bonds are arranged in a particularly stable way. The parent compound benzene (fig. 4) nominally consists of three d"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Aromatic Fraction"@en ;
@@ -12,48 +14,56 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Aromatic_Gas_Chromatography__GC_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Chromatograph of aromatic fraction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Aromatic Gas Chromatography (GC)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Asphaltene_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fraction description"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Asphaltene Fraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Asphaltene_Free_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fraction description"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Asphaltene Free Fraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/EOM_Asphaltene_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fraction description"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EOM Asphaltene Fraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/EOM_Asphaltene_Free_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fraction description"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EOM Asphaltene Free Fraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Extracted_Organic_Material__EOM_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Procedure is used to extract the organic material from powdered rock or coal samples."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Extracted Organic Material (EOM)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Extracted_Rock_Powder> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Procedure is used to extract material from powdered rock or coal samples."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Extracted Rock Powder"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Polar_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "As well as hydrocarbons, oils contain a complex suite of compounds containing oxygen, nitrogen and sulphur (fig. 4) and traces of compounds containing other elements such as nickel and vanadium. The O"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Polar Fraction"@en ;
@@ -61,24 +71,28 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/SILICALITE_ADDUCT__SA_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Preparation used in extractions"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SILICALITE ADDUCT (SA)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/SILICALITE_NON_ADDUCT__SNA_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Preparation used in extractions"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SILICALITE NON ADDUCT (SNA)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/SNA_Gas_Chromatography__GC_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Chromatograph of SNA fraction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SNA Gas Chromatography (GC)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Saturate_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Compounds in which the carbon atoms are connected by single bonds only are called saturated and this class of compounds, when separated from an oil, is called the saturated fraction or simply the satu"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Saturate Fraction"@en ;
@@ -86,12 +100,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Saturate_Gas_Chromatography__GC_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Chromatograph of saturate fraction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Saturate Gas Chromatography (GC)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Subsample_Type/Sulfur_Free_Saturate_Fraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fraction description"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sulfur Free Saturate Fraction"@en ;
@@ -109,10 +125,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Subsample Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Subsample Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Subsample_Type/Aromatic_Fraction>,
         <http://pid.geoscience.gov.au/def/Subsample_Type/Aromatic_Gas_Chromatography__GC_>,
         <http://pid.geoscience.gov.au/def/Subsample_Type/Asphaltene_Fraction>,
@@ -128,5 +145,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Subsample_Type/Saturate_Fraction>,
         <http://pid.geoscience.gov.au/def/Subsample_Type/Saturate_Gas_Chromatography__GC_>,
         <http://pid.geoscience.gov.au/def/Subsample_Type/Sulfur_Free_Saturate_Fraction> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Subsample Type"@en .
+    skos:prefLabel "Subsample Type"@en .
 

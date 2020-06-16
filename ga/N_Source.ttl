@@ -1,160 +1,187 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/N_Source> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/N_Source/ACTGEOID> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ACTGEOID"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AGD_Tech_Manual> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AGD Tech Manual"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AUSGEOID91> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AUSGEOID91"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AUSGEOID93_COMP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AUSGEOID93 COMP"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AUSGEOID93_INTER> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AUSGEOID93 INTER"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AUSGEOID98> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AUSGEOID98"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/AUS_GEOID_TRANSF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AUS GEOID TRANSF"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/By_Contours> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "By Contours"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/EGM96> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EGM96"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/GEM8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GEM8"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/Interpreted_OSU89_and_G> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Interpreted OSU89 and G"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/None> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "None"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU81> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU81"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU81+Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU81+Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU86> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU86"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU86E> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU86E"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU86E+Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU86E+Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU89> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU89"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU89A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU89A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU89A+Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU89A+Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU89B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU89B"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU89B+Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU89B+Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU91> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU91"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OSU91+Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OSU91+Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/OTHER> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OTHER"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/N_Source/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -172,10 +199,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the N Source vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the N Source vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/N_Source/ACTGEOID>,
         <http://pid.geoscience.gov.au/def/N_Source/AGD_Tech_Manual>,
         <http://pid.geoscience.gov.au/def/N_Source/AUSGEOID91>,
@@ -202,5 +230,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/N_Source/OSU91+Gravity>,
         <http://pid.geoscience.gov.au/def/N_Source/OTHER>,
         <http://pid.geoscience.gov.au/def/N_Source/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - N Source"@en .
+    skos:prefLabel "N Source"@en .
 

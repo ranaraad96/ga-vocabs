@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Depositional_Environment> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDD"@en ;
     skos:definition "10 (0 to 50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDDF"@en ;
     skos:definition "-50 (-100 to 10) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDDL"@en ;
     skos:definition "5 (0 to 10) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDDP"@en ;
     skos:definition "-100 (-200 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDDU"@en ;
     skos:definition "20 (10 to 50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -40,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDE"@en ;
     skos:definition "-100 (-200 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -47,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDI"@en ;
     skos:definition "-2.5 (-5 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -54,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDIS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDIS"@en ;
     skos:definition "0 (-5 to 5) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -61,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDP"@en ;
     skos:definition "0 (-5 to 30) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -68,6 +78,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CDS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CDS"@en ;
     skos:definition "2.5 (0 to 5) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -75,6 +86,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CE"@en ;
     skos:definition "0 (-5 to 50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -82,6 +94,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CSF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CSF"@en ;
     skos:definition "0 (-5 to 5) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -89,6 +102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CSFL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CSFL"@en ;
     skos:definition "-2 (-5 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -96,6 +110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CSFM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CSFM"@en ;
     skos:definition "0 (-2 to 2) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -103,6 +118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/CSFU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CSFU"@en ;
     skos:definition "2 (0 to 5) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -110,6 +126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/IGN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "IGN"@en ;
     skos:definition " ( to ) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -117,6 +134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/INDT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "INDT"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -124,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDA"@en ;
     skos:definition "50 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -131,6 +150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDF"@en ;
     skos:definition "200 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -138,6 +158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDFB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDFB"@en ;
     skos:definition "500 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -145,6 +166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDFL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDFL"@en ;
     skos:definition "100 (0 to 500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -152,6 +174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDFM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDFM"@en ;
     skos:definition "100 (0 to 500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -159,6 +182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDG> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDG"@en ;
     skos:definition "1000 (0 to 4000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -166,6 +190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDL"@en ;
     skos:definition "500 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -173,6 +198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LDP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LDP"@en ;
     skos:definition "50 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -180,6 +206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LEE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LEE"@en ;
     skos:definition "1000 (500 to 4000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -187,6 +214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LEP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LEP"@en ;
     skos:definition "500 (0 to 1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -194,6 +222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LEU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LEU"@en ;
     skos:definition "300 (0 to 500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -201,6 +230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/LUD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LUD"@en ;
     skos:definition "100 (0 to 500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -208,6 +238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MA"@en ;
     skos:definition "-3000 (-4000 to -2000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -215,6 +246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MB"@en ;
     skos:definition "-1500 (-2500 to -200) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -222,6 +254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MBA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MBA"@en ;
     skos:definition "-2500 (-4000 to -200) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -229,6 +262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MBNK> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MBNK"@en ;
     skos:definition "-15 (0 to -50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -236,6 +270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MBR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MBR"@en ;
     skos:definition "-50 (0 to -200) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -243,6 +278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MBS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MBS"@en ;
     skos:definition "-1500 (-2500 to -200) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -250,6 +286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MDM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MDM"@en ;
     skos:definition "-250 (-1500 to -100) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -257,6 +294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MIMN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MIMN"@en ;
     skos:definition "-50 (-75 to -20) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -264,6 +302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MIN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MIN"@en ;
     skos:definition "-20 (-50 to -10) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -271,6 +310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MLB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MLB"@en ;
     skos:definition "-2000 (-2500 to -1500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -278,6 +318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MLBA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MLBA"@en ;
     skos:definition "-2500 (-4000 to -2500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -285,6 +326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MM"@en ;
     skos:definition "-15 (0 to -50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -292,6 +334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MMB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MMB"@en ;
     skos:definition "-1000 (-1500 to -500) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -299,6 +342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MMLB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MMLB"@en ;
     skos:definition "-1500 (-2000 to -1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -306,6 +350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MMN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MMN"@en ;
     skos:definition "-75 (-100 to -50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -313,6 +358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MMON> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MMON"@en ;
     skos:definition "-100 (-150 to -75) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -320,6 +366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MNOM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MNOM"@en ;
     skos:definition "-125 (-100 to -2000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -327,6 +374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MO> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MO"@en ;
     skos:definition "-200 (-4000 to -50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -334,6 +382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MOMN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MOMN"@en ;
     skos:definition "-150 (-100 to -2000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -341,6 +390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MON> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MON"@en ;
     skos:definition "-150 (-200 to -100) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -348,6 +398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MR"@en ;
     skos:definition "-1000 (-1000 to -1000) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -355,6 +406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MRB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MRB"@en ;
     skos:definition "0 (-5 to 50) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -362,6 +414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MRE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MRE"@en ;
     skos:definition "-30 (-10 to -150) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -369,6 +422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MRL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MRL"@en ;
     skos:definition "-30 (-10 to -100) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -376,6 +430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MRN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MRN"@en ;
     skos:definition "-50 (-200 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -383,6 +438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MRU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MRU"@en ;
     skos:definition "-15 (0 to -150) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -390,6 +446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MS"@en ;
     skos:definition "-50 (-200 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -397,6 +454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MSAL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MSAL"@en ;
     skos:definition "-25 (0 to -100) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -404,6 +462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MSE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MSE"@en ;
     skos:definition "-200 (-300 to -100) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -411,6 +470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MSS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MSS"@en ;
     skos:definition "-150 (-200 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -418,6 +478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MU"@en ;
     skos:definition "-100 (-4000 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -425,6 +486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MUB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MUB"@en ;
     skos:definition "-350 (-500 to -200) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -432,6 +494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MUMB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MUMB"@en ;
     skos:definition "-675 (-1000 to -350) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -439,6 +502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/MVS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MVS"@en ;
     skos:definition "-10 (-20 to 0) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -446,6 +510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Depositional_Environment/UNKN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "UNKN"@en ;
     skos:definition " ( to ) metres above sea-level"@en ;
     skos:inScheme cs: ;
@@ -464,10 +529,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Depositional Environment vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Depositional Environment vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Depositional_Environment/CDD>,
         <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDF>,
         <http://pid.geoscience.gov.au/def/Depositional_Environment/CDDL>,
@@ -532,5 +598,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Depositional_Environment/MUMB>,
         <http://pid.geoscience.gov.au/def/Depositional_Environment/MVS>,
         <http://pid.geoscience.gov.au/def/Depositional_Environment/UNKN> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Depositional Environment"@en .
+    skos:prefLabel "Depositional Environment"@en .
 

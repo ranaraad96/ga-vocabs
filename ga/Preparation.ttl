@@ -1,717 +1,838 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Preparation> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Preparation/API_Gravity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "API Gravity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Acid_treatment> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Any acid treatment not covered in other procedures"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Acid treatment"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Archiving> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Archiving"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Biogenic_Silica> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Biogenic Silica"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Biogenic_Silicon> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Biogenic Silicon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Bulk_Density> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Density"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Bulk_Isotopes> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Isotopes"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/C14_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Carbon 14 Isotope dating preparation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "C14 Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/CSIA_d13C_n-alkanes> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIA d13C n-alkanes"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/CSIA_d2H_n-alkanes> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIA d2H n-alkanes"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/CaCO3__> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Redundant now use CaCO3 percentage"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CaCO3 %"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/CaCO3_percentage> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Calcium Carbonate Percentage using Vacuum Gasometric Technique (''Karbonat-Bombe'' method, Muller and Gastner, 1971) and a visual method for Gravel CaCO3%"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CaCO3 percentage"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chl-a,_Phaeophytin_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chl-a, Phaeophytin in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chl-a,_Phaeophytin_in_water> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chl-a, Phaeophytin in water"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chl-a,b,c,_Phaeophytin_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chl-a,b,c, Phaeophytin in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chl-a_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chl-a in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorin> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorin"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorin_Index> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorin Index"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorin_Index_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorin Index in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorine_Index> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Redundant mis-spelling"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorine Index"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a,b,c_and_Phaeophytin_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a,b,c and Phaeophytin in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a_and_Phaeophytin> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a and Phaeophytin"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a_and_Phaeophytin_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a and Phaeophytin in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a_and_Phaeophytin_in_water> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a and Phaeophytin in water"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Chlorophyll-a_in_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a in sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Condensates_of_Australia_Suite_prep> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Condensates of Australia Suite prep"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Conodont> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Conodont"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Conodont_Ostracod> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Conodont/Ostracod"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Courier> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: Send by courier"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Courier"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Curation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: Curate samples, usually but not exclusively to Repository."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Curation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/DIC_-_dissolved_inorganic_carbon> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab: dissolved inorganic carbon"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DIC - dissolved inorganic carbon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Density> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Density"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Density_Cube_Measurement> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Density Cube Measurement for Marine Survey work (Pre & Post survey)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Density Cube Measurement"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Diatom> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Diatom"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Dissolved_gases_-_N2_and_O2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved gases - N2 and O2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Dissolved_gases_-_N2_isotopes_29N_30N> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved gases - N2 isotopes 29N 30N"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/EC_-_electrical_conductivity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab: electrical conductivity"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EC - electrical conductivity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Eh_-_redox_potential> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Eh - redox potential"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/FRP_-_filterable_reactive_phosohorous> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab: filterable reactive phosohorous"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "FRP - filterable reactive phosohorous"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Field_Work_Preparations> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Field Work Preparations"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Foram> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Foram"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/GC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Gases_of_Australia_Suite_analysis> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gases of Australia Suite analysis"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/General_Water_Analysis_Suite> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "General Water Analysis Suite"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Grinding> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: Pulverisation and homogenisation of sample (can be done using a multitude of different tools & equipment)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Grinding"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Hand_Specimen> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Minerals Inorganic Geochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hand Specimen"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Hylogging> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hylogging"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Imaging> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Broad worktype covering imaging procedures undertaken by labs"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Imaging"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Isotope_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Isotope Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Kerogen_Isolation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Isolation of organic material for geochemical work"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Kerogen Isolation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Laser_Grainsize> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Laser Particle Size Analysis using the Malvern Mastersizer 2000"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Laser Grainsize"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/MIMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MIMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Macro_Fossil> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Macro Fossil preparations"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Macro Fossil"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Major_and_Minor_cations> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Major and Minor cations"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Major_anions_-_F,_Cl,_Br,_NO3,_PO4,_SO4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Major anions - F, Cl, Br, NO3, PO4, SO4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Major_cations_-_Ca,_Mg,_K,_Na,_S,_Si> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Major cations - Ca, Mg, K, Na, S, Si"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Minor_Cations> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Minor Cations"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Minor_cations_-_Al,_B,_Ba,_Fe,_Li,_Mn,_Sr,_Zn,_Cu> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Minor cations - Al, B, Ba, Fe, Li, Mn, Sr, Zn, Cu"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Miscellaneous> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: For use when there is no other labwork available and there is no need to create a new one (i.e. a once off)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Miscellaneous"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Moisture_Content> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Moisture Content"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Multi_Sensor_Core_Logger> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Metaphysical logging of (marine) cores"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Multi Sensor Core Logger"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Multi_Sensor_Core_Logger__Half_Core_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Metaphysical logging of (marine) cores after splitting"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Multi Sensor Core Logger (Half Core)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/NGSA_Sampling_Procedure> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NGSA Sampling Procedure"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/NOx-N_-_total_oxidised_nitrogen,_NO3+NO2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NOx-N - total oxidised nitrogen, NO3+NO2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Nannofossil> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Nannofossil"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Oils_of_Australia_Suite_prep> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Oils of Australia Suite prep"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Organic_Concentrate> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Isolation of organic material for geochemical work"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Organic Concentrate"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Ostracod> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ostracod"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/P_fractions_-_modified_SEDEX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P fractions - modified SEDEX"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Palynology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Microfossil analysis used in Biostratigraphy etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Palynology"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Porewater_Analysis_Suite> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Porewater Analysis Suite"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Porosity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Preparation for Porosity measurements"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Porosity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Post_Field_Work_Preparations> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Post Field Work Preparations"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Purchasing> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Purchasing"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Radiometric_Sieving> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:  Dry & wet sieving to use 2-63um fraction for XRF"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Radiometric Sieving"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/RockEval> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RockEval"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Rock_Powder_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Min Geochem Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rock Powder Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Rock_Properties> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Min Geochem Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rock Properties"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/SANS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Small Angle Neutron Scattering disk preparation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SANS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/SEC_-_specific_electrical_conductivity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEC - specific electrical conductivity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/SEC_1_5_on_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEC 1:5 on sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/SEM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Salinity_-_psu> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Salinity - psu"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sample_bottle_preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sample bottle preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sampling> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Sampling done by the lab, usually sub-sampling of grabs sometimes cores & dredges etc."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sampling"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sampling_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sampling Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sediment_extraction_-_trace_metals> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sediment extraction - trace metals"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sedimentology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Redundant now use Sieve Grainsize, Laser & CaCO3 Percentage"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sedimentology"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Settling_Velocity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Settling Velocity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/SiO2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SiO2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sieve_Grainsize> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Sieving of sediments usually through 2mm and 63um sieves to give Gravel (>2mm), Sand (63-2000um) & Mud (<63um) percentages"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sieve Grainsize"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Smear_Slide> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Representative sample on a microscopic slide"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Smear Slide"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Soils___Sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Min Geochem Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Soils & Sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Source_Rocks_of_Australia_Suite_prep> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Source Rocks of Australia Suite prep"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Standard_suite_of_elements> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Standard suite of elements"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Standards_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Standards Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sub-sample_fluids> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sub-sample fluids"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Sub-sample_gas> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sub-sample gas"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Surface_Area_Analysis> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Surface Area Analysis using 2200e."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Surface Area Analysis"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Suspended_Sediment_Filter-Marine_SSF-M_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Sediment Filters used on Marine Surveys (pre & post survey)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Suspended Sediment Filter-Marine(SSF-M)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/TDN_-_total_dissolved_nitrogen> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab: total dissolved nitrogen"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TDN - total dissolved nitrogen"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/TDP_-_total_dissolved_phosphorous> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab: total dissolved phosphorous"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TDP - total dissolved phosphorous"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/TOC_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TOC Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Thermal_Conductivity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab: Thermal conductivity sample preparations."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Conductivity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Thin_Section> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: Thin Section of rock on a microscopic slide"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Thin Section"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Total_Alkalinity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total Alkalinity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Total_Suspended_Matter_Determination> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total Suspended Matter Determination"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Use_of_Lab_Facilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All Labs: Use of Lab Facilities by staff not from immediate work area (non-lab staff), used to track what samples have been worked on in lab and manage resources"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Use of Lab Facilities"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Waste_Disposal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waste Disposal"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/Water_Chemistry> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Chemistry"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/XRD_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRD Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/XRD___XRF_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRD & XRF Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/XRF_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRF Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/XRF_XRD_ICPMS_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRF XRD ICPMS Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/XRF___ICP-MS_Preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PalSed Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRF & ICP-MS Preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/pH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hydrochemistry Lab:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pH"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/pH_1_5_on_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pH 1:5 on sediments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Preparation/pH_and_SEC_1_5_on_sediments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pH and SEC 1:5 on sediments"@en ;
@@ -727,11 +848,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Preparation vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Preparation vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Preparation/API_Gravity>,
         <http://pid.geoscience.gov.au/def/Preparation/Acid_treatment>,
         <http://pid.geoscience.gov.au/def/Preparation/Archiving>,
@@ -851,5 +974,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Preparation/pH>,
         <http://pid.geoscience.gov.au/def/Preparation/pH_1_5_on_sediments>,
         <http://pid.geoscience.gov.au/def/Preparation/pH_and_SEC_1_5_on_sediments> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Preparation"@en .
+    skos:prefLabel "Preparation"@en .
 

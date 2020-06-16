@@ -1,39 +1,47 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Line_Tape_Status> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/Completed> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All lines migrated to pims.pims_lines"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Completed"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/Copy_completed__3592_project_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Tapes concatenated and written to 3592 tape."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Copy completed (3592 project)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/Data_copied_to_NAS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Data copied to NAS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/Duplicate_data_on_NAS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Duplicate data has been QC''d and copied to the NAS"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Duplicate data on NAS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/Duplicate_data_on_RDDS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Duplicate data stored on RDDS"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Duplicate data on RDDS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Line_Tape_Status/To_be_remastered> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Tape to be remastered, lines do not need to be migrated"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "To be remastered"@en ;
@@ -49,16 +57,18 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Line Tape Status vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Line Tape Status vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Line_Tape_Status/Completed>,
         <http://pid.geoscience.gov.au/def/Line_Tape_Status/Copy_completed__3592_project_>,
         <http://pid.geoscience.gov.au/def/Line_Tape_Status/Data_copied_to_NAS>,
         <http://pid.geoscience.gov.au/def/Line_Tape_Status/Duplicate_data_on_NAS>,
         <http://pid.geoscience.gov.au/def/Line_Tape_Status/Duplicate_data_on_RDDS>,
         <http://pid.geoscience.gov.au/def/Line_Tape_Status/To_be_remastered> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Line Tape Status"@en .
+    skos:prefLabel "Line Tape Status"@en .
 

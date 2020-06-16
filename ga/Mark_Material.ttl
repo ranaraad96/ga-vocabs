@@ -1,76 +1,89 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Mark_Material> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Brass> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Brass"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Bronze> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bronze"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Centre> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Centre"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Concrete> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Concrete"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Copper> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Copper"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Indented> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Indented"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Iron> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Iron"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Metal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Metal"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Stainless_Steel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Stainless Steel"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Steel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Steel"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Timber> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Timber"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Mark_Material/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -88,10 +101,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Mark Material vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Mark Material vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Mark_Material/Brass>,
         <http://pid.geoscience.gov.au/def/Mark_Material/Bronze>,
         <http://pid.geoscience.gov.au/def/Mark_Material/Centre>,
@@ -104,5 +118,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Mark_Material/Steel>,
         <http://pid.geoscience.gov.au/def/Mark_Material/Timber>,
         <http://pid.geoscience.gov.au/def/Mark_Material/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Mark Material"@en .
+    skos:prefLabel "Mark Material"@en .
 

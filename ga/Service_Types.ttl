@@ -1,88 +1,103 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Service_Types> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_GPServer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ESRI:ArcGIS:GPServer"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ESRI:ArcGIS:GPServer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_ImageServer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ESRI:ArcGIS:MapServer"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ESRI:ArcGIS:ImageServer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_MapServer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ESRI ArcGIS Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ESRI:ArcGIS:MapServer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcIMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ESRI ArcIMS Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ESRI:ArcIMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_CSW> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Catalogue Service for the Web"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:CSW"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_SOS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Sensor Observation Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:SOS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_WCS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Web Coverage Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:WCS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_WFS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Web Feature Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:WFS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_WMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Web Map Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:WMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_WMTS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Web Map Tile Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:WMTS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OGC_WPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OGC Web Processing Service"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OGC:WPS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/OPeNDAP_OPeNDAP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OPeNDAP root URL"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OPeNDAP:OPeNDAP"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/W3C_HTML_DOWNLOAD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Download"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "W3C:HTML:DOWNLOAD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Service_Types/W3C_HTML_INFORMATION> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Information"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "W3C:HTML:INFORMATION"@en ;
@@ -100,10 +115,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2016-05-02T12:26:29"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2016-05-02T12:26:29"^^xsd:dateTime ;
+    dcterms:modified "2016-05-02T12:26:29"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 02-May-2016 version of the Service Types vocabulary"@en ;
+    skos:definition "Geoscience Australia's 02-May-2016 version of the Service Types vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_GPServer>,
         <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_ImageServer>,
         <http://pid.geoscience.gov.au/def/Service_Types/ESRI_ArcGIS_MapServer>,
@@ -118,5 +134,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Service_Types/OPeNDAP_OPeNDAP>,
         <http://pid.geoscience.gov.au/def/Service_Types/W3C_HTML_DOWNLOAD>,
         <http://pid.geoscience.gov.au/def/Service_Types/W3C_HTML_INFORMATION> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Service Types"@en .
+    skos:prefLabel "Service Types"@en .
 

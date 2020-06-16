@@ -1,100 +1,117 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Operating_System> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fedorra Core 2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fedorra Core 3"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fedorra Core 4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Linux_Slackware_2_0_30> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Linux Slackware 2.0.30"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Red_Hat_Linux_7_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Red Hat Linux 7.2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Red_Hat_Linux_8_0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Red Hat Linux 8.0"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Red_Hat_Linux_9_0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Red Hat Linux 9.0"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Solaris_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Solaris 8"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Solaris_9> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Solaris 9"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_2000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows 2000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_2003> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows 2003"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_95> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows 95"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_98> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows 98"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_NT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows NT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Operating_System/Windows_XP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Windows XP"@en ;
@@ -112,10 +129,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Operating System vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Operating System vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_2>,
         <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_3>,
         <http://pid.geoscience.gov.au/def/Operating_System/Fedorra_Core_4>,
@@ -132,5 +150,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Operating_System/Windows_98>,
         <http://pid.geoscience.gov.au/def/Operating_System/Windows_NT>,
         <http://pid.geoscience.gov.au/def/Operating_System/Windows_XP> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Operating System"@en .
+    skos:prefLabel "Operating System"@en .
 

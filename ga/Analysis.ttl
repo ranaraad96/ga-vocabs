@@ -1,495 +1,579 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Analysis> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Analysis/Asphaltene_Removal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Asphaltene Removal"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Bulk_Asphaltene_Removal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Asphaltene Removal"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Bulk_Isotopes_d13C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Isotopes d13C"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Bulk_Isotopes_d15N> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Isotopes d15N"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Bulk_Isotopes_d2H> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bulk Isotopes d2H"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/CSIA-n-alkanes> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIA-n-alkanes"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/CSIA_d13C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIA d13C"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/CSIA_d2H> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIA d2H"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Chlorin_Index> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorin Index"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Chlorophyll-a> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Chlorophyll-a"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Courier> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Redundant: now use the Preparation ''Courier''"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Courier"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/DIC_Analyser> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DIC Analyser"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Gas_N2__28N_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Gas N2 (28N)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Gas_N2__29N_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Gas N2 (29N)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Gas_N2__30N_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Gas N2 (30N)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Gas_O2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Gas O2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Inorganic_Carbon> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Inorganic Carbon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Inorganic_Nitrogen> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Inorganic Nitrogen"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Organic_Nitrogen__DON_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Organic Nitrogen (DON)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Dissolved_Organic_Phosphorous__DOP_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dissolved Organic Phosphorous (DOP)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Extraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Extraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/FRP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "FRP"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Ferrous_Iron__FeO__Titration> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MinGeochem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ferrous Iron (FeO) Titration"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Flash_EA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Flash EA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Fluorometry> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fluorometry"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Fractionation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fractionation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Freeze_Dry> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Freeze Dry"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GC-IRMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GC-IRMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_FS_Aroms> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS FS Aroms"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_FS_SNA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS FS SNA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_SIR_Aroms> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS SIR Aroms"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_SIR_SNA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS SIR SNA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_Sub-samples> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS Sub-samples"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GCMS_of_gas_tracers> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GCMS of gas tracers"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GC_of_gas_tracers> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GC of gas tracers"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GC_on-column> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GC on-column"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/GC_split_splitless> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GC split/splitless"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Gas_Chromatography> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gas Chromatography"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Gas_composition> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gas composition"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/H2O+_,CO2_as_C_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "H2O+ ,CO2(as C)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/ICP-MS_LA__polished_Thin_Section_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ICP-MS LA (polished Thin Section)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/ICP-MS_Laser_Ablation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ICP-MS Laser Ablation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/ICP-MS_Solution> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ICP-MS Solution"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Kinetics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Kinetics"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/LOI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LOI"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Laser_RAMAN_Micro-probe> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Laser RAMAN Micro-probe"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/MIMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MIMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Metal_Extraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Metal Extraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/NH4-N> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NH4-N"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/NOx-N> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NOx-N"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/N_Fixation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "N Fixation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Ni_V_content> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ni_V content"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Nutrient_Autoanalyser> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Nutrient Autoanalyser"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Offline> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Offline"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Organic_Carbon> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Organic Carbon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Other__please_specify_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Other (please specify)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/PIMA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PIMA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/P_Fraction_Sediment_Extraction> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P Fraction Sediment Extraction"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Phaeophytin> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Phaeophytin"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Reval_6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reval 6"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Reval_6_TOC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reval 6/TOC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Rock_powder> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rock powder"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/S-removal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "S-removal"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/SANS_SAXS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SANS/SAXS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/SA_SNA_preparation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SA/SNA preparation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/S_content> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "S content"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Sat_Arom_Polar_Fractionation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sat Arom Polar Fractionation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/SiO2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SiO2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/TC-EA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TC-EA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/TOC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TOC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/TOC,_d13C-TOC,_TN,_and_d15-N> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TOC, d13C-TOC, TN, and d15-N"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Titration> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Titration"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Topped_oil> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Topped oil"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Total_Alkalinity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total Alkalinity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Total_Dissolved_Nitrogen__TDN_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total Dissolved Nitrogen (TDN)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Total_Dissolved_Phosphorus__TDP_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OrgChem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total Dissolved Phosphorus (TDP)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/UV-VIS_Spectophotometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Orgchem:"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "UV-VIS Spectophotometer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Volatiles> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Volatiles"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/Whole_oil> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Whole oil"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/XRD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Analysis/XRF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XRF"@en ;
@@ -505,11 +589,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Analysis vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Analysis vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Analysis/Asphaltene_Removal>,
         <http://pid.geoscience.gov.au/def/Analysis/Bulk_Asphaltene_Removal>,
         <http://pid.geoscience.gov.au/def/Analysis/Bulk_Isotopes_d13C>,
@@ -592,5 +678,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Analysis/Whole_oil>,
         <http://pid.geoscience.gov.au/def/Analysis/XRD>,
         <http://pid.geoscience.gov.au/def/Analysis/XRF> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Analysis"@en .
+    skos:prefLabel "Analysis"@en .
 

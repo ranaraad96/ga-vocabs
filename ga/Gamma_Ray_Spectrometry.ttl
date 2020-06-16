@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-DR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GR-DR"@en ;
     skos:definition "An estimate of the air-absorbed dose rate (in nG/h ie. Nanograys per hour) at ground level from natural sources of radiation can be made from the fully corrected airborne total count count rates (cps)"@en ;
     skos:inScheme cs: ;
@@ -13,6 +15,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-K> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GR-K"@en ;
     skos:definition "Gamma-rays emitted from the natural decay of Potassium (K-40) and measured by gamma-ray spectrometers. This applies to airborne and ground surveys and to borehole logging.  The gamma-rays have energie"@en ;
     skos:inScheme cs: ;
@@ -21,6 +24,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-TC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GR-TC"@en ;
     skos:definition "An estimate of the air-absorbed dose rate (in nG/h ie. Nanograys per hour) at ground level from natural sources of radiation can be made from the fully corrected airborne total count count rates (cps)"@en ;
     skos:inScheme cs: ;
@@ -29,6 +33,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-TH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GR-TH"@en ;
     skos:definition "Gamma-rays emitted from the natural decay of Thorium and measured by gamma-ray spectrometers. This applies to airborne and ground surveys and to borehole logging. The gamma-ray emissions from one of t"@en ;
     skos:inScheme cs: ;
@@ -37,6 +42,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-U> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GR-U"@en ;
     skos:definition "Gamma-rays emitted from the natural decay of Uranium and measured by gamma-ray spectrometers. This applies to airborne and ground surveys and to borehole logging.  The gamma-ray emissions from one of "@en ;
     skos:inScheme cs: ;
@@ -56,14 +62,15 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Gamma Ray Spectrometry vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Gamma Ray Spectrometry vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-DR>,
         <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-K>,
         <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-TC>,
         <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-TH>,
         <http://pid.geoscience.gov.au/def/Gamma_Ray_Spectrometry/GR-U> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Gamma Ray Spectrometry"@en .
+    skos:prefLabel "Gamma Ray Spectrometry"@en .
 

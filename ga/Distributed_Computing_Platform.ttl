@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/COM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "COM"@en ;
     skos:definition "COM - Component Object Model (COM) is a binary-interface standard for software components introduced by Microsoft in 1993."@en ;
     skos:inScheme cs: ;
@@ -13,6 +15,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/CORBA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CORBA"@en ;
     skos:definition "Corba is a general-purpose, object-oriented programming language."@en ;
     skos:inScheme cs: ;
@@ -21,6 +24,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/JAVA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "JAVA"@en ;
     skos:definition "Java is an object-oriented language"@en ;
     skos:inScheme cs: ;
@@ -29,6 +33,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/SQL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SQL"@en ;
     skos:definition "SQL (Structured Query Language) is a standard interactive and programming language for getting information from and updating a database."@en ;
     skos:inScheme cs: ;
@@ -37,6 +42,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/WebServices> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WebServices"@en ;
     skos:definition "A Web service is a method of communication between two electronic devices over a network."@en ;
     skos:inScheme cs: ;
@@ -45,6 +51,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/XML> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "XML"@en ;
     skos:definition "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format which is both human-readable and machine-readable."@en ;
     skos:inScheme cs: ;
@@ -64,15 +71,16 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Distributed Computing Platform vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Distributed Computing Platform vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/COM>,
         <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/CORBA>,
         <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/JAVA>,
         <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/SQL>,
         <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/WebServices>,
         <http://pid.geoscience.gov.au/def/Distributed_Computing_Platform/XML> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Distributed Computing Platform"@en .
+    skos:prefLabel "Distributed Computing Platform"@en .
 

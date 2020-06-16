@@ -1,106 +1,124 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Power_Station_Attribute> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Carbon_accredited> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Power stations may be accredited for Carbon credit trading"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Carbon accredited"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Class> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Class of fuel used by the power station - Renewable or Fossil"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Class"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Comments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "General comments about the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Comments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Commission_date> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Date(s) the power station was commissioned. Stored in text field"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Commission date"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Display_latitude> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Latitude used for plotting the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Display latitude"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Display_longitude> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Longitude used for plotting the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Display longitude"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Fuel_class> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Generalised type of fuel used by the power station - Bagasse, Landfill methane, Solar, Water, Wind, Sewage, Methane, Brown coal, Black coal, Gas, Other, .."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fuel class"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Fuel_type> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Type of fuel used by the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fuel type"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/No_of_units> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Number of turbines/units"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "No of units"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Owner> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Owner(s) of the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Owner"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Powerno> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unique number from previous POWER.POWERSTATIONS database"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Powerno"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Reference> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Reference to the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reference"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/State> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "State or Territory"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Status> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Current statue of the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Status"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Technology> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Type of technology used by the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Technology"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Total_capacity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Total capacity of the power station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Total capacity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Unit_capacity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Average capacity of each turbine/unit"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unit capacity"@en ;
@@ -118,10 +136,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Power Station Attribute vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Power Station Attribute vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Carbon_accredited>,
         <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Class>,
         <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Comments>,
@@ -139,5 +158,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Technology>,
         <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Total_capacity>,
         <http://pid.geoscience.gov.au/def/Power_Station_Attribute/Unit_capacity> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Power Station Attribute"@en .
+    skos:prefLabel "Power Station Attribute"@en .
 

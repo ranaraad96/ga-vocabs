@@ -1,58 +1,68 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Comments> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Comments"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Commodity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Commodity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Company> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Company"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Location> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Location"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Processor_type> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Processor type"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Production_capacity> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Production capacity"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Reference> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reference"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/State> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Status> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Status"@en ;
@@ -70,10 +80,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Processing Plant Attribute vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Processing Plant Attribute vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Comments>,
         <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Commodity>,
         <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Company>,
@@ -83,5 +94,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Reference>,
         <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/State>,
         <http://pid.geoscience.gov.au/def/Processing_Plant_Attribute/Status> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Processing Plant Attribute"@en .
+    skos:prefLabel "Processing Plant Attribute"@en .
 

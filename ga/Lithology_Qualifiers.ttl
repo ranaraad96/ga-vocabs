@@ -1,9 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Lithology_Qualifiers> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1"@en ;
     skos:definition "abundant"@en ;
     skos:inScheme cs: ;
@@ -11,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/10> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -18,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/100> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "100"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -25,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/101> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "101"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -32,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/102> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "102"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -39,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/103> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "103"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -46,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/104> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "104"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -53,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/105> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "105"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -60,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/106> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "106"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -67,6 +78,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/107> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "107"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -74,6 +86,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/108> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "108"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -81,6 +94,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/109> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "109"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -88,6 +102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/11> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "11"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -95,6 +110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/110> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "110"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -102,6 +118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/111> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "111"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -109,6 +126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/112> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "112"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -116,6 +134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/113> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "113"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -123,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/114> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "114"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -130,6 +150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/115> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "115"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -137,6 +158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/116> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "116"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -144,6 +166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/117> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "117"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -151,6 +174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/118> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "118"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -158,6 +182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/119> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "119"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -165,6 +190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/12> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "12"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -172,6 +198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/120> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "120"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -179,6 +206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/121> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "121"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -186,6 +214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/122> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "122"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -193,6 +222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/123> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "123"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -200,6 +230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/124> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "124"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -207,6 +238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/125> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "125"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -214,6 +246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/126> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "126"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -221,6 +254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/127> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "127"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -228,6 +262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/128> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "128"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -235,6 +270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/129> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "129"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -242,6 +278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/13> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "13"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -249,6 +286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/130> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "130"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -256,6 +294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/131> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "131"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -263,6 +302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/132> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "132"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -270,6 +310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/133> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "133"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -277,6 +318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/134> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "134"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -284,6 +326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/135> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "135"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -291,6 +334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/136> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "136"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -298,6 +342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/137> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "137"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -305,6 +350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/138> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "138"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -312,6 +358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/139> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "139"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -319,6 +366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/14> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "14"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -326,6 +374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/140> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "140"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -333,6 +382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/141> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "141"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -340,6 +390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/142> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "142"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -347,6 +398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/143> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "143"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -354,6 +406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/144> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "144"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -361,6 +414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/145> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "145"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -368,6 +422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/146> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "146"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -375,6 +430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/147> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "147"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -382,6 +438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/148> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "148"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -389,6 +446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/149> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "149"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -396,6 +454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/15> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "15"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -403,6 +462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/150> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "150"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -410,6 +470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/151> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "151"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -417,6 +478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/152> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "152"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -424,6 +486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/153> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "153"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -431,6 +494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/154> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "154"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -438,6 +502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/155> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "155"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -445,6 +510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/156> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "156"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -452,6 +518,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/157> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "157"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -459,6 +526,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/158> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "158"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -466,6 +534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/159> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "159"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -473,6 +542,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/16> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "16"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -480,6 +550,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/160> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "160"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -487,6 +558,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/161> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "161"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -494,6 +566,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/162> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "162"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -501,6 +574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/163> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "163"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -508,6 +582,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/164> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "164"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -515,6 +590,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/165> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "165"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -522,6 +598,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/166> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "166"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -529,6 +606,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/167> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "167"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -536,6 +614,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/168> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "168"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -543,6 +622,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/169> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "169"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -550,6 +630,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/17> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "17"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -557,6 +638,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/170> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "170"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -564,6 +646,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/171> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "171"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -571,6 +654,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/172> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "172"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -578,6 +662,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/173> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "173"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -585,6 +670,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/174> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "174"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -592,6 +678,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/175> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "175"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -599,6 +686,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/176> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "176"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -606,6 +694,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/177> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "177"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -613,6 +702,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/178> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "178"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -620,6 +710,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/179> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "179"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -627,6 +718,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/18> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "18"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -634,6 +726,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/180> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "180"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -641,6 +734,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/181> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "181"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -648,6 +742,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/182> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "182"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -655,6 +750,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/183> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "183"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -662,6 +758,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/184> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "184"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -669,6 +766,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/185> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "185"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -676,6 +774,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/186> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "186"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -683,6 +782,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/187> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "187"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -690,6 +790,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/188> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "188"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -697,6 +798,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/189> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "189"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -704,6 +806,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/19> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "19"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -711,6 +814,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/190> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "190"@en ;
     skos:definition "Hardened by illuviated clay, silica, opaline silica, Fe-oxyhydroxides, Mn-oxyhydroxides, etc"@en ;
     skos:inScheme cs: ;
@@ -718,6 +822,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/191> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "191"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -725,6 +830,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/192> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "192"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -732,6 +838,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/193> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "193"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -739,6 +846,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/194> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "194"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -746,6 +854,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/195> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "195"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -753,6 +862,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/196> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "196"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -760,6 +870,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/197> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "197"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -767,6 +878,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/198> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "198"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -774,6 +886,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/199> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "199"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -781,6 +894,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "2"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -788,6 +902,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/20> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "20"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -795,6 +910,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/200> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "200"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -802,6 +918,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/201> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "201"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -809,6 +926,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/202> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "202"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -816,6 +934,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/203> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "203"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -823,6 +942,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/204> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "204"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -830,6 +950,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/205> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "205"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -837,6 +958,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/206> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "206"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -844,6 +966,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/207> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "207"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -851,6 +974,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/208> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "208"@en ;
     skos:definition "Contains nodules or coatings of manganese oxyhydroxides"@en ;
     skos:inScheme cs: ;
@@ -858,6 +982,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/209> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "209"@en ;
     skos:definition "Contains gypsum powder, crystals and laths but not completely cemented by gypsum - c.f. gypcrete"@en ;
     skos:inScheme cs: ;
@@ -865,6 +990,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/21> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "21"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -872,6 +998,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/210> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "210"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -879,6 +1006,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/211> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "211"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -886,6 +1014,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/22> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "22"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -893,6 +1022,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/23> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "23"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -900,6 +1030,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/24> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "24"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -907,6 +1038,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/25> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "25"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -914,6 +1046,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/26> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "26"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -921,6 +1054,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/27> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "27"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -928,6 +1062,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/28> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "28"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -935,6 +1070,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/29> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "29"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -942,6 +1078,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "3"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -949,6 +1086,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/30> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "30"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -956,6 +1094,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/31> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "31"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -963,6 +1102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/32> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "32"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -970,6 +1110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/33> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "33"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -977,6 +1118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/34> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "34"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -984,6 +1126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/35> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "35"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -991,6 +1134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/36> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "36"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -998,6 +1142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/37> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "37"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1005,6 +1150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/38> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "38"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1012,6 +1158,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/39> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "39"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1019,6 +1166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "4"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1026,6 +1174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/40> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "40"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1033,6 +1182,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/41> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "41"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1040,6 +1190,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/42> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "42"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1047,6 +1198,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/43> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "43"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1054,6 +1206,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/44> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "44"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1061,6 +1214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/45> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "45"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1068,6 +1222,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/46> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "46"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1075,6 +1230,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/47> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "47"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1082,6 +1238,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/48> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "48"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1089,6 +1246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/49> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "49"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1096,6 +1254,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/5> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "5"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1103,6 +1262,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/50> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "50"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1110,6 +1270,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/51> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "51"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1117,6 +1278,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/52> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "52"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1124,6 +1286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/53> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "53"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1131,6 +1294,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/54> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "54"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1138,6 +1302,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/55> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "55"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1145,6 +1310,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/56> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "56"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1152,6 +1318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/57> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "57"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1159,6 +1326,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/58> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "58"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1166,6 +1334,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/59> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "59"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1173,6 +1342,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/6> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "6"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1180,6 +1350,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/60> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "60"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1187,6 +1358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/61> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "61"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1194,6 +1366,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/62> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "62"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1201,6 +1374,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/63> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "63"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1208,6 +1382,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/64> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "64"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1215,6 +1390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/65> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "65"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1222,6 +1398,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/66> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "66"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1229,6 +1406,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/67> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "67"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1236,6 +1414,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/68> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "68"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1243,6 +1422,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/69> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "69"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1250,6 +1430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/7> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "7"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1257,6 +1438,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/70> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "70"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1264,6 +1446,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/71> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "71"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1271,6 +1454,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/72> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "72"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1278,6 +1462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/73> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "73"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1285,6 +1470,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/74> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "74"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1292,6 +1478,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/75> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "75"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1299,6 +1486,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/76> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "76"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1306,6 +1494,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/77> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "77"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1313,6 +1502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/78> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "78"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1320,6 +1510,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/79> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "79"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1327,6 +1518,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "8"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1334,6 +1526,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/80> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "80"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1341,6 +1534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/81> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "81"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1348,6 +1542,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/82> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "82"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1355,6 +1550,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/83> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "83"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1362,6 +1558,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/84> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "84"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1369,6 +1566,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/85> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "85"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1376,6 +1574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/86> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "86"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1383,6 +1582,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/87> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "87"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1390,6 +1590,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/88> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "88"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1397,6 +1598,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/89> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "89"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1404,6 +1606,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/9> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "9"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1411,6 +1614,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/90> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "90"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1418,6 +1622,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/91> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "91"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1425,6 +1630,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/92> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "92"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1432,6 +1638,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/93> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "93"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1439,6 +1646,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/94> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "94"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1446,6 +1654,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/95> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "95"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1453,6 +1662,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/96> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "96"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1460,6 +1670,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/97> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "97"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1467,6 +1678,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/98> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "98"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1474,6 +1686,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/99> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "99"@en ;
     skos:definition "not supplied"@en ;
     skos:inScheme cs: ;
@@ -1490,11 +1703,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Lithology Qualifiers vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Lithology Qualifiers vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/1>,
         <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/10>,
         <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/100>,
@@ -1706,5 +1921,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/97>,
         <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/98>,
         <http://pid.geoscience.gov.au/def/Lithology_Qualifiers/99> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Lithology Qualifiers"@en .
+    skos:prefLabel "Lithology Qualifiers"@en .
 

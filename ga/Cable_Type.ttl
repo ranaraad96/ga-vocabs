@@ -1,76 +1,89 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Cable_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/CNT400> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CNT400"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/LDF2-50hm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LDF2-50hm"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/LDF4-50hm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LDF4-50hm"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/LMR400> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LMR400"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/LMR600> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Times Microwave LMR600"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LMR600"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/Optic_Fibre> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Optic Fibre"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/RG213> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RG213"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/RG214> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RG214"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/RG58-500hm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RG58-500hm"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/RG8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RG8"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/RS232> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RS232"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Cable_Type/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -88,10 +101,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Cable Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Cable Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Cable_Type/CNT400>,
         <http://pid.geoscience.gov.au/def/Cable_Type/LDF2-50hm>,
         <http://pid.geoscience.gov.au/def/Cable_Type/LDF4-50hm>,
@@ -104,5 +118,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Cable_Type/RG8>,
         <http://pid.geoscience.gov.au/def/Cable_Type/RS232>,
         <http://pid.geoscience.gov.au/def/Cable_Type/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Cable Type"@en .
+    skos:prefLabel "Cable Type"@en .
 

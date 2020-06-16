@@ -1,58 +1,68 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Reference_Ellipsoid> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/ANS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Australian National Spheroid"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ANS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/CLARKE_1858> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Clarke 1858 Spheroid"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CLARKE 1858"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/GRS80> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Geodetic Reference System 1980"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GRS80"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/International_1924> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "International 1924 Ellipsoid"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "International 1924"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/NWL9D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NWL9D"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/N_A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "N/A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/WGS72> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "World Geodetic System 1972 Ellipsoid"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "WGS72"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/WGS84> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "World Geodetic System 1984 Ellipsoid"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "WGS84"@en ;
@@ -70,10 +80,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Reference Ellipsoid vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Reference Ellipsoid vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/ANS>,
         <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/CLARKE_1858>,
         <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/GRS80>,
@@ -83,5 +94,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/Unknown>,
         <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/WGS72>,
         <http://pid.geoscience.gov.au/def/Reference_Ellipsoid/WGS84> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Reference Ellipsoid"@en .
+    skos:prefLabel "Reference Ellipsoid"@en .
 

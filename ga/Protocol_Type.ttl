@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Protocol_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Geoprocessing_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcGIS Geoprocessing Server "@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Image_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcGIS Image Server"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Map_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcGIS Map Server "@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Services_Directory_Page> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI\"s ArcGIS Services Directory Page "@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcIMS_Internet_Feature_Map_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcIMS Internet Feature Map Service  "@en ;
     skos:inScheme cs: ;
@@ -40,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcIMS_Internet_Image_Map_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcIMS Internet Image Map Service "@en ;
     skos:inScheme cs: ;
@@ -47,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ArcIMS_Map_Service_Configuration_File_AXL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13535> ;
     skos:definition "ESRI's ArcIMS Map Service Configuration File written in ArcXML "@en ;
     skos:inScheme cs: ;
@@ -54,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Catalogue_Service_for_the_Web> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Catalogue Service for the Web "@en ;
     skos:inScheme cs: ;
@@ -61,12 +70,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/DataTurbine> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Ring Buffer Network Bus (RBNB) DataTurbine streaming"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DataTurbine"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Data_Directory> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13533> ;
     skos:definition "Directory on a file system holding a collection of data files"@en ;
     skos:inScheme cs: ;
@@ -74,30 +85,35 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Database> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed database protocol"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Database"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ESRI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed ESRI protocol"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ESRI"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/File> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "File"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "File"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/File_for_download_through_Jetstream_Proxy> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "File for download through a Jetstream streaming proxy"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "File for download through Jetstream Proxy"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/GIS_Raster_file> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13533> ;
     skos:definition "File containing raster data "@en ;
     skos:inScheme cs: ;
@@ -105,6 +121,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/GIS_file> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13533> ;
     skos:definition "File containing Geographic Information System (GIS) data "@en ;
     skos:inScheme cs: ;
@@ -112,6 +129,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Gazetteer_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Feature Service Gazetteer Profile (WFS-G) "@en ;
     skos:inScheme cs: ;
@@ -119,6 +137,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Geography_Markup_Language> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Geography Markup Language (GML) "@en ;
     skos:inScheme cs: ;
@@ -126,12 +145,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Google_Earth_KML_Service_2_0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Google Earth Keyhole Markup Language (KML) Service version 2.0"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Google Earth KML Service 2.0"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/KML_Keyhole_Markup_Language> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Keyhole Markup Language (KML) "@en ;
     skos:inScheme cs: ;
@@ -139,6 +160,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OPeNDAP_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Open-source Project for a Network Data Access Protocol (OPeNDAP) URL "@en ;
     skos:inScheme cs: ;
@@ -146,6 +168,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/ORACLE_database_table> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13529> ;
     skos:definition "ORACLE database table"@en ;
     skos:inScheme cs: ;
@@ -153,6 +176,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OpenLS_Directory_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Directory Service (ODS) "@en ;
     skos:inScheme cs: ;
@@ -160,6 +184,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OpenLS_Gateway_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Gateway Service (ODS) "@en ;
     skos:inScheme cs: ;
@@ -167,6 +192,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OpenLS_Presentation_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Presentation Service (ODS)"@en ;
     skos:inScheme cs: ;
@@ -174,6 +200,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OpenLS_Route_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Route Service (ODS) "@en ;
     skos:inScheme cs: ;
@@ -181,6 +208,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/OpenLS_Utility_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Utility Service (ODS)"@en ;
     skos:inScheme cs: ;
@@ -188,12 +216,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Open_Geospatial_Consortium> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed Open Geospatial Consortium protocol"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Open Geospatial Consortium"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Partner_web_address_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Partner web address URL "@en ;
     skos:inScheme cs: ;
@@ -201,6 +231,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/PostGIS_database_table> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13529> ;
     skos:definition "PostGIS database table "@en ;
     skos:inScheme cs: ;
@@ -208,6 +239,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/RSS_News_feed_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Rich Site Summary (RSS) News feed URL "@en ;
     skos:inScheme cs: ;
@@ -215,6 +247,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Related_link_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Related link URL "@en ;
     skos:inScheme cs: ;
@@ -222,6 +255,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Sensor_Alert_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Sensor Alert Service (SAS) "@en ;
     skos:inScheme cs: ;
@@ -229,6 +263,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Sensor_Observation_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) "@en ;
     skos:inScheme cs: ;
@@ -236,6 +271,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Sensor_Observation_Service_GetObservation_1_0_0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation "@en ;
     skos:inScheme cs: ;
@@ -243,6 +279,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Sensor_Observation_Service_GetObservation_POST_1_0_0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation using POST "@en ;
     skos:inScheme cs: ;
@@ -250,6 +287,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Sensor_Planning_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Sensor Planning Service (SPS) "@en ;
     skos:inScheme cs: ;
@@ -257,6 +295,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Showcase_product_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Showcase product URL "@en ;
     skos:inScheme cs: ;
@@ -264,18 +303,21 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Unknown_Service_Type> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unknown Service Type"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown Service Type"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/W3C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed World Wide Web Consortium protocol"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "W3C"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Coordinate_Transformation_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Coordinate Transformation Service (WCTS) "@en ;
     skos:inScheme cs: ;
@@ -283,6 +325,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Coverage_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) "@en ;
     skos:inScheme cs: ;
@@ -290,6 +333,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Coverage_Service_1_0_0_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.0.0 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -297,6 +341,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Coverage_Service_1_1_0_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.1.0 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -304,6 +349,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Feature_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) "@en ;
     skos:inScheme cs: ;
@@ -311,6 +357,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Feature_Service_1_0_0_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.0.0 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -318,6 +365,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Feature_Service_1_1_0_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.1.0 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -325,6 +373,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Context_1_1_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Context (WMC) version 1.1 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -332,6 +381,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) "@en ;
     skos:inScheme cs: ;
@@ -339,6 +389,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Service_1_1_1_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -346,6 +397,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Service_1_1_1_GetMap> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetMap operation "@en ;
     skos:inScheme cs: ;
@@ -353,6 +405,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Service_1_3_0_GetCapabilities> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetCapabilities operation "@en ;
     skos:inScheme cs: ;
@@ -360,6 +413,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Map_Service_1_3_0_GetMap> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetMap operation "@en ;
     skos:inScheme cs: ;
@@ -367,6 +421,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Notification_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Notification Service (WNS) "@en ;
     skos:inScheme cs: ;
@@ -374,6 +429,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Processing_Service> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13532> ;
     skos:definition "Open Geospatial Consortium's Web Processing Service (WPS) "@en ;
     skos:inScheme cs: ;
@@ -381,6 +437,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/Web_address_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "Web address URL "@en ;
     skos:inScheme cs: ;
@@ -388,6 +445,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Protocol_Type/iCalendar_URL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader <http://pid.geoscience.gov.au/def/13534> ;
     skos:definition "iCalendar URL "@en ;
     skos:inScheme cs: ;
@@ -406,10 +464,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Protocol Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Protocol Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Geoprocessing_Service>,
         <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Image_Service>,
         <http://pid.geoscience.gov.au/def/Protocol_Type/ArcGIS_Map_Service>,
@@ -467,5 +526,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Protocol_Type/Web_Processing_Service>,
         <http://pid.geoscience.gov.au/def/Protocol_Type/Web_address_URL>,
         <http://pid.geoscience.gov.au/def/Protocol_Type/iCalendar_URL> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Protocol Type"@en .
+    skos:prefLabel "Protocol Type"@en .
 

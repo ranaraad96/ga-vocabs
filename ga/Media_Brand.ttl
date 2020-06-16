@@ -1,826 +1,964 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Media_Brand> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_700> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M 700"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Black Watch"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch_3480> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Black Watch 3480"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch_3590> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Black Watch 3590"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch_700> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Black Watch 700"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch_703> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Black Watch 703"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Computer_No__777> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Computer No. 777"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Royal_Guard> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Royal Guard"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Scotch_701> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Scotch 701"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/3M_Security_Computer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3M Security Computer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/ACT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ACT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/AMPEX_746> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "AMPEX 746"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/ANACOMP_Magnetics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ANACOMP Magnetics"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/ANBIR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ANBIR"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/BASF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "BASF"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/BASF_Computer_Tape> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "BASF Computer Tape"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/BASF_Typ_LGS_52_Reel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "BASF Typ LGS 52 Reel"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Burroughs> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Burroughs"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Calculus> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Calculus"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Carlisle> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Carlisle"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Carlisle_SEG_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Carlisle SEG 1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Carlisle_SEG_500XL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Carlisle SEG 500XL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Cartouche_Numerique> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cartouche Numerique"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Centech> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Centech"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Computer_Resources> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Computer Resources"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Control_Data> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Control Data"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/DATASET> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DATASET"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/DAVIS_Computer_Tape> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DAVIS Computer Tape"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/DEC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DEC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Dalcan_Equipment> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dalcan Equipment"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Data_General> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Data General"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Davis_Extraseis> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Davis Extraseis"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Davis_Extraseis_Plus> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Davis Extraseis Plus"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Davis_Indel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Davis Indel"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Davis_Tape> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Davis Tape"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Digital> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Digital"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Digital_Data_Storage> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Digital Data Storage"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Digital_Equipment_Co> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Digital Equipment Co"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Dysan> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dysan"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Dysan_Gold> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dysan Gold"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Dysan_Gold_XL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dysan Gold XL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/EMTEC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EMTEC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/EXP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EXP"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Eidetic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Eidetic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Encom> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Encom"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Epoch_Carlisle_480> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Epoch Carlisle 480"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Epoch_DG_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Epoch DG 4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Epoch_DG_8> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Epoch DG 8"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Euromagnetics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Euromagnetics"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Exabyte> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Exabyte"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Exacta-Tri> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Exacta-Tri"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Exatape> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Exatape"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Fuji> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fuji"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/General_MF2HD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "General MF2HD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Gestetner> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gestetner"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Mag_Epoch_480> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Mag Epoch 480"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Mag__MTC+> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Mag. MTC+"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Mag__SEG_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Mag. SEG 1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Mag__Summit> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Mag. Summit"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Magnetics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Magnetics"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Graham_Verituf> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Graham Verituf"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Guardian_Data> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Guardian Data"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Guardian_Data_Gold> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Guardian Data Gold"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Helical-Scan> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Helical-Scan"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Hewlett_Packard> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hewlett Packard"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/IBM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "IBM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/ICL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ICL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Imation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Imation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Indel-Davis_Multi_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Indel-Davis Multi."@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Jackin> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Jackin"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/KAO> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "KAO"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Kodak> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Kodak"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/MAGMEDIA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MAGMEDIA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/MITSUI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MITSUI"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Magnatron> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnatron"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Master_Storage_Prem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Master Storage Prem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Maxell> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maxell"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Maxell_HS-4_60s> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maxell HS-4/60s"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Maxell_HS-4_90> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maxell HS-4/90"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Media_Recovery_Inc_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Media Recovery Inc."@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex-Indel_Davis> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex-Indel Davis"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Cubic_HD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Cubic HD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Geo-XL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Geo-XL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Geoseismic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Geoseismic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_IV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex/IV"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_MRX_III> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex MRX III"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_MRX_IV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex MRX IV"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_MRX_V> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex MRX V"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_MRX_XL_3600> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex MRX XL 3600"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Quantum> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Quantum"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Quantum_HD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Quantum HD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Quantum_II> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Quantum II"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Seismic_2000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Seismic 2000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorex_Seismic_3600> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorex Seismic 3600"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Memorexcellence> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Memorexcellence"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Mira_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mira 1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Mitsubishi> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mitsubishi"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/OPUS_critical> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OPUS critical"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Panasonic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Panasonic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Pioneer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pioneer"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Plasmon_P1402> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Plasmon P1402"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Plasmon_P1500E> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Plasmon P1500E"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Precision> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Precision"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Pyral> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pyral"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Quadronix_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Quadronix 1"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/RACAL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RACAL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/RPS_Exacta-Tri> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RPS Exacta-Tri"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/RPS_Synergie> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RPS Synergie"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/SANTOS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SANTOS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Santos> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Santos"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Schlumberger> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Schlumberger"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Scotch> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scotch"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Scotch_700> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scotch 700"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Scotch_701> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scotch 701"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Scotch_777> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scotch 777"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Sigma> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sigma"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Sony> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sony"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Storage_Master_Alpha> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Storage Master Alpha"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Storage_Master_Prem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Storage Master Prem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Syncom> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Syncom"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Synergie> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Synergie"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/TDK> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TDK"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/T_I___Texas_Instr__> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "T.I. (Texas Instr.)"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/UARCO> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "UARCO"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Unisys_SP_5000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unisys SP 5000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Unisys_SP_9000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unisys SP 9000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Verbatim> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Verbatim"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Verbatim_DataLife> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Verbatim DataLife"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Vital_Data> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Vital Data"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/WAPET> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "WAPET"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Wabash_Geo_3000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wabash Geo 3000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Wabash_Quadronix_1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wabash Quadronix 1"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/Western_Geophysical> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Western Geophysical"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/XL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "XL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Brand/unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -838,10 +976,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Media Brand vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Media Brand vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Media_Brand/3M>,
         <http://pid.geoscience.gov.au/def/Media_Brand/3M_700>,
         <http://pid.geoscience.gov.au/def/Media_Brand/3M_Black_Watch>,
@@ -979,5 +1118,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Media_Brand/Western_Geophysical>,
         <http://pid.geoscience.gov.au/def/Media_Brand/XL>,
         <http://pid.geoscience.gov.au/def/Media_Brand/unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Media Brand"@en .
+    skos:prefLabel "Media Brand"@en .
 

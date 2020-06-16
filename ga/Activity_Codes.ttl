@@ -1,21 +1,23 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Activity_Codes> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Activity_Codes/A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "A"@en ;
     skos:definition "This data is current."@en ;
-    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
+    skos:inScheme cs: ;
     skos:prefLabel "Active data"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Activity_Codes/I> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "I"@en ;
     skos:definition "This data is no longer being used."@en ;
-    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
+    skos:inScheme cs: ;
     skos:prefLabel "Inactive data"@en ;
     skos:topConceptOf cs: .
 
@@ -29,15 +31,14 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
-dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
     dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Activity Codes vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Activity Codes vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Activity_Codes/A>,
         <http://pid.geoscience.gov.au/def/Activity_Codes/I> ;
-    skos:prefLabel "Activity Codes"@en ;
-    skos:definition "Activity Codes"@en .
+    skos:prefLabel "Activity Codes"@en .
 

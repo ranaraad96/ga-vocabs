@@ -1,64 +1,75 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Beacon_Material> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Concrete_Pillar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Concrete Pillar"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Pipe> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pipe"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Pole> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pole"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Steel_Quad> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Steel Quad"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Steel_Tower> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Steel Tower"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Steel_Tripod> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Steel Tripod"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Timber_Quad> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Timber Quad"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Timber_Tower> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Timber Tower"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Timber_Tripod> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Timber Tripod"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Beacon_Material/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -76,10 +87,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Beacon Material vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Beacon Material vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Beacon_Material/Concrete_Pillar>,
         <http://pid.geoscience.gov.au/def/Beacon_Material/Pipe>,
         <http://pid.geoscience.gov.au/def/Beacon_Material/Pole>,
@@ -90,5 +102,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Beacon_Material/Timber_Tower>,
         <http://pid.geoscience.gov.au/def/Beacon_Material/Timber_Tripod>,
         <http://pid.geoscience.gov.au/def/Beacon_Material/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Beacon Material"@en .
+    skos:prefLabel "Beacon Material"@en .
 

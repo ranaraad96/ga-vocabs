@@ -1,10 +1,13 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/voc/Airborn_GPS> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-03-29" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech Instrument"@en ;
@@ -13,6 +16,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_12> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech 12 Instrument"@en ;
@@ -21,6 +25,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_G-12> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-10-11" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech G-12 Instrument"@en ;
@@ -29,6 +34,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_G12> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech G12 Instrument"@en ;
@@ -37,6 +43,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_G12_Reciver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech G12 Reciver Instrument"@en ;
@@ -45,6 +52,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-02-26" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech GPS Instrument"@en ;
@@ -53,6 +61,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_Glonass_GG24> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-01-23" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech Glonass GG24 Instrument"@en ;
@@ -61,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_Ranger_XII> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-10-23" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech Ranger XII Instrument"@en ;
@@ -69,6 +79,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_XII> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech XII Instrument"@en ;
@@ -77,6 +88,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_XII_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech XII GPS Instrument"@en ;
@@ -85,6 +97,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_XII_GPS_Receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech XII GPS Receiver Instrument"@en ;
@@ -93,6 +106,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_XII_GPS_receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-17" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Ashtech XII GPS receiver Instrument"@en ;
@@ -101,12 +115,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_Z> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Ashtech Z Instrument"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ashtech Z"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/CSI_DGPSMax> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-09-19" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "CSI DGPSMax Instrument"@en ;
@@ -115,6 +131,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/CSI_DGPS_MAX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-09-15" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "CSI DGPS MAX Instrument"@en ;
@@ -123,6 +140,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/CSI_DGPS_Max> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-11-11" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "CSI DGPS Max Instrument"@en ;
@@ -131,12 +149,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/DGPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "DGPS Instrument"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DGPS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Differential_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-08-20" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Differential GPS Instrument"@en ;
@@ -145,6 +165,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Differential_real_time_gps> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Differential real time gps Instrument"@en ;
@@ -153,6 +174,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Fugro_3000L> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-06-20" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Fugro 3000L Instrument"@en ;
@@ -161,6 +183,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Fugro_Omnistar_DGPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-10-18" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Fugro Omnistar DGPS Instrument"@en ;
@@ -169,6 +192,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Marconi> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-10-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Marconi Instrument"@en ;
@@ -177,6 +201,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Marconi_Allstar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-10-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Marconi Allstar Instrument"@en ;
@@ -185,6 +210,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Marconi_Allstar_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Marconi Allstar GPS Instrument"@en ;
@@ -193,6 +219,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Marconi_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Marconi GPS Instrument"@en ;
@@ -201,6 +228,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/NOVATEL_951R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-04-04" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "NOVATEL 951R Instrument"@en ;
@@ -209,6 +237,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/NovAtel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-10-11" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "NovAtel Instrument"@en ;
@@ -217,6 +246,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel Instrument"@en ;
@@ -225,6 +255,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_3000L> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-06-22" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 3000L Instrument"@en ;
@@ -233,6 +264,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_3000L_GPS_receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-06-17" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 3000L GPS receiver Instrument"@en ;
@@ -241,6 +273,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_3151R_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 3151R GPS Instrument"@en ;
@@ -249,6 +282,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_3951R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-03-27" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 3951R Instrument"@en ;
@@ -257,6 +291,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_3951R,_12_channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-05-20" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 3951R, 12 channel Instrument"@en ;
@@ -265,6 +300,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_39XX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-01-25" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 39XX Instrument"@en ;
@@ -273,6 +309,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_39xx> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-01-06" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 39xx Instrument"@en ;
@@ -281,6 +318,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_39xx_series> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-06-20" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 39xx series Instrument"@en ;
@@ -289,6 +327,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_39xx_series_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-10-03" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 39xx series GPS Instrument"@en ;
@@ -297,6 +336,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_951R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 951R Instrument"@en ;
@@ -305,6 +345,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_951R_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 951R GPS Instrument"@en ;
@@ -313,6 +354,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_951R_GPS_Receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-11-17" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 951R GPS Receiver Instrument"@en ;
@@ -321,6 +363,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_951R_GPS_receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-04-10" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 951R GPS receiver Instrument"@en ;
@@ -329,6 +372,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_951_R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel 951 R Instrument"@en ;
@@ -337,6 +381,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel GPS Instrument"@en ;
@@ -345,6 +390,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_L1_L2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-03-25" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel L1/L2 Instrument"@en ;
@@ -353,6 +399,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEM-V> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2010-02-09" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEM-V Instrument"@en ;
@@ -361,6 +408,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEM3_Propak_II> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-05-05" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEM3 Propak II Instrument"@en ;
@@ -369,6 +417,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEM4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-02-19" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEM4 Instrument"@en ;
@@ -377,6 +426,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEM4_+_Ashtech> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-24" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEM4 + Ashtech Instrument"@en ;
@@ -385,6 +435,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEM4_GPS_receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-09-03" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEM4 GPS receiver Instrument"@en ;
@@ -393,6 +444,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEMV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2012-10-03" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEMV Instrument"@en ;
@@ -401,6 +453,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEMV-1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2012-11-19" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEMV-1 Instrument"@en ;
@@ -409,6 +462,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEMV-1VBS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-04-04" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEMV-1VBS Instrument"@en ;
@@ -417,6 +471,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_OEMV-1_VBS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-05-21" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel OEMV-1 VBS Instrument"@en ;
@@ -425,6 +480,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatel_oem4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2010-02-11" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatel oem4 Instrument"@en ;
@@ -433,6 +489,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Novatell_3000L> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-06-21" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Novatell 3000L Instrument"@en ;
@@ -441,6 +498,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Omnistar,_Ashtech_12> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Omnistar, Ashtech 12 Instrument"@en ;
@@ -449,6 +507,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Real-time_differential_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-02-17" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Real-time differential GPS Instrument"@en ;
@@ -457,6 +516,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Real-time_differntial> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-01-28" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Real-time differntial Instrument"@en ;
@@ -465,6 +525,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Real_time_DGPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Real time DGPS Instrument"@en ;
@@ -473,6 +534,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Real_time_diff> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-12-17" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Real time diff Instrument"@en ;
@@ -481,6 +543,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Trimble_Tans_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-09-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "Trimble Tans GPS Instrument"@en ;
@@ -489,6 +552,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differential> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-10-08" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "real-time differential Instrument"@en ;
@@ -497,6 +561,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differential_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-06-19" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "real-time differential GPS Instrument"@en ;
@@ -505,6 +570,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differntial> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-01-28" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "real-time differntial Instrument"@en ;
@@ -513,6 +579,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differntial_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-01-31" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
     skos:definition "real-time differntial GPS Instrument"@en ;
@@ -521,15 +588,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real_time_differential_GPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-12-10" ;
             rdf:value "Start date for the use of this Airborn_GPS" ],
         [ dcterms:date "2007-08-13" ;
             rdf:value "Start date for the use of this Airborn_GPS" ] ;
-    skos:definition "real time differential GPS Instrument"@en,
-        "real_time differential GPS Instrument"@en ;
+    skos:definition "real time differential GPS Instrument"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "real time differential GPS"@en,
-        "real_time differential GPS"@en ;
+    skos:prefLabel "real time differential GPS"@en ;
     skos:topConceptOf cs: .
 
 <https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
@@ -542,11 +608,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-11-15"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2016-11-15T11:29:15.000" ;
+    dcterms:modified "2016-11-15"^^xsd:date ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 15-Nov-2016 version of the Airborn GPS vocabulary"@en ;
+    skos:definition "Geoscience Australia's 15-Nov-2016 version of the Airborn GPS vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_12>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/Ashtech_G-12>,
@@ -613,5 +681,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differntial>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real-time_differntial_GPS>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_GPS/real_time_differential_GPS> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Airborn GPS"@en .
+    skos:prefLabel "Airborn GPS"@en .
 

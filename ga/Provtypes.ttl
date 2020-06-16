@@ -1,58 +1,68 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Provtypes> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Provtypes/area_of_interest> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "area of interest"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/georegion> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "geological region"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "georegion"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/igneous> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "igneous"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/metallogenic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "metallogenic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/metamorphic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "metamorphic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/sedimentary> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sedimentary"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/structural> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "structural"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/tectonic> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "tectonic"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Provtypes/undefined> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "undefined"@en ;
@@ -70,10 +80,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Provtypes vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Provtypes vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Provtypes/area_of_interest>,
         <http://pid.geoscience.gov.au/def/Provtypes/georegion>,
         <http://pid.geoscience.gov.au/def/Provtypes/igneous>,
@@ -83,5 +94,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Provtypes/structural>,
         <http://pid.geoscience.gov.au/def/Provtypes/tectonic>,
         <http://pid.geoscience.gov.au/def/Provtypes/undefined> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Provtypes"@en .
+    skos:prefLabel "Provtypes"@en .
 

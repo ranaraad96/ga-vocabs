@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Publication_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "B"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "C"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/M> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "M"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "R"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/S> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "S"@en ;
     skos:definition "All serial publications (ie. journals)"@en ;
     skos:inScheme cs: ;
@@ -40,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Publication_Type/T> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "T"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -58,15 +65,16 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Publication Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Publication Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Publication_Type/B>,
         <http://pid.geoscience.gov.au/def/Publication_Type/C>,
         <http://pid.geoscience.gov.au/def/Publication_Type/M>,
         <http://pid.geoscience.gov.au/def/Publication_Type/R>,
         <http://pid.geoscience.gov.au/def/Publication_Type/S>,
         <http://pid.geoscience.gov.au/def/Publication_Type/T> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Publication Type"@en .
+    skos:prefLabel "Publication Type"@en .
 

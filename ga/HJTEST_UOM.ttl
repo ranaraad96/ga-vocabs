@@ -1,11 +1,13 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/HJTEST_UOM> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/HJTEST_UOM/ft> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ft"@en ;
     skos:definition "uom for distance"@en ;
     skos:inScheme cs: ;
@@ -13,6 +15,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/HJTEST_UOM/km> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "km"@en ;
     skos:changeNote [ dcterms:date "0016-01-13" ;
             rdf:value "End date for the use of this HJTEST_UOM" ] ;
@@ -23,6 +26,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/HJTEST_UOM/m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m"@en ;
     skos:changeNote [ dcterms:date "0015-04-29" ;
             rdf:value "End date for the use of this HJTEST_UOM" ] ;
@@ -43,12 +47,13 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2016-04-28T15:06:50"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2016-04-28T15:06:50"^^xsd:dateTime ;
+    dcterms:modified "2016-04-28T15:06:50"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 28-Apr-2016 version of the HJTEST_UOM vocabulary"@en ;
+    skos:definition "Geoscience Australia's 28-Apr-2016 version of the HJTEST_UOM vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/HJTEST_UOM/ft>,
         <http://pid.geoscience.gov.au/def/HJTEST_UOM/km>,
         <http://pid.geoscience.gov.au/def/HJTEST_UOM/m> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - HJTEST_UOM"@en .
+    skos:prefLabel "HJTEST_UOM"@en .
 

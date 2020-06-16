@@ -1,52 +1,61 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Horizontal_Order> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/0> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 3."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "0"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/00> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 1."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "00"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 7.5."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 15."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 30."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 50."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/5> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ORDERS assigned in a similar manner to CLASS where C value (for one sigma) = 100."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "5"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Horizontal_Order/PROV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PROV"@en ;
@@ -64,10 +73,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Horizontal Order vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Horizontal Order vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Horizontal_Order/0>,
         <http://pid.geoscience.gov.au/def/Horizontal_Order/00>,
         <http://pid.geoscience.gov.au/def/Horizontal_Order/1>,
@@ -76,5 +86,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Horizontal_Order/4>,
         <http://pid.geoscience.gov.au/def/Horizontal_Order/5>,
         <http://pid.geoscience.gov.au/def/Horizontal_Order/PROV> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Horizontal Order"@en .
+    skos:prefLabel "Horizontal Order"@en .
 

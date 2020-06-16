@@ -1,250 +1,292 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Media_Format> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Media_Format/ASCII> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "standard ASCII foramt"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ASCII"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/CGM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Computer Graphics Metafile"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CGM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/CMS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Proprietry Naviagtion "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/DFS_3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DFS 3"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/DFS_4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DFS 4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/DISK> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DISK"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/DLIS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "well Logs - standard foramt"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DLIS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/DOS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "well Logs - standard foramt"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DOS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/EBCDC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Standard EBCDIC format (readable)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EBCDC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/Excel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Microsoft Excel"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Excel"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/GEOFRAME> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Petroleum seismic interpretative platform format (Schlumberger)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GEOFRAME"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/HT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "HT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/IBM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Format for some Navigation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "IBM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/IMAGE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "IMAGE"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/JPEG> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "photographic image file format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "JPEG"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/KINGDOM_SMT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Petroleum seismic interpretative platform format (Kingdom)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "KINGDOM/SMT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/LANDMARK_SIESWORKS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Petroleum seismic interpretative platform format (Seisworks)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LANDMARK/SIESWORKS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/LAS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "well Logs - standard foramt"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LAS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/LIS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "well Logs - standard foramt"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LIS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/P190> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Navigation format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P190"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/P284> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Navigation format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P284"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/P294> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Navigation format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P294"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/P698> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Navigation format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "P698"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/PDF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ADOBE"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PDF"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/RADARSAT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Format for remote sensing data."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RADARSAT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEG> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEG"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGB"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGD-Rode> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGD-Rode"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGY> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGY"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/SEGY-Rode> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEGY-Rode"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/TAR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "unix format for storing files on tape"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TAR"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/TIAC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TIAC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/TIF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "standard ''tif''"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TIF"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/UKOOA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "UKOOA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/UKOOF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "UKOOF"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/Unix> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "unix format for storing files on tape"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unix"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/WESTN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Seismic Processing Standard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "WESTN"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Media_Format/unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -262,10 +304,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Media Format vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Media Format vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Media_Format/ASCII>,
         <http://pid.geoscience.gov.au/def/Media_Format/CGM>,
         <http://pid.geoscience.gov.au/def/Media_Format/CMS>,
@@ -307,5 +350,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Media_Format/Unix>,
         <http://pid.geoscience.gov.au/def/Media_Format/WESTN>,
         <http://pid.geoscience.gov.au/def/Media_Format/unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Media Format"@en .
+    skos:prefLabel "Media Format"@en .
 

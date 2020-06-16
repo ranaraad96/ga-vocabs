@@ -1,94 +1,110 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Billion> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Billion"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Black_Box_Corporation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Black Box Corporation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/D-Link> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "D-Link"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Dynalink> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "C"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dynalink"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Inside_Out_Networks> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Inside Out Networks"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Jetstream> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Jetstream"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Linksys> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Linksys"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/MDX_100> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MDX 100"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/MFB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "MFB"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Maestro> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maestro"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Maxon> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maxon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/NAL_Research_Corporation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NAL Research Corporation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Netcomm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Netcomm"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Stallion_Technologies> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Stallion Technologies"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -106,10 +122,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Connection Equip Manufactid vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Connection Equip Manufactid vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Billion>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Black_Box_Corporation>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/D-Link>,
@@ -125,5 +142,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Netcomm>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Stallion_Technologies>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Manufactid/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Connection Equip Manufactid"@en .
+    skos:prefLabel "Connection Equip Manufactid"@en .
 

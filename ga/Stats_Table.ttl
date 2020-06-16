@@ -1,184 +1,215 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Stats_Table> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/A_ENTITY_ATTRIBS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "CDM Entity attributes table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "A.ENTITY_ATTRIBS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/A_SAMPLES> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "CDM SAMPLES table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "A.SAMPLES"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/A_SURVEYS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "SURVEYS Header table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "A.SURVEYS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/DEVIANT_DIR_SRVY> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "DEVIANT Directional Survey header table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DEVIANT.DIR_SRVY"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/DEVIANT_DIR_SRVY_STATION> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "DEVIANT Directional Survey data table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DEVIANT.DIR_SRVY_STATION"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_BASIN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Basins table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_BASIN"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_CASE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well casing table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_CASE"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_GRAD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well temperature gradient table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_GRAD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_LITHOLOGY> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well lithology table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_LITHOLOGY"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_REPDET> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well reports table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_REPDET"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_STRATIGRAPHY> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well stratigraphy table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_STRATIGRAPHY"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_TEMPER> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well temperature table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_TEMPER"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_TESTS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well tests table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_TESTS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_WELLDET> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well core and cuttings details table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_WELLDET"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPD_NPD_WELLSUM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "NPD/PEDIN Well core and cuttings summary table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPD.NPD_WELLSUM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPM_PIPELINES> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "GEODISC Pipelines table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPM.PIPELINES"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/NPM_WELLS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "WELLS Header table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "NPM.WELLS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/OZMAR_SEISMICLINES> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "OZMAR Seismic lines table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OZMAR.SEISMICLINES"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/PIMS_PIMS_ITEMS_ENTITIES> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "PIMS Items"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PIMS.PIMS_ITEMS_ENTITIES"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_ENVIRON> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Environment table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.ENVIRON"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_ENV_REFS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Environment References table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.ENV_REFS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_PERMEAB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Permaebility table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.PERMEAB"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_POROS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Porosity table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.POROS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_RFS_RMKS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Remarks table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.RFS_RMKS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/RESFACS_SHOWS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Shows table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RESFACS.SHOWS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_STD_REFS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "STRATDAT References table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "STRATDAT.STD_REFS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_STD_RMKS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "STRATDAT Remarks table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "STRATDAT.STD_RMKS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_STRATDAT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "STRATDAT biostratigraphy table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "STRATDAT.STRATDAT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_TWO_WT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "STRATDAT two way time table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "STRATDAT.TWO_WT"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_TWT_RMKS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "RESFACS Two way time remarks table"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "STRATDAT.TWT_RMKS"@en ;
@@ -196,10 +227,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Stats Table vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Stats Table vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Stats_Table/A_ENTITY_ATTRIBS>,
         <http://pid.geoscience.gov.au/def/Stats_Table/A_SAMPLES>,
         <http://pid.geoscience.gov.au/def/Stats_Table/A_SURVEYS>,
@@ -230,5 +262,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_STRATDAT>,
         <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_TWO_WT>,
         <http://pid.geoscience.gov.au/def/Stats_Table/STRATDAT_TWT_RMKS> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Stats Table"@en .
+    skos:prefLabel "Stats Table"@en .
 

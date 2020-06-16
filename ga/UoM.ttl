@@ -1,9 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/UoM> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/UoM/10-2_cgs> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10-2 cgs"@en ;
     skos:definition "A measure of magnetic susceptibility, a dimensionless proportionality constant that indicates the degree of magnetisation of a material in response to an applied magnetic field."@en ;
     skos:inScheme cs: ;
@@ -11,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/10-3_SI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10-3 SI"@en ;
     skos:definition "Measure of magnetic susceptibility."@en ;
     skos:inScheme cs: ;
@@ -18,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/10-5_SI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "10-5 SI"@en ;
     skos:definition "Measure of magnetic susceptibility."@en ;
     skos:inScheme cs: ;
@@ -25,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/1000_ft3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1000 ft3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -32,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/1000_ft3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1000 ft3/d"@en ;
     skos:definition "Measure of volume divided by time (includes flow). Example: Measure of gaseous flow rate"@en ;
     skos:inScheme cs: ;
@@ -39,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/1000_m3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1000 m3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -46,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/1000_m3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1000 m3/d"@en ;
     skos:definition "Measure of volume divided by time (includes flow). Example: Measure of gaseous flow rate"@en ;
     skos:inScheme cs: ;
@@ -53,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/1_s__x1E_10_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "1/s (x1E*10)"@en ;
     skos:definition "Rate constant, termed frequency factor or pre-exponential factor or Arrhenius constant, for first order reaction of kerogen (reactant) to petroleum (product)"@en ;
     skos:inScheme cs: ;
@@ -60,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/API> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "API"@en ;
     skos:definition "API (American Petroleum Institute) unit for gamma log. The unit of radioactivity used for natural gamma ray logs. The log can be of the total gamma ray in API units, or of the spectral response in wei"@en ;
     skos:inScheme cs: ;
@@ -68,6 +79,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/A_m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "A/m"@en ;
     skos:definition "Measure of magnetic field strength"@en ;
     skos:inScheme cs: ;
@@ -75,6 +87,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/BCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "BCM"@en ;
     skos:definition "Measure of estimated volume used in mining industry. It represents one cubic metre of material measured prior to disturbance (in-situ)."@en ;
     skos:inScheme cs: ;
@@ -82,6 +95,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Gft3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Gft3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -89,6 +103,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Gl> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Gl"@en ;
     skos:definition "Measure of volume. Example: Measure of gaseous recovery (6.2898 mmbbl)"@en ;
     skos:inScheme cs: ;
@@ -96,6 +111,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Gm3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Gm3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -103,6 +119,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Gt> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Gt"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -110,6 +127,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J"@en ;
     skos:definition "Measure of energy, work, quantity of heat."@en ;
     skos:inScheme cs: ;
@@ -117,6 +135,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J_K2_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J K2/mol"@en ;
     skos:definition "Coefficient of the heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -124,6 +143,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J_K__mol_bar_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J K/(mol bar)"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -131,6 +151,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J_K_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J K/mol"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -138,6 +159,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K0_5_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K0.5 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -145,6 +167,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K1_5_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K1.5 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -152,6 +175,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K2_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K2 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -159,6 +183,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K3_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K3 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -166,6 +191,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K4_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K4 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -173,6 +199,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K5_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K5 mol)"@en ;
     skos:definition "Coefficient of the molar heat capacity polynomial."@en ;
     skos:inScheme cs: ;
@@ -180,6 +207,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__K_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(K mol)"@en ;
     skos:definition "Measure of molar entropy, molar heat capacity."@en ;
     skos:inScheme cs: ;
@@ -187,6 +215,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J__mol_bar_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/(mol bar)"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -194,6 +223,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J_bar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/bar"@en ;
     skos:definition "Measure of molar volume."@en ;
     skos:inScheme cs: ;
@@ -201,6 +231,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/J_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "J/mol"@en ;
     skos:definition "Measure of molar energy."@en ;
     skos:inScheme cs: ;
@@ -208,6 +239,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/K> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "K"@en ;
     skos:definition "Measure of temperature. The Kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water."@en ;
     skos:inScheme cs: ;
@@ -215,6 +247,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/K_bar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "K/bar"@en ;
     skos:definition "Measure of a temperature-pressure gradient."@en ;
     skos:inScheme cs: ;
@@ -222,6 +255,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/LCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LCM"@en ;
     skos:definition "Measure of estimated volume used in mining industry. It represents one cubic metre of material measured after the disturbance (extracted)."@en ;
     skos:inScheme cs: ;
@@ -229,6 +263,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/MJ> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MJ"@en ;
     skos:definition "Measure of energy, work, quantity of heat."@en ;
     skos:inScheme cs: ;
@@ -236,6 +271,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Ma> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Ma"@en ;
     skos:definition "Measure of time."@en ;
     skos:inScheme cs: ;
@@ -243,6 +279,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mbbl> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mbbl"@en ;
     skos:definition "Measure of volume. Used as a measure of liquid recovery"@en ;
     skos:inScheme cs: ;
@@ -250,6 +287,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mct> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mct"@en ;
     skos:definition "Measure of mass used for gemstones."@en ;
     skos:inScheme cs: ;
@@ -257,6 +295,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mft3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mft3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -264,6 +303,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mft3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mft3/d"@en ;
     skos:definition "Measure of gaseous flow rate."@en ;
     skos:inScheme cs: ;
@@ -271,6 +311,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Ml_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Ml/d"@en ;
     skos:definition "Measure of flow rate"@en ;
     skos:inScheme cs: ;
@@ -278,6 +319,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mlton> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mlton"@en ;
     skos:definition "A measure of mass equal to one million long tons."@en ;
     skos:inScheme cs: ;
@@ -286,6 +328,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mm3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mm3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -293,6 +336,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mm3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mm3/d"@en ;
     skos:definition "Measure of flow rate."@en ;
     skos:inScheme cs: ;
@@ -300,6 +344,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mston> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mston"@en ;
     skos:definition "A measure of mass equal to one million US short tons.  "@en ;
     skos:inScheme cs: ;
@@ -308,6 +353,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mt> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mt"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -315,6 +361,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Mton> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mton"@en ;
     skos:definition "Measure of energy. Unit of energy approximately equivalent to the energy released in the detonation of 1,000,000 tons of TNT."@en ;
     skos:inScheme cs: ;
@@ -322,6 +369,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/NTU> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "NTU"@en ;
     skos:definition "The calibration unit for turbidity measurements using the scattered light method at 900."@en ;
     skos:inScheme cs: ;
@@ -329,6 +377,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/No_unit> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "No unit"@en ;
     skos:definition "The measured property has no unit of measure.  For example, a ratio."@en ;
     skos:inScheme cs: ;
@@ -336,6 +385,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/PJ> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "PJ"@en ;
     skos:definition "Measure of energy, work, quantity of heat."@en ;
     skos:inScheme cs: ;
@@ -343,6 +393,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Pa> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pa"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -350,6 +401,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/S> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "S"@en ;
     skos:definition "Measure of electric conductance."@en ;
     skos:inScheme cs: ;
@@ -357,6 +409,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/SI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SI"@en ;
     skos:definition "A measure of magnetic susceptibility, a dimensionless proportionality constant that indicates the degree of magnetisation of a material in response to an applied magnetic field."@en ;
     skos:inScheme cs: ;
@@ -364,6 +417,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/T> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "T"@en ;
     skos:definition "A measure of magnetic field strength."@en ;
     skos:inScheme cs: ;
@@ -371,6 +425,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/TJ> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "TJ"@en ;
     skos:definition "Measure of energy, work, quantity of heat."@en ;
     skos:inScheme cs: ;
@@ -378,6 +433,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/TJ_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "TJ/d"@en ;
     skos:definition "Measure of energy rate."@en ;
     skos:inScheme cs: ;
@@ -385,6 +441,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Tft3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tft3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -392,6 +449,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/Torr> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Torr"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -399,6 +457,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/V> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "V"@en ;
     skos:definition "Measure of electric charge, quantity of electricity."@en ;
     skos:inScheme cs: ;
@@ -406,6 +465,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/W> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "W"@en ;
     skos:definition "Measure of power, radiant flux."@en ;
     skos:inScheme cs: ;
@@ -413,6 +473,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/W__m_K_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "W/(m K)"@en ;
     skos:definition "Measure of thermal conductivity."@en ;
     skos:inScheme cs: ;
@@ -420,6 +481,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "%"@en ;
     skos:definition "Measure of fraction."@en ;
     skos:inScheme cs: ;
@@ -427,6 +489,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/__cm3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "%/cm3/d"@en ;
     skos:definition "This unit pertains to the flux of oxygen, as percent saturation, from a given volume of sediment over a given time interval"@en ;
     skos:inScheme cs: ;
@@ -434,6 +497,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/__g_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "%/g/d"@en ;
     skos:definition "This unit pertains to the flux of oxygen, as percent saturation, from a given dry weight of sediment over a given time interval."@en ;
     skos:inScheme cs: ;
@@ -441,6 +505,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/_oVPDB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "%oVPDB"@en ;
     skos:definition "Parts per thousand with reference to the Vienna Pee Dee Belemnite. Used for carbon and oxygen isotopes. "@en ;
     skos:inScheme cs: ;
@@ -448,6 +513,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/atm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "atm"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -455,6 +521,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/bar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "bar"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -462,6 +529,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/bbl> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "bbl"@en ;
     skos:definition "Measure of volume. Used as a measure of liquid recovery"@en ;
     skos:inScheme cs: ;
@@ -469,6 +537,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/bbl_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "bbl/d"@en ;
     skos:definition "Measure of liquid flow rate."@en ;
     skos:inScheme cs: ;
@@ -476,6 +545,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/bbl_hr> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "bbl/hr"@en ;
     skos:definition "Measure of liquid flow rate."@en ;
     skos:inScheme cs: ;
@@ -483,6 +553,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cSt> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cSt"@en ;
     skos:definition "Measure of kinematic viscosity."@en ;
     skos:inScheme cs: ;
@@ -490,6 +561,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal"@en ;
     skos:definition "Measure of energy. Thermochemical calorie."@en ;
     skos:inScheme cs: ;
@@ -497,6 +569,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal_K__mol_bar_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal K/(mol bar)"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -504,6 +577,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal_K_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal K/mol"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -511,6 +585,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal__K_mol_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal/(K mol)"@en ;
     skos:definition "Measure of molar entropy, molar heat capacity."@en ;
     skos:inScheme cs: ;
@@ -518,6 +593,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal__mol_bar_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal/(mol bar)"@en ;
     skos:definition "MHKF (Revised Helgeson-Kirkham-Flowers model for aqueous species (ions and complexes in aqueous solutions)) model volumetric coefficient."@en ;
     skos:inScheme cs: ;
@@ -525,6 +601,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cal_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cal/mol"@en ;
     skos:definition "Measure of molar energy."@en ;
     skos:inScheme cs: ;
@@ -532,6 +609,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cgs> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cgs"@en ;
     skos:definition "A measure of magnetic susceptibility, a dimensionless proportionality constant that indicates the degree of magnetisation of a material in response to an applied magnetic field."@en ;
     skos:inScheme cs: ;
@@ -539,6 +617,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cm"@en ;
     skos:definition "Measure of length."@en ;
     skos:inScheme cs: ;
@@ -546,6 +625,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cm2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cm2"@en ;
     skos:definition "Measure of area."@en ;
     skos:inScheme cs: ;
@@ -553,6 +633,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cm3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cm3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -560,6 +641,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cm3_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cm3/mol"@en ;
     skos:definition "Measure of molar volume."@en ;
     skos:inScheme cs: ;
@@ -567,6 +649,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cm_year> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cm/year"@en ;
     skos:definition "Rate of movement/growth."@en ;
     skos:inScheme cs: ;
@@ -574,6 +657,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cpm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cpm"@en ;
     skos:definition "Measure of radioactivity. The number of gamma-ray photons  recorded by a gamma-ray detector in a particular energy window over a period of 1 minute. Specific energy windows are used for measuring the "@en ;
     skos:inScheme cs: ;
@@ -582,6 +666,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/cps> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "cps"@en ;
     skos:definition "Measure of radioactivity. The number of gamma-ray photons  recorded by a gamma-ray detector in a particular energy window over a period of 1 second. Specific energy windows are used for measuring the "@en ;
     skos:inScheme cs: ;
@@ -590,6 +675,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ct> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ct"@en ;
     skos:definition "Measure of mass used for diamonds and other precious stones. One carat is equal to 1/5 of a gram (200 milligrams)."@en ;
     skos:inScheme cs: ;
@@ -597,6 +683,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ct_t> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ct/t"@en ;
     skos:definition "Measure of concentration (grade) of diamonds and other precious stones in ore."@en ;
     skos:inScheme cs: ;
@@ -604,6 +691,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "d"@en ;
     skos:definition "Measure of time."@en ;
     skos:inScheme cs: ;
@@ -611,6 +699,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/dS_m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "dS/m"@en ;
     skos:definition "Measure of electrical conductivity. Standard for measuring salinity, which is measured in terms of electrical conductivity."@en ;
     skos:inScheme cs: ;
@@ -618,6 +707,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/darcy> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "darcy"@en ;
     skos:definition "Measure of permeability of porous solids, not area. Measure of the features of flows within petroleum reservoirs."@en ;
     skos:inScheme cs: ;
@@ -625,6 +715,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/deg> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "deg"@en ;
     skos:definition "Measure of plane angle."@en ;
     skos:inScheme cs: ;
@@ -632,6 +723,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/degC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "degC"@en ;
     skos:definition "Measure of Celsius temperature."@en ;
     skos:inScheme cs: ;
@@ -639,6 +731,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/dpm_g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "dpm/g"@en ;
     skos:definition "Measure of radiochemical decay per gram. "@en ;
     skos:inScheme cs: ;
@@ -646,6 +739,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/fs> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "fs"@en ;
     skos:definition "Measure of well recovery on pipe length"@en ;
     skos:inScheme cs: ;
@@ -653,6 +747,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ft> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ft"@en ;
     skos:definition "Measure of length."@en ;
     skos:inScheme cs: ;
@@ -660,6 +755,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ft3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ft3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -667,6 +763,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ft3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ft3/d"@en ;
     skos:definition "Measure of volume divided by time (includes flow). Example: Measure of gaseous flow rate"@en ;
     skos:inScheme cs: ;
@@ -674,6 +771,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ft3_h> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ft3/h"@en ;
     skos:definition "Measure of volume divided by time (includes flow). Example: Measure of gaseous flow rate"@en ;
     skos:inScheme cs: ;
@@ -681,6 +779,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -688,6 +787,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_BCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/BCM"@en ;
     skos:definition "Estimated measure of grade used in mining industry. It signifies that one gram of a particular material or commodity can be extracted from one cubic metre of material measured prior to disturbance (in"@en ;
     skos:inScheme cs: ;
@@ -696,6 +796,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_LCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/LCM"@en ;
     skos:definition "Estimated measure of grade used in mining industry. It signifies that one gram of a particular material or commodity can be extracted from one cubic metre of material measured after the disturbance (e"@en ;
     skos:inScheme cs: ;
@@ -704,6 +805,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_cm3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/cm3"@en ;
     skos:definition "Measure of mass divided by volume (mass density)."@en ;
     skos:inScheme cs: ;
@@ -711,6 +813,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/l"@en ;
     skos:definition "Measure of mass divided by volume (mass concentration)."@en ;
     skos:inScheme cs: ;
@@ -718,6 +821,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_m3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/m3"@en ;
     skos:definition "Measure of mass divided by volume (mass density)."@en ;
     skos:inScheme cs: ;
@@ -725,6 +829,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/g_t> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "g/t"@en ;
     skos:definition "Measure of weight per weight concentration."@en ;
     skos:inScheme cs: ;
@@ -732,6 +837,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/gal_UK> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "gal UK"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -739,6 +845,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/gal_US> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "gal US"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -746,6 +853,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/h> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "h"@en ;
     skos:definition "Measure of time."@en ;
     skos:inScheme cs: ;
@@ -753,6 +861,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/in> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "in"@en ;
     skos:definition "Measurement of length."@en ;
     skos:inScheme cs: ;
@@ -760,6 +869,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kPa> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kPa"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -767,6 +877,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kbar> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kbar"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -774,6 +885,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kbbl> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kbbl"@en ;
     skos:definition "Measure of volume. Used as a measure of liquid recovery"@en ;
     skos:inScheme cs: ;
@@ -781,6 +893,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kbbl_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kbbl/d"@en ;
     skos:definition "Measure of liquid flow rate."@en ;
     skos:inScheme cs: ;
@@ -788,6 +901,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kcal_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kcal/mol"@en ;
     skos:definition "Measure of molar energy. Energy of activation in kilocalories.  1 kilocalorie per mole = 4 184 m2 kg s-2 mol-1"@en ;
     skos:inScheme cs: ;
@@ -795,6 +909,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg"@en ;
     skos:definition "Measure of mass. It is equal to the mass of the international prototype of the kilogram. "@en ;
     skos:inScheme cs: ;
@@ -802,6 +917,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg_BCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg/BCM"@en ;
     skos:definition "Estimate measure of grade used in mining industry. It signifies that one kilogram of a particular material or commodity can be extracted from one cubic metre of material measured prior to disturbance "@en ;
     skos:inScheme cs: ;
@@ -810,6 +926,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg/l"@en ;
     skos:definition "Measure of mass divided by volume (mass concentration)."@en ;
     skos:inScheme cs: ;
@@ -817,6 +934,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg_m3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg/m3"@en ;
     skos:definition "Measure of mass divided by volume (mass density). "@en ;
     skos:inScheme cs: ;
@@ -824,6 +942,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg/mol"@en ;
     skos:definition "Measure of molar mass."@en ;
     skos:inScheme cs: ;
@@ -831,6 +950,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kg_t> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kg/t"@en ;
     skos:definition "Measure of weight per weight concentration."@en ;
     skos:inScheme cs: ;
@@ -838,6 +958,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/klton> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "klton"@en ;
     skos:definition "A measure of mass equal to 1000 long tons."@en ;
     skos:inScheme cs: ;
@@ -846,6 +967,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/km> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "km"@en ;
     skos:definition "Measure of length."@en ;
     skos:inScheme cs: ;
@@ -853,6 +975,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/knot> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "knot"@en ;
     skos:definition "Measure of velocity."@en ;
     skos:inScheme cs: ;
@@ -860,6 +983,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kston> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kston"@en ;
     skos:definition "A unit of mass equal to 1000 US short tons."@en ;
     skos:inScheme cs: ;
@@ -868,6 +992,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/kt> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "kt"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -875,6 +1000,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "l"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -882,6 +1008,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/l_t> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "l/t"@en ;
     skos:definition "Measure of volume per weight concentration."@en ;
     skos:inScheme cs: ;
@@ -889,6 +1016,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/lb> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "lb"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -896,6 +1024,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/lton> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "lton"@en ;
     skos:definition "A unit of mass equal to 2,240 lb (1,016.047 kg) in the avoirdupois system used in the USA and in the old British Imperial system."@en ;
     skos:inScheme cs: ;
@@ -904,6 +1033,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m"@en ;
     skos:definition "The metre is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second."@en ;
     skos:inScheme cs: ;
@@ -911,6 +1041,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m-1> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m-1"@en ;
     skos:definition "measure per length"@en ;
     skos:inScheme cs: ;
@@ -918,6 +1049,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m2"@en ;
     skos:definition "Measure of area."@en ;
     skos:inScheme cs: ;
@@ -925,6 +1057,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m2_g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m2/g"@en ;
     skos:definition "Measure of specific surface area."@en ;
     skos:inScheme cs: ;
@@ -932,6 +1065,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m3> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m3"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -939,6 +1073,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m3/d"@en ;
     skos:definition "Measure of flow rate."@en ;
     skos:inScheme cs: ;
@@ -946,6 +1081,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m3_h> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m3/h"@en ;
     skos:definition "Measure of flow rate."@en ;
     skos:inScheme cs: ;
@@ -953,6 +1089,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m3_kPa_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m3/kPa/d"@en ;
     skos:definition "A mathematical means of expressing the ability of a reservoir to deliver fluids to the wellbore. The PI is usually stated as the volume delivered per psi of drawdown at the sandface (bbl/psi)."@en ;
     skos:inScheme cs: ;
@@ -960,6 +1097,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m3_mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m3/mol"@en ;
     skos:definition "Measure of molar volume."@en ;
     skos:inScheme cs: ;
@@ -967,6 +1105,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mA_m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mA/m"@en ;
     skos:definition "Measure of magnetic field strength."@en ;
     skos:inScheme cs: ;
@@ -974,6 +1113,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mS"@en ;
     skos:definition "Measure of electrical conductance."@en ;
     skos:inScheme cs: ;
@@ -981,6 +1121,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mS_cm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mS/cm"@en ;
     skos:definition "Measure of electrical conductivity."@en ;
     skos:inScheme cs: ;
@@ -988,6 +1129,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mS_m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mS/m"@en ;
     skos:definition "Measure of electrical conductivity."@en ;
     skos:inScheme cs: ;
@@ -995,6 +1137,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mT"@en ;
     skos:definition "A measure of magnetic field strength."@en ;
     skos:inScheme cs: ;
@@ -1002,6 +1145,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mV"@en ;
     skos:definition "Measurement of electrical conductivity."@en ;
     skos:inScheme cs: ;
@@ -1009,6 +1153,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mW_m2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mW/m2"@en ;
     skos:definition "Measure of density of heat flow rate."@en ;
     skos:inScheme cs: ;
@@ -1016,6 +1161,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/m_s> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "m/s"@en ;
     skos:definition "Measure of speed and velocity."@en ;
     skos:inScheme cs: ;
@@ -1023,6 +1169,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mdarcy> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mdarcy"@en ;
     skos:definition "Permeability unit. Measure of permeability of porous solids, not area."@en ;
     skos:inScheme cs: ;
@@ -1030,6 +1177,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -1037,6 +1185,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_CO2_g_TOC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg CO2/g TOC"@en ;
     skos:definition "Oxygen Index. A measure of the oxygen content of the kerogen."@en ;
     skos:inScheme cs: ;
@@ -1044,6 +1193,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_CO2_g_rock> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg CO2/g rock"@en ;
     skos:definition "A measure of organic carbon dioxide produced on pyrolysis (Rock Eval method)."@en ;
     skos:inScheme cs: ;
@@ -1051,6 +1201,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_HC_g_TOC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg HC/g TOC"@en ;
     skos:definition "Hydrogen Index. A measure of the hydrogen content of the kerogen."@en ;
     skos:inScheme cs: ;
@@ -1058,6 +1209,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_HC_g_rock> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg HC/g rock"@en ;
     skos:definition "A measure of volatile hydrocarbons thermally desorbed from a rock or a measure of hydrocarbon generating potential (Rock Eval method)."@en ;
     skos:inScheme cs: ;
@@ -1065,6 +1217,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg/g"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -1072,6 +1225,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_g_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg/g/d"@en ;
     skos:definition "This unit pertains to the flux of oxygen from a given dry weight of sediment over a given time interval."@en ;
     skos:inScheme cs: ;
@@ -1079,6 +1233,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_g_rock> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg/g rock"@en ;
     skos:definition "A measure of compounds abunbance in rocks."@en ;
     skos:inScheme cs: ;
@@ -1086,6 +1241,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_kg> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg/kg"@en ;
     skos:definition "Measure of weight per weight concentration."@en ;
     skos:inScheme cs: ;
@@ -1093,6 +1249,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mg_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mg/l"@en ;
     skos:definition "Measure of mass divided by volume (mass concentration)."@en ;
     skos:inScheme cs: ;
@@ -1100,6 +1257,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ml> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ml"@en ;
     skos:definition "Measure of volume."@en ;
     skos:inScheme cs: ;
@@ -1107,6 +1265,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ml_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ml/l"@en ;
     skos:definition "Measure of volume per volume concentration"@en ;
     skos:inScheme cs: ;
@@ -1114,6 +1273,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mm"@en ;
     skos:definition "Measure of length."@en ;
     skos:inScheme cs: ;
@@ -1121,6 +1281,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mmol_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mmol/l"@en ;
     skos:definition "Measure of molarity. Number of millimoles of solute per litre of solution. Used to express the concentration of a solution. Also expressed as mM."@en ;
     skos:inScheme cs: ;
@@ -1128,6 +1289,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mmol_m2_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mmol/m2/d"@en ;
     skos:definition "This unit pertain to the flux of a chemical parameter (measured in millimoles) from a given area of sediment over a given time interval."@en ;
     skos:inScheme cs: ;
@@ -1135,6 +1297,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mol> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mol"@en ;
     skos:definition "The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12."@en ;
     skos:inScheme cs: ;
@@ -1142,6 +1305,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mol_kg> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mol/kg"@en ;
     skos:definition "Measure of molality. Concentration expressed as number of moles of solute per kilogram of solvent."@en ;
     skos:inScheme cs: ;
@@ -1149,6 +1313,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/mol_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mol/l"@en ;
     skos:definition "Measure of molarity. Number of moles of solute per litre of solution. Used to express the concentration of a solution. Also expressed as M."@en ;
     skos:inScheme cs: ;
@@ -1156,6 +1321,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ms> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ms"@en ;
     skos:definition "Measure of time."@en ;
     skos:inScheme cs: ;
@@ -1163,6 +1329,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/nG_h> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "nG/h"@en ;
     skos:definition "Measure of absorbed dose rate."@en ;
     skos:inScheme cs: ;
@@ -1170,6 +1337,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/nT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "nT"@en ;
     skos:definition "A measure of magnetic field strength."@en ;
     skos:inScheme cs: ;
@@ -1177,6 +1345,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/o_oo> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "o/oo"@en ;
     skos:definition "Measure of fraction."@en ;
     skos:inScheme cs: ;
@@ -1184,6 +1353,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ohm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ohm"@en ;
     skos:definition "Measure of electric resistance."@en ;
     skos:inScheme cs: ;
@@ -1191,16 +1361,16 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ohm_m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ohm m"@en,
         "ohm/m"@en ;
-    skos:definition "Measure of electric resistance."@en,
-        "Measure of resistivity."@en ;
+    skos:definition "Measure of resistivity."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "ohm metre"@en,
-        "ohm per metre"@en ;
+    skos:prefLabel "ohm metre"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/oz> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "oz"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -1208,6 +1378,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/pH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "pH"@en ;
     skos:definition "Measure of the acidity or alkalinity of a solution. The logarithm of the reciprocal of hydrogen-ion concentration in gram atoms per litre; provides a measure on a scale from 0 to 14 of the acidity or "@en ;
     skos:inScheme cs: ;
@@ -1216,6 +1387,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/phi> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "phi"@en ;
     skos:definition "The phi scale is a logarithmic transformation of the Wentworth (1922) grade scale based on the negative logarithm to the base 2 of the particle size.  Wentworth suggested the starting point of size gr"@en ;
     skos:inScheme cs: ;
@@ -1224,6 +1396,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ppb> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ppb"@en ;
     skos:definition "Measure of fraction."@en ;
     skos:inScheme cs: ;
@@ -1231,6 +1404,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ppm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ppm"@en ;
     skos:definition "Measure of fraction."@en ;
     skos:inScheme cs: ;
@@ -1238,6 +1412,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/psi> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "psi"@en ;
     skos:definition "Measure of pressure or stress."@en ;
     skos:inScheme cs: ;
@@ -1245,6 +1420,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/rad> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "rad"@en ;
     skos:definition "A measure of plane angle."@en ;
     skos:inScheme cs: ;
@@ -1252,6 +1428,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/s> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "s"@en ;
     skos:definition "Measure of time. The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom."@en ;
     skos:inScheme cs: ;
@@ -1259,6 +1436,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ston> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ston"@en ;
     skos:definition "A unit of mass equal to 2,000 lb (907.18474 kg), typically used in the USA and referred to there simply as a \"ton\"."@en ;
     skos:inScheme cs: ;
@@ -1267,6 +1445,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/t> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "t"@en ;
     skos:definition "Measure of mass."@en ;
     skos:inScheme cs: ;
@@ -1274,6 +1453,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/uL_L> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "uL/L"@en ;
     skos:definition "Measure of concentration. Microlitres of solute per litre of solution."@en ;
     skos:inScheme cs: ;
@@ -1281,6 +1461,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/uS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "uS"@en ;
     skos:definition "Measure of electric conductance."@en ;
     skos:inScheme cs: ;
@@ -1288,6 +1469,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/uS_cm> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "uS/cm"@en ;
     skos:definition "Measure of electrical conductivity."@en ;
     skos:inScheme cs: ;
@@ -1295,6 +1477,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/uT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "uT"@en ;
     skos:definition "A measure of magnetic field strength."@en ;
     skos:inScheme cs: ;
@@ -1302,6 +1485,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ug_g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ug/g"@en ;
     skos:definition "Measure of mass"@en ;
     skos:inScheme cs: ;
@@ -1309,6 +1493,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/ug_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ug/l"@en ;
     skos:definition "Measure of mass divided by volume (mass concentration)."@en ;
     skos:inScheme cs: ;
@@ -1316,6 +1501,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/um> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "um"@en ;
     skos:definition "Measure of length."@en ;
     skos:inScheme cs: ;
@@ -1323,6 +1509,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/um2_mPa_s> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "um2/mPa/s"@en ;
     skos:definition "The ratio of permeability to viscosity. Well productivity is directly proportional to the mobility-thickness product. "@en ;
     skos:inScheme cs: ;
@@ -1330,6 +1517,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/umol_cm3_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "umol/cm3/d"@en ;
     skos:definition "This unit pertain to the flux of a chemical parameter (measured in micromoles) from a given volume of sediment over a given time interval."@en ;
     skos:inScheme cs: ;
@@ -1337,6 +1525,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/umol_g> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "umol/g"@en ;
     skos:definition "Measure of composition. Expressed as number of micromoles of solute per gram of solvent. Can also be expressed as millimolar (mM)."@en ;
     skos:inScheme cs: ;
@@ -1344,6 +1533,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/umol_g_d> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "umol/g/d"@en ;
     skos:definition "This unit pertain to the flux of a chemical parameter (measured in micromoles) from a given weight of sediment over a given time interval."@en ;
     skos:inScheme cs: ;
@@ -1351,6 +1541,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/umol_l> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "umol/l"@en ;
     skos:definition "Measure of molarity. Number of micromoles of solute per litre of solution. Used to express the concentration of a solution."@en ;
     skos:inScheme cs: ;
@@ -1358,6 +1549,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "unknown"@en ;
     skos:definition "The unit of measure is missing or unknown.  This value may be used to describe measured values for which the unit of measure may be known at a later date"@en ;
     skos:inScheme cs: ;
@@ -1365,6 +1557,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/us> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "us"@en ;
     skos:definition "Measurement of time. Equal to a millionth of a second."@en ;
     skos:inScheme cs: ;
@@ -1372,6 +1565,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/us_ft> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "us/ft"@en ;
     skos:definition "Measurement of time divided by distance."@en ;
     skos:inScheme cs: ;
@@ -1379,6 +1573,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/v_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "v%"@en ;
     skos:definition "Measure of fraction. Non SI unit used to express concentration as volume as a percentage of total volume."@en ;
     skos:inScheme cs: ;
@@ -1386,6 +1581,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/w_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "w%"@en ;
     skos:definition "Measure of fraction. Non SI unit used to express concentration as weight per total weight as a percentage."@en ;
     skos:inScheme cs: ;
@@ -1393,6 +1589,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/w_v_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "w/v%"@en ;
     skos:definition "Measure of fraction. Non SI unit used to express concentation as a weight per unit volume as a percentage."@en ;
     skos:inScheme cs: ;
@@ -1400,6 +1597,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/year> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "year"@en ;
     skos:definition "Measure of time (365days)."@en ;
     skos:inScheme cs: ;
@@ -1407,6 +1605,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/UoM/years_B_P_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "years B.P."@en ;
     skos:definition "Measure of time. The number of radiocarbon years before 1950, based on a nominal (and fictitiously constant) level of 14C in the atmosphere equal to the 1950 level. Radiocarbon years do not correspond"@en ;
     skos:inScheme cs: ;
@@ -1424,11 +1623,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the UoM vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the UoM vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/UoM/10-2_cgs>,
         <http://pid.geoscience.gov.au/def/UoM/10-3_SI>,
         <http://pid.geoscience.gov.au/def/UoM/10-5_SI>,
@@ -1628,5 +1829,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/UoM/w_v_>,
         <http://pid.geoscience.gov.au/def/UoM/year>,
         <http://pid.geoscience.gov.au/def/UoM/years_B_P_> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - UoM"@en .
+    skos:prefLabel "UoM"@en .
 

@@ -1,10 +1,13 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256-chan__Exploranium_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-08-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256-chan. Exploranium GR820 Instrument"@en ;
@@ -13,6 +16,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_Channel_Exploranium_GR800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 Channel Exploranium GR800B Instrument"@en ;
@@ -21,6 +25,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_Channel_Exploranium_GR800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 Channel Exploranium GR800D Instrument"@en ;
@@ -29,6 +34,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_ch__Exploranium_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-11-28" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 ch. Exploranium GR820 Instrument"@en ;
@@ -37,6 +43,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_channel_Geometrics_GR800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 channel Geometrics GR800 Instrument"@en ;
@@ -45,6 +52,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_channel_Geometrics_GR800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 channel Geometrics GR800B Instrument"@en ;
@@ -53,6 +61,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_channel_PGAM-1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-10-16" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "256 channel PGAM-1000 Instrument"@en ;
@@ -61,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/265_channel_Geometrics_GR800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "265 channel Geometrics GR800 Instrument"@en ;
@@ -69,6 +79,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/2_X_inboard_crystal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "2 X inboard crystal Instrument"@en ;
@@ -77,6 +88,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/2_x_Hamner_gamma-ray_Specrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "2 x Hamner gamma-ray Specrometer Instrument"@en ;
@@ -85,6 +97,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_Channel_Geometrics_DIGRS-3001> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 Channel Geometrics DIGRS-3001 Instrument"@en ;
@@ -93,6 +106,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_Channel_Hamner_System> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 Channel Hamner System Instrument"@en ;
@@ -101,6 +115,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_Channel_hamner__Harswah_system> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 Channel hamner/ Harswah system Instrument"@en ;
@@ -109,6 +124,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_channel_gamma-ray_Spec> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 channel gamma-ray Spec Instrument"@en ;
@@ -117,6 +133,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_channel_gamma-ray_Spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 channel gamma-ray Spectrometer Instrument"@en ;
@@ -125,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_channel_hammer_system> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 channel hammer system Instrument"@en ;
@@ -133,6 +151,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/4_channel_hamner__harshaw_system> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "4 channel hamner/ harshaw system Instrument"@en ;
@@ -141,6 +160,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/ENMOS_1000_256_channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "ENMOS 1000 256 channel Instrument"@en ;
@@ -149,6 +169,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-02-14" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium Instrument"@en ;
@@ -157,6 +178,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/ExploraniumGR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "ExploraniumGR820 Instrument"@en ;
@@ -165,6 +187,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_3001_gamma-ray_spect> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium 3001 gamma-ray spect Instrument"@en ;
@@ -173,6 +196,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_Digrs_3001> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-02-16" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium Digrs 3001 Instrument"@en ;
@@ -181,6 +205,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_G822D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium G822D Instrument"@en ;
@@ -189,6 +214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR-820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR-820 Instrument"@en ;
@@ -197,6 +223,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR-820D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR-820D Instrument"@en ;
@@ -205,6 +232,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR-820_self_cal> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR-820 self cal Instrument"@en ;
@@ -213,6 +241,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR800B Instrument"@en ;
@@ -221,6 +250,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR800B__256-ch__> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-05-09" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR800B (256-ch.) Instrument"@en ;
@@ -229,6 +259,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR800D Instrument"@en ;
@@ -237,6 +268,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820 Instrument"@en ;
@@ -245,6 +277,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820,_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-07-10" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820, 256 channels Instrument"@en ;
@@ -253,6 +286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D Instrument"@en ;
@@ -261,6 +295,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D,_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D, 256 channels Instrument"@en ;
@@ -269,6 +304,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D_256-ch> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D 256-ch Instrument"@en ;
@@ -277,6 +313,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-06-17" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D 256 channels Instrument"@en ;
@@ -285,6 +322,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D__256_chan__> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-09-29" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D (256 chan.) Instrument"@en ;
@@ -293,6 +331,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820D__256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820D (256 channels Instrument"@en ;
@@ -301,6 +340,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-01-31" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820 256 channels Instrument"@en ;
@@ -309,6 +349,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820__256_channels_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820 (256 channels) Instrument"@en ;
@@ -317,6 +358,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820_self_calibrati> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820 self calibrati Instrument"@en ;
@@ -325,6 +367,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_GR820_spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-06-19" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium GR820 spectrometer Instrument"@en ;
@@ -333,6 +376,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_Spectrum_Pro_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium Spectrum Pro GR820 Instrument"@en ;
@@ -341,6 +385,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium__GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-07-10" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium  GR820 Instrument"@en ;
@@ -349,6 +394,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium__gr820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium /gr820 Instrument"@en ;
@@ -357,6 +403,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_gamma-ray_spec_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium gamma-ray spec GR820 Instrument"@en ;
@@ -365,6 +412,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_gamma-ray_spectrum_p> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium gamma-ray spectrum p Instrument"@en ;
@@ -373,6 +421,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_model_GR-820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-03-16" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium model GR-820 Instrument"@en ;
@@ -381,6 +430,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_spectrum_pro_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium spectrum pro GR820 Instrument"@en ;
@@ -389,6 +439,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Exploranium_spectrum_processor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Exploranium spectrum processor Instrument"@en ;
@@ -397,6 +448,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR-820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR-820 Instrument"@en ;
@@ -405,6 +457,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR-900,GR-800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR-900,GR-800B Instrument"@en ;
@@ -413,6 +466,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR-900,_GR-800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR-900, GR-800B Instrument"@en ;
@@ -421,6 +475,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR3001> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR3001 Instrument"@en ;
@@ -429,6 +484,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR800 Instrument"@en ;
@@ -437,6 +493,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-03-26" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR800D Instrument"@en ;
@@ -445,6 +502,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR800D_GR900> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-08-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR800D GR900 Instrument"@en ;
@@ -453,6 +511,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR820 Instrument"@en ;
@@ -461,6 +520,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/GR_820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "GR 820 Instrument"@en ;
@@ -469,6 +529,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Gamma-ray_Spectrommeter_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Gamma-ray Spectrommeter GR820 Instrument"@en ;
@@ -477,6 +538,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Gamma_Ray_Spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Gamma Ray Spectrometer Instrument"@en ;
@@ -485,6 +547,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-07-10" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics Instrument"@en ;
@@ -493,6 +556,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_Exploranium_GR800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-06-02" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics Exploranium GR800 Instrument"@en ;
@@ -501,6 +565,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_G822A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics G822A Instrument"@en ;
@@ -509,6 +574,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-800 Instrument"@en ;
@@ -517,6 +583,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-800D Instrument"@en ;
@@ -525,6 +592,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-800_900> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-800/900 Instrument"@en ;
@@ -533,6 +601,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-800_900D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-800/900D Instrument"@en ;
@@ -541,6 +610,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-820 Instrument"@en ;
@@ -549,6 +619,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-820D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-820D Instrument"@en ;
@@ -557,6 +628,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-820D,_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-820D, 256 channels Instrument"@en ;
@@ -565,6 +637,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR-820D_channel_ADC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR-820D channel ADC Instrument"@en ;
@@ -573,6 +646,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-10-29" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR800 Instrument"@en ;
@@ -581,6 +655,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR800B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-07-22" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR800B Instrument"@en ;
@@ -589,6 +664,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR800D Instrument"@en ;
@@ -597,6 +673,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR800D___GR900> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-10-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR800D & GR900 Instrument"@en ;
@@ -605,6 +682,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR820> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR820 Instrument"@en ;
@@ -613,6 +691,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR820D,_256_channels> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR820D, 256 channels Instrument"@en ;
@@ -621,6 +700,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_GR820_256_channel_ADC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics GR820 256 channel ADC Instrument"@en ;
@@ -629,6 +709,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_Gr800D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-01-09" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics Gr800D Instrument"@en ;
@@ -637,6 +718,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_Spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics Spectrometer Instrument"@en ;
@@ -645,6 +727,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_gamma-ray_Spec> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics gamma-ray Spec Instrument"@en ;
@@ -653,6 +736,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_gamma-ray_Spectro> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics gamma-ray Spectro Instrument"@en ;
@@ -661,6 +745,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_gamma-ray_spectromet> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics gamma-ray spectromet Instrument"@en ;
@@ -669,6 +754,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Geometrics_gamma-ray_spectromete> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Geometrics gamma-ray spectromete Instrument"@en ;
@@ -677,6 +763,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hammer_4_channel_differential> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hammer 4 channel differential Instrument"@en ;
@@ -685,6 +772,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner Instrument"@en ;
@@ -693,6 +781,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner-_Harshaw> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner- Harshaw Instrument"@en ;
@@ -701,6 +790,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner_4_channel_8-ray_spectrome> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner 4 channel 8-ray spectrome Instrument"@en ;
@@ -709,6 +799,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner_4_channel_gamma-ray_Spec> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner 4 channel gamma-ray Spec Instrument"@en ;
@@ -717,6 +808,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner_Harsaw> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner Harsaw Instrument"@en ;
@@ -725,6 +817,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Hamner_Harshaw> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Hamner Harshaw Instrument"@en ;
@@ -733,6 +826,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard Instrument"@en ;
@@ -741,6 +835,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard_Outboard> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard/Outboard Instrument"@en ;
@@ -749,6 +844,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard_Scintillograph> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard Scintillograph Instrument"@en ;
@@ -757,6 +853,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard_and_towed> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard and towed Instrument"@en ;
@@ -765,6 +862,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard_and_towed__Scintillograp> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard and towed  Scintillograp Instrument"@en ;
@@ -773,6 +871,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Inboard_crystal_detector_+_towed> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Inboard crystal detector + towed Instrument"@en ;
@@ -781,6 +880,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/MEL__plastic_phosphor_scintillat> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "MEL/ plastic phosphor scintillat Instrument"@en ;
@@ -789,6 +889,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/MFS_scintillographs> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "MFS scintillographs Instrument"@en ;
@@ -797,6 +898,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/McPhar_Spectra_II> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "McPhar Spectra II Instrument"@en ;
@@ -805,6 +907,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/NA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "NA Instrument"@en ;
@@ -813,6 +916,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Norland_Viking> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-11-24" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Norland/Viking Instrument"@en ;
@@ -821,6 +925,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_Data_256-channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Nuclear Data 256-channel Instrument"@en ;
@@ -829,6 +934,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_Data_256_Ch> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Nuclear Data 256 Ch Instrument"@en ;
@@ -837,6 +943,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_Data_256_Channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-07-25" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Nuclear Data 256 Channel Instrument"@en ;
@@ -845,6 +952,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_Data_ADC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Nuclear Data ADC Instrument"@en ;
@@ -853,6 +961,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_Data_ADC_ND-560> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Nuclear Data ADC/ND-560 Instrument"@en ;
@@ -861,12 +970,14 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Nuclear_data> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Nuclear data Instrument"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Nuclear data"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/PGAM-1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "PGAM-1000 Instrument"@en ;
@@ -875,6 +986,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/PGAM-1000_256-channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-11-01" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "PGAM-1000 256-channel Instrument"@en ;
@@ -883,6 +995,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/PGAM-1000__256-channel_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-02-21" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "PGAM-1000 (256-channel) Instrument"@en ;
@@ -891,6 +1004,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/PGAM-1000__256_channels_> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-05-20" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "PGAM-1000 (256 channels) Instrument"@en ;
@@ -899,6 +1013,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/PGAM_1000_256_Channel_Spectromet> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "PGAM 1000 256 Channel Spectromet Instrument"@en ;
@@ -907,6 +1022,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Pico_EnvirotecGRS10___AGRS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2012-10-03" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Pico EnvirotecGRS10 & AGRS Instrument"@en ;
@@ -915,6 +1031,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Pico_Envirotec_GRS-10+> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2010-02-09" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Pico Envirotec GRS-10+ Instrument"@en ;
@@ -923,6 +1040,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Pico_Envirotec_GRS10> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-11-09" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Pico Envirotec GRS10 Instrument"@en ;
@@ -931,6 +1049,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Pico_Envirotec_GRS10___AGRS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2012-11-09" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Pico Envirotec GRS10 / AGRS Instrument"@en ;
@@ -939,6 +1058,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Picodas_PGAM-1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Picodas PGAM-1000 Instrument"@en ;
@@ -947,6 +1067,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Picodas_PGAM_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Picodas PGAM 1000 Instrument"@en ;
@@ -955,6 +1076,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Picodas_PGAM_1000,_256_channel_S> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Picodas PGAM 1000, 256 channel S Instrument"@en ;
@@ -963,6 +1085,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Picodas_PGAM_1000_256-channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-03-16" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Picodas PGAM 1000 256-channel Instrument"@en ;
@@ -971,6 +1094,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Picodas_PGAM_256_channel> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-08-20" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Picodas PGAM 256 channel Instrument"@en ;
@@ -979,6 +1103,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Plastic__Phosphor_Detector> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Plastic  Phosphor Detector Instrument"@en ;
@@ -987,6 +1112,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Radiation_Solutions_Inc__RS_500> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-05-21" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Radiation Solutions Inc. RS 500 Instrument"@en ;
@@ -995,6 +1121,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Radiation_Solutions_RS500> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-02-14" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Radiation Solutions RS500 Instrument"@en ;
@@ -1003,6 +1130,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Radiation_Solutions_RSI_500> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-01-28" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Radiation Solutions RSI 500 Instrument"@en ;
@@ -1011,6 +1139,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Radiation_Solutions_RSX-4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2012-08-10" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Radiation Solutions RSX-4 Instrument"@en ;
@@ -1019,6 +1148,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Radiation_Solutions_RS_500> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Radiation Solutions RS 500 Instrument"@en ;
@@ -1027,6 +1157,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/TBA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-09-13" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "TBA Instrument"@en ;
@@ -1035,6 +1166,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Twin_Crystal_MEL_Scintillation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Twin Crystal MEL Scintillation Instrument"@en ;
@@ -1043,6 +1175,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Twin_Crystal_MEL_scintillation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Twin Crystal MEL scintillation Instrument"@en ;
@@ -1051,6 +1184,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/Twin_crystal_MEL_Scintillation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "Twin crystal MEL Scintillation Instrument"@en ;
@@ -1059,6 +1193,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/gamma-ray_Spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "gamma-ray Spectrometer Instrument"@en ;
@@ -1067,6 +1202,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/geometrics_spectrometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "geometrics spectrometer Instrument"@en ;
@@ -1075,6 +1211,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/gr800> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-05-28" ;
             rdf:value "Start date for the use of this Airborn_Radiometric" ] ;
     skos:definition "gr800 Instrument"@en ;
@@ -1092,11 +1229,13 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-11-15T11:29:15"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:date "2016-11-15T11:29:15.000" ;
+    dcterms:modified "2016-11-15T11:29:15"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 15-Nov-2016 version of the Airborn Radiometric vocabulary"@en ;
+    skos:definition "Geoscience Australia's 15-Nov-2016 version of the Airborn Radiometric vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256-chan__Exploranium_GR820>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_Channel_Exploranium_GR800B>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/256_Channel_Exploranium_GR800D>,
@@ -1232,5 +1371,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/gamma-ray_Spectrometer>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/geometrics_spectrometer>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Radiometric/gr800> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Airborn Radiometric"@en .
+    skos:prefLabel "Airborn Radiometric"@en .
 

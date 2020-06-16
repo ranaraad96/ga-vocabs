@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Data_Types> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Data_Types/BATH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "BATH"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/ECO> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ECO"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/ELE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ELE"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/FDE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "FDE"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/GEOL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GEOL"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -40,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/GRAV> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GRAV"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -47,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROBAOFS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROBAOFS"@en ;
     skos:definition "The British Admiralty was responsible for the charting of Australian waters until this task was taken over by the Royal Australian Navy.  These are the original fairsheets (using lead line sounding) u"@en ;
     skos:inScheme cs: ;
@@ -55,6 +63,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROBASC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROBASC"@en ;
     skos:definition "The British Admiralty was responsible for the charting of Australian waters until this task was taken over by the Royal Australian Navy.  All of these charts have now been superceded by Australian cha"@en ;
     skos:inScheme cs: ;
@@ -63,6 +72,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROFS_NOTRAN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROFS_NOTRAN"@en ;
     skos:definition "Fairsheet data is Hydrographic Sounding data that has been checked for accuracy and plotted onto a paper fairsheet as the penultimate stage of producing charts for navigation.  These fairsheets could "@en ;
     skos:inScheme cs: ;
@@ -71,6 +81,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROFS_RANCG> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROFS_RANCG"@en ;
     skos:definition "Fairsheet data is Hydrographic Sounding data that has been checked for accuracy and plotted onto a paper fairsheet as the penultimate stage of producing charts for navigation.  These fairsheets have b"@en ;
     skos:inScheme cs: ;
@@ -79,6 +90,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROFS_RANHD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROFS_RANHD"@en ;
     skos:definition "Fairsheet data is Hydrographic Sounding data that has been checked for accuracy and plotted onto a paper fairsheet as the penultimate stage of producing charts for navigation.  These fairsheets have b"@en ;
     skos:inScheme cs: ;
@@ -87,6 +99,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROGEBCOSS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROGEBCOSS"@en ;
     skos:definition "The General Bathymetric Charts of the Oceans are produced under the auspices of the IHO and IHB using shiptrack data from many nations.  These are sounding sheets used to produce the GEBCO charts.  Th"@en ;
     skos:inScheme cs: ;
@@ -95,6 +108,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROGEBCOTPS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROGEBCOTPS"@en ;
     skos:definition "The General Bathymetric Charts of the Oceans are produced under the auspices of the IHO and IHB using shiptrack data from many nations.  These charts show the loaction of the shiptracks used to produc"@en ;
     skos:inScheme cs: ;
@@ -103,6 +117,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROICCAUST> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROICCAUST"@en ;
     skos:definition "Sheets showing the loaction of Charts and Chart related products."@en ;
     skos:inScheme cs: ;
@@ -110,6 +125,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROLADS_C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROLADS_C"@en ;
     skos:definition "Laser Airborne Depth Sounder (LADS) data is collected by directing a laser light source into the ocean which can be used to determine water depth in shallow water (less than 35m)  LADS data is high pr"@en ;
     skos:inScheme cs: ;
@@ -118,6 +134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROLADS_RAN> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROLADS_RAN"@en ;
     skos:definition "Laser Airborne Depth Sounder (LADS) data is collected by directing a laser light source into the ocean which can be used to determine water depth in shallow water (less than 35m)  LADS data is high pr"@en ;
     skos:inScheme cs: ;
@@ -126,6 +143,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDROMISCCH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDROMISCCH"@en ;
     skos:definition "Charts are nautical maps used for navigating vessels in safe waters."@en ;
     skos:inScheme cs: ;
@@ -133,6 +151,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDRONATMAP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDRONATMAP"@en ;
     skos:definition "NATMAP, a Commonwealth Agency undertook bathymetric surveys of Australias continental shelf over a period of several years in the early 1970s.  Generally the spacing of the sounding tracks is 3 nautic"@en ;
     skos:inScheme cs: ;
@@ -141,6 +160,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/HYDRORANAFI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HYDRORANAFI"@en ;
     skos:definition "Superceded sheets showing the index of file locations for the fairsheet holdings of the Royal Australian Navy"@en ;
     skos:inScheme cs: ;
@@ -148,6 +168,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/MAG> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MAG"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -155,6 +176,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/RAD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "RAD"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -162,6 +184,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/RAL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "RAL"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -169,6 +192,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/SEIS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SEIS"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -176,6 +200,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/SEISF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SEISF"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -183,6 +208,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/SEISR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SEISR"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -190,6 +216,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/SWATH> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SWATH"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -197,6 +224,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/TDE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "TDE"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -204,6 +232,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Types/WATER> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WATER"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -222,10 +251,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Data Types vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Data Types vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Data_Types/BATH>,
         <http://pid.geoscience.gov.au/def/Data_Types/ECO>,
         <http://pid.geoscience.gov.au/def/Data_Types/ELE>,
@@ -254,5 +284,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Data_Types/SWATH>,
         <http://pid.geoscience.gov.au/def/Data_Types/TDE>,
         <http://pid.geoscience.gov.au/def/Data_Types/WATER> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Data Types"@en .
+    skos:prefLabel "Data Types"@en .
 

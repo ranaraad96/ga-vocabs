@@ -1,76 +1,89 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Connection_Equip_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/ADSL_Modem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ADSL Modem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Ethernet_Router> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ethernet Router"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Ethernet_Switch> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ethernet Switch"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/External_Modem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "External Modem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Multiplexor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Multiplexor"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Serial_Console_Port_Manager> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Serial Console Port Manager"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Stallion_Board> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Stallion Board"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/USB_to_Serial_Converter> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "USB to Serial Converter"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/VSAT_Dish> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "VSAT Dish"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/VSAT_modem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "VSAT modem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Wireless_Modem> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wireless Modem"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Yagi_Antenna> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Yagi Antenna"@en ;
@@ -88,10 +101,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Connection Equip Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Connection Equip Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Connection_Equip_Type/ADSL_Modem>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Ethernet_Router>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Ethernet_Switch>,
@@ -104,5 +118,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Connection_Equip_Type/VSAT_modem>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Wireless_Modem>,
         <http://pid.geoscience.gov.au/def/Connection_Equip_Type/Yagi_Antenna> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Connection Equip Type"@en .
+    skos:prefLabel "Connection Equip Type"@en .
 

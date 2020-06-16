@@ -1,11 +1,13 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/A_I_R_Digital> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "A.I.R Digital Instrument"@en ;
@@ -14,6 +16,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2004-03-26" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB Instrument"@en ;
@@ -22,6 +25,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB,_PTB_200> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2010-02-11" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB, PTB 200 Instrument"@en ;
@@ -30,6 +34,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB_-_PTB_200> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-09-07" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB - PTB 200 Instrument"@en ;
@@ -38,6 +43,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB_Barometric_Altimeter> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2003-07-15" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB Barometric Altimeter Instrument"@en ;
@@ -46,6 +52,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB_PTB_200> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-02-18" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB PTB 200 Instrument"@en ;
@@ -54,6 +61,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB_baro_altimeter_PTB_200> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-10-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB baro altimeter PTB 200 Instrument"@en ;
@@ -62,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB_barometric_altimeter> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2007-10-03" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Air DB barometric altimeter Instrument"@en ;
@@ -70,6 +79,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Ashtech_XII> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Ashtech XII Instrument"@en ;
@@ -78,6 +88,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Digiquartz_215A-101> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Digiquartz 215A-101 Instrument"@en ;
@@ -86,6 +97,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Digital> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Digital Instrument"@en ;
@@ -94,6 +106,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/FASDAS_Enviro_Sensor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-06-17" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "FASDAS Enviro Sensor Instrument"@en ;
@@ -102,6 +115,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/FASDAS_Enviro_sensor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-09-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "FASDAS Enviro sensor Instrument"@en ;
@@ -110,6 +124,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Paroscientific_Digibaro> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-10-24" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Paroscientific Digibaro Instrument"@en ;
@@ -118,6 +133,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Rosemount> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Rosemount Instrument"@en ;
@@ -126,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Rosemount_1241> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2010-07-13" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Rosemount 1241 Instrument"@en ;
@@ -134,6 +151,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Rosemount_1241M> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Rosemount 1241M Instrument"@en ;
@@ -142,6 +160,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Rosemount_1241m> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Rosemount 1241m Instrument"@en ;
@@ -150,6 +169,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Rosemount_recording_barometer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2002-07-08" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Rosemount recording barometer Instrument"@en ;
@@ -158,6 +178,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2011-04-04" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala Instrument"@en ;
@@ -166,6 +187,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/VaisalaPTB220> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-05-05" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "VaisalaPTB220 Instrument"@en ;
@@ -174,6 +196,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PMB-100> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-06-21" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PMB-100 Instrument"@en ;
@@ -182,6 +205,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PMB100> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-06-04" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PMB100 Instrument"@en ;
@@ -190,6 +214,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PMB_100> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-11-13" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PMB 100 Instrument"@en ;
@@ -198,6 +223,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PMB_100_pressure_sensor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-04-29" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PMB 100 pressure sensor Instrument"@en ;
@@ -206,6 +232,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB220> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-09-19" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB220 Instrument"@en ;
@@ -214,6 +241,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_2000A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-24" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB 2000A Instrument"@en ;
@@ -222,6 +250,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_2000_A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2006-08-24" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB 2000 A Instrument"@en ;
@@ -230,6 +259,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_200A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-12-10" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB 200A Instrument"@en ;
@@ -238,6 +268,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_200A___Par__Digibaro> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2005-09-29" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB 200A & Par. Digibaro Instrument"@en ;
@@ -246,6 +277,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_220> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2009-10-21" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala PTB 220 Instrument"@en ;
@@ -254,6 +286,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_pressure_transducer> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2013-05-21" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisala pressure transducer Instrument"@en ;
@@ -262,6 +295,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisela> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:changeNote [ dcterms:date "2008-04-10" ;
             rdf:value "Start date for the use of this Airborn_Barometer" ] ;
     skos:definition "Vaisela Instrument"@en ;
@@ -281,10 +315,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2016-11-15T11:29:15"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2016-11-15T11:29:15"^^xsd:dateTime ;
+    dcterms:modified "2016-11-15T11:29:15"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 15-Nov-2016 version of the Airborn Barometer vocabulary"@en ;
+    skos:definition "Geoscience Australia's 15-Nov-2016 version of the Airborn Barometer vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/A_I_R_Digital>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Air_DB,_PTB_200>,
@@ -318,5 +353,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_PTB_220>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisala_pressure_transducer>,
         <http://pid.geoscience.gov.au/def/voc/Airborn_Barometer/Vaisela> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Airborn Barometer"@en .
+    skos:prefLabel "Airborn Barometer"@en .
 

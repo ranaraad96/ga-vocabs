@@ -1,40 +1,47 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Data_Product_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/15min_RINEX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "15 minute RINEX files"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "15min RINEX"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/Daily_RINEX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Daily (24 hour) RINEX files"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Daily RINEX"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/Hourly_RINEX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Hourly (1 hour) RINEX files"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hourly RINEX"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/Meteorological_RINEX> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Meteorological files in RINEX format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Meteorological RINEX"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/RTCM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RTCM"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Product_Type/RTIGS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Real-time IGS format"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RTIGS"@en ;
@@ -52,15 +59,16 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Data Product Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Data Product Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Data_Product_Type/15min_RINEX>,
         <http://pid.geoscience.gov.au/def/Data_Product_Type/Daily_RINEX>,
         <http://pid.geoscience.gov.au/def/Data_Product_Type/Hourly_RINEX>,
         <http://pid.geoscience.gov.au/def/Data_Product_Type/Meteorological_RINEX>,
         <http://pid.geoscience.gov.au/def/Data_Product_Type/RTCM>,
         <http://pid.geoscience.gov.au/def/Data_Product_Type/RTIGS> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Data Product Type"@en .
+    skos:prefLabel "Data Product Type"@en .
 

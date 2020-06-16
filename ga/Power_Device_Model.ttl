@@ -1,154 +1,180 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Power_Device_Model> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Backups_350> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Backups 350"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_SUOL48XLBP> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC SUOL48XLBP"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Smart-UPS_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Smart-UPS 1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Smart-UPS_1000XL> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Smart-UPS 1000XL"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Smart-UPS_1500> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Smart-UPS 1500"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Smart-UPS_RT_SURT1000XLI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Smart-UPS RT SURT1000XLI"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Smart-UPS_SOUL1000XLI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Smart-UPS SOUL1000XLI"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Tower_Smart-UPS_Online1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "APC Tower Smart-UPS Online1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Best> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Best"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/CE-0034> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CE-0034"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/CE-0034A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CE-0034A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/CMS-6R4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CMS-6R4"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/CRITEC_PLF_A_2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "CRITEC PLF A 2"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/EPS_2404> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EPS 2404"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Eaton_Corporation> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Eaton Corporation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Federal_GC1210> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Federal GC1210"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Flexmax_60> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Flexmax 60"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/IPS-400> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "IPS-400"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/ProStar-15> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ProStar-15"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/ProStar-30> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ProStar-30"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Sola_UPS_1000> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sola UPS 1000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Sola_UPS_520> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sola UPS 520"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/TrueCharge20> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TrueCharge20"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Power_Device_Model/Unknown> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
@@ -166,10 +192,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Power Device Model vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Power Device Model vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Power_Device_Model/APC>,
         <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_Backups_350>,
         <http://pid.geoscience.gov.au/def/Power_Device_Model/APC_SUOL48XLBP>,
@@ -195,5 +222,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Power_Device_Model/Sola_UPS_520>,
         <http://pid.geoscience.gov.au/def/Power_Device_Model/TrueCharge20>,
         <http://pid.geoscience.gov.au/def/Power_Device_Model/Unknown> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Power Device Model"@en .
+    skos:prefLabel "Power Device Model"@en .
 

@@ -1,88 +1,103 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Vertical_Class> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/2A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "High precision National geodetic surveys. The standard deviation is less than a maximum allowable value r=C(d+0.2) where C value (for one sigma) = 3"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "2A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/3A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Special high precision surveys. The standard deviation is less than a maximum allowable value r=C(d+0.2) where C value (for one sigma) = 1"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "3A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/A> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "National and State geodetic surveys The standard deviation is less than a maximum allowable value r=C(d+0.2) where C value (for one sigma) = 7.5"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "A"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Densification of geodetic survey The standard deviation is less than a maximum allowable value r=C(d+0.2) where C value (for one sigma) = 15"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "B"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Survey coordination projects. The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 30"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "C"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/D> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Lower CLASS projects. The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 50"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "D"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/E> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Lower CLASS projects The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 100"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "E"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/F> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "F"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Provisional A - National and State geodetic surveys The standard deviation is less than a maximum allowable value r=C(d+0.2).  where C value (for one sigma) = 7.5"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PA"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Provisional: Densification of geodetic survey. The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 15"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PB"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Provisional: Survey coordination projects. The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 30"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PC"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Provisional: Lower CLASS projects. The standard deviation is less than a maximum allowable value r=C(d+0.2)  where C value (for one sigma) = 50"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PE> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Provisional: Lower CLASS projects. The standard deviation is less than a maximum allowable value r=C(d+0.2) where C value (for one sigma) = 100"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PE"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Vertical_Class/PF> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PF"@en ;
@@ -100,10 +115,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Vertical Class vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Vertical Class vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Vertical_Class/2A>,
         <http://pid.geoscience.gov.au/def/Vertical_Class/3A>,
         <http://pid.geoscience.gov.au/def/Vertical_Class/A>,
@@ -118,5 +134,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Vertical_Class/PD>,
         <http://pid.geoscience.gov.au/def/Vertical_Class/PE>,
         <http://pid.geoscience.gov.au/def/Vertical_Class/PF> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Vertical Class"@en .
+    skos:prefLabel "Vertical Class"@en .
 

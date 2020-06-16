@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/States> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/States/AAT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "AAT"@en ;
     skos:definition "Australian Antarctic Territory"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/AC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "AC"@en ;
     skos:definition "Ashmore  and Cartier Islands"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/ACT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ACT"@en ;
     skos:definition "Australian Capital Territory"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/CHR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "CHR"@en ;
     skos:definition "Christmas Island"@en ;
     skos:inScheme cs: ;
@@ -33,6 +38,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/COC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "COC"@en ;
     skos:definition "Cocos (Keeling) Islands"@en ;
     skos:inScheme cs: ;
@@ -40,6 +46,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/COR> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "COR"@en ;
     skos:definition "Coral Sea Islands "@en ;
     skos:inScheme cs: ;
@@ -47,6 +54,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/HEA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "HEA"@en ;
     skos:definition "Heard and McDonald Islands"@en ;
     skos:inScheme cs: ;
@@ -54,6 +62,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/IOT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "IOT"@en ;
     skos:definition "Indian Ocean Territories"@en ;
     skos:inScheme cs: ;
@@ -61,6 +70,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/JER> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "JER"@en ;
     skos:definition "Jervis Bay Territory"@en ;
     skos:inScheme cs: ;
@@ -68,6 +78,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/JPDA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "JPDA"@en ;
     skos:definition "Joint Petroleum Development Area"@en ;
     skos:inScheme cs: ;
@@ -75,6 +86,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/NFK> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "NFK"@en ;
     skos:definition "Norfolk Island"@en ;
     skos:inScheme cs: ;
@@ -82,6 +94,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/NSW> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "NSW"@en ;
     skos:definition "New South Wales"@en ;
     skos:inScheme cs: ;
@@ -89,6 +102,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/NT> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "NT"@en ;
     skos:definition "Northern Territory"@en ;
     skos:inScheme cs: ;
@@ -96,6 +110,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/QLD> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "QLD"@en ;
     skos:definition "Queensland"@en ;
     skos:inScheme cs: ;
@@ -103,6 +118,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/SA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "SA"@en ;
     skos:definition "South Australia"@en ;
     skos:inScheme cs: ;
@@ -110,6 +126,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/TAS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "TAS"@en ;
     skos:definition "Tasmania"@en ;
     skos:inScheme cs: ;
@@ -117,6 +134,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/VIC> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "VIC"@en ;
     skos:definition "Victoria"@en ;
     skos:inScheme cs: ;
@@ -124,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/WA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WA"@en ;
     skos:definition "Western Australia"@en ;
     skos:inScheme cs: ;
@@ -131,6 +150,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/States/ZOCA> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ZOCA"@en ;
     skos:definition "Zone of Cooperation Area"@en ;
     skos:inScheme cs: ;
@@ -149,10 +169,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the States vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the States vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/States/AAT>,
         <http://pid.geoscience.gov.au/def/States/AC>,
         <http://pid.geoscience.gov.au/def/States/ACT>,
@@ -172,5 +193,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/States/VIC>,
         <http://pid.geoscience.gov.au/def/States/WA>,
         <http://pid.geoscience.gov.au/def/States/ZOCA> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - States"@en .
+    skos:prefLabel "States"@en .
 
