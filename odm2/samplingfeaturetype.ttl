@@ -3,6 +3,7 @@
 @prefix odm2: <http://vocabulary.odm2.org/ODM2/ODM2Terms/> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.odm2.org> a sdo:Organization ;
@@ -13,7 +14,7 @@
     odm2:category "Specimen" ;
     skos:definition "A CTD (Conductivity, Temperature, and Depth) cast is a water column depth profile collected over a specific and relatively short date-time range, that can be considered as a parent specimen." ;
     skos:historyNote "SESAR. See http://www.geosamples.org/help/vocabularies#object." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "CTD" ;
     skos:topConceptOf cs: .
 
@@ -21,7 +22,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A narrow shaft bored into the ground, either vertically or horizontally. A borehole includes the hole cavity and walls surrounding that cavity." ;
     skos:historyNote "Example from OGC Observations & Measurements, but listed as Sample Type in SESAR" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model).  Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Borehole)." ;
     skos:prefLabel "Borehole" ;
     skos:topConceptOf cs: .
@@ -30,7 +31,7 @@
     odm2:category "SamplingSurface" ;
     skos:definition "The intersection of a body in three-dimensional space with a plane.  Represented as a polygon." ;
     skos:historyNote "Term from OGC Observations & Measurements. Partial definition from Wikipedia." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model).  Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Cross_section_(geometry))." ;
     skos:prefLabel "Cross section" ;
     skos:topConceptOf cs: .
@@ -39,7 +40,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A discrete segment along a longer vertical path, such as a borehole, soil profile or other depth profile, in which an observation or specimen is collected over the distance between the upper and lower depth limits of the interval. A Depth Interval is a sub-type of Interval." ;
     skos:historyNote "CZchemDB" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Depth interval" ;
     skos:topConceptOf cs: .
 
@@ -48,7 +49,7 @@
     skos:definition "Ecological land classification is a cartographical delineation of distinct ecological areas, identified by their geology, topography, soils, vegetation, climate conditions, living species, habitats, water resources, as well as anthropic factors. These factors control and influence biotic composition and ecological processes." ;
     skos:exactMatch "https://en.wikipedia.org/wiki/Ecological_land_classification" ;
     skos:historyNote "Wikipedia" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Ecological land classification" ;
     skos:topConceptOf cs: .
 
@@ -56,7 +57,7 @@
     odm2:category "SamplingSolid" ;
     skos:definition "An artificially constructed cavity in the earth that is deeper than the soil, larger than a well bore, and substantially open to the atmosphere. The diameter of an excavation is typically similar or larger than the depth. Excavations include building-foundation diggings, roadway cuts, and surface mines." ;
     skos:historyNote "Originally from USGS Site Types" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "This is a term from the USGS site types http://wdr.water.usgs.gov/nwisgmap/help/sitetype.html that was originally included in the CUAHSI SiteTypeCV.  It is more appropriate as a SamplingFeatureType." ;
     skos:prefLabel "Excavation" ;
     skos:topConceptOf cs: .
@@ -65,7 +66,7 @@
     odm2:category "SamplingSurface" ;
     skos:definition "A location at which field experiments or observations of ambient conditions are conducted. A field area may contain many sites and has a geographical footprint that can be represented by a polygon." ;
     skos:historyNote "Used by CriticalZone.org" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Useful for Critical Zone Observatory network and other programs to describe a terrestrial research area.  Can be hiearchical (i.e. CRB-CZO > WhiteClayCreek@SWRC > TransectA.  See http://criticalzone.org/christina/infrastructure/field-areas-christina/)." ;
     skos:prefLabel "Field area" ;
     skos:topConceptOf cs: .
@@ -74,7 +75,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A path along which an aircraft travels while measuring a phenomena of study." ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model)" ;
     skos:prefLabel "Flightline" ;
     skos:topConceptOf cs: .
@@ -83,7 +84,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A discrete segment along a longer path in which an observation or specimen is collected over the distance between the upper and lower bounds of the interval. A Depth Interval is a sub-type of Interval." ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model)" ;
     skos:prefLabel "Interval" ;
     skos:topConceptOf cs: .
@@ -92,7 +93,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A hole or shaft constructed in the earth intended to be used to locate, sample, or develop groundwater, oil, gas, or some other subsurface material. The diameter of a well is typically much smaller than the depth. Wells are also used to artificially recharge groundwater or to pressurize oil and gas production zones. Specific kinds of wells should be specified in the SamplingFeature description. For example, underground waste-disposal wells should be classified as waste injection wells." ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "The term is from OGC Observations and Measurements (see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model), but the definition is from the USGS SiteTypes http://wdr.water.usgs.gov/nwisgmap/help/sitetype.html." ;
     skos:prefLabel "Observation well" ;
     skos:topConceptOf cs: .
@@ -101,7 +102,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A one-dimensional grid at fixed (x, y, t) coordinates within a four-dimensional (x, y, z, t) coordinate reference system. The grid axis is aligned with the coordinate reference system z-axis. Typically used to characterize or measure phenomena as a function of depth." ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model)" ;
     skos:prefLabel "Profile" ;
     skos:topConceptOf cs: .
@@ -110,7 +111,7 @@
     odm2:category "SamplingSurface" ;
     skos:definition "A small plot used to isolate a standard unit of area for study of the distribution of an item over a large area." ;
     skos:historyNote "Term from OGC Observations & Measurements. Partial definition from Wikipedia." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model). Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Quadrat)." ;
     skos:prefLabel "Quadrat" ;
     skos:topConceptOf cs: .
@@ -119,7 +120,7 @@
     odm2:category "SamplingSurface" ;
     skos:definition "A two-dimensional visual extent within a physical environment." ;
     skos:historyNote "Term from OGC Observations & Measurements. Partial definition from Wikipedia." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model).  Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Scene_(perception))." ;
     skos:prefLabel "Scene" ;
     skos:topConceptOf cs: .
@@ -128,7 +129,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A path along which a ship or vessel travels while measuring a phenomena of study.  Represented as a line connecting the ship's consecutive positions on the surface of the earth." ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model)" ;
     skos:prefLabel "Ships track" ;
     skos:topConceptOf cs: .
@@ -137,7 +138,7 @@
     odm2:category "SamplingPoint" ;
     skos:definition "A facility or location at which observations have been collected. A site may have instruments or equipment installed and may contain multiple other sampling features (e.g., a stream gage, weather station, observation well, etc.). Additionally, many specimen sampling features may be collected at a site. Sites are also often referred to as stations. A site is represented as a point, but it may have a geographical footprint that is not a point. The site coordinates serve as a reference for the site and offsets may be specified from this reference location." ;
     skos:historyNote "CUAHSI Observations Data Model" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Site" ;
     skos:topConceptOf cs: .
 
@@ -145,7 +146,7 @@
     odm2:category "SamplingSurface" ;
     skos:definition "Two-dimensional vertical face of a soil pit that is described and sampled." ;
     skos:historyNote "CZchemDB" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Soil pit section" ;
     skos:topConceptOf cs: .
 
@@ -154,7 +155,7 @@
     skos:definition "A physical sample (object or entity) obtained for observations, typically performed ex situ, often in a laboratory." ;
     skos:exactMatch "http://www.opengis.net/def/samplingFeatureType/OGC-OM/2.0/SF_Specimen" ;
     skos:historyNote "OGC Observations & Measurements" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Specimen" ;
     skos:topConceptOf cs: .
 
@@ -162,7 +163,7 @@
     odm2:category "SamplingPoint" ;
     skos:definition "A location used to monitor and test terrestrial bodies of water. Hydrometric measurements of water level, surface elevation (\"stage\") and/or volumetric discharge (flow) are generally taken, and observations of biota and water quality may also be made." ;
     skos:historyNote "Term adapted from Wikipedia" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Definition adapted from Wikpedia (http://en.wikipedia.org/wiki/Stream_gauge)." ;
     skos:prefLabel "Stream gage" ;
     skos:topConceptOf cs: .
@@ -171,7 +172,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "The path that a moving object follows through space as a function of time. A trajectory can be described by the geometry of the path or as the position of the object over time." ;
     skos:historyNote "Term from OGC Observations & Measurements. Partial definition from Wikipedia." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model). Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Trajectory)." ;
     skos:prefLabel "Trajectory" ;
     skos:topConceptOf cs: .
@@ -179,7 +180,7 @@
 <http://vocabulary.odm2.org/samplingfeaturetype/transect> a skos:Concept ;
     odm2:category "SamplingCurve" ;
     skos:definition "A path along which ocurrences of a phenomena of study are counted or measured." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Transect" ;
     skos:topConceptOf cs: .
 
@@ -187,7 +188,7 @@
     odm2:category "SamplingCurve" ;
     skos:definition "A field control network consisting of survey stations placed along a line or path of travel." ;
     skos:historyNote "Term from OGC Observations & Measurements. Partial definition from Wikipedia." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Term retrived from OGC Observations & Measurements (e.g., see https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling#Sampling_model). Parts of the definition came from Wikipedia (see http://en.wikipedia.org/wiki/Traverse_(surveying))." ;
     skos:prefLabel "Traverse" ;
     skos:topConceptOf cs: .
@@ -195,7 +196,7 @@
 <http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation> a skos:Concept ;
     odm2:category "SamplingPoint" ;
     skos:definition "A location used to monitor and test the quality of terrestrial bodies of water. Water quality stations may be locations at which physical water samples are collected for ex situ analysis.  Water qulaity stations may also have instruments and equipment for continuous, in situ measurement of water quality variables." ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:prefLabel "Water quality station" ;
     skos:topConceptOf cs: .
 
@@ -203,7 +204,7 @@
     odm2:category "SamplingPoint" ;
     skos:definition "A facility, either on land or sea, with instruments and equipment for measuring atmospheric conditions to provide information for weather forecasts and to study weather and climate." ;
     skos:historyNote "Term adapted from Wikipedia" ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:note "Definition adapted from Wikpedia (http://en.wikipedia.org/wiki/Weather_station)." ;
     skos:prefLabel "Weather station" ;
     skos:topConceptOf cs: .
@@ -239,4 +240,5 @@ cs: a skos:ConceptScheme ;
     dcterms:publisher <http://www.odm2.org> ;
     dcterms:created "2000-01-01"^^xsd:date ;
     dcterms:modified "2000-01-01"^^xsd:date ;
+    dcterms:provenance "This vocabulary is reproduced as-is from its URI publication location"@en ;
 .
