@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/G2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "G2"@en ;
     skos:definition "Gas zone with water saturation less than approximately 80% with poor results from well testing"@en ;
     skos:inScheme cs: ;
@@ -12,6 +14,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/G4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "G4"@en ;
     skos:definition "Gas zone with water saturation less than approximately 80% with supporting results from well testing"@en ;
     skos:inScheme cs: ;
@@ -19,6 +22,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/L2> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "L2"@en ;
     skos:definition "Oil zone with water saturation less than approximately 80% with poor results from well testing"@en ;
     skos:inScheme cs: ;
@@ -26,6 +30,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/L4> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "L4"@en ;
     skos:definition "Oil zone with water saturation less than approximately 80% with supporting results from well testing"@en ;
     skos:inScheme cs: ;
@@ -33,9 +38,10 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/NS> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "NS"@en ;
-    skos:definition "No shows for any category"@en,
-        "No zones of significant saturation observed"@en ;
+    skos:definition "No shows for any category; No zones of significant saturation observed"@en ;
+    skos:editorialNote "Two definitions from the DB combined into one" ;
     skos:inScheme cs: ;
     skos:prefLabel "No indications"@en,
         "No pay"@en ;
@@ -53,14 +59,15 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Hydrocarbon Show Interpretation vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Hydrocarbon Show Interpretation vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/G2>,
         <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/G4>,
         <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/L2>,
         <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/L4>,
         <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Interpretation/NS> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Hydrocarbon Show Interpretation"@en .
+    skos:prefLabel "Hydrocarbon Show Interpretation"@en .
 

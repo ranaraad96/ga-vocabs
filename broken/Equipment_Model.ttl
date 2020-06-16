@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Equipment_Model> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Antenna> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Antenna"@en ;
     skos:definition "Dorne Margolin with chokerings (TurboRogue)/part #s 7490400-1 7490400-4 7490582-1 7490582-2 7490582-B"@en,
         "Dorne Margolin with chokerings, Model 700936B changed internal RF cabling"@en,
@@ -126,6 +128,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Cesium_Clock> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Cesium Clock"@en ;
     skos:definition "Cesium primary frequency standard "@en,
         "HP Atomic Clock"@en,
@@ -139,6 +142,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Hydrogen_Maser> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Hydrogen Maser"@en ;
     skos:definition "Active Hydrogen Frequency Standard "@en,
         "MANDATORY FIELD"@en,
@@ -151,6 +155,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Met_Sensor> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Met Sensor"@en ;
     skos:definition "Fan-Aspirated Meteorological Measurement Systems for GPS Meteorology "@en,
         "MANDATORY FIELD"@en,
@@ -164,6 +169,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Receiver> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Receiver"@en ;
     skos:definition "12  channel, L1/L2 P1/P2 [includes Models 700570, 700724 (Z-12) and 700845 (including LPZ-12 and Z-12 CGRS)]"@en,
         "12 channel L1/L2 CORS receiver (RTK out standard) "@en,
@@ -414,6 +420,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Rubidium_Clock> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Rubidium Clock"@en ;
     skos:definition "Symmetricom XL-DC GPS Time and Frequency Receiver "@en ;
     skos:inScheme cs: ;
@@ -421,6 +428,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Equipment_Model/Water_Vapor_Radiomet> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Water Vapor Radiomet"@en ;
     skos:definition "MANDATORY FIELD"@en ;
     skos:inScheme cs: ;
@@ -439,10 +447,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Equipment Model vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Equipment Model vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Equipment_Model/Antenna>,
         <http://pid.geoscience.gov.au/def/Equipment_Model/Cesium_Clock>,
         <http://pid.geoscience.gov.au/def/Equipment_Model/Hydrogen_Maser>,
@@ -450,5 +459,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Equipment_Model/Receiver>,
         <http://pid.geoscience.gov.au/def/Equipment_Model/Rubidium_Clock>,
         <http://pid.geoscience.gov.au/def/Equipment_Model/Water_Vapor_Radiomet> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Equipment Model"@en .
+    skos:prefLabel "Equipment Model"@en .
 

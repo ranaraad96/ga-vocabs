@@ -1,10 +1,12 @@
 @prefix cs: <http://pid.geoscience.gov.au/def/Data_Type> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Data_Type/B> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "B"@en ;
     skos:definition "Addition to supplied report containing data that is all classified as Basic/Documentary."@en,
         "Airborne Laser Flourescence."@en,
@@ -147,6 +149,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/C> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "C"@en ;
     skos:definition "Application to conduct PSLA work (well, survey)"@en,
         "Report required under PSLA to drill a well."@en,
@@ -158,6 +161,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/I> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "I"@en ;
     skos:definition "Addition to supplied report containing data that is all classified as Interpretive/Derivative."@en,
         "Additional enclosure in Well Completion Report."@en,
@@ -225,6 +229,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/M> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "M"@en ;
     skos:definition "Additional reports associated with well completion reports."@en,
         "Formation evaluation log produced by logging contractor and usually attached to the WCR Basic volume in Well Completion Report. Legacy data with unknown confidentiality."@en,
@@ -264,6 +269,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/R> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "R"@en ;
     skos:definition "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. "@en,
         "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. Acid digested coal"@en,
@@ -319,6 +325,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/XB> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "XB"@en ;
     skos:definition "Final product from seismic re-processing. Confidentiality period based on date of data receipt."@en,
         "Report capturing procedures/parameters used in re-processing a particular seismic survey."@en,
@@ -332,6 +339,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/XI> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "XI"@en ;
     skos:definition "Interpretation report from reprocessing activity."@en ;
     skos:inScheme cs: ;
@@ -339,6 +347,7 @@
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Data_Type/XM> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "XM"@en ;
     skos:definition "Legacy data type. Reprocessed data/report from seismic re-processing.  Not to be used in future."@en ;
     skos:inScheme cs: ;
@@ -357,10 +366,11 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Data Type vocabulary"@en ;
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the Data Type vocabulary"@en ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/Data_Type/B>,
         <http://pid.geoscience.gov.au/def/Data_Type/C>,
         <http://pid.geoscience.gov.au/def/Data_Type/I>,
@@ -369,5 +379,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Data_Type/XB>,
         <http://pid.geoscience.gov.au/def/Data_Type/XI>,
         <http://pid.geoscience.gov.au/def/Data_Type/XM> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Data Type"@en .
+    skos:prefLabel "Data Type"@en .
 

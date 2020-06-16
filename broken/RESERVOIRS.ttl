@@ -7,11 +7,12 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
-    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the RESERVOIRS vocabulary"@en ;
-    skos:prefLabel "Geoscience Australia Vocabulary - RESERVOIRS"@en .
+    skos:definition "Geoscience Australia's 12-Mar-2019 version of the RESERVOIRS vocabulary"@en ;
+    skos:prefLabel "RESERVOIRS"@en .
 
 <https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/ga> ;
