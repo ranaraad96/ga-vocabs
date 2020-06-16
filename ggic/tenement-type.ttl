@@ -6,12 +6,14 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tt: <http://resource.geoscience.gov.au/classifier/ggic/tenementtype/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://resource.geoscience.gov.au/classifier/ggic/tenementtype> a skos:Collection ;
-    dcterms:title "Tenement Type - All Concepts"@en ;
+    skos:prefLabel "Tenement Type - All Concepts"@en ;
+    skos:definition "All the Concepts in this ConceptScheme"@en ;
     skos:member tt:Christmas-Island-mining-lease,
         tt:ancillary-mining-licence,
         tt:assessment-lease,
@@ -99,7 +101,7 @@ tt:Christmas-Island-mining-lease a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.02"^^ggic-lhk: ;
     skos:prefLabel "Christmas Island mining lease"@en .
 
@@ -107,7 +109,7 @@ tt:ancillary-mining-licence a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:production ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.01"^^ggic-lhk: ;
     skos:prefLabel "ancillary mining licence"@en .
 
@@ -115,7 +117,7 @@ tt:assessment-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:exploration ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "AL"^^ggic-al:,
         "01.01"^^ggic-lhk: ;
     skos:prefLabel "assessment lease"@en .
@@ -124,7 +126,7 @@ tt:assessment-lease-private-mineral a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:exploration ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "A(MO)L"^^ggic-al:,
         "01.02"^^ggic-lhk: ;
     skos:prefLabel "assessment lease (private mineral)"@en .
@@ -133,7 +135,7 @@ tt:christmas-island-exploration-licence a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.03"^^ggic-lhk: ;
     skos:prefLabel "Christmas Island exploration licence"@en .
 
@@ -141,7 +143,7 @@ tt:coal-mining-lease a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Mining lease specifically for coal under repealed 1904 Act."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.03"^^ggic-lhk: ;
     skos:prefLabel "coal mining lease"@en .
 
@@ -149,7 +151,7 @@ tt:commonwealth-exploration-licence a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.04"^^ggic-lhk: ;
     skos:prefLabel "Commonwealth exploration licence"@en .
 
@@ -157,7 +159,7 @@ tt:consolidated-mining-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "CML"^^ggic-al:,
         "02.04"^^ggic-lhk: ;
     skos:prefLabel "consolidated mining lease"@en .
@@ -166,7 +168,7 @@ tt:continental-shelf-licence a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:exploration ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.05"^^ggic-lhk: ;
     skos:prefLabel "continental shelf licence"@en .
 
@@ -174,7 +176,7 @@ tt:dredging-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "DL"^^ggic-al:,
         "02.05"^^ggic-lhk: ;
     skos:prefLabel "dredging lease"@en .
@@ -183,7 +185,7 @@ tt:exploration-licence a skos:Concept ;
     dcterms:provenance "NSW, TAS, VIC, WA, SA, NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "TAS - Standard exploration tenement type for all commodities (Categories 1 to 6). VIC - http://www.austlii.edu.au/au/legis/vic/consol_act/mrda1990432/s13.html. WA - Block based system; max 70 blocks; term 5 years plus 2 extensions; surrender 50%; 100 tonnes of material."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EL"^^ggic-al:,
         "01.06"^^ggic-lhk: ;
     skos:prefLabel "exploration licence"@en .
@@ -192,7 +194,7 @@ tt:exploration-licence-application a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:exploration ;
     skos:definition "SA - Application for an Exploration Licence."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ELA"^^ggic-al:,
         "01.07"^^ggic-lhk: ;
     skos:prefLabel "exploration licence application"@en .
@@ -202,7 +204,7 @@ tt:exploration-licence-in-retention a skos:Concept ;
     skos:altLabel "retention licence"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - Licence to carry out feasibility study or retain ore body not economically viable. See also 'retention licence' used by other jurisdictions."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ELR"^^ggic-al:,
         "01.11"^^ggic-lhk: ;
     skos:prefLabel "exploration licence in retention"@en .
@@ -211,7 +213,7 @@ tt:exploration-licence-offshore a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.08"^^ggic-lhk: ;
     skos:prefLabel "exploration licence offshore"@en .
 
@@ -219,7 +221,7 @@ tt:exploration-licence-private-mineral a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:exploration ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "E(MO)L"^^ggic-al:,
         "01.09"^^ggic-lhk: ;
     skos:prefLabel "exploration licence (private mineral)"@en .
@@ -228,7 +230,7 @@ tt:exploration-licence-substitution a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - Replacement exploration licence when amalgamating two or more ELs after expiry of original grant/allowed renewal periods. No longer active title type under the MTA"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "SEL"^^ggic-al:,
         "01.10"^^ggic-lhk: ;
     skos:prefLabel "exploration licence - substitution"@en .
@@ -237,7 +239,7 @@ tt:exploration-permit a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:exploration ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.12"^^ggic-lhk: ;
     skos:prefLabel "exploration permit"@en .
 
@@ -245,7 +247,7 @@ tt:exploration-permit-for-coal a skos:Concept ;
     dcterms:provenance "QLD"@en ;
     skos:broader tt:exploration ;
     skos:definition "QLD - Standard exploration permit for coal which allows for overlap with EPM or EPS."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EPC"^^ggic-al:,
         "01.13"^^ggic-lhk: ;
     skos:prefLabel "exploration permit for coal"@en .
@@ -254,7 +256,7 @@ tt:exploration-permit-for-minerals a skos:Concept ;
     dcterms:provenance "QLD"@en ;
     skos:broader tt:exploration ;
     skos:definition "QLD - Standard exploration permit for minerals which allows for overlap with EPC and EPS."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EPM"^^ggic-al:,
         "01.14"^^ggic-lhk: ;
     skos:prefLabel "exploration permit for minerals"@en .
@@ -263,7 +265,7 @@ tt:exploration-permit-special a skos:Concept ;
     dcterms:provenance "QLD"@en ;
     skos:broader tt:exploration ;
     skos:definition "QLD - Special exploration permit for minerals which allows for overlap with EPM by mutual agreement with EPM holder where minerals sought are mutually exclusive."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EPS"^^ggic-al:,
         "01.15"^^ggic-lhk: ;
     skos:prefLabel "exploration permit special"@en .
@@ -272,7 +274,7 @@ tt:exploration-prospecting-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:exploration ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EPL"^^ggic-al:,
         "01.16"^^ggic-lhk: ;
     skos:prefLabel "exploration prospecting lease"@en .
@@ -280,16 +282,17 @@ tt:exploration-prospecting-lease a skos:Concept ;
 tt:exploration-release-area a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:exploration ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ERA"^^ggic-al:,
         "01.17"^^ggic-lhk: ;
+    skos:definition "missing"@en ;
     skos:prefLabel "exploration release area"@en .
 
 tt:extractive-mineral-exploration-licence a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - To explore for extractive minerals"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EMEL"^^ggic-al:,
         "01.18"^^ggic-lhk: ;
     skos:prefLabel "extractive mineral exploration licence"@en .
@@ -298,7 +301,7 @@ tt:extractive-mineral-lease a skos:Concept ;
     dcterms:provenance "SA, NT"@en ;
     skos:broader tt:production ;
     skos:definition "SA - An EML entitles the lessee to carry out mining operations specified in the lease for the recovery of extractive minerals. NT - To mine for extractive minerals and/or erect infrastructure"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EML"^^ggic-al:,
         "02.06"^^ggic-lhk: ;
     skos:prefLabel "extractive mineral lease"@en .
@@ -307,7 +310,7 @@ tt:extractive-mineral-permit a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:production ;
     skos:definition "NT - A permit to extract, remove, store or process extractive minerals"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "EMP"^^ggic-al:,
         "02.07"^^ggic-lhk: ;
     skos:prefLabel "extractive mineral permit"@en .
@@ -316,7 +319,7 @@ tt:fossicking-area a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - Declared areas for fossicking"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "FA"^^ggic-al:,
         "01.19"^^ggic-lhk: ;
     skos:prefLabel "fossicking area (s.131)"@en .
@@ -325,7 +328,7 @@ tt:general-purpose-lease a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Lease not specifically for mineral extraction. Linked to mining opreations for purposes of operating machinery and depositing tailings."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.08"^^ggic-lhk: ;
     skos:prefLabel "general purpose lease"@en .
 
@@ -333,7 +336,7 @@ tt:general-purpose-lease-sa a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Lease not specifically for mineral extraction. Linked to mining opreations for purposes of operating machinery and depositing tailings, in State Agreement area."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.09"^^ggic-lhk: ;
     skos:prefLabel "general purpose lease S.A."@en .
 
@@ -341,7 +344,7 @@ tt:gold-fossicking-area a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:exploration ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.20"^^ggic-lhk: ;
     skos:prefLabel "gold fossicking area"@en .
 
@@ -349,7 +352,7 @@ tt:gold-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "GL"^^ggic-al:,
         "02.10"^^ggic-lhk: ;
     skos:prefLabel "gold lease"@en .
@@ -358,7 +361,7 @@ tt:lease a skos:Concept ;
     dcterms:provenance "TAS"@en ;
     skos:broader tt:production ;
     skos:definition "TAS -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.11"^^ggic-lhk: ;
     skos:prefLabel "lease"@en .
 
@@ -366,7 +369,7 @@ tt:licence a skos:Concept ;
     dcterms:provenance "TAS"@en ;
     skos:broader tt:exploration ;
     skos:definition "TAS -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.21"^^ggic-lhk: ;
     skos:prefLabel "licence"@en .
 
@@ -374,7 +377,7 @@ tt:licence-to-treat-tailings a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Mining tenement under the repealed 1904 Act."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.12"^^ggic-lhk: ;
     skos:prefLabel "licence to treat tailings"@en .
 
@@ -382,7 +385,7 @@ tt:mineral-claim-converted-to-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "M(C)L"^^ggic-al:,
         "02.13"^^ggic-lhk: ;
     skos:prefLabel "mineral claim converted to lease"@en .
@@ -391,7 +394,7 @@ tt:mineral-claim-exploration a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.22"^^ggic-lhk: ;
     skos:prefLabel "mineral claim (exploration)"@en .
 
@@ -399,7 +402,7 @@ tt:mineral-claim-production a skos:Concept ;
     dcterms:provenance "SA, NT"@en ;
     skos:broader tt:production ;
     skos:definition "SA - An MC provides an exclusive right for 12 months to prospect for minerals within the claim area (conditions apply). NT - Small scale mining or exploration up to 40 Ha under the Mining Act. Not an active title type under the MTA and are in process of being converted to appropriate title type."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "MC"^^ggic-al:,
         "02.16"^^ggic-lhk: ;
     skos:prefLabel "mineral claim (production)"@en .
@@ -408,7 +411,7 @@ tt:mineral-development-licence a skos:Concept ;
     dcterms:provenance "QLD"@en ;
     skos:broader tt:exploration ;
     skos:definition "QLD - A holding permit for coal or minerals which allows further exploration and testing within limits."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "MDL"^^ggic-al:,
         "01.23"^^ggic-lhk: ;
     skos:prefLabel "mineral development licence"@en .
@@ -417,7 +420,7 @@ tt:mineral-lease a skos:Concept ;
     dcterms:provenance "SA, WA, NT"@en ;
     skos:broader tt:production ;
     skos:definition "SA - An ML entitles the lessee to carry out mining operations specified in the lease for the recovery of minerals other than extractive minerals. WA - Mining tenement under the repealed 1904 Act. NT - To mine for minerals, and/or erect infrastructures."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ML"^^ggic-al:,
         "02.14"^^ggic-lhk: ;
     skos:prefLabel "mineral lease"@en .
@@ -426,7 +429,7 @@ tt:mineral-lease-sa a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Special Agreement Act mineral lease."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.15"^^ggic-lhk: ;
     skos:prefLabel "mineral lease S.A."@en .
 
@@ -434,7 +437,7 @@ tt:mining-claim a skos:Concept ;
     dcterms:provenance "QLD"@en ;
     skos:broader tt:production ;
     skos:definition "QLD - Small scale mining activity commonly used for gemstones, opals and sometimes gold; Limited area and conditions on production methods"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "MC"^^ggic-al:,
         "02.17"^^ggic-lhk: ;
     skos:prefLabel "mining claim"@en .
@@ -443,7 +446,7 @@ tt:mining-lease a skos:Concept ;
     dcterms:provenance "NSW, TAS, WA, QLD"@en ;
     skos:broader tt:production ;
     skos:definition "TAS - Standard mineral extraction lease (for mineral categories 1,2,3 and 5). WA - Tenement on which there is an identified mineral resource for mining. Term 21 years + renewal."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ML"^^ggic-al:,
         "02.18"^^ggic-lhk: ;
     skos:prefLabel "mining lease"@en .
@@ -452,7 +455,7 @@ tt:mining-lease-SA a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Max area 200 ha,term 4 years can extract 500 tonnes of material"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.19"^^ggic-lhk: ;
     skos:prefLabel "mining lease S.A."@en .
 
@@ -460,7 +463,7 @@ tt:mining-licence a skos:Concept ;
     dcterms:provenance "VIC, NZ"@en ;
     skos:broader tt:production ;
     skos:definition "VIC - http://www.austlii.edu.au/au/legis/vic/consol_act/mrda1990432/s14.html"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.20"^^ggic-lhk: ;
     skos:prefLabel "mining licence"@en .
 
@@ -468,7 +471,7 @@ tt:mining-mineral-owner-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "M(MO)L"^^ggic-al:,
         "02.21"^^ggic-lhk: ;
     skos:prefLabel "mining (mineral owner) lease"@en .
@@ -477,7 +480,7 @@ tt:mining-permit a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:production ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.22"^^ggic-lhk: ;
     skos:prefLabel "mining permit"@en .
 
@@ -485,7 +488,7 @@ tt:mining-purposes-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "MPL"^^ggic-al:,
         "02.23"^^ggic-lhk: ;
     skos:prefLabel "mining purposes lease"@en .
@@ -494,7 +497,7 @@ tt:miscellaneous-licence a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Lease not specifically for mineral extraction. An ancilliary tenement to a mining lease for the purposes of infrastructure such as roads, pipelines etc."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.24"^^ggic-lhk: ;
     skos:prefLabel "miscellaneous licence"@en .
 
@@ -502,7 +505,7 @@ tt:miscellaneous-licence-sa a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:production ;
     skos:definition "WA - Lease not specifically for mineral extraction. An ancilliary tenement to a mining lease for the purposes of infrastructure such as roads, pipelines etc, under a Special Agreement Act."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.25"^^ggic-lhk: ;
     skos:prefLabel "miscellaneous licence S.A."@en .
 
@@ -510,7 +513,7 @@ tt:miscellaneous-purposes-licence a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:production ;
     skos:definition "SA - An MPL may be granted for any purpose ancillary to the conduct of mining operations, for example an operating plant, drainage or an access road."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "MPL"^^ggic-al:,
         "02.26"^^ggic-lhk: ;
     skos:prefLabel "miscellaneous purposes licence"@en .
@@ -519,7 +522,7 @@ tt:offshore-exploration-licence a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - Offshore Waters [Applications of Territory Laws] Act 1994. To explore for minerals outside of the 3 nautical mile"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "OEL"^^ggic-al:,
         "01.24"^^ggic-lhk: ;
     skos:prefLabel "offshore exploration licence"@en .
@@ -528,7 +531,7 @@ tt:offshore-mineral-licence a skos:Concept ;
     dcterms:provenance "TAS"@en ;
     skos:broader tt:exploration ;
     skos:definition "TAS -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.25"^^ggic-lhk: ;
     skos:prefLabel "offshore mineral licence"@en .
 
@@ -536,7 +539,7 @@ tt:offshore-mining-licence a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:production ;
     skos:definition "NT - Off-shore Waters [Application of Territory Laws] Act 1994 To mine for minerals outside the 3 nautical mile"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "OML"^^ggic-al:,
         "02.27"^^ggic-lhk: ;
     skos:prefLabel "offshore mining licence"@en .
@@ -545,7 +548,7 @@ tt:offshore-retention-licence a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - Off-shore Waters [Application of Territory Laws] Act 1994"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "ORL"^^ggic-al:,
         "01.26"^^ggic-lhk: ;
     skos:prefLabel "offshore retention licence"@en .
@@ -554,7 +557,7 @@ tt:offshore-special-purpose-consents a skos:Concept ;
     dcterms:provenance "NT"@en ;
     skos:broader tt:exploration ;
     skos:definition "NT - A special purpose consent authorises the holder to carry out either scientific investigations, a reconnaissance survey or collect a small amount of minerals. Actually a title under the Commonwealth Offshore Minerals Act, but each state were to use as model for within 3 mile limit."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "OSPC"^^ggic-al:,
         "01.27"^^ggic-lhk: ;
     skos:prefLabel "offshore special purpose consents"@en .
@@ -563,7 +566,7 @@ tt:private-lands-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "PLL"^^ggic-al:,
         "02.28"^^ggic-lhk: ;
     skos:prefLabel "private lands lease"@en .
@@ -572,7 +575,7 @@ tt:private-lands-mining-purposes-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "PL(MP)L"^^ggic-al:,
         "02.29"^^ggic-lhk: ;
     skos:prefLabel "private lands (mining purposes) lease"@en .
@@ -581,7 +584,7 @@ tt:private-mine a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:production ;
     skos:definition "SA - tenements declared prior to the Mining Act, 1971 and are subject to specific conditions."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.30"^^ggic-lhk: ;
     skos:prefLabel "private mine"@en .
 
@@ -589,7 +592,7 @@ tt:private-mining-operation a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:production ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.31"^^ggic-lhk: ;
     skos:prefLabel "private mining operation"@en .
 
@@ -597,7 +600,7 @@ tt:production-licence a skos:Concept ;
     dcterms:provenance "TAS"@en ;
     skos:broader tt:production ;
     skos:definition "TAS - for extraction of Geothermal (category 6) or onshore oil and gas (category 4)"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.32"^^ggic-lhk: ;
     skos:prefLabel "production licence"@en .
 
@@ -605,7 +608,7 @@ tt:prospecting-licence a skos:Concept ;
     dcterms:provenance "VIC, WA, NZ"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA - licence for prospecting, up to 200 hectares, 4 year term + 4year extension. Removal of up to 500 t of material allowed. VIC - http://www.austlii.edu.au/au/legis/vic/consol_act/mrda1990432/s14b.html"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.28"^^ggic-lhk: ;
     skos:prefLabel "prospecting licence"@en .
 
@@ -613,7 +616,7 @@ tt:prospecting-permit a skos:Concept ;
     dcterms:provenance "NZ, WA, QLD"@en ;
     skos:broader tt:exploration ;
     skos:definition "QLD - Allows small scale exploration with area limits and pegging for mining applications"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.29"^^ggic-lhk: ;
     skos:prefLabel "prospecting permit"@en .
 
@@ -621,7 +624,7 @@ tt:retention-lease a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:production ;
     skos:definition "SA - An RL entitles the lessee to retain the lease area for future mining operations where, for economic or other reasons, the lessee is justified in not proceeding immediately."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.33"^^ggic-lhk: ;
     skos:prefLabel "retention lease"@en .
 
@@ -630,7 +633,7 @@ tt:retention-licence a skos:Concept ;
     skos:altLabel "exploration licence in retention"@en ;
     skos:broader tt:exploration ;
     skos:definition "TAS - Exploration tenement where a resource has been defined but is currently sub-economic, and requires further exploratoin before a Mining lease can be granted VIC - http://www.austlii.edu.au/au/legis/vic/consol_act/mrda1990432/s14c.html. WA - Holding title for an identified mineral resource for later mining, but is not able to be further explored or mined."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.30"^^ggic-lhk: ;
     skos:prefLabel "retention licence"@en .
 
@@ -638,7 +641,7 @@ tt:special-crown-private-lands-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "S(C&PL)L"^^ggic-al:,
         "02.34"^^ggic-lhk: ;
     skos:prefLabel "special (crown & private lands) lease"@en .
@@ -647,7 +650,7 @@ tt:special-exploration-licence a skos:Concept ;
     dcterms:provenance "TAS"@en ;
     skos:broader tt:exploration ;
     skos:definition "TAS - Exploration tenement - larger than normal tenement to explore for new commodity types or utilise new exploration techniques. May be extended to a maximum of 10 years."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.31"^^ggic-lhk: ;
     skos:prefLabel "special exploration licence"@en .
 
@@ -655,7 +658,7 @@ tt:special-lease a skos:Concept ;
     dcterms:provenance "NSW"@en ;
     skos:broader tt:production ;
     skos:definition "NSW -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "SL"^^ggic-al:,
         "02.35"^^ggic-lhk: ;
     skos:prefLabel "special lease"@en .
@@ -664,7 +667,7 @@ tt:special-mining-lease a skos:Concept ;
     dcterms:provenance "SA"@en ;
     skos:broader tt:production ;
     skos:definition "SA - The tenement type SML (Special Mining Lease) relates to the Olympic Dam mine, which is administered under the Roxby Downs (Indenture Ratification) Act, 1982. There is also an historic disused tenement type SML."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.36"^^ggic-lhk: ;
     skos:prefLabel "special mining lease"@en .
 
@@ -672,7 +675,7 @@ tt:special-purpose-mining-permit a skos:Concept ;
     dcterms:provenance "NZ"@en ;
     skos:broader tt:production ;
     skos:definition "NZ -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.37"^^ggic-lhk: ;
     skos:prefLabel "special purpose mining permit"@en .
 
@@ -680,7 +683,7 @@ tt:temporary-reserve a skos:Concept ;
     dcterms:provenance "WA"@en ;
     skos:broader tt:exploration ;
     skos:definition "WA - Mining tenement under the repealed 1904 Act."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.32"^^ggic-lhk: ;
     skos:prefLabel "temporary reserve"@en .
 
@@ -688,7 +691,7 @@ tt:tourist-mining-authority a skos:Concept ;
     dcterms:provenance "VIC"@en ;
     skos:broader tt:exploration ;
     skos:definition "VIC - http://www.austlii.edu.au/au/legis/vic/consol_act/mrda1990432/s59.html"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "01.33"^^ggic-lhk: ;
     skos:prefLabel "tourist mining authority"@en .
 
@@ -696,14 +699,14 @@ tt:work-authority a skos:Concept ;
     dcterms:provenance "VIC"@en ;
     skos:broader tt:production ;
     skos:definition "VIC -"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:notation "02.38"^^ggic-lhk: ;
     skos:prefLabel "work authority"@en .
 
 tt:exploration a skos:Concept ;
     dcterms:provenance "This vocabulary"@en ;
     skos:definition "A tenement, permit, or licence related to mineral exploration activities."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:narrower tt:assessment-lease,
         tt:assessment-lease-private-mineral,
         tt:christmas-island-exploration-licence,
@@ -777,7 +780,7 @@ tt:exploration a skos:Concept ;
 tt:production a skos:Concept ;
     dcterms:provenance "This vocabulary"@en ;
     skos:definition "A tenement, permit, or licence related to mining activities or related production of mineral products."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
     skos:narrower tt:Christmas-Island-mining-lease,
         tt:ancillary-mining-licence,
         tt:coal-mining-lease,
@@ -862,13 +865,16 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <http://www.geoscience.gov.au> ;
     dcterms:publisher <http://www.geoscience.gov.au> ;
     dcterms:created "2015-11-26"^^xsd:date ;
-    dcterms:description "This concept scheme defines terms used to describe the type of mineral tenements granted in Australian and New Zealand jurisdictions (eg, exploration licence, mining lease)."@en ;
-    dcterms:published "2017-09-06"^^xsd:date ;
+    skos:definition "This concept scheme defines terms used to describe the type of mineral tenements granted in Australian and New Zealand jurisdictions (eg, exploration licence, mining lease)."@en ;
+    dcterms:modified "2017-09-06"^^xsd:date ;
+    dcterms:issued "2017-09-06"^^xsd:date ;
     owl:versionInfo "v0.1"^^xsd:string ;
     skos:changeNote "2016-07-22 OLR - Reformat SKOS-RDF for migration to new repository"@en,
         "Original SKOS implementation, 26 Nov 2015."@en ;
     skos:editorialNote "This file contains the 2015 version of the GGIC mineral temement type vocabulary. Compilation and review in MS-Excel spreadsheet, converted to SKOS using GSML_SKOS_fromXLS_2015.02.xslt."@en ;
     skos:hasTopConcept tt:exploration,
         tt:production ;
-    skos:prefLabel "GGIC Tenement Type" .
+    skos:prefLabel "GGIC Tenement Type" ;
+    dcterms:provenance "This vocabulary is expressed for the first time here"@en ;
+    dcterms:source "This vocabulary is expressed for the first time here" .
 
