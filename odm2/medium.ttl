@@ -1,0 +1,183 @@
+@prefix cs: <http://vocabulary.odm2.org/medium> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.odm2.org> a sdo:Organization ;
+    sdo:name "Observations Data Model 2 Group" ;
+    sdo:url <https://github.com/ODM2/> .
+
+<http://vocabulary.odm2.org/medium/air> a skos:Concept ;
+    skos:definition "Specimen collection of ambient air or sensor emplaced to measure properties of ambient air." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Air" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/equipment> a skos:Concept ;
+    skos:definition "An instrument, sensor or other piece of human-made equipment upon which a measurement is made, such as datalogger temperature or battery voltage." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Equipment" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/gas> a skos:Concept ;
+    skos:definition "Gas phase specimen or sensor emplaced to measure properties of a gas." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/habitat> a skos:Concept ;
+    skos:definition "A habitat is an ecological or environmental area that is inhabited by a particular species of animal, plant, or other type of organism." ;
+    skos:historyNote """Adopted from STORET into USGS National Water Quality Portal. http://waterqualitydata.us/portal_userguide/#WQPUserGuide-Table2\r
+Definition from https://en.wikipedia.org/wiki/Habitat""" ;
+    skos:inScheme cs: ;
+    skos:note """Necessary to describe ecosystem properties, such as: birds per km2 of habitat\r
+\r
+STORET definition: The habitat conditions at the monitoring site; physical features of the area surrounding the monitoring location site.""" ;
+    skos:prefLabel "Habitat" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/ice> a skos:Concept ;
+    skos:definition "Sample collected as frozen water or sensor emplaced to measure properties of ice." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ice" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/liquidAqueous> a skos:Concept ;
+    skos:definition "Specimen collected as liquid water or sensor emplaced to measure properties of water in sampled environment." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Liquid aqueous" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/liquidOrganic> a skos:Concept ;
+    skos:definition "Specimen collected as an organic liquid." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Liquid organic" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/mineral> a skos:Concept ;
+    skos:definition "Specimen collected as a mineral." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mineral" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/notApplicable> a skos:Concept ;
+    skos:definition "There is no applicable sampled medium." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:note "This term should be used in the case that there is no medium or medium does not apply in some context." ;
+    skos:prefLabel "Not applicable" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/organism> a skos:Concept ;
+    skos:definition "Data collected about a species at organism level." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Organism" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/other> a skos:Concept ;
+    skos:definition "Other." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/particulate> a skos:Concept ;
+    skos:definition "Specimen collected from particulates suspended in a paticulate-fluid mixture. Examples include particulates in water or air." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Particulate" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/regolith> a skos:Concept ;
+    skos:definition """The entire unconsolidated or secondarily recemented cover that overlies more coherent bedrock, that has been formed by weathering, erosion, transport and/or deposition of the older material. The regolith thus includes fractured and weathered basement rocks, saprolites, soils, organic accumulations, volcanic material, glacial deposits, colluvium, alluvium, evaporitic sediments, aeolian deposits and ground water.\r
+Everything from fresh rock to fresh air.""" ;
+    skos:exactMatch <http://crcleme.org.au/Pubs/Monographs/RegolithGlossary.pdf> ;
+    skos:historyNote "Merrill, G. P. (1897) A treatise on rocks, rock weathering and soils. New York, Macmillan. 411 pp." ;
+    skos:inScheme cs: ;
+    skos:note "The term was introduced by Merrill (1897) who wrote of the incoherent mass of varying thickness covering the underlying rocks: “In places this covering is made up of material originating through rock weathering in-situ. In other instances it is of fragmental and more or less decomposed material drifted by wind, water or ice from other sources. This entire mantle of unconsolidated material, whatever its nature or origin, it is proposed to call the regolith, from the Greek words rhego), meaning a blanket, and lithos, a stone.”" ;
+    skos:prefLabel "Regolith" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/rock> a skos:Concept ;
+    skos:definition "Specimen collected from a naturally occuring solid aggregate of one or more minerals." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php. Definition adapted from Wikipedia. See: https://en.wikipedia.org/wiki/Rock_(geology)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/sediment> a skos:Concept ;
+    skos:definition "Specimen collected from material broken down by processes of weathering and erosion and subsequently transported by the action of wind, water, or ice, and/or by the force of gravity acting on the particles. Sensors may also be emplaced to measure sediment properties." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php. Definition adapted from Wikipedia. See: https://en.wikipedia.org/wiki/Sediment" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sediment" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/snow> a skos:Concept ;
+    skos:definition "Observation in, of or sample taken from snow." ;
+    skos:historyNote "Adapted from CUAHSI HIS SampleMediumCV.  See http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SampleMediumCV." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Snow" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/soil> a skos:Concept ;
+    skos:definition "Specimen collected from soil or sensor emplaced to measure properties of soil. Soil includes the mixture of minerals, organic matter, gasses, liquids, and organisms that make up the upper layer of earth in which plants grow." ;
+    skos:historyNote "Adapted from SESAR Material CV. See http://app.geosamples.org/reference/materials.php" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Soil" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/tissue> a skos:Concept ;
+    skos:definition "Sample of a living organism's tissue or sensor emplaced to measure property of tissue." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tissue" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/unknown> a skos:Concept ;
+    skos:definition "The sampled medium is unknown." ;
+    skos:historyNote "Adapted from CUAHSI HIS SampleMediumCV.  See http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SampleMediumCV." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown" ;
+    skos:topConceptOf cs: .
+
+<http://vocabulary.odm2.org/medium/vegetation> a skos:Concept ;
+    skos:definition "The plants of an area considered in general or as communities, but not taxonomically." ;
+    skos:exactMatch <http://www.eionet.europa.eu/gemet/concept?ns=1&cp=8922> ;
+    skos:historyNote "Retrieved from Eionet GEMET Thesaurus" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vegetation" ;
+    skos:topConceptOf cs: .
+
+cs: a skos:ConceptScheme ;
+    skos:definition "A vocabulary for describing the physical medium of a specimen, reference material, or sampled environment." ;
+    skos:hasTopConcept <http://vocabulary.odm2.org/medium/air>,
+        <http://vocabulary.odm2.org/medium/equipment>,
+        <http://vocabulary.odm2.org/medium/gas>,
+        <http://vocabulary.odm2.org/medium/habitat>,
+        <http://vocabulary.odm2.org/medium/ice>,
+        <http://vocabulary.odm2.org/medium/liquidAqueous>,
+        <http://vocabulary.odm2.org/medium/liquidOrganic>,
+        <http://vocabulary.odm2.org/medium/mineral>,
+        <http://vocabulary.odm2.org/medium/notApplicable>,
+        <http://vocabulary.odm2.org/medium/organism>,
+        <http://vocabulary.odm2.org/medium/other>,
+        <http://vocabulary.odm2.org/medium/particulate>,
+        <http://vocabulary.odm2.org/medium/regolith>,
+        <http://vocabulary.odm2.org/medium/rock>,
+        <http://vocabulary.odm2.org/medium/sediment>,
+        <http://vocabulary.odm2.org/medium/snow>,
+        <http://vocabulary.odm2.org/medium/soil>,
+        <http://vocabulary.odm2.org/medium/tissue>,
+        <http://vocabulary.odm2.org/medium/unknown>,
+        <http://vocabulary.odm2.org/medium/vegetation> ;
+    skos:prefLabel "ODM2 Medium" ;
+    dcterms:creator <http://www.odm2.org> ;
+    dcterms:publisher <http://www.odm2.org> ;
+    dcterms:created "2000-01-01"^^xsd:date ;
+    dcterms:modified "2000-01-01"^^xsd:date ;
+.
+
