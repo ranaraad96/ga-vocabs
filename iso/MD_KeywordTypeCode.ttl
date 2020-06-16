@@ -1,0 +1,172 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation/code/MD_KeywordTypeCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/dataCentre> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a repository or archive that manages and distributes data"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a repository or archive that manages and distributes data"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "data Centre" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/discipline> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a branch of instruction or specialized learning"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a branch of instruction or specialized learning"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "discipline" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/featureType> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a resource containing or about a collection of feature instances with common characteristics"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a resource containing or about a collection of feature instances with common characteristics"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "feature Type" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/instrument> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a device used to measure or compare physical properties"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a device used to measure or compare physical properties"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "instrument" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/place> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a location"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a location"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "place" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/platform> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a structure upon which an instrument is mounted"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a structure upon which an instrument is mounted"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "platform" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/process> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a series of actions or natural occurrences"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a series of actions or natural occurrences"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "process" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/product> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a type of product"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a type of product"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "product" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/project> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies an endeavour undertaken to create or modify a product or service"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies an endeavour undertaken to create or modify a product or service"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/service> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies an activity carried out by one party for the benefit of another"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies an activity carried out by one party for the benefit of another"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "service" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/stratum> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies the layer(s) of any deposited substance or levels within an ordered system"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies the layer(s) of any deposited substance or levels within an ordered system"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stratum" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/subTopicCategory> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "refinement of a topic category for the purpose of geographic data classification"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "refinement of a topic category for the purpose of geographic data classification"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sub Topic Category" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/taxon> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a taxonomy of the resource"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a taxonomy of the resource"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "taxon" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/temporal> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a time period related to the resource"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a time period related to the resource"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/theme> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_KeywordTypeCode>,
+        skos:Concept ;
+    dcterms:description "keyword identifies a particular subject or topic"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "keyword identifies a particular subject or topic"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "theme" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.586000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.394000+00:00"^^xsd:dateTime ;
+    dcterms:description "methods used to group similar keywords"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/dataCentre>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/discipline>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/featureType>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/instrument>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/place>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/platform>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/process>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/product>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/project>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/service>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/stratum>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/subTopicCategory>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/taxon>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/temporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_KeywordTypeCode/theme> ;
+    skos:prefLabel "MD Keyword Type Code - Concept Scheme" .
+

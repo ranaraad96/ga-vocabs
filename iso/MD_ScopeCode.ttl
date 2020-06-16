@@ -1,0 +1,282 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/CommonClasses/code/MD_ScopeCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/aggregate> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to an aggregate resource"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to an aggregate resource"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "aggregate" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/application> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information resource hosted on a specific set of hardware and accessible over a network"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information resource hosted on a specific set of hardware and accessible over a network"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "application" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/attribute> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the attribute value"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the attribute value"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "attribute" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/attributeType> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the characteristic of a feature"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the characteristic of a feature"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "attribute Type" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collection> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to an unstructured set"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to an unstructured set"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collection" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collectionHardware> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the collection hardware class"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the collection hardware class"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collection Hardware" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collectionSession> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the collection session"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the collection session"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collection Session" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/coverage> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a coverage"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a coverage"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coverage" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/dataset> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the dataset"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the dataset"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dataset" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/dimensionGroup> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a dimension group"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a dimension group"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dimension Group" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/document> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a document"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a document"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "document" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/feature> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a feature"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a feature"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "feature" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/featureType> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a feature type"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a feature type"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "feature Type" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/fieldSession> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a field session"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a field session"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "field Session" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/initiative> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to an initiative"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to an initiative"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "initiative" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/metadata> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to metadata"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to metadata"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metadata" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/model> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a copy or imitation of an existing or hypothetical object"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a copy or imitation of an existing or hypothetical object"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "model" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/nonGeographicDataset> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to non-geographic data"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to non-geographic data"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "non Geographic Dataset" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/product> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "metadata describing an ISO 19131 data product specification"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "metadata describing an ISO 19131 data product specification"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "product" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/propertyType> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a property type"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a property type"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "property Type" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/repository> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a repository"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a repository"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "repository" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/sample> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a sample"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a sample"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sample" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/series> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to the series"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to the series"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "series" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/service> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "service" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/software> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a computer program or routine"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a computer program or routine"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "software" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/tile> a <http://def.isotc211.org/iso19115/-1/2014/CommonClasses#MD_ScopeCode>,
+        skos:Concept ;
+    dcterms:description "information applies to a tile, a spatial subset of geographic data"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information applies to a tile, a spatial subset of geographic data"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tile" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.628000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.350000+00:00"^^xsd:dateTime ;
+    dcterms:description "class of information to which the referencing entity applies"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/aggregate>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/application>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/attribute>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/attributeType>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collection>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collectionHardware>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/collectionSession>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/coverage>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/dataset>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/dimensionGroup>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/document>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/feature>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/featureType>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/fieldSession>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/initiative>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/metadata>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/model>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/nonGeographicDataset>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/product>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/propertyType>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/repository>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/sample>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/series>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/service>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/software>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ScopeCode/tile> ;
+    skos:prefLabel "MD Scope Code - Concept Scheme" .
+

@@ -1,0 +1,102 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation/code/MD_DimensionNameTypeCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/column> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "abscissa (x) axis"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "abscissa (x) axis"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "column" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/crossTrack> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "perpendicular to the direction of motion of the scan point"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "perpendicular to the direction of motion of the scan point"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cross Track" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/line> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "scan line of a sensor"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "scan line of a sensor"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "line" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/row> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "ordinate (y) axis"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "ordinate (y) axis"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "row" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/sample> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "element along a scan line"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "element along a scan line"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sample" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/time> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "duration"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "duration"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "time" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/track> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "along the direction of motion of the scan point"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "along the direction of motion of the scan point"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "track" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/vertical> a <http://def.isotc211.org/iso19115/-1/2014/SpatialRepresentationInformation#MD_DimensionNameTypeCode>,
+        skos:Concept ;
+    dcterms:description "vertical (z) axis"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "vertical (z) axis"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vertical" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.576000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.358000+00:00"^^xsd:dateTime ;
+    dcterms:description "name of the dimension"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/column>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/crossTrack>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/line>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/row>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/sample>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/time>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/track>,
+        <http://registry.it.csiro.au/def/isotc211/MD_DimensionNameTypeCode/vertical> ;
+    skos:prefLabel "MD Dimension Name Type Code - Concept Scheme" .
+

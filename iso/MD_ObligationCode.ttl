@@ -1,0 +1,58 @@
+@prefix cs: <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/linked-data/registry#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/conditional> a skos:Concept ;
+    dcterms:description "element is required when a specific condition is met"^^xsd:string ;
+    skos:definition "element is required when a specific condition is met"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:notation "conditional"^^xsd:string ;
+    skos:prefLabel "conditional"^^xsd:string ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/mandatory> a skos:Concept ;
+    dcterms:description "element is always required"^^xsd:string ;
+    skos:definition "element is always required"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:notation "mandatory"^^xsd:string ;
+    skos:prefLabel "mandatory"^^xsd:string ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/optional> a skos:Concept ;
+    dcterms:description "element is not required"^^xsd:string ;
+    skos:definition "element is not required"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:notation "optional"^^xsd:string ;
+    skos:prefLabel "optional"^^xsd:string ;
+    skos:topConceptOf cs: .
+
+cs: a skos:Concept,
+        skos:ConceptScheme ;
+    dcterms:description "obligation of the element or entity"^^xsd:string ;
+    dcterms:isFormatOf <http://def.isotc211.org/iso19115/-1/2014/MetadataExtensionInformation#MD_ObligationCode> ;
+    dcterms:modified "2016-08-09T05:29:37.337000+00:00"^^xsd:dateTime ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    ns1:definition [ ns1:entity cs: ;
+            ns1:entityVersion cs::1 ] ;
+    rdfs:member <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/conditional>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/mandatory>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/optional> ;
+    skos:definition "obligation of the element or entity"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/conditional>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/mandatory>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ObligationCode/optional> ;
+    skos:notation "MD_ObligationCode"^^xsd:string ;
+    skos:prefLabel "MD Obligation Code - Enumeration"^^xsd:string .
+

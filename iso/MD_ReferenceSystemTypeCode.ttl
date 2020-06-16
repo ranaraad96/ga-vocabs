@@ -1,0 +1,414 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation/code/MD_ReferenceSystemTypeCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringParametric> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric coordinate reference system containing an engineering coordinate reference system and a parametric reference system
+
+EXAMPLE [local] x, y, pressure"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric coordinate reference system containing an engineering coordinate reference system and a parametric reference system
+
+EXAMPLE [local] x, y, pressure"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Engineering Parametric" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringParametricTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric-temporal coordinate reference system containing an engineering, a parametric, and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, pressure, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric-temporal coordinate reference system containing an engineering, a parametric, and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, pressure, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Engineering Parametric Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing an engineering and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing an engineering and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Engineering Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringVertical> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatial reference system containing a horizontal engineering coordinate reference system and a vertical coordinate reference system
+
+EXAMPLE [local] x, y, height"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatial reference system containing a horizontal engineering coordinate reference system and a vertical coordinate reference system
+
+EXAMPLE [local] x, y, height"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Engineering Vertical" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringVerticalTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing an engineering, a vertical, and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, height, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing an engineering, a vertical, and a temporal coordinate reference system
+
+EXAMPLE [local] x, y, height, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Engineering Vertical Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DParametric> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a parametric reference system
+
+EXAMPLE latitude, longitude, pressure"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a parametric reference system
+
+EXAMPLE latitude, longitude, pressure"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 2D Parametric" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DParametricTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a parametric and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, pressure, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a parametric and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, pressure, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 2D Parametric Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a temporal reference system
+
+EXAMPLE latitude, longitude, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a temporal reference system
+
+EXAMPLE latitude, longitude, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 2D Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DVertical> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound coordinate reference system in which one constituent coordinate reference system is a horizontal geodetic coordinate reference system and one is a vertical coordinate reference system
+
+EXAMPLE latitude, longitude, [gravity-related] height or depth"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound coordinate reference system in which one constituent coordinate reference system is a horizontal geodetic coordinate reference system and one is a vertical coordinate reference system
+
+EXAMPLE latitude, longitude, [gravity-related] height or depth"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 2D Vertical" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DVerticalTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a vertical, and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, height, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a vertical, and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, height, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 2D Vertical Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic3DTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing a 3 dimensional geographic and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, ellipsoidal height, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing a 3 dimensional geographic and a temporal coordinate reference system
+
+EXAMPLE latitude, longitude, ellipsoidal height, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Geographic 3D Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjected2DParametric> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric coordinate reference system containing a projected horizontal coordinate reference system and a parametric reference system
+
+EXAMPLE easting, northing, density"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric coordinate reference system containing a projected horizontal coordinate reference system and a parametric reference system
+
+EXAMPLE easting, northing, density"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Projected 2D Parametric" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjected2DParametricTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-parametric-temporal coordinate reference system containing a projected horizontal, a parametric, and a temporal coordinate reference system
+
+EXAMPLE easting, northing, density, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-parametric-temporal coordinate reference system containing a projected horizontal, a parametric, and a temporal coordinate reference system
+
+EXAMPLE easting, northing, density, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Projected 2D Parametric Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing a projected horizontal and a temporal coordinate reference system
+
+EXAMPLE easting, northing, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing a projected horizontal and a temporal coordinate reference system
+
+EXAMPLE easting, northing, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Projected Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedVertical> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatial reference system containing a horizontal projected coordinate reference system and a vertical coordinate reference system
+
+EXAMPLE easting, northing, [gravity-related] height or depth"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatial reference system containing a horizontal projected coordinate reference system and a vertical coordinate reference system
+
+EXAMPLE easting, northing, [gravity-related] height or depth"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Projected Vertical" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedVerticalTemporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """compound spatio-temporal coordinate reference system containing a projected horizontal, a vertical, and a temporal coordinate reference system
+
+EXAMPLE easting, northing, height, time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """compound spatio-temporal coordinate reference system containing a projected horizontal, a vertical, and a temporal coordinate reference system
+
+EXAMPLE easting, northing, height, time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound Projected Vertical Temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineering> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """coordinate reference system based on an engineering datum (datum describing the relationship of a coordinate system to a local reference)
+
+EXAMPLE [local] x,y"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """coordinate reference system based on an engineering datum (datum describing the relationship of a coordinate system to a local reference)
+
+EXAMPLE [local] x,y"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineeringDesign> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """engineering coordinate reference system in which the base representation of a moving object is specified
+
+EXAMPLE [local] x,y"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """engineering coordinate reference system in which the base representation of a moving object is specified
+
+EXAMPLE [local] x,y"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering Design" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineeringImage> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """coordinate reference system based on an image datum (engineering datum which defines the relationship of a coordinate system to an image)
+
+EXAMPLE row, column"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """coordinate reference system based on an image datum (engineering datum which defines the relationship of a coordinate system to an image)
+
+EXAMPLE row, column"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering Image" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeocentric> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """geodetic CRS having a Cartesian 3D coordinate system
+
+EXAMPLE [geocentric] X,Y,Z"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """geodetic CRS having a Cartesian 3D coordinate system
+
+EXAMPLE [geocentric] X,Y,Z"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic Geocentric" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeographic2D> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """geodetic CRS having an ellipsoidal 2D coordinate system
+
+EXAMPLE latitude, longitude"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """geodetic CRS having an ellipsoidal 2D coordinate system
+
+EXAMPLE latitude, longitude"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic Geographic 2D" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeographic3D> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """geodetic CRS having an ellipsoidal 3D coordinate system
+
+EXAMPLE latitude, longitude, ellipsoidal height"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """geodetic CRS having an ellipsoidal 3D coordinate system
+
+EXAMPLE latitude, longitude, ellipsoidal height"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic Geographic 3D" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geographicIdentifier> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """spatial reference in the form of a label or code that identifies a location
+
+EXAMPLE post code"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """spatial reference in the form of a label or code that identifies a location
+
+EXAMPLE post code"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geographic Identifier" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/linear> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """reference system that identifies a location by reference to a segment of a linear geographic feature and distance along that segment from a given point
+
+EXAMPLE x km along road"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """reference system that identifies a location by reference to a segment of a linear geographic feature and distance along that segment from a given point
+
+EXAMPLE x km along road"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "linear" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/parametric> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """coordinate reference system based on a parametric datum (datum describing the relationship of a parametric coordinate system to an object)
+
+EXAMPLE pressure"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """coordinate reference system based on a parametric datum (datum describing the relationship of a parametric coordinate system to an object)
+
+EXAMPLE pressure"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "parametric" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/projected> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """coordinate reference system derived from a two-dimensional geodetic coordinate reference system by applying a map projection
+
+EXAMPLE easting, northing"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """coordinate reference system derived from a two-dimensional geodetic coordinate reference system by applying a map projection
+
+EXAMPLE easting, northing"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "projected" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/temporal> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """reference system against which time is measured
+
+EXAMPLE time"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """reference system against which time is measured
+
+EXAMPLE time"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "temporal" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/vertical> a <http://def.isotc211.org/iso19115/-1/2014/ReferenceSystemInformation#MD_ReferenceSystemTypeCode>,
+        skos:Concept ;
+    dcterms:description """one-dimensional coordinate reference system based on a vertical datum (datum describing the relation of gravity-related heights or depths to the Earth)
+
+EXAMPLE [gravity-related] height or depth"""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """one-dimensional coordinate reference system based on a vertical datum (datum describing the relation of gravity-related heights or depths to the Earth)
+
+EXAMPLE [gravity-related] height or depth"""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vertical" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.609000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.218000+00:00"^^xsd:dateTime ;
+    dcterms:description "defines type of reference system used"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringParametric>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringParametricTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringVertical>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundEngineeringVerticalTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DParametric>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DParametricTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DVertical>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic2DVerticalTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundGeographic3DTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjected2DParametric>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjected2DParametricTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedVertical>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/compoundProjectedVerticalTemporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineering>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineeringDesign>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/engineeringImage>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeocentric>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeographic2D>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geodeticGeographic3D>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/geographicIdentifier>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/linear>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/parametric>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/projected>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/temporal>,
+        <http://registry.it.csiro.au/def/isotc211/MD_ReferenceSystemTypeCode/vertical> ;
+    skos:prefLabel "MD  Reference System Type Code - Concept Scheme" .
+

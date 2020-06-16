@@ -1,0 +1,194 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation/code/MD_RestrictionCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/confidential> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description """not available to the public
+NOTE Contains information that could be prejudicial to a commercial, industrial, or national interest."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """not available to the public
+NOTE Contains information that could be prejudicial to a commercial, industrial, or national interest."""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "confidential" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/copyright> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "copyright" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/in-confidence> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "with trust"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "with trust"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "in-confidence" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/intellectualPropertyRights> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intellectual Property Rights" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licence> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "formal permission to do something"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "formal permission to do something"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "licence" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceDistributor> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "formal permission required for a person or an entity to commercialize or distribute the resource"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "formal permission required for a person or an entity to commercialize or distribute the resource"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "licence Distributor" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceEndUser> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "formal permission required for a person or an entity to use the resource and that may differ from the person that orders or purchases it"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "formal permission required for a person or an entity to use the resource and that may differ from the person that orders or purchases it"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "licence End User" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceUnrestricted> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "formal permission not required to use the resource"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "formal permission not required to use the resource"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "licence Unrestricted" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/otherRestrictions> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "limitation not listed"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "limitation not listed"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "other Restrictions" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/patent> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "government has granted exclusive right to make, sell, use or license an invention or discovery"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "government has granted exclusive right to make, sell, use or license an invention or discovery"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "patent" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/patentPending> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "produced or sold information awaiting a patent"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "produced or sold information awaiting a patent"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "patent Pending" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/private> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "protects rights of individual or organisations from observation, intrusion, or attention of others"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "protects rights of individual or organisations from observation, intrusion, or attention of others"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "private" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/restricted> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "withheld from general circulation or disclosure"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "withheld from general circulation or disclosure"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "restricted" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/sensitiveButUnclassified> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "although unclassified, requires strict controls over its distribution."^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "although unclassified, requires strict controls over its distribution."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sensitive But Unclassified" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/statutory> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "prescribed by law"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "prescribed by law"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "statutory" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/trademark> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "trademark" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/unrestricted> a <http://def.isotc211.org/iso19115/-1/2014/ConstraintInformation#MD_RestrictionCode>,
+        skos:Concept ;
+    dcterms:description "no constraints exist"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "no constraints exist"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unrestricted" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.626000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.246000+00:00"^^xsd:dateTime ;
+    dcterms:description "limitation(s) placed upon the access or use of the data"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/confidential>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/copyright>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/in-confidence>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/intellectualPropertyRights>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licence>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceDistributor>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceEndUser>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/licenceUnrestricted>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/otherRestrictions>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/patent>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/patentPending>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/private>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/restricted>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/sensitiveButUnclassified>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/statutory>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/trademark>,
+        <http://registry.it.csiro.au/def/isotc211/MD_RestrictionCode/unrestricted> ;
+    skos:prefLabel "MD Restriction Code - Concept Scheme" .
+

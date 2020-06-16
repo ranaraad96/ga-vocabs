@@ -1,0 +1,236 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation/code/CI_PresentationFormCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/audioDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "digital audio recording"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "digital audio recording"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "audio Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/audioHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "audio recording delivered by analog media, such as a magnetic tape"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "audio recording delivered by analog media, such as a magnetic tape"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "audio Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/diagramDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and recorded in digital format"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and recorded in digital format"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "diagram Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/diagramHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and printed on paper, photographic material, or other media"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and printed on paper, photographic material, or other media"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "diagram Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/documentDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "digital representation of a primarily textual item (can contain illustrations also)"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "digital representation of a primarily textual item (can contain illustrations also)"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "document Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/documentHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "document Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/imageDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "image Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/imageHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "image Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/mapDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "map represented in raster or vector form"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "map represented in raster or vector form"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "map Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/mapHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "map printed on paper, photographic material, or other media for use directly by the human user"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "map printed on paper, photographic material, or other media for use directly by the human user"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "map Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/modelDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "multi-dimensional digital representation of a feature, process, etc."^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "multi-dimensional digital representation of a feature, process, etc."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "model Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/modelHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "3-dimensional, physical model"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "3-dimensional, physical model"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "model Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/multimediaDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "information representation using simultaneously various digital modes for text, sound, image"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information representation using simultaneously various digital modes for text, sound, image"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "multimedia Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/multimediaHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "information representation using simultaneously various analog modes for text, sound, image"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information representation using simultaneously various analog modes for text, sound, image"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "multimedia Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/physicalObject> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description """a physical object
+
+EXAMPLE Rock or mineral sample, microscope slide."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """a physical object
+
+EXAMPLE Rock or mineral sample, microscope slide."""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "physical Object" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/profileDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "vertical cross-section in digital form"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "vertical cross-section in digital form"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "profile Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/profileHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "vertical cross-section printed on paper, etc."^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "vertical cross-section printed on paper, etc."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "profile Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/tableDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "digital representation of facts or figures systematically displayed, especially in columns"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "digital representation of facts or figures systematically displayed, especially in columns"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "table Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/tableHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "table Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/videoDigital> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "digital video recording"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "digital video recording"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "video Digital" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/videoHardcopy> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_PresentationFormCode>,
+        skos:Concept ;
+    dcterms:description "video recording on film"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "video recording on film"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "video Hardcopy" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.531000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.341000+00:00"^^xsd:dateTime ;
+    dcterms:description "mode in which the data are represented"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/audioDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/audioHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/diagramDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/diagramHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/documentDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/documentHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/imageDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/imageHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/mapDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/mapHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/modelDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/modelHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/multimediaDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/multimediaHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/physicalObject>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/profileDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/profileHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/tableDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/tableHardcopy>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/videoDigital>,
+        <http://registry.it.csiro.au/def/isotc211/CI_PresentationFormCode/videoHardcopy> ;
+    skos:prefLabel "CI Presentation Form Code - Concept Scheme" .
+

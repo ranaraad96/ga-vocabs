@@ -1,0 +1,92 @@
+@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation/code/MD_MediumFormatCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/cpio> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "Copy In / Out (UNIX file format and command)"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "Copy In / Out (UNIX file format and command)"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cpio" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/highSierra> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "high sierra file system"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "high sierra file system"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high Sierra" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "information processing – volume and file structure of CD-ROM"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "information processing – volume and file structure of CD-ROM"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "iso9660" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660AppleHFS> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "hierarchical file system (Macintosh)"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "hierarchical file system (Macintosh)"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "iso9660 Apple HFS" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660RockRidge> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "rock ridge interchange protocol (UNIX)"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "rock ridge interchange protocol (UNIX)"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "iso9660 RockRidge" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/tar> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "Tape Archive"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "Tape Archive"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tar" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/udf> a <http://def.isotc211.org/iso19115/-1/2014/DistributionInformation#MD_MediumFormatCode>,
+        skos:Concept ;
+    dcterms:description "universal disk format"^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "universal disk format"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "udf" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:published "2016-08-09T05:13:45.599000+00:00"^^xsd:dateTime ;
+    dcterms:modified "2016-08-09T05:13:01.305000+00:00"^^xsd:dateTime ;
+    dcterms:description "method used to write to the medium"^^xsd:string ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/cpio>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/highSierra>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660AppleHFS>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/iso9660RockRidge>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/tar>,
+        <http://registry.it.csiro.au/def/isotc211/MD_MediumFormatCode/udf> ;
+    skos:prefLabel "MD Medium Format Code - Concept Scheme" .
+

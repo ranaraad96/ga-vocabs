@@ -1,0 +1,311 @@
+@prefix cs: <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/biota> a skos:Concept ;
+    dcterms:description """flora and/or fauna in natural environment
+
+EXAMPLES Wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """flora and/or fauna in natural environment
+
+EXAMPLES Wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat."""^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "biota" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/boundaries> a skos:Concept ;
+    dcterms:description """legal land descriptions, maritime boundaries
+
+EXAMPLES Political and administrative boundaries, territorial seas, EEZ, port security zones."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """legal land descriptions, maritime boundaries
+
+EXAMPLES Political and administrative boundaries, territorial seas, EEZ, port security zones."""^^xsd:string ;
+    skos:example "Political and administrative boundaries, territorial seas, EEZ, port security zones."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "boundaries" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/climatologyMeteorologyAtmosphere> a skos:Concept ;
+    dcterms:description """processes and phenomena of the atmosphere
+
+EXAMPLES Cloud cover, weather, climate, atmospheric conditions, climate change, precipitation."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """processes and phenomena of the atmosphere
+
+EXAMPLES Cloud cover, weather, climate, atmospheric conditions, climate change, precipitation."""^^xsd:string ;
+    skos:example "Cloud cover, weather, climate, atmospheric conditions, climate change, precipitation."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "climatology Meteorology Atmosphere" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/disaster> a skos:Concept ;
+    dcterms:description """information related to disasters
+
+EXAMPLES Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """information related to disasters
+
+EXAMPLES Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."""^^xsd:string ;
+    skos:example "Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "disaster" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/economy> a skos:Concept ;
+    dcterms:description """economic activities, conditions and employment
+
+EXAMPLES Production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """economic activities, conditions and employment
+
+EXAMPLES Production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas."""^^xsd:string ;
+    skos:example "Production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "economy" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/elevation> a skos:Concept ;
+    dcterms:description """height above or below a vertical datum
+
+EXAMPLES Altitude, bathymetry, digital elevation models, slope, derived products."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """height above or below a vertical datum
+
+EXAMPLES Altitude, bathymetry, digital elevation models, slope, derived products."""^^xsd:string ;
+    skos:example "Altitude, bathymetry, digital elevation models, slope, derived products."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "elevation" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/environment> a skos:Concept ;
+    dcterms:description """environmental resources, protection and conservation
+
+EXAMPLES Environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """environmental resources, protection and conservation
+
+EXAMPLES Environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape."""^^xsd:string ;
+    skos:example "Environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "environment" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/extraTerrestrial> a skos:Concept ;
+    dcterms:description "region more than 100 km above the surface of the Earth." ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "region more than 100 km above the surface of the Earth." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extra Terrestrial" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/farming> a skos:Concept ;
+    dcterms:description """rearing of animals and/or cultivation of plants
+
+EXAMPLES Agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """rearing of animals and/or cultivation of plants
+
+EXAMPLES Agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock."""^^xsd:string ;
+    skos:example "Agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "farming" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/geoscientificInformation> a skos:Concept ;
+    dcterms:description """information pertaining to earth sciences
+
+EXAMPLES Geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """information pertaining to earth sciences
+
+EXAMPLES Geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion."""^^xsd:string ;
+    skos:example "Geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geoscientific Information" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/health> a skos:Concept ;
+    dcterms:description """health, health services, human ecology, and safety
+
+EXAMPLES Disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """health, health services, human ecology, and safety
+
+EXAMPLES Disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services."""^^xsd:string ;
+    skos:example "Disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "health" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/imageryBaseMapsEarthCover> a skos:Concept ;
+    dcterms:description """base maps
+
+EXAMPLES Land cover, topographic maps, imagery, unclassified images, annotations."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """base maps
+
+EXAMPLES Land cover, topographic maps, imagery, unclassified images, annotations."""^^xsd:string ;
+    skos:example "Land cover, topographic maps, imagery, unclassified images, annotations."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "imagery Base Maps Earth Cover" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/inlandWaters> a skos:Concept ;
+    dcterms:description """inland water features, drainage systems and their characteristics
+
+EXAMPLES Rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrologic information."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """inland water features, drainage systems and their characteristics
+
+EXAMPLES Rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrologic information."""^^xsd:string ;
+    skos:example "Rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrologic information."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "inland Waters" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/intelligenceMilitary> a skos:Concept ;
+    dcterms:description """military bases, structures, activities
+
+EXAMPLES Barracks, training grounds, military transportation, information collection."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """military bases, structures, activities
+
+EXAMPLES Barracks, training grounds, military transportation, information collection."""^^xsd:string ;
+    skos:example "Barracks, training grounds, military transportation, information collection."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intelligence Military" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/location> a skos:Concept ;
+    dcterms:description """positional information and services
+
+EXAMPLES Addresses, geodetic networks, control points, postal zones and services, place names."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """positional information and services
+
+EXAMPLES Addresses, geodetic networks, control points, postal zones and services, place names."""^^xsd:string ;
+    skos:example "Addresses, geodetic networks, control points, postal zones and services, place names."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "location" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/oceans> a skos:Concept ;
+    dcterms:description """features and characteristics of salt water bodies (excluding inland waters)
+
+EXAMPLES Tides, tsunamis, coastal information, reefs."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """features and characteristics of salt water bodies (excluding inland waters)
+
+EXAMPLES Tides, tsunamis, coastal information, reefs."""^^xsd:string ;
+    skos:example "Tides, tsunamis, coastal information, reefs."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oceans" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/planningCadastre> a skos:Concept ;
+    dcterms:description """information used for appropriate actions for future use of the land
+
+EXAMPLES Land use maps, zoning maps, cadastral surveys, land ownership."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """information used for appropriate actions for future use of the land
+
+EXAMPLES Land use maps, zoning maps, cadastral surveys, land ownership."""^^xsd:string ;
+    skos:example "Land use maps, zoning maps, cadastral surveys, land ownership."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planning Cadastre" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/society> a skos:Concept ;
+    dcterms:description """characteristics of society and cultures
+
+EXAMPLES Settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """characteristics of society and cultures
+
+EXAMPLES Settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information."""^^xsd:string ;
+    skos:example "Settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "society" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/structure> a skos:Concept ;
+    dcterms:description """man-made construction
+
+EXAMPLES Buildings, museums, churches, factories, housing, monuments, shops, towers."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """man-made construction
+
+EXAMPLES Buildings, museums, churches, factories, housing, monuments, shops, towers."""^^xsd:string ;
+    skos:example "Buildings, museums, churches, factories, housing, monuments, shops, towers."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "structure" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/transportation> a skos:Concept ;
+    dcterms:description """means and aids for conveying persons and/or goods
+
+EXAMPLES Roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """means and aids for conveying persons and/or goods
+
+EXAMPLES Roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways."""^^xsd:string ;
+    skos:example "Roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transportation" ;
+    skos:topConceptOf cs: .
+
+<http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/utilitiesCommunication> a skos:Concept ;
+    dcterms:description """energy, water and waste systems and communications infrastructure and services
+
+EXAMPLES Hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks."""^^xsd:string ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition """energy, water and waste systems and communications infrastructure and services
+
+EXAMPLES Hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks."""^^xsd:string ;
+    skos:example "Hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks."^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utilities Communication" ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+cs: a skos:Concept,
+        skos:ConceptScheme ;
+    dcterms:description "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2 It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate." ;
+    dcterms:isFormatOf <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_TopicCategoryCode> ;
+    dcterms:modified "2016-08-09T05:32:24.864000+00:00"^^xsd:dateTime ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2 It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate." ;
+    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/biota>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/boundaries>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/climatologyMeteorologyAtmosphere>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/disaster>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/economy>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/elevation>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/environment>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/extraTerrestrial>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/farming>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/geoscientificInformation>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/health>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/imageryBaseMapsEarthCover>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/inlandWaters>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/intelligenceMilitary>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/location>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/oceans>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/planningCadastre>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/society>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/structure>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/transportation>,
+        <http://registry.it.csiro.au/def/isotc211/MD_TopicCategoryCode/utilitiesCommunication> ;
+    skos:prefLabel "MD Topic Category Code - Enumeration" .
+
