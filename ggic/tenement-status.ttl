@@ -475,3 +475,9 @@ cs: a skos:ConceptScheme ;
         ts:granted,
         ts:non-current ;
     skos:prefLabel "GGIC Tenement Status"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/LocalHierarchyKey>
+  a owl:Class ;
+  rdfs:subClassOf xsd:string ;
+  skos:prefLabel "Local Hierarchy Key"@en ;
+.
