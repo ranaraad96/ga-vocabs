@@ -1,0 +1,607 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pt: <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pt:ArcIMS a skos:Concept ;
+    owl:deprecated true ;
+    skos:prefLabel "ArcIMS HTTP configuration"@en .
+
+pt:FILEDATA-DIRECTORY a skos:Concept ;
+    owl:deprecated true ;
+    skos:prefLabel "Data Directory"@en .
+
+pt:OGCWMS-1.1.1-http-get-capabilities a skos:Concept ;
+    owl:deprecated true ;
+    skos:prefLabel "Web Map Service 1.1.1 GetCapabilities"@en .
+
+pt:OGCWMS-1.3.0-http-get-capabilities a skos:Concept ;
+    owl:deprecated true ;
+    skos:prefLabel "Web Map Service 1.3.0 GetCapabilities"@en .
+
+pt:AIMS-HTTP-configuration a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:AIMS--http--configuration"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcIMS Map Service Configuration File written in ArcXML"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcIMS Map Service Configuration File AXL"@en .
+
+pt:AIMS-HTTP-get-feature a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:AIMS--http-get-feature"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcIMS Internet Feature Map Service"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcIMS Internet Feature Map Service"@en .
+
+pt:AIMS-HTTP-get-image a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:AIMS--http-get-image"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcIMS Internet Image Map Service"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcIMS Internet Image Map Service"@en .
+
+pt:CSW a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:CSW"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Catalogue Service for the Web"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Catalogue Service for the Web"@en .
+
+pt:DB-ORACLE a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "DB:ORACLE"@en ;
+    skos:broader pt:Database ;
+    skos:definition "ORACLE database table"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORACLE database table"@en .
+
+pt:DB-POSTGIS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "DB:POSTGIS"@en ;
+    skos:broader pt:Database ;
+    skos:definition "PostGIS database table"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PostGIS database table"@en .
+
+pt:DataTurbine a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "RBNB:DATATURBINE"@en ;
+    skos:definition "Ring Buffer Network Bus (RBNB) DataTurbine streaming"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DataTurbine"@en ;
+    skos:topConceptOf cs: .
+
+pt:FILE-DATA-DIRECTORY a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "FILE:DATA-DIRECTORY"@en ;
+    skos:broader pt:File ;
+    skos:definition "Directory on a file system holding a collection of data files"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data Directory"@en .
+
+pt:FILE-GEO a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "FILE:GEO"@en ;
+    skos:broader pt:File ;
+    skos:definition "File containing Geographic Information System (GIS) data"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GIS file"@en .
+
+pt:FILE-RASTER a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "FILE:RASTER"@en ;
+    skos:broader pt:File ;
+    skos:definition "File containing raster data"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GIS Raster file"@en .
+
+pt:GML a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:GML"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Geography Markup Language (GML)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geography Markup Language"@en .
+
+pt:Geoprocessing-Service a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:Geoprocessing-Service"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcGIS Geoprocessing Server"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcGIS Geoprocessing Service"@en .
+
+pt:GoogleEarth a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "GLG:KML-2.0-http-get-map"@en ;
+    skos:definition "Google Earth Keyhole Markup Language (KML) Service version 2.0"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Google Earth KML Service 2.0"@en ;
+    skos:topConceptOf cs: .
+
+pt:HTTP-RSS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--rss"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Rich Site Summary (RSS) News feed URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RSS News feed URL"@en .
+
+pt:HTTP-ical a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--ical"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "iCalendar URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "iCalendar URL"@en .
+
+pt:HTTP-link a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--link"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Web address URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web address URL"@en .
+
+pt:HTTP-opendap a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--opendap"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Open-source Project for a Network Data Access Protocol (OPeNDAP) URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OPeNDAP URL"@en .
+
+pt:HTTP-partners a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--partners"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Partner web address URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Partner web address URL"@en .
+
+pt:HTTP-related a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--related"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Related link URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Related link URL"@en .
+
+pt:HTTP-samples a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WWW:LINK-1.0-http--samples"@en ;
+    skos:broader pt:W3C ;
+    skos:definition "Showcase product URL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Showcase product URL"@en .
+
+pt:Image-Service a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:Image-Service"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcGIS Image Server"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcGIS Image Service"@en .
+
+pt:JetStream a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "URN:JETSTREAM-PROXY"@en ;
+    skos:definition "File for download through a Jetstream streaming proxy"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "File for download through Jetstream Proxy"@en ;
+    skos:topConceptOf cs: .
+
+pt:KML a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:KML"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Keyhole Markup Language (KML)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "KML Keyhole Markup Language"@en .
+
+pt:Map-Service a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:Map-Service"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcGIS Map Server"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcGIS Map Service"@en .
+
+pt:ODS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:ODS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Directory Service (ODS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenLS Directory Service"@en .
+
+pt:OGS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:OGS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Gateway Service (ODS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenLS Gateway Service"@en .
+
+pt:OPS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:OPS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Presentation Service (ODS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenLS Presentation Service"@en .
+
+pt:ORS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:ORS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Route Service (ODS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenLS Route Service"@en .
+
+pt:OUS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:OUS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Utility Service (ODS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenLS Utility Service"@en .
+
+pt:SAS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:SAS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Sensor Alert Service (SAS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sensor Alert Service"@en .
+
+pt:SOS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:SOS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sensor Observation Service"@en .
+
+pt:SOS-1.0.0-HTTP-get-observation a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:SOS-1.0.0-http-get-observation"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sensor Observation Service GetObservation 1.0.0"@en .
+
+pt:SOS-1.0.0-HTTP-post-observation a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:SOS-1.0.0-http-post-observation"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation using POST"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sensor Observation Service GetObservation POST 1.0.0"@en .
+
+pt:SPS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:SPS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Sensor Planning Service (SPS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sensor Planning Service"@en .
+
+pt:Services-Directory-Page a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ESRI:Services-Directory-Page"@en ;
+    skos:broader pt:ESRI ;
+    skos:definition "ESRI's ArcGIS Services Directory Page"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ArcGIS Services Directory Page"@en .
+
+pt:UKST a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "UKST"@en ;
+    skos:definition "Unknown Service Type"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown Service Type"@en ;
+    skos:topConceptOf cs: .
+
+pt:WCS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WCS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Coverage Service"@en .
+
+pt:WCS-1.0.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WCS-1.0.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.0.0 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Coverage Service 1.0.0 GetCapabilities"@en .
+
+pt:WCS-1.1.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WCS-1.1.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.1.0 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Coverage Service 1.1.0 GetCapabilities"@en .
+
+pt:WCTS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WCTS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Coordinate Transformation Service (WCTS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Coordinate Transformation Service"@en .
+
+pt:WFS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WFS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Feature Service (WFS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Feature Service"@en .
+
+pt:WFS-1.0.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WFS-1.0.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.0.0 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Feature Service 1.0.0 GetCapabilities"@en .
+
+pt:WFS-1.1.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WFS-1.1.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.1.0 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Feature Service 1.1.0 GetCapabilities"@en .
+
+pt:WFS-G a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WFS-G"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Feature Service Gazetteer Profile (WFS-G)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gazetteer Service"@en .
+
+pt:WMC-1.1.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMC-1.1.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Context (WMC) version 1.1 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Context 1.1 GetCapabilities"@en .
+
+pt:WMS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Service (WMS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Service"@en .
+
+pt:WMS-1.1.1-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMS-1.1.1-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Service 1.1.1 GetCapabilities"@en .
+
+pt:WMS-1.1.1-HTTP-get-map a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMS-1.1.1-http-get-map"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetMap operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Service 1.1.1 GetMap"@en .
+
+pt:WMS-1.3.0-HTTP-get-capabilities a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMS-1.3.0-http-get-capabilities"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetCapabilities operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Service 1.3.0 GetCapabilities"@en .
+
+pt:WMS-1.3.0-HTTP-get-map a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WMS-1.3.0-http-get-map"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetMap operation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Map Service 1.3.0 GetMap"@en .
+
+pt:WNS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WNS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Notification Service (WNS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Notification Service"@en .
+
+pt:WPS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "OGC:WPS"@en ;
+    skos:broader pt:OGC ;
+    skos:definition "Open Geospatial Consortium's Web Processing Service (WPS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Processing Service"@en .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+pt:Database a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Un-typed database protocol"@en ;
+    skos:inScheme cs: ;
+    skos:narrower pt:DB-ORACLE,
+        pt:DB-POSTGIS ;
+    skos:prefLabel "Database"@en ;
+    skos:topConceptOf cs: .
+
+pt:File a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:inScheme cs: ;
+    skos:narrower pt:FILE-DATA-DIRECTORY,
+        pt:FILE-GEO,
+        pt:FILE-RASTER ;
+    skos:prefLabel "File"@en ;
+    skos:topConceptOf cs: .
+
+pt:ESRI a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Un-typed ESRI protocol"@en ;
+    skos:inScheme cs: ;
+    skos:narrower pt:AIMS-HTTP-configuration,
+        pt:AIMS-HTTP-get-feature,
+        pt:AIMS-HTTP-get-image,
+        pt:Geoprocessing-Service,
+        pt:Image-Service,
+        pt:Map-Service,
+        pt:Services-Directory-Page ;
+    skos:prefLabel "ESRI"@en ;
+    skos:topConceptOf cs: .
+
+pt:W3C a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Un-typed World Wide Web Consortium protocol"@en ;
+    skos:inScheme cs: ;
+    skos:narrower pt:HTTP-RSS,
+        pt:HTTP-ical,
+        pt:HTTP-link,
+        pt:HTTP-opendap,
+        pt:HTTP-partners,
+        pt:HTTP-related,
+        pt:HTTP-samples ;
+    skos:prefLabel "W3C"@en ;
+    skos:topConceptOf cs: .
+
+pt:OGC a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Un-typed Open Geospatial Consortium protocol"@en ;
+    skos:inScheme cs: ;
+    skos:narrower pt:CSW,
+        pt:GML,
+        pt:KML,
+        pt:ODS,
+        pt:OGS,
+        pt:OPS,
+        pt:ORS,
+        pt:OUS,
+        pt:SAS,
+        pt:SOS,
+        pt:SOS-1.0.0-HTTP-get-observation,
+        pt:SOS-1.0.0-HTTP-post-observation,
+        pt:SPS,
+        pt:WCS,
+        pt:WCS-1.0.0-HTTP-get-capabilities,
+        pt:WCS-1.1.0-HTTP-get-capabilities,
+        pt:WCTS,
+        pt:WFS,
+        pt:WFS-1.0.0-HTTP-get-capabilities,
+        pt:WFS-1.1.0-HTTP-get-capabilities,
+        pt:WFS-G,
+        pt:WMC-1.1.0-HTTP-get-capabilities,
+        pt:WMS,
+        pt:WMS-1.1.1-HTTP-get-capabilities,
+        pt:WMS-1.1.1-HTTP-get-map,
+        pt:WMS-1.3.0-HTTP-get-capabilities,
+        pt:WMS-1.3.0-HTTP-get-map,
+        pt:WNS,
+        pt:WPS ;
+    skos:prefLabel "Open Geospatial Consortium"@en ;
+    skos:topConceptOf cs: .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2017-10-05"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-01-25"^^xsd:date ;
+    dcterms:modified "2019-01-25"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    owl:versionInfo "V1.2"^^xsd:string ;
+    skos:hasTopConcept pt:DataTurbine,
+        pt:Database,
+        pt:ESRI,
+        pt:File,
+        pt:GoogleEarth,
+        pt:JetStream,
+        pt:OGC,
+        pt:UKST,
+        pt:W3C ;
+    skos:prefLabel "Protocol Type"@en .
+
