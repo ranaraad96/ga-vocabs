@@ -2,12 +2,13 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/1> a skos:Concept ;
     skos:altLabel "1"@en ;
     skos:definition "Measures the ratio of isomers (mirror-image versions) of amino acids which evolve (racemise) towards a 1:1 ratio after the death of an organism, which produces only one isomer during life"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "amino acid racemisation"@en ;
     skos:topConceptOf cs: .
 
@@ -15,7 +16,7 @@
     skos:altLabel "10"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13715> ;
     skos:definition "Age is inferred by correlation with other geological features isotopically similar composition."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, isotopic correlation"@en ;
     skos:topConceptOf cs: .
 
@@ -23,7 +24,7 @@
     skos:altLabel "11"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13715> ;
     skos:definition "Age is inferred by correlation with other geological units containing similar lithofacies associations."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, lithostratigraphic correlation"@en ;
     skos:topConceptOf cs: .
 
@@ -31,7 +32,7 @@
     skos:altLabel "12"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred by relationship with an overlying geological unit"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, overlying unit"@en ;
     skos:topConceptOf cs: .
 
@@ -39,7 +40,7 @@
     skos:altLabel "13"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred by relationship with an underlying geological unit"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, underlying unit"@en ;
     skos:topConceptOf cs: .
 
@@ -47,7 +48,7 @@
     skos:altLabel "14"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred by an intrusive relationship with a geological unit (e.g., intruding or intruded by)"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, intrusive relationship"@en ;
     skos:topConceptOf cs: .
 
@@ -55,7 +56,7 @@
     skos:altLabel "15"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred by relationship with a cross-cutting or overprinting structure"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, structural relationship"@en ;
     skos:topConceptOf cs: .
 
@@ -63,14 +64,14 @@
     skos:altLabel "16"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred from interpretation of seismic data.  Geological relationships not specified"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, seismic interpretation"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/17> a skos:Concept ;
     skos:altLabel "17"@en ;
     skos:definition "Age is determined by radiogenic isotope analysis of the geological feature; includes the decay systems K-Ar, Rb-Sr, U-Th-Pb, U-series, Sm-Nd, Lu-Hf, Re-Os, radiocarbon techniques, cosmogenic isotopes"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic"@en ;
     skos:topConceptOf cs: .
 
@@ -78,7 +79,7 @@
     skos:altLabel "18"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Ar/Ar isotope analysis of the geological feature"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Ar/Ar"@en ;
     skos:topConceptOf cs: .
 
@@ -86,14 +87,14 @@
     skos:altLabel "19"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by C14 isotope analysis of the geological feature"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, radiocarbon"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/2> a skos:Concept ;
     skos:altLabel "2"@en ;
     skos:definition "Age of geological feature is determined from its contained or related fossils"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "biozone"@en ;
     skos:topConceptOf cs: .
 
@@ -101,7 +102,7 @@
     skos:altLabel "20"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by cosmogenic isotope (e.g., Be10, Cl36, Al26) analysis of the geological feature"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, cosmogenic"@en ;
     skos:topConceptOf cs: .
 
@@ -109,7 +110,7 @@
     skos:altLabel "21"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by K/Ar isotope analysis of the geological feature"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, K/Ar"@en ;
     skos:topConceptOf cs: .
 
@@ -117,7 +118,7 @@
     skos:altLabel "22"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Lu/Hf isotope analysis of the geological feature"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Lu/Hf"@en ;
     skos:topConceptOf cs: .
 
@@ -125,7 +126,7 @@
     skos:altLabel "23"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Pb/Pb isotope analysis of the geological feature; isochron or model age techniques"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Pb/Pb"@en ;
     skos:topConceptOf cs: .
 
@@ -133,7 +134,7 @@
     skos:altLabel "24"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13727> ;
     skos:definition "Age is determined by Pb/Pb isotope analysis of the geological feature; model age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Pb/Pb model age"@en ;
     skos:topConceptOf cs: .
 
@@ -141,7 +142,7 @@
     skos:altLabel "25"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13727> ;
     skos:definition "Age is determined by Pb/Pb isotope analysis of the geological feature; isochron age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Pb/Pb isochron age"@en ;
     skos:topConceptOf cs: .
 
@@ -149,7 +150,7 @@
     skos:altLabel "26"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Rb/Sr isotope analysis of the geological feature, isochron technique"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Rb/Sr"@en ;
     skos:topConceptOf cs: .
 
@@ -157,7 +158,7 @@
     skos:altLabel "27"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Re/Os isotope analysis of the geological feature; isochron or model age technique"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Re/Os"@en ;
     skos:topConceptOf cs: .
 
@@ -165,7 +166,7 @@
     skos:altLabel "28"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13729> ;
     skos:definition "Age is determined by Re/Os isotope analysis of the geological feature; model age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Re/Os model age"@en ;
     skos:topConceptOf cs: .
 
@@ -173,14 +174,14 @@
     skos:altLabel "29"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13729> ;
     skos:definition "Age is determined by Re/Os isotope analysis of the geological feature; isochron age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Re/Os isochron age"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/3> a skos:Concept ;
     skos:altLabel "3"@en ;
     skos:definition "Age is determined by electron microprobe analysis of U, Th, and Pb concentration"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "chemical U-Th-Pb"@en ;
     skos:topConceptOf cs: .
 
@@ -188,7 +189,7 @@
     skos:altLabel "30"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by Sm/Nd isotope analysis of the geological feature; isochron or model age technique"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Sm/Nd"@en ;
     skos:topConceptOf cs: .
 
@@ -196,7 +197,7 @@
     skos:altLabel "31"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13730> ;
     skos:definition "Age is determined by Sm/Nd isotope analysis of the geological feature; model age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Sm/Nd model age"@en ;
     skos:topConceptOf cs: .
 
@@ -204,7 +205,7 @@
     skos:altLabel "32"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13730> ;
     skos:definition "Age is determined by Sm/Nd isotope analysis of the geological feature; isochron age technique."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Sm/Nd isochron age"@en ;
     skos:topConceptOf cs: .
 
@@ -212,7 +213,7 @@
     skos:altLabel "33"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determiend by Th/Pb isotope analysis of the geological feature; analytical method unspecified."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Th/Pb"@en ;
     skos:topConceptOf cs: .
 
@@ -220,7 +221,7 @@
     skos:altLabel "34"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by U/Pb isotope analysis of the geological feature; analytical method unspecified"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, U/Pb"@en ;
     skos:topConceptOf cs: .
 
@@ -228,7 +229,7 @@
     skos:altLabel "35"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13731> ;
     skos:definition "Age of the geological feature is determined by isotope dilution thermal ionization U/Pb +/- Pb/Pb analysis."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, U/Pb-Pb/Pb conventional"@en ;
     skos:topConceptOf cs: .
 
@@ -236,7 +237,7 @@
     skos:altLabel "36"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13731> ;
     skos:definition "Age is determined by ion microprobe (e.g., SHRIMP) U/Pb +/- Pb/Pb isotope analysis of the geological feature."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, U/Pb-Pb/Pb ion probe"@en ;
     skos:topConceptOf cs: .
 
@@ -244,7 +245,7 @@
     skos:altLabel "37"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13731> ;
     skos:definition "Age is determined by U/Pb +/- Pb/Pb isotope analysis using Inductively-Coupled-Plasma Mass Spectrometery. "@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, U/Pb-Pb/Pb ICP-MS"@en ;
     skos:topConceptOf cs: .
 
@@ -252,7 +253,7 @@
     skos:altLabel "38"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age (closure temperature) is determined by U/Th/He isotope analysis of a geological feature."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic U/Th/He"@en ;
     skos:topConceptOf cs: .
 
@@ -260,14 +261,14 @@
     skos:altLabel "39"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13721> ;
     skos:definition "Age is determined by analysis of short-lived U-series isotopes of a geological feature."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic U-series"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/4> a skos:Concept ;
     skos:altLabel "4"@en ;
     skos:definition "Measures paramagnetic resonance induced when electrons with \"unpaired spins\", which have been trapped at defects in the mineral lattice by radiation damage, are stimulated by electromagnetic energy"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "electron-spin resonance"@en ;
     skos:scopeNote "Measures paramagnetic resonance induced when electrons with \"unpaired spins\", which have been trapped at defects in the mineral lattice by radiation damage, are stimulated by electromagnetic energy within a continuously varying strong magnetic field"@en ;
     skos:topConceptOf cs: .
@@ -275,7 +276,7 @@
 <http://pid.geoscience.gov.au/def/Age_Methods/40> a skos:Concept ;
     skos:altLabel "40"@en ;
     skos:definition "measures light emitted when electrons trapped in crystal lattices by past episodes of heating or exposure to UV light are released by heating or electromagnetic energy"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "luminescence"@en ;
     skos:scopeNote "Includes thermoluminescence (TL) and optically-stimulated luminescence (OSL); measures light emitted when electrons trapped in crystal lattices by past episodes of heating or exposure to UV light are released by heating or electromagnetic energy"@en ;
     skos:topConceptOf cs: .
@@ -283,28 +284,28 @@
 <http://pid.geoscience.gov.au/def/Age_Methods/41> a skos:Concept ;
     skos:altLabel "41"@en ;
     skos:definition "Compares the remanent magnetisation polarity and direction of a geological feature with a calibrated scale of reversals and with polar wander paths"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "palaeomagnetism"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/42> a skos:Concept ;
     skos:altLabel "42"@en ;
     skos:definition "Age is estimated from the stable isotopic compostion (e.g., O18, C13, Sr) of meteoric waters and authigenic regolith materials"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "stable isotopes"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/43> a skos:Concept ;
     skos:altLabel "43"@en ;
     skos:definition "Includes dendrochronology, obsidian hydration, lichenometry, rock varnish chemistry, weathering rind thickness"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "other"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/44> a skos:Concept ;
     skos:altLabel "44"@en ;
     skos:definition "Method of age determination is unknown"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: .
 
@@ -312,7 +313,7 @@
     skos:altLabel "45"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13722> ;
     skos:definition "Age of the geological feature is determined by Ar/Ar isotope analysis (step heating method)."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Ar/Ar, step heat"@en ;
     skos:topConceptOf cs: .
 
@@ -320,7 +321,7 @@
     skos:altLabel "46"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13722> ;
     skos:definition "Age of the geological feature is determined by Ar/Ar isotope analysis (laser ablation method)."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, Ar/Ar, laser ablation"@en ;
     skos:topConceptOf cs: .
 
@@ -328,21 +329,21 @@
     skos:altLabel "47"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13731> ;
     skos:definition "Age is determined by U/Pb +/- Pb/Pb isotope analysis using Thermal Ionization Mass Spectrometry."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "isotopic, U/Pb-Pb/Pb, TIMS"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/5> a skos:Concept ;
     skos:altLabel "5"@en ;
     skos:definition "Age is determined by the density of spontaneous U238 fission damage tracks and the U content of the sample"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "fission track"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Age_Methods/6> a skos:Concept ;
     skos:altLabel "6"@en ;
     skos:definition "Age is inferred by unspecified relationships with other geological features"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred"@en ;
     skos:topConceptOf cs: .
 
@@ -350,7 +351,7 @@
     skos:altLabel "7"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13714> ;
     skos:definition "Age is inferred by correlation with other geological features with similar characteristics"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, geological correlation"@en ;
     skos:topConceptOf cs: .
 
@@ -358,7 +359,7 @@
     skos:altLabel "8"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13715> ;
     skos:definition "Age is inferred by correlation with other geological units which are dated by their contained fossils."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, biostratigraphic correlation"@en ;
     skos:topConceptOf cs: .
 
@@ -366,7 +367,7 @@
     skos:altLabel "9"@en ;
     skos:broader <http://pid.geoscience.gov.au/def/13715> ;
     skos:definition "Age is inferred by correlation with other geological features of similar geochemical composition (eg: granite suites)."@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "inferred, geochemical correlation"@en ;
     skos:topConceptOf cs: .
 
@@ -380,9 +381,10 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
     skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Age Methods vocabulary"@en ;
@@ -433,5 +435,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Age_Methods/7>,
         <http://pid.geoscience.gov.au/def/Age_Methods/8>,
         <http://pid.geoscience.gov.au/def/Age_Methods/9> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Age Methods"@en .
+    skos:prefLabel "Age Methods"@en .
 

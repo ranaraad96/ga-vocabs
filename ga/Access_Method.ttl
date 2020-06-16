@@ -2,65 +2,66 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://pid.geoscience.gov.au/def/Access_Method/1_100000> a skos:Concept ;
     skos:definition "A 1:100000 map of the area is required to locate the station"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "1:100000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/1_250000> a skos:Concept ;
     skos:definition "A 1:125000 map of the area is required to locate the station"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "1:250000"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/2WD> a skos:Concept ;
     skos:definition "A 2 Wheel Drive vehicle is required to access the site"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "2WD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/2_4WD> a skos:Concept ;
     skos:definition "A 2 or 4 Wheel Drive vehicle is required to access the site"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "2/4WD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/4WD> a skos:Concept ;
     skos:definition "A 4 Wheel Drive vehicle is required to access the site"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "4WD"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/Boat> a skos:Concept ;
     skos:definition "The station is accessible by boat"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "Boat"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/Boat_Helicopter> a skos:Concept ;
     skos:definition "The station is accessible by boat both boat and helicopter"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "Boat/Helicopter"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/Helicopter> a skos:Concept ;
     skos:definition "The station is accessible by helicopter"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "Helicopter"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/Unknown> a skos:Concept ;
     skos:definition "It is not known how to access the station"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "Unknown"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/Access_Method/Walk> a skos:Concept ;
     skos:definition "The station is accessible through walk"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme cs: ;     rdfs:isDefinedBy cs: ;
     skos:prefLabel "Walk"@en ;
     skos:topConceptOf cs: .
 
@@ -74,9 +75,10 @@
     sdo:url <https://www.ga.gov.au> .
 
 cs: a skos:ConceptScheme ;
+dcterms:provenance "GA's ORAPROD database tables"@en ;
     dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
-    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:modified "2019-03-12T11:48:09"^^xsd:dateTime ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:changeNote "This vocabulary created directly from the database"@en ;
     skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Access Method vocabulary"@en ;
@@ -90,5 +92,5 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/Access_Method/Helicopter>,
         <http://pid.geoscience.gov.au/def/Access_Method/Unknown>,
         <http://pid.geoscience.gov.au/def/Access_Method/Walk> ;
-    skos:prefLabel "Geoscience Australia Vocabulary - Access Method"@en .
-
+    skos:prefLabel "Access Method"@en ;
+    skos:definition "Access Method"@en .
