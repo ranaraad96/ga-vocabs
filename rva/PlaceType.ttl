@@ -3,7 +3,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pt: <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -35,7 +34,7 @@ pt:ABBEY a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ABBEY"@en .
 
-pt:ABYSSAL_PLAIN a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/ABYSSAL_PLAIN_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An extensive, flat or gently sloping region, usually found at depths greater than 4000m"@en ;
@@ -119,7 +118,7 @@ pt:ANTARCTIC_SPECIALLY_PROTECTED a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ANTARCTIC SPECIALLY PROTECTED AREAS"@en .
 
-pt:APRON a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/APRON_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A gently dipping SLOPE, with a smooth surface, commonly found around groups of islands and SEAMOUNTS"@en ;
@@ -175,6 +174,20 @@ pt:ATHLETIC_FIELD a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ATHLETIC FIELD"@en .
 
+pt:BANK a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "The sloping ground along the edge of water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BANK"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/BANK_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "An ELEVATION of the seafloor at depths generally less than 200m, but sufficient for safe surface navigation, commonly found on the continental shelf or near an island"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BANK (MARINE)"@en .
+
 pt:BAR a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:LANDFORM ;
@@ -196,7 +209,7 @@ pt:BASEBALL_FIELD a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "BASEBALL FIELD"@en .
 
-pt:BASIN a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/BASIN_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A depression more or less equidimensional in plan and of variable extent"@en ;
@@ -399,7 +412,7 @@ pt:CAIRN a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "CAIRN"@en .
 
-pt:CALDERA a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CALDERA_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A roughly circular, cauldron-like depression generally characterised by steep sides and formed by collapse, or partial collapse, during or following a volcanic eruption"@en ;
@@ -420,7 +433,7 @@ pt:CANAL a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "CANAL"@en .
 
-pt:CANYON a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CANYON_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An elongated, narrow, steep-sided depression that generally deepens down-slope"@en ;
@@ -637,7 +650,7 @@ pt:CONTINENT a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "CONTINENT"@en .
 
-pt:CONTINENTAL_MARGIN a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CONTINENTAL_MARGIN_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "The zone, generally consisting of SHELF, SLOPE and CONTINENTAL RISE, separating the continent from the deep seafloor or ABYSSAL PLAIN. Occasionally a TRENCH may be present in place of a CONTINENTAL RISE"@en ;
@@ -714,7 +727,7 @@ pt:DAY_PROCEDURE_CENTRE a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "DAY PROCEDURE CENTRE"@en .
 
-pt:DEEP a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/DEEP_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A localised depression within the confines of a larger feature, such as a TROUGH, BASIN or TRENCH"@en ;
@@ -842,6 +855,20 @@ pt:EQUESTRIAN_CENTRE a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "EQUESTRIAN CENTRE"@en .
 
+pt:ESCARPMENT a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "The steep slope terminating a PLATEAU or any level or upland surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ESCARPMENT"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/ESCARPMENT_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "An elongated, characteristically linear, steep SLOPE separating horizontal or gently sloping areas of the sea floor"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ESCARPMENT (MARINE)"@en .
+
 pt:ESTUARY a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:WATERWAY ;
@@ -849,7 +876,7 @@ pt:ESTUARY a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ESTUARY"@en .
 
-pt:FAN a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/FAN_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A relatively smooth depositional feature continuously deepening away from a sediment source commonly located at the lower termination of a CANYON or canyon system"@en ;
@@ -961,7 +988,7 @@ pt:FOREST a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "FOREST"@en .
 
-pt:FRACTURE_ZONE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/FRACTURE_ZONE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A long narrow zone of irregular topography formed by the movement of tectonic plates associated with an offset of a spreading ridge axis, characterised by steep-sided and/or asymmetrical RIDGES, TROUGHS or ESCARPMENTS"@en ;
@@ -975,7 +1002,7 @@ pt:FURTHER_EDUCATION a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "FURTHER EDUCATION"@en .
 
-pt:GAP a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/GAP_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A narrow break in a RIDGE, RISE or other ELEVATION. Also called a PASSAGE"@en ;
@@ -1129,7 +1156,7 @@ pt:GULF a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "GURDWARA (SIKH)"@en .
 
-pt:GUYOT a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/GUYOT_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A SEAMOUNT with a comparatively smooth flat top"@en ;
@@ -1178,6 +1205,20 @@ pt:HELIPORT a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "HELIPORT"@en .
 
+pt:HILL a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "A small portion of the Earth's surface elevated above its surroundings: in general, a feature is not considered a MOUNTAIN unless its ELEVATION, from foot to SUMMIT, is well over 300m, but the distinction is arbitrary (PSMA)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "HILL"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/HILL_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "A distinct ELEVATION generally of irregular shape, less than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "HILL (MARINE)"@en .
+
 pt:HISTORIC_SITE a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:LANDMARK ;
@@ -1192,7 +1233,7 @@ pt:HOCKEY_GROUND a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "HOCKEY GROUND"@en .
 
-pt:HOLE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/HOLE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A depression of limited extent with all sides rising steeply from a relatively flat bottom"@en ;
@@ -1339,7 +1380,7 @@ pt:JUNCTION a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "JUNCTION"@en .
 
-pt:KNOLL a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/KNOLL_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A distinct ELEVATION with a rounded profile less than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature"@en ;
@@ -1408,6 +1449,20 @@ pt:LEDGE a skos:Concept ;
     skos:definition "A narrow shelf-like projection on a cliff or on the side of a hill or mountain"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "LEDGE"@en .
+
+pt:LEVEE a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDMARK ;
+    skos:definition "An embankment built to confine a river from flooding"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LEVEE"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/LEVEE_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "A depositional embankment bordering a CANYON, VALLEY or SEA CHANNEL"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LEVEE (MARINE)"@en .
 
 pt:LIBRARY a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1570,7 +1625,7 @@ pt:MISSION a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "MISSION"@en .
 
-pt:MOAT a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MOAT_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An annular or partially annular depression commonly located at the base of SEAMOUNTS, islands and other isolated ELEVATIONs"@en ;
@@ -1612,7 +1667,7 @@ pt:MOTOR_TRACK a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "MOTOR TRACK"@en .
 
-pt:MOUND a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MOUND_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A distinct ELEVATION with a rounded profile generally less than 500m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature, commonly formed by the expulsion of fluids or by coral reef development, sedimentation and (bio)erosion"@en ;
@@ -1633,7 +1688,7 @@ pt:MOUNTAIN_BIKE_TRACK a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "MOUNTAIN BIKE TRACK"@en .
 
-pt:MUD_VOLCANO a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MUD_VOLCANO_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A MOUND or cone-shaped ELEVATION formed by the expulsion of non-magmatic liquids and gasses"@en ;
@@ -1794,12 +1849,40 @@ pt:PASS a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "PASS"@en .
 
+pt:PASSAGE a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:WATERBODY ;
+    skos:definition "A navigable route, specifically one through REEFS ,ISLANDS, LANDS or shallow waters"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PASSAGE"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PASSAGE_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "A narrow break in a RIDGE, RISE or other ELEVATION. Also called a GAP"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PASSAGE (MARINE)"@en .
+
 pt:PASTORAL_DISTRICT a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:ADMINISTRATIVE_AREA ;
     skos:definition "A classification of land to assist in the administration of pastoral runs."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PASTORAL DISTRICT"@en .
+
+pt:PEAK a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "A high point of a mountain or a ridge"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PEAK"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PEAK_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "A conical or pointed ELEVATION at the summit of a larger feature"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PEAK (MARINE)"@en .
 
 pt:PENINSULA a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1822,7 +1905,7 @@ pt:PIER a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "PIER"@en .
 
-pt:PINNACLE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PINNACLE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A spire-shaped pillar either isolated or at the summit of a larger feature"@en ;
@@ -1842,6 +1925,20 @@ pt:PLANTATION a skos:Concept ;
     skos:definition "A plot in which trees are planted and cultivated, usually for commercial purposes"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PLANTATION"@en .
+
+pt:PLATEAU a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "An elevated tract of comparatively flat or level land"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PLATEAU"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PLATEAU_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "A large, relatively flat ELEVATION that is higher than the surrounding relief with one or more relatively steep sides"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PLATEAU (MARINE)"@en .
 
 pt:PLAYGROUND a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1955,7 +2052,7 @@ pt:PRISON a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "PRISON"@en .
 
-pt:PROVINCE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PROVINCE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A geographically distinct region with a number of shared physiographic characteristics that contrast with those in the surrounding areas. This term should be modified with the generic term that best describes the majority of features in the region (e.g., Seamount in “Baja California Seamount Province”)"@en ;
@@ -2060,7 +2157,7 @@ pt:REACH a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "REACH"@en .
 
-pt:REEF a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/REEF_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A shallow ELEVATION composed of consolidated material that may constitute a hazard to surface navigation"@en ;
@@ -2095,14 +2192,28 @@ pt:RETIREMENT_VILLAGE a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "RETIREMENT VILLAGE"@en .
 
-pt:RIFT a skos:Concept ;
+pt:RIDGE a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "A long and narrow stretch of elevated ground, either isolated or located in a RANGE"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RIDGE"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RIDGE_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "An elongated ELEVATION of varying complexity, size and gradient"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RIDGE (MARINE)"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RIFT_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An elongated depression bounded by two or more faults formed as a breach or split between two bodies that were once joined"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "RIFT (MARINE)"@en .
 
-pt:RISE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RISE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A broad ELEVATION that generally rises gently and smoothly from the surrounding relief"@en ;
@@ -2165,21 +2276,21 @@ pt:ROWING_COURSE a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ROWING COURSE"@en .
 
-pt:SADDLE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SADDLE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A broad pass or col in a RIDGE, RISE or other ELEVATION"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SADDLE (MARINE)"@en .
 
-pt:SALT_DOME a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SALT_DOME_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A distinct ELEVATION, often with a rounded profile, one km or more in diameter that is the geomorphologic expression of a diapir formed by vertical intrusion of salt. Commonly found in a PROVINCE of similar features"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SALT DOME (MARINE)"@en .
 
-pt:SAND_RIDGE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SAND_RIDGE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An elongated feature of unconsolidated sediment of limited vertical relief and sometimes crescent shaped. Commonly found in a PROVINCE of similar features"@en ;
@@ -2214,21 +2325,21 @@ pt:SEA a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "SEA"@en .
 
-pt:SEAMOUNT a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEAMOUNT_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A distinct generally equidimensional ELEVATION greater than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEAMOUNT (MARINE)"@en .
 
-pt:SEAMOUNT_CHAIN a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEAMOUNT_CHAIN_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A linear or arcuate alignment of discrete SEAMOUNTS"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SEAMOUNT CHAIN (MARINE)"@en .
 
-pt:SEA_CHANNEL a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEA_CHANNEL_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "An elongated, meandering depression, usually occurring on a gently sloping plain or FAN"@en ;
@@ -2270,7 +2381,7 @@ pt:SEWER_PIPELINE a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "SEWER PIPELINE"@en .
 
-pt:SHELF a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SHELF_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "The flat or gently sloping region adjacent to a continent or around an island that extends from the low water line to a depth, generally about 200m, where there is a marked increase in downward slope"@en ;
@@ -2284,7 +2395,7 @@ pt:SHIP_WRECK a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "SHIP WRECK"@en .
 
-pt:SHOAL a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SHOAL_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A shallow ELEVATION composed of unconsolidated material that may constitute a hazard to surface navigation"@en ;
@@ -2312,7 +2423,7 @@ pt:SIDING a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "SIDING"@en .
 
-pt:SILL a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SILL_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A relatively shallow barrier between BASINS that may inhibit water movement"@en ;
@@ -2332,6 +2443,20 @@ pt:SKI_TRAIL a skos:Concept ;
     skos:definition "A trail designed for downhill or cross country in the main"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "SKI TRAIL"@en .
+
+pt:SLOPE a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "A gradient on the side or end of an elevated relief feature"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SLOPE"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SLOPE_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "The sloping region that deepens from a SHELF to the point where there is a general decrease in gradient"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SLOPE (MARINE)"@en .
 
 pt:SMELTER a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2410,7 +2535,7 @@ pt:SPRING a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "SPRING"@en .
 
-pt:SPUR a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SPUR_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A subordinate RIDGE protruding from a larger feature"@en ;
@@ -2564,7 +2689,7 @@ pt:TENNIS_COURT a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "TENNIS COURT"@en .
 
-pt:TERRACE a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TERRACE_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A flat or gently sloping region, generally long and narrow, bounded along one edge by a steeper descending slope and along the other by a steeper ascending slope"@en ;
@@ -2641,14 +2766,14 @@ pt:TRANSFER_STATION a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "TRANSFER STATION"@en .
 
-pt:TRENCH a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TRENCH_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A long, deep, asymmetrical depression with relatively steep sides, that is associated with subduction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "TRENCH (MARINE)"@en .
 
-pt:TROUGH a skos:Concept ;
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TROUGH_(MARINE)> a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:UNDERSEA ;
     skos:definition "A long depression, generally wide and flat bottomed with symmetrical and parallel sides"@en ;
@@ -2668,6 +2793,20 @@ pt:UNIVERSITY a skos:Concept ;
     skos:definition "An educational institution for both instruction and examination in the higher branches of knowledge with the power to confer degrees"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "UNIVERSITY"@en .
+
+pt:VALLEY a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:LANDFORM ;
+    skos:definition "A long area of lower elevation within an area of elevated relief, bounded by hills or mountains, usually with a river flowing through it, and formed by erosion or by movements in the Earth's crust"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VALLEY"@en .
+
+<http://pid.geoscience.gov.au/def/voc/ga/PlaceType/VALLEY_(MARINE)> a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader pt:UNDERSEA ;
+    skos:definition "An elongated depression that generally widens and deepens down-slope. Also called SEA VALLEY or SUBMARINE VALLEY"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VALLEY (MARINE)"@en .
 
 pt:VELODROME a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2809,90 +2948,6 @@ pt:ZOO a skos:Concept ;
     skos:inScheme cs: ;
     skos:prefLabel "ZOO"@en .
 
-pt:BANK a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.257000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.261000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "An ELEVATION of the seafloor at depths generally less than 200m, but sufficient for safe surface navigation, commonly found on the continental shelf or near an island"@en,
-        "The sloping ground along the edge of water"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "BANK"@en,
-        "BANK (MARINE)"@en .
-
-pt:ESCARPMENT a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.258000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.261000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "An elongated, characteristically linear, steep SLOPE separating horizontal or gently sloping areas of the sea floor"@en,
-        "The steep slope terminating a PLATEAU or any level or upland surface"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ESCARPMENT"@en,
-        "ESCARPMENT (MARINE)"@en .
-
-pt:HILL a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.258000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.262000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A distinct ELEVATION generally of irregular shape, less than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature"@en,
-        "A small portion of the Earth's surface elevated above its surroundings: in general, a feature is not considered a MOUNTAIN unless its ELEVATION, from foot to SUMMIT, is well over 300m, but the distinction is arbitrary (PSMA)"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "HILL"@en,
-        "HILL (MARINE)"@en .
-
-pt:LEVEE a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.248000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.262000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDMARK,
-        pt:UNDERSEA ;
-    skos:definition "A depositional embankment bordering a CANYON, VALLEY or SEA CHANNEL"@en,
-        "An embankment built to confine a river from flooding"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "LEVEE"@en,
-        "LEVEE (MARINE)"@en .
-
-pt:PASSAGE a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.253000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.262000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:UNDERSEA,
-        pt:WATERBODY ;
-    skos:definition "A narrow break in a RIDGE, RISE or other ELEVATION. Also called a GAP"@en,
-        "A navigable route, specifically one through REEFS ,ISLANDS, LANDS or shallow waters"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "PASSAGE"@en,
-        "PASSAGE (MARINE)"@en .
-
-pt:PEAK a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.259000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.262000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A conical or pointed ELEVATION at the summit of a larger feature"@en,
-        "A high point of a mountain or a ridge"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "PEAK"@en,
-        "PEAK (MARINE)"@en .
-
-pt:PLATEAU a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.259000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.263000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A large, relatively flat ELEVATION that is higher than the surrounding relief with one or more relatively steep sides"@en,
-        "An elevated tract of comparatively flat or level land"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "PLATEAU"@en,
-        "PLATEAU (MARINE)"@en .
-
 pt:REGION a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:ADMINISTRATION ;
@@ -2900,46 +2955,6 @@ pt:REGION a skos:Concept ;
     skos:inScheme cs: ;
     skos:narrower pt:TOURIST_REGION ;
     skos:prefLabel "REGION"@en .
-
-pt:RIDGE a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.260000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.263000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A long and narrow stretch of elevated ground, either isolated or located in a RANGE"@en,
-        "An elongated ELEVATION of varying complexity, size and gradient"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "RIDGE"@en,
-        "RIDGE (MARINE)"@en .
-
-pt:SLOPE a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.260000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.264000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A gradient on the side or end of an elevated relief feature"@en,
-        "The sloping region that deepens from a SHELF to the point where there is a general decrease in gradient"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "SLOPE"@en,
-        "SLOPE (MARINE)"@en .
-
-pt:VALLEY a skos:Concept ;
-    dcterms:created "2019-08-23T01:15:53.260000+00:00"^^xsd:dateTime,
-        "2019-08-23T01:15:53.264000+00:00"^^xsd:dateTime ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader pt:LANDFORM,
-        pt:UNDERSEA ;
-    skos:definition "A long area of lower elevation within an area of elevated relief, bounded by hills or mountains, usually with a river flowing through it, and formed by erosion or by movements in the Earth's crust"@en,
-        "An elongated depression that generally widens and deepens down-slope. Also called SEA VALLEY or SUBMARINE VALLEY"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "VALLEY"@en,
-        "VALLEY (MARINE)"@en .
-
-<https://linked.data.gov.au/org/icsm> a sdo:GovernmentOrganization ;
-    sdo:name "Intergovernmental Committee on Surveying and Mapping" ;
-    sdo:url <https://www.icsm.gov.au/> .
 
 pt:ACCOMMODATION a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3510,8 +3525,7 @@ pt:WATERBODY a skos:Concept ;
 pt:ROAD a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader pt:TRANSPORT ;
-    skos:definition "Defined  paths for the movement of vehicles"@en,
-        "The course of a transport mode"@en ;
+    skos:definition "Defined paths for the movement of vehicles"@en ;
     skos:inScheme cs: ;
     skos:narrower pt:BUS_DEPOT,
         pt:BUS_ROUTE,
@@ -3690,50 +3704,50 @@ pt:UNDERSEA a skos:Concept ;
     skos:broader pt:TERRAIN ;
     skos:definition "A natural feature of the earths surface under water"@en ;
     skos:inScheme cs: ;
-    skos:narrower pt:ABYSSAL_PLAIN,
-        pt:APRON,
-        pt:BANK,
-        pt:BASIN,
-        pt:CALDERA,
-        pt:CANYON,
-        pt:CONTINENTAL_MARGIN,
-        pt:DEEP,
-        pt:ESCARPMENT,
-        pt:FAN,
-        pt:FRACTURE_ZONE,
-        pt:GAP,
-        pt:GUYOT,
-        pt:HILL,
-        pt:HOLE,
-        pt:KNOLL,
-        pt:LEVEE,
-        pt:MOAT,
-        pt:MOUND,
-        pt:MUD_VOLCANO,
-        pt:PASSAGE,
-        pt:PEAK,
-        pt:PINNACLE,
-        pt:PLATEAU,
-        pt:PROVINCE,
-        pt:REEF,
-        pt:RIDGE,
-        pt:RIFT,
-        pt:RISE,
-        pt:SADDLE,
-        pt:SALT_DOME,
-        pt:SAND_RIDGE,
-        pt:SEAMOUNT,
-        pt:SEAMOUNT_CHAIN,
-        pt:SEA_CHANNEL,
-        pt:SHELF,
-        pt:SHOAL,
-        pt:SILL,
-        pt:SLOPE,
-        pt:SPUR,
-        pt:TERRACE,
-        pt:TRENCH,
-        pt:TROUGH,
-        pt:VALLEY ;
+    skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/ABYSSAL_PLAIN_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/APRON_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/BANK_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/BASIN_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CALDERA_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CANYON_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/CONTINENTAL_MARGIN_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/DEEP_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/ESCARPMENT_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/FAN_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/FRACTURE_ZONE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/GAP_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/GUYOT_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/HILL_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/HOLE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/KNOLL_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/LEVEE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MOAT_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MOUND_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/MUD_VOLCANO_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PASSAGE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PEAK_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PINNACLE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PLATEAU_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/PROVINCE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/REEF_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RIDGE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RIFT_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/RISE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SADDLE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SALT_DOME_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SAND_RIDGE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEAMOUNT_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEAMOUNT_CHAIN_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SEA_CHANNEL_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SHELF_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SHOAL_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SILL_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SLOPE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/SPUR_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TERRACE_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TRENCH_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/TROUGH_(MARINE)>,
+        <http://pid.geoscience.gov.au/def/voc/ga/PlaceType/VALLEY_(MARINE)> ;
     skos:prefLabel "UNDERSEA"@en .
 
 cs: a skos:ConceptScheme ;
@@ -3741,9 +3755,10 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <https://linked.data.gov.au/org/icsm> ;
     dcterms:issued "2019-08-23"^^xsd:date ;
     dcterms:modified "2019-08-23"^^xsd:date ;
+    dcterms:provenance "This vocabulary is expressed for the first time here"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
-    dcterms:title "Place Type"@en ;
     owl:versionInfo "V1.0"^^xsd:string ;
+    skos:definition "Types of locations (places) found in the National Composite Gazetteer of Australia"@en ;
     skos:hasTopConcept pt:ADMINISTRATION,
         pt:CULTURE,
         pt:HYDROLOGY,
@@ -3754,5 +3769,5 @@ cs: a skos:ConceptScheme ;
         pt:TRANSPORT,
         pt:UNCLASSIFIED,
         pt:UTILITIES ;
-    skos:prefLabel "GA Place Type" .
+    skos:prefLabel "Place Type" .
 

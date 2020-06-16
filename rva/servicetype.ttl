@@ -1,212 +1,163 @@
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix cs: <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix st: <http://pid.geoscience.gov.au/def/voc/ga/servicetype/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://editor.vocabs.ands.org.au/user/Aaron-Sedgmen> a dct:Agent ;
-    ns1:name "Aaron Sedgmen"^^xsd:string .
-
-<http://editor.vocabs.ands.org.au/user/Geoscience-Australia> a dct:Agent ;
-    ns1:name "Geoscience Australia"^^xsd:string .
-
-<http://editor.vocabs.ands.org.au/user/Nicholas-Car> a dct:Agent ;
-    ns1:name "Nicholas Car"^^xsd:string .
-
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/ArcIMS> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "Geoscience Australia"@en ;
+st:ArcIMS a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:ArcIMS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI> ;
+    skos:broader st:ESRI ;
     skos:definition "ESRI's ArcIMS Service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcIMS Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/CSW> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:00:48+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:CSW a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:CSW"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Catalogue Service for the Web (CSW)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Catalogue Service for the Web"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/GPServer> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:01:11+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:GPServer a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:ArcGIS:GPServer"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI> ;
+    skos:broader st:ESRI ;
     skos:definition "ESRI's ArcGIS Geoprocessing Server"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS GP Server"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/HTML-DOWNLOAD> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "GeoNetwork"@en ;
+st:HTML-DOWNLOAD a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "W3C:HTML:DOWNLOAD"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/W3C> ;
+    skos:broader st:W3C ;
     skos:definition "Download"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Download"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/HTML-INFORMATION> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "Geoscience Australia"@en ;
+st:HTML-INFORMATION a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "W3C:HTML:INFORMATION"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/W3C> ;
+    skos:broader st:W3C ;
     skos:definition "HTML Information"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "HTML Information"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/ImageServer> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "Geoscience Australia"@en ;
+st:ImageServer a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:ArcGIS:ImageServer"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI> ;
+    skos:broader st:ESRI ;
     skos:definition "ESRI's ArcGIS Image Server"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Image Server"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/MapServer> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:02:47+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:MapServer a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:ArcGIS:MapServer"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI> ;
+    skos:broader st:ESRI ;
     skos:definition "ESRI's ArcGIS Map Server"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Map Server"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/OPeNDAP> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "Geoscience Australia"@en ;
+st:OPeNDAP a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OPeNDAP:OPeNDAP"@en ;
     skos:definition "Open-source Project for a Network Data Access Protocol (OPeNDAP) root URL"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OPeNDAP root URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/REST> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-19T23:51:42+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:REST a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "REST"@en ;
     skos:definition "Generic REST web service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "REST service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/SOS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-01T00:11:15+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:SOS a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SOS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Observation Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/SPARQL> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-19T23:52:00+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:SPARQL a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "W3C:SPARQL"@en ;
     skos:definition "W3C's SPARQL service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "SPARQL service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/Unknown> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-19T23:52:16+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:Unknown a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "UKST"@en ;
     skos:definition "Unknown service type"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Unknown"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/WCS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:03:40+00:00"^^xsd:dateTime ;
-    dct:source "GeoNetwork"@en ;
+st:WCS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WCS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Coverage Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/WFS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:03:54+00:00"^^xsd:dateTime ;
-    dct:source "GeoNetwork"@en ;
+st:WFS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WFS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Feature Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/WMS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:04:13+00:00"^^xsd:dateTime ;
-    dct:source "GeoNetwork"@en ;
+st:WMS a skos:Concept ;
+    dcterms:source "GeoNetwork"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OGC Web Map Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/WMTS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:04:27+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:WMTS a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMTS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Web Map Tile Service (WMTS)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Tile Service"@en .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/WPS> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:04:42+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:WPS a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WPS"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> ;
+    skos:broader st:OGC ;
     skos:definition "Open Geospatial Consortium's Web Processing Service (WPS)"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Processing Service"@en .
 
 rdfs:seeAlso a rdf:Property ;
@@ -214,65 +165,58 @@ rdfs:seeAlso a rdf:Property ;
     rdfs:range rdfs:Resource ;
     rdfs:subPropertyOf rdfs:seeAlso .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/W3C> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:03:26+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:W3C a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed World Wide Web Consortium (W3C) service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
-    skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/servicetype/HTML-DOWNLOAD>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/HTML-INFORMATION> ;
+    skos:inScheme cs: ;
+    skos:narrower st:HTML-DOWNLOAD,
+        st:HTML-INFORMATION ;
     skos:prefLabel "World Wide Web Consortium service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI> a skos:Concept ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:source "Geoscience Australia"@en ;
+st:ESRI a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed ESRI service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
-    skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ArcIMS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/GPServer>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ImageServer>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/MapServer> ;
+    skos:inScheme cs: ;
+    skos:narrower st:ArcIMS,
+        st:GPServer,
+        st:ImageServer,
+        st:MapServer ;
     skos:prefLabel "ESRI service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC> a skos:Concept ;
-    dct:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:modified "2018-03-07T00:03:06+00:00"^^xsd:dateTime ;
-    dct:source "Geoscience Australia"@en ;
+st:OGC a skos:Concept ;
+    dcterms:source "Geoscience Australia"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed Open Geospatial Consortium service"@en ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/servicetype> ;
-    skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/servicetype/CSW>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/SOS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/WCS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/WFS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/WMS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/WMTS>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/WPS> ;
+    skos:inScheme cs: ;
+    skos:narrower st:CSW,
+        st:SOS,
+        st:WCS,
+        st:WFS,
+        st:WMS,
+        st:WMTS,
+        st:WPS ;
     skos:prefLabel "Open Geospatial Consortium service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/servicetype> .
+    skos:topConceptOf cs: .
 
-<http://pid.geoscience.gov.au/def/voc/ga/servicetype> a skos:ConceptScheme ;
-    dct:created "2017-10-05T03:33:04+00:00"^^xsd:dateTime ;
-    dct:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
-    dct:issued "2018-03-20"^^xsd:string ;
-    dct:title "Service Type"@en ;
+cs: a skos:ConceptScheme ;
+    dcterms:created "2017-10-05"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2018-03-20"^^xsd:date ;
+    dcterms:modified "2018-03-20"^^xsd:date ;
+    dcterms:provenance "Assembled from GA's catalogue usage"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "v1.1"^^xsd:string ;
-    skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/ga/servicetype/ESRI>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OGC>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/OPeNDAP>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/REST>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/SPARQL>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/Unknown>,
-        <http://pid.geoscience.gov.au/def/voc/ga/servicetype/W3C> ;
+    skos:definition "Types of Internet serves"@en ;
+    skos:hasTopConcept st:ESRI,
+        st:OGC,
+        st:OPeNDAP,
+        st:REST,
+        st:SPARQL,
+        st:Unknown,
+        st:W3C ;
     skos:prefLabel "Service Type"@en .
-
-<http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> a dct:Agent ;
-    ns1:name "GA_Sedgmen.Lara_Admin"^^xsd:string .
 

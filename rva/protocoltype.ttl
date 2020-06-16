@@ -9,18 +9,26 @@
 
 pt:ArcIMS a skos:Concept ;
     owl:deprecated true ;
+          skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
+          skos:definition "deprecated"@en ;
     skos:prefLabel "ArcIMS HTTP configuration"@en .
 
 pt:FILEDATA-DIRECTORY a skos:Concept ;
     owl:deprecated true ;
+                      skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
+                      skos:definition "deprecated"@en ;
     skos:prefLabel "Data Directory"@en .
 
 pt:OGCWMS-1.1.1-http-get-capabilities a skos:Concept ;
     owl:deprecated true ;
+                                      skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
+                                      skos:definition "deprecated"@en ;
     skos:prefLabel "Web Map Service 1.1.1 GetCapabilities"@en .
 
 pt:OGCWMS-1.3.0-http-get-capabilities a skos:Concept ;
     owl:deprecated true ;
+                                      skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
+                                      skos:definition "deprecated"@en ;
     skos:prefLabel "Web Map Service 1.3.0 GetCapabilities"@en .
 
 pt:AIMS-HTTP-configuration a skos:Concept ;
@@ -518,6 +526,7 @@ pt:File a skos:Concept ;
         pt:FILE-GEO,
         pt:FILE-RASTER ;
     skos:prefLabel "File"@en ;
+        skos:definition "Un-typed computer file"@en ;
     skos:topConceptOf cs: .
 
 pt:ESRI a skos:Concept ;
@@ -603,5 +612,7 @@ cs: a skos:ConceptScheme ;
         pt:OGC,
         pt:UKST,
         pt:W3C ;
+    dcterms:provenance "GeoNetworks included code list"@en ;
+    skos:definition "Types of computer format storage protocols"@en ;
     skos:prefLabel "Protocol Type"@en .
 
