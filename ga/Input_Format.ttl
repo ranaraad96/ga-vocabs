@@ -1,0 +1,45 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Input_Format> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Input_Format/DDEG> a skos:Concept ;
+    skos:definition "Decimal degrees"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DDEG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Input_Format/DMS> a skos:Concept ;
+    skos:definition "Degrees, minutes and decimal seconds"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DMS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Input_Format/XYZ> a skos:Concept ;
+    skos:definition "X, Y and Z coordinates"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XYZ"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Input Format vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Input_Format/DDEG>,
+        <http://pid.geoscience.gov.au/def/Input_Format/DMS>,
+        <http://pid.geoscience.gov.au/def/Input_Format/XYZ> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Input Format"@en .
+

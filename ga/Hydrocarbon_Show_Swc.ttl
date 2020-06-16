@@ -1,0 +1,90 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/G1> a skos:Concept ;
+    skos:altLabel "G1"@en ;
+    skos:definition "Gas bubbles observed bleeding from SWC"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bleeding gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L0> a skos:Concept ;
+    skos:altLabel "L0"@en ;
+    skos:definition "Nil to approximately 30% bright fluorescence or any dull to moderate fluorescence with or without cut"@en,
+        "Nil to medium cut"@en,
+        "Oil staining without fluorescence"@en,
+        "Petroleum odour from whole SWC or fresh surfaces"@en,
+        "Visible oil or bitumen in SWC or measured residual oil from solvent extraction or pinpoint or minor oil bleeding"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minor cut"@en,
+        "Minor fluorescence"@en,
+        "Oil staining"@en,
+        "Petroleum odour"@en,
+        "Residual oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L1> a skos:Concept ;
+    skos:altLabel "L1"@en ;
+    skos:definition "Greater than 30% bright fluorescence with strong cut at fast rate"@en,
+        "Greater than 30% bright fluorescence with strong cut at slow to medium rate or moderate cut at fast rate"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Moderate cut"@en,
+        "Strong cut"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L2> a skos:Concept ;
+    skos:altLabel "L2"@en ;
+    skos:definition "Oil spontaneously flowing from core"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bleeding oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NR> a skos:Concept ;
+    skos:altLabel "NR"@en ;
+    skos:definition "Coring attempted but no SWC cores recovered"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No SWC recovered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NS> a skos:Concept ;
+    skos:altLabel "NS"@en ;
+    skos:definition "No observed fluorescence or mineral fluorescence only"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No indications"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NT> a skos:Concept ;
+    skos:altLabel "NT"@en ;
+    skos:definition "No SWC cores attempted"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No SWC attempted"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Hydrocarbon Show Swc vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/G1>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L0>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L1>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/L2>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NR>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NS>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Swc/NT> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Hydrocarbon Show Swc"@en .
+

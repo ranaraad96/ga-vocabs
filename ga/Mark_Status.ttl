@@ -1,0 +1,57 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Mark_Status> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Mark_Status/Destroyed> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Destroyed"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Mark_Status/Loose> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Loose"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Mark_Status/Lost> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lost"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Mark_Status/Not_Marked> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not Marked"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Mark_Status/OK> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OK"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Mark Status vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Mark_Status/Destroyed>,
+        <http://pid.geoscience.gov.au/def/Mark_Status/Loose>,
+        <http://pid.geoscience.gov.au/def/Mark_Status/Lost>,
+        <http://pid.geoscience.gov.au/def/Mark_Status/Not_Marked>,
+        <http://pid.geoscience.gov.au/def/Mark_Status/OK> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Mark Status"@en .
+

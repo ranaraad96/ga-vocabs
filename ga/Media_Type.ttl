@@ -1,0 +1,374 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Media_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Media_Type/1_4_reel> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "1/4\" reel"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/21_trk_1_0> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "21 trk 1.0"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/3480> a skos:Concept ;
+    skos:definition "3480 cartridge (200Mb)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3480"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/3490> a skos:Concept ;
+    skos:definition "3490 cartridge (400Mb)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3490"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/3590> a skos:Concept ;
+    skos:definition "3590 cartridge (10Gb)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3590"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/3592> a skos:Concept ;
+    skos:definition "3592 Cartridge (500Gb)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3592"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/4mm> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "4mm"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/7_track_0_5> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "7 track 0.5"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/8mm> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8mm"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/9_track_0_5> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "9 track 0.5"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/9_track_1_0> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "9 track 1.0"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Alum__foil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Alum. foil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Analog> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Analog"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Analog_1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Analog 1\""@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Analog_1_4> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Analog 1/4\""@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Audio_cassette> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Audio cassette"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Backup> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Backup"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Book> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Book"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/CD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Cloth_bag> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cloth bag"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/DDS_cart> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DDS cart"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/DLT_tape> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DLT tape"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/DL_tape> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DL tape"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/DVD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DVD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Digital_MT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Digital MT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Film> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Film"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Floppy_3_5> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Floppy 3.5"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Floppy_5_25> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Floppy 5.25"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Floppy_disk> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Floppy disk"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Foil_bag> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Foil bag"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Glass_jar> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Glass jar"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Glass_vial> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Glass vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/LTO> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LTO"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/LTO4> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LTO4"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Mag-optical> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mag-optical"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Maxstor> a skos:Concept ;
+    skos:definition "10Gb to 2TB."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Maxstor"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Microfilm> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Microfilm"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Paper> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paper"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Paper_bag> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paper bag"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Paper_tape> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paper tape"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Plastic_bag> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plastic bag"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Plastic_jar> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plastic jar"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Plastic_vial> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plastic vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Sepia> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sepia"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/TERRA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TERRA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/USB_Drive> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "USB Drive"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/VHS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VHS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/WORM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WORM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/Zip> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zip"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Media_Type/unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Media Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Media_Type/1_4_reel>,
+        <http://pid.geoscience.gov.au/def/Media_Type/21_trk_1_0>,
+        <http://pid.geoscience.gov.au/def/Media_Type/3480>,
+        <http://pid.geoscience.gov.au/def/Media_Type/3490>,
+        <http://pid.geoscience.gov.au/def/Media_Type/3590>,
+        <http://pid.geoscience.gov.au/def/Media_Type/3592>,
+        <http://pid.geoscience.gov.au/def/Media_Type/4mm>,
+        <http://pid.geoscience.gov.au/def/Media_Type/7_track_0_5>,
+        <http://pid.geoscience.gov.au/def/Media_Type/8mm>,
+        <http://pid.geoscience.gov.au/def/Media_Type/9_track_0_5>,
+        <http://pid.geoscience.gov.au/def/Media_Type/9_track_1_0>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Alum__foil>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Analog>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Analog_1>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Analog_1_4>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Audio_cassette>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Backup>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Book>,
+        <http://pid.geoscience.gov.au/def/Media_Type/CD>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Cloth_bag>,
+        <http://pid.geoscience.gov.au/def/Media_Type/DDS_cart>,
+        <http://pid.geoscience.gov.au/def/Media_Type/DLT_tape>,
+        <http://pid.geoscience.gov.au/def/Media_Type/DL_tape>,
+        <http://pid.geoscience.gov.au/def/Media_Type/DVD>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Digital_MT>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Film>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Floppy_3_5>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Floppy_5_25>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Floppy_disk>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Foil_bag>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Glass_jar>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Glass_vial>,
+        <http://pid.geoscience.gov.au/def/Media_Type/LTO>,
+        <http://pid.geoscience.gov.au/def/Media_Type/LTO4>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Mag-optical>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Maxstor>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Microfilm>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Paper>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Paper_bag>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Paper_tape>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Plastic_bag>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Plastic_jar>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Plastic_vial>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Sepia>,
+        <http://pid.geoscience.gov.au/def/Media_Type/TERRA>,
+        <http://pid.geoscience.gov.au/def/Media_Type/USB_Drive>,
+        <http://pid.geoscience.gov.au/def/Media_Type/VHS>,
+        <http://pid.geoscience.gov.au/def/Media_Type/WORM>,
+        <http://pid.geoscience.gov.au/def/Media_Type/Zip>,
+        <http://pid.geoscience.gov.au/def/Media_Type/unknown> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Media Type"@en .
+

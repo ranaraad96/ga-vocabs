@@ -1,0 +1,59 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Station_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Station_Type/DORIS> a skos:Concept ;
+    skos:definition "Doppler Orbitography and Radio Positioning Integrated by Satellite"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DORIS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Station_Type/GNSS> a skos:Concept ;
+    skos:definition "Global Navigation Satellite System"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GNSS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Station_Type/SLR> a skos:Concept ;
+    skos:definition "Satellite Laser Ranging"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SLR"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Station_Type/STDCONTROL> a skos:Concept ;
+    skos:definition "Standard Geodetic Control Point"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STDCONTROL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Station_Type/VLBI> a skos:Concept ;
+    skos:definition "Very Long Baseline Interferometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VLBI"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Station Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Station_Type/DORIS>,
+        <http://pid.geoscience.gov.au/def/Station_Type/GNSS>,
+        <http://pid.geoscience.gov.au/def/Station_Type/SLR>,
+        <http://pid.geoscience.gov.au/def/Station_Type/STDCONTROL>,
+        <http://pid.geoscience.gov.au/def/Station_Type/VLBI> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Station Type"@en .
+

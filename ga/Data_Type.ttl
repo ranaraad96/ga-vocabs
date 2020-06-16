@@ -1,0 +1,373 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Data_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Data_Type/B> a skos:Concept ;
+    skos:altLabel "B"@en ;
+    skos:definition "Addition to supplied report containing data that is all classified as Basic/Documentary."@en,
+        "Airborne Laser Flourescence."@en,
+        "Airborne flight tracks."@en,
+        "Analysis submitted with PSLA cores (may or may not be part of WCR)."@en,
+        "Any report classified as basic data. Preferable to use specific report type."@en,
+        "Bathymetric data collected during surveys."@en,
+        "Bathymetric map enclosures submitted with well completion reports and seismic survey reports."@en,
+        "Computer Graphics Metafile.  Digital plot of seismic data."@en,
+        "Contractor-derived special core analysis."@en,
+        "Current Source Electromagnetic ocean floor logging."@en,
+        "Daily and weekly drilling reports required under PSLA."@en,
+        "Data and reports received from HyLogging of core"@en,
+        "Data type for satellite data."@en,
+        "Digital file containing tie points on seismic lines."@en,
+        "Does not include composite log. Hard copy or digital output from wireline tests."@en,
+        "Drill stem test data - pressures, recoveries"@en,
+        "Drill stem test results. Does not include permeabilities, kh, productivity index"@en,
+        "File included in media containing multiple items, listing all files contained on that media."@en,
+        "Final Reports from seismic surveys."@en,
+        "Final product from initial seismic processing. Important: Should not include later seismic processing which is classified as REPROCESSED seismic."@en,
+        "Final well report containing only Basic data. Usually included with the WCR Basic volume."@en,
+        "Fluorescence observations and measurements with no interpretation."@en,
+        "General well test results. Does not include permeabilities, kh, productivity index and/or interpretations. Preferably use DST, RFT, Prod Test, ... if applicable."@en,
+        "Geochemical enclosures from WCR Basic volme and geology/geochem surveys containing only Basic data."@en,
+        "Gravity data from gravity surveys."@en,
+        "Hard copy log submitted as part of WCR Basic volume. Produced by logging contractor. Also known as mud log."@en,
+        "Hard copy or digital seismic plots."@en,
+        "Hardcopy lithology logs from WCR."@en,
+        "Hardcopy sections produced from seismic surveys."@en,
+        "Hardcopy shot point basemaps for seismic surveys. Submitted as part of seismic reports."@en,
+        "Intended as a general data type for backscatter sonar data, before subdivision into subtypes (if possible)."@en,
+        "Intermediate seismic survey processing output"@en,
+        "Legacy data type for wells and surveys. Intermediate product of processing."@en,
+        "Log submitted as part of well completion report."@en,
+        "Logging while drilling. Synthetic seismogram made from density logs (wells)."@en,
+        "Magnetic data collected during survey acquisition."@en,
+        "Measurement While Driling.  Hardcopy/digital log included in well completion report."@en,
+        "Micropalaeontology species data with no biozones or interpretation."@en,
+        "Modular Formation Dynamics Tester plot."@en,
+        "Navigation Report"@en,
+        "Navigation data for all survey types."@en,
+        "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type."@en,
+        "Output from fathometer from seismic surveys.  Optional submission."@en,
+        "Palynology species data with no biozones or interpretation."@en,
+        "Photo of core. Does not include interpretations"@en,
+        "Plots produced from gravity data and not containing interpretations or models."@en,
+        "Production test results. Does not include permeabilities, kh, productivity index and/or interpretations"@en,
+        "Quality control products from seismic tape transcription."@en,
+        "Raw Petrology data or observations with no interpretations."@en,
+        "Raw field data collected from seismic surveys."@en,
+        "Repeat Formation Tests. Does not include permeabilities, kh, productivity index"@en,
+        "Report (additional to WCR) submitted on completion of a well, contains financial and de-rigging information. Contains only Basic data, usually authored by drilling contractor."@en,
+        "Report capturing procedures/parameters used in processing a particular seismic survey."@en,
+        "Report containing all information relevant to seismic acquisition."@en,
+        "Report on borrowed petroleum mining samples where viewing or destructive analysis has occurred"@en,
+        "Report on drilling of a well (may or may not be part of a Well Completion Report)"@en,
+        "Report produced during acquisition phase by petroleum company representative (''bird dog report'')"@en,
+        "Report submitted as part of WCR Basic volume."@en,
+        "Seismometer traces from earthquake observatories."@en,
+        "Survey geometry and tape logs for seismic surveys.  Necessary for processing seismic data."@en,
+        "Temperature plots produced during drilling of well."@en,
+        "Test data produced during seismic survey acquisition."@en,
+        "Type of well log"@en,
+        "Velocity time pairs created during checkshot surveys carried out during well drilling."@en,
+        "Velocity time pairs created during seismic survey processing."@en,
+        "Well Completion Report (Basic data only). Data defined under PSLA to be basic in nature."@en,
+        "Well engineering report (part of WCR)."@en,
+        "Well velocity data"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Airborne LF"@en,
+        "Backscatter"@en,
+        "Bathymetric"@en,
+        "CDP Gathers"@en,
+        "CGM"@en,
+        "CSEM"@en,
+        "Checkshot"@en,
+        "Core analysis"@en,
+        "Core photo"@en,
+        "DSI"@en,
+        "DST raw data"@en,
+        "DST results-Basic"@en,
+        "Destructive Analysis"@en,
+        "Drilling report"@en,
+        "Enclosure-basic"@en,
+        "End of well-Basic"@en,
+        "Fathograms"@en,
+        "Field seismic"@en,
+        "Final survey report"@en,
+        "Final well-Basic"@en,
+        "Flight path"@en,
+        "Fluorescence-Basic"@en,
+        "Gather section"@en,
+        "Geochemistry-basic"@en,
+        "Geol engineering"@en,
+        "Gravity"@en,
+        "Gravity section"@en,
+        "HyLogger"@en,
+        "Intersections"@en,
+        "LWD"@en,
+        "Listing"@en,
+        "Lithology"@en,
+        "MDT Pressures"@en,
+        "MWD"@en,
+        "Magnetic"@en,
+        "Master log"@en,
+        "Measured depth"@en,
+        "Micropalaeo-Basic"@en,
+        "Migrated section"@en,
+        "Mud logs"@en,
+        "Navigation"@en,
+        "Navigation Report"@en,
+        "Observer log"@en,
+        "Operations Report"@en,
+        "Palynological-Basic"@en,
+        "Petrology-Basic"@en,
+        "Photomicrograph"@en,
+        "Pore pressure"@en,
+        "Processed seismic"@en,
+        "Processing report"@en,
+        "Prod test-Basic"@en,
+        "Progress report"@en,
+        "QC"@en,
+        "RFT results-Basic"@en,
+        "Remote sensing"@en,
+        "Report-Basic"@en,
+        "Seismic section"@en,
+        "Seismogram"@en,
+        "Shot point location"@en,
+        "Special core-Basic"@en,
+        "Supervision report"@en,
+        "System tests"@en,
+        "Temperature"@en,
+        "VSP data"@en,
+        "Velocity"@en,
+        "WCR (basic)"@en,
+        "Water depth"@en,
+        "Well test-Basic"@en,
+        "Wireline"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/C> a skos:Concept ;
+    skos:altLabel "C"@en ;
+    skos:definition "Application to conduct PSLA work (well, survey)"@en,
+        "Report required under PSLA to drill a well."@en,
+        "Well operations plan."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Application"@en,
+        "Preliminary"@en,
+        "Well Proposal"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/I> a skos:Concept ;
+    skos:altLabel "I"@en ;
+    skos:definition "Addition to supplied report containing data that is all classified as Interpretive/Derivative."@en,
+        "Additional enclosure in Well Completion Report."@en,
+        "Additional enclosure in Well Completion Report. Raw inclusion data is Basic, but interpretations are Interpretive."@en,
+        "Age/thickness map submitted as part of Well Completion Report."@en,
+        "Any report classified as interp data. Preferable to use specific report type."@en,
+        "Composite well log enclosure in well completion report."@en,
+        "Depth map/section for wells and seismic."@en,
+        "Depth to age mapping submitted as part of Well Completion Report."@en,
+        "Drill stem test analysed results - permeabilities, kh, productivity index"@en,
+        "Enclosure in well completion report."@en,
+        "Final Report Interpretive - Legacy data type"@en,
+        "Fluorescence observations and measurements including interpretation."@en,
+        "General well test results including permeabilities, kh, productivity index and/or interpretations. Preferably use DST, RFT, Prod Test, ... if applicable."@en,
+        "Geochemical enclosures or reports from geology/geochem surveys containing Interpretive data."@en,
+        "Geological cross section submitted with WCR."@en,
+        "Interpretation report for seismic surveys (may include structure maps)."@en,
+        "Interpretation/structure maps produced as part of seismic interpretation."@en,
+        "Interpreted seismic plot/section from seismic surveys."@en,
+        "Interpretive Well log"@en,
+        "Legacy data type.  Reports from wells.  These need to be broken into proper categories (Basic, Interpretative).  Case by case basis.."@en,
+        "Log interpretation report submitted with WCR. Also called Petrophysical report. Reservoir analysis data."@en,
+        "Micropalaeontology including biozones or interpretation."@en,
+        "Palynology including biozones or interpretation."@en,
+        "Petrology data with interpretations."@en,
+        "Process applied to seismic data."@en,
+        "Program or alogrithm.  May be included to run/process/view associated files."@en,
+        "Repeat Formation Tests. Includes permeabilities, kh, productivity index"@en,
+        "Special core analysis. Includes relative permeability data, capilliary pressure test data and water flood test results derived using oil company proprietry techniques."@en,
+        "Time structure reports associated with well completion reports and seismic survey reports."@en,
+        "Various structure, contour maps enclosed in seismic and well reports."@en,
+        "Well Completion Report (Interpretative data only). Data defined under PSLA to be interpretative in nature."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AVO"@en,
+        "Analysed log"@en,
+        "Composite well log"@en,
+        "Computer Program"@en,
+        "Contour"@en,
+        "Cross section"@en,
+        "DST results-Interp"@en,
+        "Depth"@en,
+        "Enclosure-Interp"@en,
+        "Final Rpt Interpret"@en,
+        "Final well-Interp"@en,
+        "Fluid Inclusion"@en,
+        "Fluorescence-Interp"@en,
+        "Geochemistry-Interp"@en,
+        "Interpretation"@en,
+        "Interpretation maps"@en,
+        "Interpreted section"@en,
+        "Isochron"@en,
+        "Isopach"@en,
+        "Log interpretation"@en,
+        "Micropalaeo-Interp"@en,
+        "Palynological-Interp"@en,
+        "Petrology-Interp"@en,
+        "RFT results-Interp"@en,
+        "Report-Interp"@en,
+        "Special core-Interp"@en,
+        "Stratigraphic"@en,
+        "Time"@en,
+        "WCR (interpreted)"@en,
+        "Well log Interp"@en,
+        "Well test-Interp"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/M> a skos:Concept ;
+    skos:altLabel "M"@en ;
+    skos:definition "Additional reports associated with well completion reports."@en,
+        "Formation evaluation log produced by logging contractor and usually attached to the WCR Basic volume in Well Completion Report. Legacy data with unknown confidentiality."@en,
+        "Hard copy or digital logs produced during or after drilling of a well."@en,
+        "Intended as a general data type for Sub Bottom Profiler data, before subdivision into subtypes (if possible)."@en,
+        "Intended as a general data type for side scan sonar data, before subdivision into subtypes (if possible)."@en,
+        "Intended as a general data type for swath data, before subdivision into subtypes (if possible)."@en,
+        "Legacy data type.  Miscellaneous enclosures in well completion reports.  Not to be used in future."@en,
+        "Legacy data type.  Miscellaneous map enclosures in well completion reports.  Not to be used in future."@en,
+        "Legacy data type.  Multiple data types on single media.  Reviewed on case by case basis.  Not to be used."@en,
+        "Legacy data type.  Not to be used in future."@en,
+        "Legacy data type.  Not to be used.  To be clarified on case by case basis."@en,
+        "Legacy data type.  Results from initial well testing. Use DST, RFT, Well test-Basic, Well test-Interp, ..."@en,
+        "Legacy data.  Miscellaneous Rig Seismic data.  Not to be used in future."@en,
+        "Legacy. Composite well log enclosure in well completion report."@en,
+        "Legacy. Unknown data type.  Used for legacy data.  Not to be used in future."@en,
+        "Report (additional to WCR) submitted on completion of a well, contains financial and de-rigging information. Mixed or unknown confidentiality, treated as Interpretive."@en,
+        "Well Completion Report (Basic/Interpretative data). Data defined either as Basic or Interpretative in PSLA submitted in one report."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Composite"@en,
+        "End of well-Interp"@en,
+        "Formation evaluation"@en,
+        "Misc data"@en,
+        "Multibeam"@en,
+        "Non-seismic"@en,
+        "Other data"@en,
+        "Other map"@en,
+        "Other report"@en,
+        "Seismic"@en,
+        "Side Scan"@en,
+        "Sub Bottom Profiler"@en,
+        "Test results"@en,
+        "Various"@en,
+        "WCR (basic/inter.)"@en,
+        "Well log"@en,
+        "unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/R> a skos:Concept ;
+    skos:altLabel "R"@en ;
+    skos:definition "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. "@en,
+        "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. Acid digested coal"@en,
+        "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. Acid digested powder"@en,
+        "Not to be used outside PIMS.  Will be removed after PIMS redevelopment. Rockstore data type. Sidewall Core sample (from well/drillhole)"@en,
+        "Not to be used outside PIMS. Will be removed after PIMS redevelopment. Rockstore data type. Palynological Residue"@en,
+        "Not to be used outside PIMS. Will be removed after PIMS redevelopment. Rockstore data type. Sedimentology Fractions"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Acid dig. coal"@en,
+        "Acid dig. powder"@en,
+        "Bitumen"@en,
+        "Chips"@en,
+        "Concentrate"@en,
+        "Core"@en,
+        "Crush"@en,
+        "Crushed coal"@en,
+        "Cuttings"@en,
+        "Dredge"@en,
+        "Elemental copper"@en,
+        "Excess"@en,
+        "Excess, lights"@en,
+        "Extract. rock pieces"@en,
+        "Extracts"@en,
+        "Grab sample"@en,
+        "Gravel"@en,
+        "Hand specimen"@en,
+        "Leaf"@en,
+        "Light portions"@en,
+        "Lights, mag, picked"@en,
+        "Lights, undigested"@en,
+        "Ore"@en,
+        "Paly residue"@en,
+        "Pellets"@en,
+        "Picked shale"@en,
+        "Powder"@en,
+        "Powder(tungsten bit)"@en,
+        "Raw sample"@en,
+        "Residue"@en,
+        "Resin"@en,
+        "SWC"@en,
+        "Sediment fraction"@en,
+        "Seperates"@en,
+        "Sieved sample"@en,
+        "Soils"@en,
+        "Stained samples"@en,
+        "Stream sediments"@en,
+        "Thin section offcuts"@en,
+        "Thin section slides"@en,
+        "Undigested residue"@en,
+        "Various fractions"@en,
+        "Whole rock pieces"@en,
+        "Zircon concentrate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/XB> a skos:Concept ;
+    skos:altLabel "XB"@en ;
+    skos:definition "Final product from seismic re-processing. Confidentiality period based on date of data receipt."@en,
+        "Report capturing procedures/parameters used in re-processing a particular seismic survey."@en,
+        "Reprocessed Navigation"@en,
+        "Reprocessed Velocity"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reprocessed Navigatn"@en,
+        "Reprocessed Velocity"@en,
+        "Reprocessed seismic"@en,
+        "Reprocessing report"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/XI> a skos:Concept ;
+    skos:altLabel "XI"@en ;
+    skos:definition "Interpretation report from reprocessing activity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reprocessing-Interp"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Data_Type/XM> a skos:Concept ;
+    skos:altLabel "XM"@en ;
+    skos:definition "Legacy data type. Reprocessed data/report from seismic re-processing.  Not to be used in future."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reprocessing"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Data Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Data_Type/B>,
+        <http://pid.geoscience.gov.au/def/Data_Type/C>,
+        <http://pid.geoscience.gov.au/def/Data_Type/I>,
+        <http://pid.geoscience.gov.au/def/Data_Type/M>,
+        <http://pid.geoscience.gov.au/def/Data_Type/R>,
+        <http://pid.geoscience.gov.au/def/Data_Type/XB>,
+        <http://pid.geoscience.gov.au/def/Data_Type/XI>,
+        <http://pid.geoscience.gov.au/def/Data_Type/XM> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Data Type"@en .
+

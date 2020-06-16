@@ -1,0 +1,248 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Antenna_Dome> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/AUST> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUST"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/BEVA> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BEVA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/CAFG> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CAFG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/CONE> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CONE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/DOME> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DOME"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/DUTD> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DUTD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/EMRA> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EMRA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/ENCL> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ENCL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/GRAZ> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAZ"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/JAVC> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JAVC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/JPLA> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JPLA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/JVDM> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JVDM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/LEIC> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LEIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/LEIS> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LEIS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/LEIT> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LEIT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/MMAC> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MMAC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/NONE> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NONE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/OLGA> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OLGA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/OSOD> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OSOD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/PFAN> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PFAN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/RPTR> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RPTR"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/SCIS> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SCIS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/SCIT> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SCIT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/SCPL> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SCPL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/SNOW> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SNOW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/SPKE> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SPKE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/TCWD> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TCWD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/TPSD> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TPSD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/TPSH> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TPSH"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/TZGD> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TZGD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/UNAV> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UNAV"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Antenna_Dome/UNKN> a skos:Concept ;
+    skos:definition "See rcvr_ant.tab file at http://igscb.jpl.nasa.gov/igscb/station/general/"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UNKN"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Antenna Dome vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Antenna_Dome/AUST>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/BEVA>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/CAFG>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/CONE>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/DOME>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/DUTD>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/EMRA>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/ENCL>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/GRAZ>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/JAVC>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/JPLA>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/JVDM>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/LEIC>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/LEIS>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/LEIT>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/MMAC>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/NONE>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/OLGA>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/OSOD>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/PFAN>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/RPTR>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/SCIS>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/SCIT>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/SCPL>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/SNOW>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/SPKE>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/TCWD>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/TPSD>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/TPSH>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/TZGD>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/UNAV>,
+        <http://pid.geoscience.gov.au/def/Antenna_Dome/UNKN> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Antenna Dome"@en .
+

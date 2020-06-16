@@ -1,0 +1,57 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Voltage_Output> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Voltage_Output/10v_DC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "10v DC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Voltage_Output/12v_DC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "12v DC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Voltage_Output/15v_DC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "15v DC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Voltage_Output/24v_DC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "24v DC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Voltage_Output/5v_DC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "5v DC"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Voltage Output vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Voltage_Output/10v_DC>,
+        <http://pid.geoscience.gov.au/def/Voltage_Output/12v_DC>,
+        <http://pid.geoscience.gov.au/def/Voltage_Output/15v_DC>,
+        <http://pid.geoscience.gov.au/def/Voltage_Output/24v_DC>,
+        <http://pid.geoscience.gov.au/def/Voltage_Output/5v_DC> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Voltage Output"@en .
+

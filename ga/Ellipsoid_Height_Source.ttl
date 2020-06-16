@@ -1,0 +1,326 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_ANS_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AHD+N(ANS)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_ANS__TRANSFORM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AHD+N(ANS) TRANSFORM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_WGS84_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AHD+N(WGS84)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ANT002> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANT002"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ANT2001> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANT2001"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ARGN96_0> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ARGN96.0"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUS00P01_SNX> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUS00P01.SNX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUS11957_SNX> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUS11957.SNX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUSPOS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUSPOS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUSPOS_GPS06249> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUSPOS GPS06249"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/G94SA1S1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "G94SA1S1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GASP> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GASP"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GD94NTR2> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GD94NTR2"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GD94SA1R1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GD94SA1R1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW1R1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GDA94NSW1R1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW2R1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GDA94NSW2R1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW3R1> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GDA94NSW3R1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GPS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GPS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/HEARD2000> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "HEARD2000"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/IGS05_snx> a skos:Concept ;
+    skos:definition "IGS realization of ITRF2005 using 132 selected stations. 1) Coordinates extracted from ITRF2005_IGS-TRF.SNX. 2) Applied the relative to absolute phase center corrections to 1). 3) Realigned (7-paramet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IGS05.snx"@en ;
+    skos:scopeNote "IGS realization of ITRF2005 using 132 selected stations. 1) Coordinates extracted from ITRF2005_IGS-TRF.SNX. 2) Applied the relative to absolute phase center corrections to 1). 3) Realigned (7-parameters Transformation) 2) to 1)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF2000> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ITRF2000"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF93> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ITRF93"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF96> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ITRF96"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF97> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ITRF97"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/LINDFIELD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LINDFIELD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/MSL+N_EGM96_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MSL+N(EGM96)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NATIONAL_GPS_ADJ> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NATIONAL GPS ADJ"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NORF98> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NORF98"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NORFOLK> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NORFOLK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRLOC93> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORRLOC93"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRLOCAL> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORRLOCAL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRTID2> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORRTID2"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRTID93> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORRTID93"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/PM111194> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PM111194"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/REGULATION_13_CERT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REGULATION 13 CERT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/SALANDS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SALANDS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/SRTM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SRTM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/STRGDA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STRGDA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/TAMDEF> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAMDEF"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/TRANSIT_DOPPLER> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TRANSIT DOPPLER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/Unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/WALANDS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WALANDS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/XVSOLFIN_JUN07_SNX> a skos:Concept ;
+    skos:definition "Processed by GA"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XVSOLFIN_JUN07.SNX"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Ellipsoid Height Source vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_ANS_>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_ANS__TRANSFORM>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AHD+N_WGS84_>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ANT002>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ANT2001>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ARGN96_0>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUS00P01_SNX>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUS11957_SNX>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUSPOS>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/AUSPOS_GPS06249>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/G94SA1S1>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GASP>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GD94NTR2>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GD94SA1R1>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW1R1>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW2R1>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GDA94NSW3R1>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/GPS>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/HEARD2000>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/IGS05_snx>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF2000>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF93>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF96>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ITRF97>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/LINDFIELD>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/MSL+N_EGM96_>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NATIONAL_GPS_ADJ>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NORF98>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/NORFOLK>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRLOC93>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRLOCAL>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRTID2>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/ORRTID93>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/PM111194>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/REGULATION_13_CERT>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/SALANDS>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/SRTM>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/STRGDA>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/TAMDEF>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/TRANSIT_DOPPLER>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/Unknown>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/WALANDS>,
+        <http://pid.geoscience.gov.au/def/Ellipsoid_Height_Source/XVSOLFIN_JUN07_SNX> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Ellipsoid Height Source"@en .
+

@@ -1,0 +1,115 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Resource_Project_Attribute> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Capacity> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Capacity"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Capital_expenditure> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Capital expenditure"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Commencement> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Commencement"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Comments> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Comments"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Commodity> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Commodity"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Employment> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Employment"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Location> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Location"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Principal_company> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Principal company"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Project_type> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Project type"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Reference> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reference"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/State> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "State"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Status> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Status"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Technology> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Technology"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Resource Project Attribute vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Capacity>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Capital_expenditure>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Commencement>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Comments>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Commodity>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Employment>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Location>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Principal_company>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Project_type>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Reference>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/State>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Status>,
+        <http://pid.geoscience.gov.au/def/Resource_Project_Attribute/Technology> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Resource Project Attribute"@en .
+

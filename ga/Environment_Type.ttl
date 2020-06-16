@@ -1,0 +1,129 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Environment_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Aboriginal_Controlled_Land> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal Controlled Land"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Antarctica> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Antarctica"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Government_Facility> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Government Facility"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Indonesia> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indonesia"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/National_Estate> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "National Estate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/National_Heritage> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "National Heritage"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/National_Park> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "National Park"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/None> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "None"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Norfolk_Island> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Norfolk Island"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/PNG> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PNG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Sacred_Building> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sacred Building"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Sacred_Site> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sacred Site"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Security_Zone> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Security Zone"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Trig_Reserve> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trig Reserve"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Environment_Type/Unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Environment Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Environment_Type/Aboriginal_Controlled_Land>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Antarctica>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Government_Facility>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Indonesia>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/National_Estate>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/National_Heritage>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/National_Park>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/None>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Norfolk_Island>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/PNG>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Sacred_Building>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Sacred_Site>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Security_Zone>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Trig_Reserve>,
+        <http://pid.geoscience.gov.au/def/Environment_Type/Unknown> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Environment Type"@en .
+

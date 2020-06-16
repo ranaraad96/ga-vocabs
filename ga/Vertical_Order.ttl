@@ -1,0 +1,73 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Vertical_Order> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/0> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=3 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "0"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/1> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=7.5 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/2> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=15 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "2"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/3> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=30 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/4> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=50 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "4"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/5> a skos:Concept ;
+    skos:definition "Allocated on the basis of the fit of that survey to existing (constraining) heights where C=100 for 1-sigma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "5"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Vertical_Order/6> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "6"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Vertical Order vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Vertical_Order/0>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/1>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/2>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/3>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/4>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/5>,
+        <http://pid.geoscience.gov.au/def/Vertical_Order/6> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Vertical Order"@en .
+

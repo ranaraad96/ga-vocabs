@@ -1,0 +1,80 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Stratreltypes> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/concordant> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "concordant"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/downlap> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "downlap"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/erosional> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "erosional"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/onlap> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "onlap"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/toplap> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "toplap"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/truncated> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "truncated"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Stratreltypes/unresolved> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unresolved"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Stratreltypes vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Stratreltypes/concordant>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/downlap>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/erosional>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/onlap>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/toplap>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/truncated>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/unknown>,
+        <http://pid.geoscience.gov.au/def/Stratreltypes/unresolved> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Stratreltypes"@en .
+

@@ -1,0 +1,241 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/State_Group> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/State_Group/NSW,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NSW,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NSW,SA,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW,SA,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NSW,SA,VIC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW,SA,VIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NSW,VIC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW,VIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NT,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NT,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NT,SA,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT,SA,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NT,WA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT,WA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/NT,WA,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT,WA,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/QLD,NSW> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD,NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/QLD,NT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD,NT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/QLD,NT,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD,NT,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/QLD,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,NSW> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,NSW,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,NSW,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,NT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,NT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,NT,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,NT,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,NT,WA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,NT,WA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,QLD> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,QLD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,VIC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,VIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,VIC,NSW> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,VIC,NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/SA,WA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA,WA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/TAS,VIC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAS,VIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/VIC,NSW> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC,NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/VIC,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/VIC,SA,NSW> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC,SA,NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/VIC,TAS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC,TAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/WA,NT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA,NT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/WA,NT,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA,NT,SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/State_Group/WA,SA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA,SA"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the State Group vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/State_Group/NSW,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/NSW,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/NSW,SA,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/NSW,SA,VIC>,
+        <http://pid.geoscience.gov.au/def/State_Group/NSW,VIC>,
+        <http://pid.geoscience.gov.au/def/State_Group/NT,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/NT,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/NT,SA,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/NT,WA>,
+        <http://pid.geoscience.gov.au/def/State_Group/NT,WA,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/QLD,NSW>,
+        <http://pid.geoscience.gov.au/def/State_Group/QLD,NT>,
+        <http://pid.geoscience.gov.au/def/State_Group/QLD,NT,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/QLD,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,NSW>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,NSW,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,NT>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,NT,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,NT,WA>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,QLD>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,VIC>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,VIC,NSW>,
+        <http://pid.geoscience.gov.au/def/State_Group/SA,WA>,
+        <http://pid.geoscience.gov.au/def/State_Group/TAS,VIC>,
+        <http://pid.geoscience.gov.au/def/State_Group/VIC,NSW>,
+        <http://pid.geoscience.gov.au/def/State_Group/VIC,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/VIC,SA,NSW>,
+        <http://pid.geoscience.gov.au/def/State_Group/VIC,TAS>,
+        <http://pid.geoscience.gov.au/def/State_Group/WA,NT>,
+        <http://pid.geoscience.gov.au/def/State_Group/WA,NT,SA>,
+        <http://pid.geoscience.gov.au/def/State_Group/WA,SA> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - State Group"@en .
+

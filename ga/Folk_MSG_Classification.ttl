@@ -1,0 +1,175 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Folk_MSG_Classification> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/G> a skos:Concept ;
+    skos:altLabel "G"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "80% <= gravel"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/M> a skos:Concept ;
+    skos:altLabel "M"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "Mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gravel < 0.01%  and (sand/mud) < (1/9)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/S> a skos:Concept ;
+    skos:altLabel "S"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gravel < 0.01%  and 9 <=(sand/mud)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_M> a skos:Concept ;
+    skos:altLabel "(g)M"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "slightly gravelly Mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "0.01% <= gravel < 5% and (sand/mud) < (1/9)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_S> a skos:Concept ;
+    skos:altLabel "(g)S"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "slightly gravelly Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "0.01% <= gravel < 5% and 9 <=(sand/mud)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_mS> a skos:Concept ;
+    skos:altLabel "(g)mS"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "slightly gravelly muddy Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "0.01% <= gravel < 5% 	and 	1 <= (sand/mud) < 9"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_sM> a skos:Concept ;
+    skos:altLabel "(g)sM"@en ;
+    skos:changeNote [ dcterms:date "0016-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "slightly gravelly sandy Mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "0.01% <= gravel < 5% and  (1/9) <=(sand/mud) < 1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gM> a skos:Concept ;
+    skos:altLabel "gM"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "gravelly Mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "5% <= gravel < 30% and	(sand/mud) < 1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gS> a skos:Concept ;
+    skos:altLabel "gS"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "gravelly Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "5% <= gravel < 30% and 9 <=(sand/mud)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gmS> a skos:Concept ;
+    skos:altLabel "gmS"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "gravelly muddy Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "5% <= gravel < 30% and 1 <= (sand/mud) < 9"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/mG> a skos:Concept ;
+    skos:altLabel "mG"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "muddy Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "30% <= gravel < 80%  and 	(sand/mud) < 1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/mS> a skos:Concept ;
+    skos:altLabel "mS"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "muddy Sand"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gravel < 0.01% and 1 <= (sand/mud) < 9"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/msG> a skos:Concept ;
+    skos:altLabel "msG"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "muddy sandy Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "30% <= gravel < 80% and 1 <= (sand/mud) < 9"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/sG> a skos:Concept ;
+    skos:altLabel "sG"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "sandy Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "30% <= gravel < 80% and 9 <=(sand/mud)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Classification/sM> a skos:Concept ;
+    skos:altLabel "sM"@en ;
+    skos:changeNote [ dcterms:date "0019-04-01" ;
+            rdf:value "End date for the use of this Folk_MSG_Classification" ] ;
+    skos:definition "sandy Mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gravel < 0.01%  and (1/9) <= (sand/mud) < 1"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Folk MSG Classification vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/G>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/M>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/S>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_M>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_S>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_mS>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/_g_sM>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gM>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gS>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/gmS>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/mG>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/mS>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/msG>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/sG>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Classification/sM> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Folk MSG Classification"@en .
+

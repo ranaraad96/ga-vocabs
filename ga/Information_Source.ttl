@@ -1,0 +1,311 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Information_Source> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Australian_federal_government_organisation> a skos:Concept ;
+    skos:definition "Eg. Department of Environment and Heritage."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australian federal government organisation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Australian_state_government_organisation> a skos:Concept ;
+    skos:definition "Example: Geoscience Victoria is the state geological survey organisation for Victoria."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australian state government organisation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Company_memo> a skos:Concept ;
+    skos:definition "Internal company communications (eg. Resurvey of wells).  Occasionally provided after submission of well completion report."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Company memo"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Daily_Drilling_Report> a skos:Concept ;
+    skos:definition "Report submitted daily from active drilling rig."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Daily Drilling Report"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Database> a skos:Concept ;
+    skos:definition "Generally the name of a GA database but could be an external database. GA database may be specified as a schema name - table name For example; OZROX-SITES or refer to a database application OZROX."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Database"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/International_government_organisation> a skos:Concept ;
+    skos:definition "Eg. United States Geological Survey"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "International government organisation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Libscombe_Report> a skos:Concept ;
+    skos:definition "Industry scouting report published by PEX Publications"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Libscombe Report"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/PTAG_Access_database> a skos:Concept ;
+    skos:definition "Value imported from Geoscience PTAG Access database"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PTAG Access database"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Proposal_to_Drill> a skos:Concept ;
+    skos:definition "Drilling proposal submitted to GA and Designated Authority."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Proposal to Drill"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/QPED__Qld_Geological_Survey_Wells_Database__Aug_2006> a skos:Concept ;
+    skos:definition "Method to measure Loss on Ignition. Calculated using analytical results i.e. 100 - sum of the oxides."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QPED (Qld Geological Survey Wells Database) Aug 2006"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Telephone_email_correspondance_with_company> a skos:Concept ;
+    skos:definition "Information provided by company in response to request by GA.  Response provided either by phone or email."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Telephone/email correspondance with company"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/WAPIMS__WA_Geological_Survey_Petroleum_Database_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WAPIMS (WA Geological Survey Petroleum Database)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Web_site> a skos:Concept ;
+    skos:definition "Internet site.  Specify site in remarks."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web site"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Basic_> a skos:Concept ;
+    skos:definition "Report submitted to designated authority on completion of well.  Basic data volume(s)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Basic)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Basic_Interp_> a skos:Concept ;
+    skos:definition "Report submitted to designated authority on completion of well. Reports not separated into basic and interpret Interpreted data volume(s)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Basic/Interp)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Composite_Well_Log_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Composite Well Log)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Daily_drilling_report_> a skos:Concept ;
+    skos:definition "Daily drilling report submitted with WCR."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Daily drilling report)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Drilling_summary_> a skos:Concept ;
+    skos:definition "Summary of drilling operations. Usually contained in front section of basic and/or interpretative well completion report volumes. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Drilling summary)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Final_Well_Report_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Final Well Report)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Final_drilling_Report_> a skos:Concept ;
+    skos:definition "Final drilling report usually contained in well completion report, basic data volume."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Final drilling Report)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Front_page,_Basic_Volume_> a skos:Concept ;
+    skos:definition "Title page of well completion report. Often quotes ACN no. of the Operator of the well."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Front page, Basic Volume)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geological_summary_> a skos:Concept ;
+    skos:definition "Geological summary.  Usually located near well history data sheet and other well activity summaries."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Geological summary)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Contrib_to_geo_knowledge_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Geology - Contrib to geo knowledge)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Previous_Exploration_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Geology - Previous Exploration)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Rel_to_Hydrocarbons_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Geology - Rel to Hydrocarbons)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Stratigraphy_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Geology - Stratigraphy)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Interp_> a skos:Concept ;
+    skos:definition "Report submitted to designated authority on completion of well.  Interpreted data volume(s)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Interp)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Introduction_-_Basic_Data_Volume_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Introduction - Basic Data Volume)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Introduction_-_Interp_Data_Volume_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Introduction - Interp Data Volume)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Location_Map_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Location Map)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Other_well_data_sheet_> a skos:Concept ;
+    skos:definition "Summary sheet other than the well summary at front of basic or interpretive well completion report volumes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Other well data sheet)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Pre_vs_actual_strat_depth_diagram_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Pre vs actual strat/depth diagram)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Rig_Positioning_Report_> a skos:Concept ;
+    skos:definition "Full report on the positioning of the drilling rig.  Usually an appendix in the basic well completion report volume."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Rig Positioning Report)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Time_vs_Depth_drilling_diagram_> a skos:Concept ;
+    skos:definition "Diagram showing proposed vs actual progress of drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Time vs Depth drilling diagram)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_Performance_Summary_> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well Performance Summary)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_history_summary_data_sheet_> a skos:Concept ;
+    skos:definition "Summary data sheet of the well, commonly located in the front of interpretive and basic well completion report volumes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well history/summary data sheet)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_history_summary_section_> a skos:Concept ;
+    skos:definition "NOTE:  Replaced by Well History/Summary data sheet.  Summary of the well, commonly located in the front of interpretive and basic well completion report volumes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well history/summary section)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_index_sheet_> a skos:Concept ;
+    skos:definition "Well data sheet.  Various locations in WCR. Sometimes as appendix, in drilling report or in history/summary section."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well index sheet)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_log_header_> a skos:Concept ;
+    skos:definition "Log header on a log submitted with well completion report.  Loging usually not conducted by well operator.  Provide details of logging sheet in source remarks."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well log header)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_summary_text_> a skos:Concept ;
+    skos:definition "Text summarising all aspects of drilling of the well.  Commonly near the well history data sheet."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well Completion Report (Well summary text)"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Information_Source/Whos_Drilling> a skos:Concept ;
+    skos:definition "Industry scouting report published by PEX Publications"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Whos Drilling"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Information Source vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Information_Source/Australian_federal_government_organisation>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Australian_state_government_organisation>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Company_memo>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Daily_Drilling_Report>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Database>,
+        <http://pid.geoscience.gov.au/def/Information_Source/International_government_organisation>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Libscombe_Report>,
+        <http://pid.geoscience.gov.au/def/Information_Source/PTAG_Access_database>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Proposal_to_Drill>,
+        <http://pid.geoscience.gov.au/def/Information_Source/QPED__Qld_Geological_Survey_Wells_Database__Aug_2006>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Telephone_email_correspondance_with_company>,
+        <http://pid.geoscience.gov.au/def/Information_Source/WAPIMS__WA_Geological_Survey_Petroleum_Database_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Web_site>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Basic_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Basic_Interp_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Composite_Well_Log_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Daily_drilling_report_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Drilling_summary_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Final_Well_Report_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Final_drilling_Report_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Front_page,_Basic_Volume_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geological_summary_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Contrib_to_geo_knowledge_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Previous_Exploration_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Rel_to_Hydrocarbons_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Geology_-_Stratigraphy_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Interp_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Introduction_-_Basic_Data_Volume_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Introduction_-_Interp_Data_Volume_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Location_Map_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Other_well_data_sheet_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Pre_vs_actual_strat_depth_diagram_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Rig_Positioning_Report_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Time_vs_Depth_drilling_diagram_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_Performance_Summary_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_history_summary_data_sheet_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_history_summary_section_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_index_sheet_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_log_header_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Well_Completion_Report__Well_summary_text_>,
+        <http://pid.geoscience.gov.au/def/Information_Source/Whos_Drilling> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Information Source"@en .
+

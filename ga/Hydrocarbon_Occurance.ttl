@@ -1,0 +1,696 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen,Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Mnr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen,Mnr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Mnr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen,Mnr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Sli_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen,Sli Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen_And_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen And Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Carbon_Dioxide> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Carbon Dioxide"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Fluores,Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Fluores,Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas,Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Gas,Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Mnr_Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Mnr Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cond,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Dry> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Gas,Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Gas,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Mnr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Mnr Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Sli_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Sli Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluores,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluorescence> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluorescence"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Cond> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Mnr Cond"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Mnr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Fluores,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Mnr Fluores,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil,Sli_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Oil,Sli Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil_Cut_Mud> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Oil Cut Mud"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Sli_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Sli Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Sli_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Sli Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Bitumen> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Tr Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Tr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,V_Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas,V Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas_And_Minor_Oil> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas And Minor Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas_Cut_Mud> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas Cut Mud"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Good_Fluores,F_Cut> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Good Fluores,F Cut"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Hydrocarbons> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hydrocarbons"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Methane> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Methane"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minor Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Oil> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minor Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Oil_And_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minor Oil And Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Bitumen> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Cond,Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Cond,Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Hydrocarbon> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Fluores,Hydrocarbon"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Fluores,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Oil_Stn> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Fluores,Oil Stn"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Fluores,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas,Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Sli_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas,Sli Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas,Tr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Pyrobit> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Gas,Tr Pyrobit"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Hydrocarbon> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Hydrocarbon"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil,Tr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Oil,Tr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mnr Oil,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Negligible> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Negligible"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Commercial> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No Commercial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Shows> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No Shows"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Significant> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No Significant"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil,Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil,Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil,V_Mnr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil,V Mnr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_And_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil And Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_And_Minor_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil And Minor Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_Cut_Mud> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil Cut Mud"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Petrolif__Shale> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Petrolif. Shale"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Bitumen> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Fluores,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Fluores,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas,Tr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Gas,Tr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas,Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Gas,Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Hydrocarbon> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sli Hydrocarbon"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Bitumen> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tr Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Oil> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Oil_And_Gas> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace Oil And Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Unspecified> a skos:Concept ;
+    skos:definition "Preferred LU item"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Fluores> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "V Mnr Fluores"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Gas> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "V Mnr Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Oil> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "V Mnr Oil"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Hydrocarbon Occurance vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Mnr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Mnr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Sli_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Bitumen_And_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Carbon_Dioxide>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Fluores,Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas,Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Mnr_Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Cond,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Dry>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Gas,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Sli_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluores,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Fluorescence>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Cond>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Fluores,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil,Sli_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Oil_Cut_Mud>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Sli_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Sli_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Bitumen>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas,V_Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas_And_Minor_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Gas_Cut_Mud>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Good_Fluores,F_Cut>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Hydrocarbons>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Methane>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Minor_Oil_And_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Bitumen>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Cond,Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Hydrocarbon>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Oil_Stn>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Fluores,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Sli_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Gas,Tr_Pyrobit>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Hydrocarbon>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil,Tr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Mnr_Oil,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Negligible>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Commercial>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Shows>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/No_Significant>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil,Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil,V_Mnr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_And_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_And_Minor_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Oil_Cut_Mud>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Petrolif__Shale>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Bitumen>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Fluores,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas,Tr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Gas,Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Sli_Hydrocarbon>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Bitumen>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Tr_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Oil>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Trace_Oil_And_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/Unspecified>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Fluores>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Gas>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Occurance/V_Mnr_Oil> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Hydrocarbon Occurance"@en .
+

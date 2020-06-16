@@ -1,0 +1,115 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Bed_Material> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Concrete> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Concrete"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Earth> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Earth"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Floor> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Floor"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Ground> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ground"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Light> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Light"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Monument> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Monument"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/None> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "None"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Pillar> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pillar"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Rock> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Rock_and_Concrete> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock and Concrete"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Roof> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Roof"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Timber> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Timber"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Bed_Material/Unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Bed Material vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Bed_Material/Concrete>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Earth>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Floor>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Ground>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Light>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Monument>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/None>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Pillar>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Rock>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Rock_and_Concrete>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Roof>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Timber>,
+        <http://pid.geoscience.gov.au/def/Bed_Material/Unknown> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Bed Material"@en .
+

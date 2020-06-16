@@ -1,0 +1,48 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Folk_MSG_Texture> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Texture/G> a skos:Concept ;
+    skos:altLabel "G"@en ;
+    skos:definition "gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "80% <= gravel"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Texture/mG> a skos:Concept ;
+    skos:altLabel "mG"@en ;
+    skos:definition "muddy Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "30% <= gravel < 80% and (sand/mud) < 1"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Folk_MSG_Texture/msG> a skos:Concept ;
+    skos:altLabel "msG"@en ;
+    skos:definition "muddy sandy Gravel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "30% <= gravel < 80% and 1 <= (sand/mud) < 9"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2016-04-28T15:06:50"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2016-04-28T15:06:50"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 28-Apr-2016 version of the Folk MSG Texture vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Folk_MSG_Texture/G>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Texture/mG>,
+        <http://pid.geoscience.gov.au/def/Folk_MSG_Texture/msG> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Folk MSG Texture"@en .
+

@@ -1,0 +1,176 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/States> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/States/AAT> a skos:Concept ;
+    skos:altLabel "AAT"@en ;
+    skos:definition "Australian Antarctic Territory"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australian Antarctic Territory"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/AC> a skos:Concept ;
+    skos:altLabel "AC"@en ;
+    skos:definition "Ashmore  and Cartier Islands"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ashmore  and Cartier Islands"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/ACT> a skos:Concept ;
+    skos:altLabel "ACT"@en ;
+    skos:definition "Australian Capital Territory"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australian Capital Territory"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/CHR> a skos:Concept ;
+    skos:altLabel "CHR"@en ;
+    skos:definition "Christmas Island"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Christmas Island"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/COC> a skos:Concept ;
+    skos:altLabel "COC"@en ;
+    skos:definition "Cocos (Keeling) Islands"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cocos (Keeling) Islands"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/COR> a skos:Concept ;
+    skos:altLabel "COR"@en ;
+    skos:definition "Coral Sea Islands "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coral Sea Islands "@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/HEA> a skos:Concept ;
+    skos:altLabel "HEA"@en ;
+    skos:definition "Heard and McDonald Islands"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Heard and McDonald Islands"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/IOT> a skos:Concept ;
+    skos:altLabel "IOT"@en ;
+    skos:definition "Indian Ocean Territories"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indian Ocean Territories"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/JER> a skos:Concept ;
+    skos:altLabel "JER"@en ;
+    skos:definition "Jervis Bay Territory"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Jervis Bay Territory"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/JPDA> a skos:Concept ;
+    skos:altLabel "JPDA"@en ;
+    skos:definition "Joint Petroleum Development Area"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Joint Petroleum Development Area"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/NFK> a skos:Concept ;
+    skos:altLabel "NFK"@en ;
+    skos:definition "Norfolk Island"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Norfolk Island"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/NSW> a skos:Concept ;
+    skos:altLabel "NSW"@en ;
+    skos:definition "New South Wales"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "New South Wales"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/NT> a skos:Concept ;
+    skos:altLabel "NT"@en ;
+    skos:definition "Northern Territory"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Northern Territory"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/QLD> a skos:Concept ;
+    skos:altLabel "QLD"@en ;
+    skos:definition "Queensland"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Queensland"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/SA> a skos:Concept ;
+    skos:altLabel "SA"@en ;
+    skos:definition "South Australia"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "South Australia"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/TAS> a skos:Concept ;
+    skos:altLabel "TAS"@en ;
+    skos:definition "Tasmania"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tasmania"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/VIC> a skos:Concept ;
+    skos:altLabel "VIC"@en ;
+    skos:definition "Victoria"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Victoria"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/WA> a skos:Concept ;
+    skos:altLabel "WA"@en ;
+    skos:definition "Western Australia"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Western Australia"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/States/ZOCA> a skos:Concept ;
+    skos:altLabel "ZOCA"@en ;
+    skos:definition "Zone of Cooperation Area"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zone of Cooperation Area"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the States vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/States/AAT>,
+        <http://pid.geoscience.gov.au/def/States/AC>,
+        <http://pid.geoscience.gov.au/def/States/ACT>,
+        <http://pid.geoscience.gov.au/def/States/CHR>,
+        <http://pid.geoscience.gov.au/def/States/COC>,
+        <http://pid.geoscience.gov.au/def/States/COR>,
+        <http://pid.geoscience.gov.au/def/States/HEA>,
+        <http://pid.geoscience.gov.au/def/States/IOT>,
+        <http://pid.geoscience.gov.au/def/States/JER>,
+        <http://pid.geoscience.gov.au/def/States/JPDA>,
+        <http://pid.geoscience.gov.au/def/States/NFK>,
+        <http://pid.geoscience.gov.au/def/States/NSW>,
+        <http://pid.geoscience.gov.au/def/States/NT>,
+        <http://pid.geoscience.gov.au/def/States/QLD>,
+        <http://pid.geoscience.gov.au/def/States/SA>,
+        <http://pid.geoscience.gov.au/def/States/TAS>,
+        <http://pid.geoscience.gov.au/def/States/VIC>,
+        <http://pid.geoscience.gov.au/def/States/WA>,
+        <http://pid.geoscience.gov.au/def/States/ZOCA> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - States"@en .
+

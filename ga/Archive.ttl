@@ -1,0 +1,752 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Archive> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Archive/Aromatic> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aromatic"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Aromatic_GC_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aromatic GC Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Asphaltene> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Asphaltene"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Asphaltene_-_Free_EOM> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Asphaltene - Free EOM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Bitumen> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bitumen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Boric_Organic_Concentrate_FLOAT> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Boric Organic Concentrate FLOAT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Boric_Organic_Concentrate_SINK> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Boric Organic Concentrate SINK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Bulk_Density_Sample> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bulk Density Sample"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Bulk_Powder> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bulk Powder"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_1_5-2_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density 1.5-2 powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_1_5_-2> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density 1.5 -2"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_gt2> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density >2"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_gt2_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density >2 powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_lt1_5> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density <1.5"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_lt1_5_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal Float Density <1.5 powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Colour_Determination> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Colour Determination"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Condensate> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Condensate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Float> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Float"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Magnetic> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Magnetic"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Non-Magnetic> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Non-Magnetic"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Sink> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Sink"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Acetic_Acid> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Undigested Residue Acetic Acid"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Iso_Hexane> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Undigested Residue Iso Hexane"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Iso_and_Acetic> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Conodont Undigested Residue Iso and Acetic"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Crushed_Rock_lt3_35mm> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crushed Rock <3.35mm"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Curation> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Curation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/De-carbonated_sample> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "De-carbonated sample"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Diatom_Residue> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Diatom Residue"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Diatom_Slide> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Diatom Slide"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Drill_Core_-_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drill Core - powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Drill_Cuttings> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drill Cuttings"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Drill_Cuttings_-_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drill Cuttings - powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/EC_pH_Sample> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EC pH Sample"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/EOM_GCMS_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EOM GCMS Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Extracted_Organic_Material> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Extracted Organic Material"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Extracted_sample_powder> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Extracted sample powder"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Foram_Residues> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Foram Residues"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Gas> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Geochem_Split> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geochem Split"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Kerogen> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kerogen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Kerogen_Float> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kerogen Float"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Kerogen_Sink> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kerogen Sink"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Laser_Top_Cut> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Laser Top Cut"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/MA> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/MA_IRMS_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MA IRMS Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Mol_Sieve> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mol Sieve"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Nanno_Residue> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nanno Residue"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Nanno_Slides> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nanno Slides"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Ni_Porphyrins> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ni Porphyrins"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Organic_Concentrate> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Organic Concentrate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Palaeo> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palaeo"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+10um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue +10um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+20um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue +20um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+5um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue +5um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_10-20um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue 10-20um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_5-10um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue 5-10um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_5-20um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue 5-20um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residue_Kerogen> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residue Kerogen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Residues> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Residues"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+10um_OX> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide +10um OX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+20um_OX> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide +20um OX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+5um> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide +5um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+5um_OX> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide +5um OX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_5-10um_OX> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide 5-10um OX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_5-20um_OX> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide 5-20um OX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slide_Kerogen> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slide Kerogen"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Paly_Slides> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paly Slides"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Polar> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Polar"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Powder> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Powder"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Raw_Sample> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Raw Sample"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Raw_Sample_Dried_at_105C> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Raw Sample Dried at 105C"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Rock_-_powdered> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock - powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Rock_0_3-1_2mm> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock 0.3-1.2mm"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Rock_Fines> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock Fines"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Rock_Fl_Crushed> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rock Fl Crushed"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/SA> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/SA_IRMS_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA IRMS Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/SNA> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SNA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/SNA_GC_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SNA GC Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/SNA_IRMS_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SNA IRMS Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Saturate> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Saturate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Saturate_+_Aromatic> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Saturate + Aromatic"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Saturate_GC_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Saturate GC Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Saturate_IRMS_Vial> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Saturate IRMS Vial"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sed_Gravel_Fraction_gt2000um> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sed Gravel Fraction >2000um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sed_Mud_Fraction_lt63um> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sed Mud Fraction <63um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sed_Mud_Powder> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sed Mud Powder"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sed_Sand_Fraction_63-2000um> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sed Sand Fraction 63-2000um"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sed_Sand_Powder> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sed Sand Powder"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sedimentology_Fractions> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sedimentology Fractions"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Side_Wall_Core> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Side Wall Core"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Side_Wall_Core_-_powdered> a skos:Concept ;
+    skos:definition "Palynology:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Side Wall Core - powdered"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Sieved_sample> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sieved sample"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Smear_Slide_Archive> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Smear Slide Archive"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Smear_Slides> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Smear Slides"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Suspended_Sediment_Filter-Marine> a skos:Concept ;
+    skos:definition "PalSed:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Suspended Sediment Filter-Marine"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Thin_Section> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thin Section"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Thin_section_offcuts> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thin section offcuts"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Used_Rock_powdered_for_Extraction> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Used Rock powdered for Extraction"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/V_Porphyrins> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "V Porphyrins"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Whole_Drill_Core> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Whole Drill Core"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Whole_Oil> a skos:Concept ;
+    skos:definition "Orgchem:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Whole Oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Archive/Whole_Rock> a skos:Concept ;
+    skos:definition "General:"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Whole Rock"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Archive vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Archive/Aromatic>,
+        <http://pid.geoscience.gov.au/def/Archive/Aromatic_GC_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Asphaltene>,
+        <http://pid.geoscience.gov.au/def/Archive/Asphaltene_-_Free_EOM>,
+        <http://pid.geoscience.gov.au/def/Archive/Bitumen>,
+        <http://pid.geoscience.gov.au/def/Archive/Boric_Organic_Concentrate_FLOAT>,
+        <http://pid.geoscience.gov.au/def/Archive/Boric_Organic_Concentrate_SINK>,
+        <http://pid.geoscience.gov.au/def/Archive/Bulk_Density_Sample>,
+        <http://pid.geoscience.gov.au/def/Archive/Bulk_Powder>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_1_5-2_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_1_5_-2>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_gt2>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_gt2_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_lt1_5>,
+        <http://pid.geoscience.gov.au/def/Archive/Coal_Float_Density_lt1_5_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Colour_Determination>,
+        <http://pid.geoscience.gov.au/def/Archive/Condensate>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Float>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Magnetic>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Non-Magnetic>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Sink>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Acetic_Acid>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Iso_Hexane>,
+        <http://pid.geoscience.gov.au/def/Archive/Conodont_Undigested_Residue_Iso_and_Acetic>,
+        <http://pid.geoscience.gov.au/def/Archive/Crushed_Rock_lt3_35mm>,
+        <http://pid.geoscience.gov.au/def/Archive/Curation>,
+        <http://pid.geoscience.gov.au/def/Archive/De-carbonated_sample>,
+        <http://pid.geoscience.gov.au/def/Archive/Diatom_Residue>,
+        <http://pid.geoscience.gov.au/def/Archive/Diatom_Slide>,
+        <http://pid.geoscience.gov.au/def/Archive/Drill_Core_-_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Drill_Cuttings>,
+        <http://pid.geoscience.gov.au/def/Archive/Drill_Cuttings_-_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/EC_pH_Sample>,
+        <http://pid.geoscience.gov.au/def/Archive/EOM_GCMS_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Extracted_Organic_Material>,
+        <http://pid.geoscience.gov.au/def/Archive/Extracted_sample_powder>,
+        <http://pid.geoscience.gov.au/def/Archive/Foram_Residues>,
+        <http://pid.geoscience.gov.au/def/Archive/Gas>,
+        <http://pid.geoscience.gov.au/def/Archive/Geochem_Split>,
+        <http://pid.geoscience.gov.au/def/Archive/Kerogen>,
+        <http://pid.geoscience.gov.au/def/Archive/Kerogen_Float>,
+        <http://pid.geoscience.gov.au/def/Archive/Kerogen_Sink>,
+        <http://pid.geoscience.gov.au/def/Archive/Laser_Top_Cut>,
+        <http://pid.geoscience.gov.au/def/Archive/MA>,
+        <http://pid.geoscience.gov.au/def/Archive/MA_IRMS_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Mol_Sieve>,
+        <http://pid.geoscience.gov.au/def/Archive/Nanno_Residue>,
+        <http://pid.geoscience.gov.au/def/Archive/Nanno_Slides>,
+        <http://pid.geoscience.gov.au/def/Archive/Ni_Porphyrins>,
+        <http://pid.geoscience.gov.au/def/Archive/Organic_Concentrate>,
+        <http://pid.geoscience.gov.au/def/Archive/Palaeo>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+10um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+20um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_+5um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_10-20um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_5-10um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_5-20um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residue_Kerogen>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Residues>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+10um_OX>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+20um_OX>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+5um>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_+5um_OX>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_5-10um_OX>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_5-20um_OX>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slide_Kerogen>,
+        <http://pid.geoscience.gov.au/def/Archive/Paly_Slides>,
+        <http://pid.geoscience.gov.au/def/Archive/Polar>,
+        <http://pid.geoscience.gov.au/def/Archive/Powder>,
+        <http://pid.geoscience.gov.au/def/Archive/Raw_Sample>,
+        <http://pid.geoscience.gov.au/def/Archive/Raw_Sample_Dried_at_105C>,
+        <http://pid.geoscience.gov.au/def/Archive/Rock_-_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Rock_0_3-1_2mm>,
+        <http://pid.geoscience.gov.au/def/Archive/Rock_Fines>,
+        <http://pid.geoscience.gov.au/def/Archive/Rock_Fl_Crushed>,
+        <http://pid.geoscience.gov.au/def/Archive/SA>,
+        <http://pid.geoscience.gov.au/def/Archive/SA_IRMS_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/SNA>,
+        <http://pid.geoscience.gov.au/def/Archive/SNA_GC_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/SNA_IRMS_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Saturate>,
+        <http://pid.geoscience.gov.au/def/Archive/Saturate_+_Aromatic>,
+        <http://pid.geoscience.gov.au/def/Archive/Saturate_GC_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Saturate_IRMS_Vial>,
+        <http://pid.geoscience.gov.au/def/Archive/Sed_Gravel_Fraction_gt2000um>,
+        <http://pid.geoscience.gov.au/def/Archive/Sed_Mud_Fraction_lt63um>,
+        <http://pid.geoscience.gov.au/def/Archive/Sed_Mud_Powder>,
+        <http://pid.geoscience.gov.au/def/Archive/Sed_Sand_Fraction_63-2000um>,
+        <http://pid.geoscience.gov.au/def/Archive/Sed_Sand_Powder>,
+        <http://pid.geoscience.gov.au/def/Archive/Sedimentology_Fractions>,
+        <http://pid.geoscience.gov.au/def/Archive/Side_Wall_Core>,
+        <http://pid.geoscience.gov.au/def/Archive/Side_Wall_Core_-_powdered>,
+        <http://pid.geoscience.gov.au/def/Archive/Sieved_sample>,
+        <http://pid.geoscience.gov.au/def/Archive/Smear_Slide_Archive>,
+        <http://pid.geoscience.gov.au/def/Archive/Smear_Slides>,
+        <http://pid.geoscience.gov.au/def/Archive/Suspended_Sediment_Filter-Marine>,
+        <http://pid.geoscience.gov.au/def/Archive/Thin_Section>,
+        <http://pid.geoscience.gov.au/def/Archive/Thin_section_offcuts>,
+        <http://pid.geoscience.gov.au/def/Archive/Used_Rock_powdered_for_Extraction>,
+        <http://pid.geoscience.gov.au/def/Archive/V_Porphyrins>,
+        <http://pid.geoscience.gov.au/def/Archive/Whole_Drill_Core>,
+        <http://pid.geoscience.gov.au/def/Archive/Whole_Oil>,
+        <http://pid.geoscience.gov.au/def/Archive/Whole_Rock> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Archive"@en .
+

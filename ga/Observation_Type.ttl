@@ -1,0 +1,89 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Observation_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Field_test> a skos:Concept ;
+    skos:definition "Field test is a technique that involves measuring  sample property in the field"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Field test"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Geochemistry> a skos:Concept ;
+    skos:definition "Geochemical analysis is a technique that involves taking rock, soil etc. samples from a site, and measuring their chemical properties"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geochemistry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Geochronology_-_Absolute_Dating> a skos:Concept ;
+    skos:definition "Determining the age of earth materials as a numerical amount of time before the present using isotopic, physical or chemical properties of the material that vary over geologic time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geochronology - Absolute Dating"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Orgchemistry> a skos:Concept ;
+    skos:definition "Geochemical analysis that measures organic chemical properties of a sample"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Orgchemistry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Palaeontology> a skos:Concept ;
+    skos:definition "Science that deals with the life of past geological periods, based on the study of fossil remains of plants and animals, and gives information especially about the phylogeny and relationships of moder"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palaeontology"@en ;
+    skos:scopeNote "Science that deals with the life of past geological periods, based on the study of fossil remains of plants and animals, and gives information especially about the phylogeny and relationships of modern animals and plants and about the chronology of the history of the Earth."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Petrography> a skos:Concept ;
+    skos:definition "Description and classification of rocks, including descriptions of mineral content and the textural relationships within a rock, by both description of hand specimens and detailed microscopic analysis"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Petrography"@en ;
+    skos:scopeNote "Description and classification of rocks, including descriptions of mineral content and the textural relationships within a rock, by both description of hand specimens and detailed microscopic analysis of minerals and their inclusions in thin section."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Physical> a skos:Concept ;
+    skos:definition "A physical technique that involves measuring a sample property."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Physical"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/Visual_observation> a skos:Concept ;
+    skos:definition "Visual observation is a technique that involves describing sample property based on visual study"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Visual observation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Observation_Type/unknown> a skos:Concept ;
+    skos:definition "No observation type was provided for this observation or measurement."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Observation Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Observation_Type/Field_test>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Geochemistry>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Geochronology_-_Absolute_Dating>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Orgchemistry>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Palaeontology>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Petrography>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Physical>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/Visual_observation>,
+        <http://pid.geoscience.gov.au/def/Observation_Type/unknown> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Observation Type"@en .
+

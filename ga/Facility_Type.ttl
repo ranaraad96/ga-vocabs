@@ -1,0 +1,330 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Facility_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/ABSLMA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ABSLMA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/AFN> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AFN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/AFN_ANN> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AFN/ANN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/AGCHO> a skos:Concept ;
+    skos:definition "Afghan Geodesy and Cartography Headquarters Office"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AGCHO"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/AHD_TG_BM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AHD TG BM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/APREF> a skos:Concept ;
+    skos:definition "generic APREF station"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "APREF"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/ARGN> a skos:Concept ;
+    skos:definition "Australian Regional GNSS Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ARGN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Air_Services> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Air Services"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/AuScope> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AuScope"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/CHECKPOINT> a skos:Concept ;
+    skos:definition "Singapore CORS"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CHECKPOINT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/CORSnet-NSW> a skos:Concept ;
+    skos:definition "NSW CORS Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORSnet-NSW"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/EMA> a skos:Concept ;
+    skos:definition "Ethiopian Mapping Agency"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EMA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/GN> a skos:Concept ;
+    skos:definition "New Zealand Tide Gauge Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/IGS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IGS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/IPS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IPS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/IRAGDS> a skos:Concept ;
+    skos:definition "Iraq Ministry of Water Resource General Directorate for Survey Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IRAGDS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Kiribati_DORIS> a skos:Concept ;
+    skos:definition "DORIS site at Betio installed by Institut Geographique National on 22/10/06"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kiribati DORIS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/LINZ> a skos:Concept ;
+    skos:definition "New Zealands LINZ Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LINZ"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Lindfield_TIMING> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lindfield TIMING"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/MOBLAS5_SLR> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MOBLAS5 SLR"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/MoSRef> a skos:Concept ;
+    skos:definition "Macao Satellite Positioning Reference Station Service"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MoSRef"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Mt_Pleasant_VLBI> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mt Pleasant VLBI"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/NEGN> a skos:Concept ;
+    skos:definition "National Episodic GNSS Newtork"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NEGN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/NT> a skos:Concept ;
+    skos:definition "Northern Territory"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Norfolk> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Norfolk"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/OrrTid> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OrrTid"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Orroral> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Orroral"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/PNET> a skos:Concept ;
+    skos:definition "Perth Net"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PNET"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/PNG_Border> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PNG Border"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/PageNET> a skos:Concept ;
+    skos:definition "Philippine Active Geodetic Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PageNET"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Parkes_VLBI> a skos:Concept ;
+    skos:definition "Parkes NSW VLBI and Astronomy"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Parkes VLBI"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/SPRGN> a skos:Concept ;
+    skos:definition "South Pacific Regional GNSS Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SPRGN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/SRTM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SRTM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/STATEFIX> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STATEFIX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/SatRef> a skos:Concept ;
+    skos:definition "Hong Kong Satellite Positioning Reference Station Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SatRef"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_DORIS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stromlo DORIS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_PZT> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stromlo PZT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_SLR> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stromlo SLR"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/SunPOZ> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SunPOZ"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/TIGA> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TIGA"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Tidbinbilla_VLBI> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tidbinbilla VLBI"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/USCG> a skos:Concept ;
+    skos:definition "US Coast Guard"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "USCG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/VICNET> a skos:Concept ;
+    skos:definition "Victorian GPS Network"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VICNET"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Facility_Type/Yaragadee_DORIS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yaragadee DORIS"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Facility Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Facility_Type/ABSLMA>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/AFN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/AFN_ANN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/AGCHO>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/AHD_TG_BM>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/APREF>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/ARGN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Air_Services>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/AuScope>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/CHECKPOINT>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/CORSnet-NSW>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/EMA>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/GN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/IGS>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/IPS>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/IRAGDS>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Kiribati_DORIS>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/LINZ>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Lindfield_TIMING>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/MOBLAS5_SLR>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/MoSRef>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Mt_Pleasant_VLBI>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/NEGN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/NT>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Norfolk>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/OrrTid>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Orroral>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/PNET>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/PNG_Border>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/PageNET>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Parkes_VLBI>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/SPRGN>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/SRTM>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/STATEFIX>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/SatRef>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_DORIS>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_PZT>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Stromlo_SLR>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/SunPOZ>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/TIGA>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Tidbinbilla_VLBI>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/USCG>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/VICNET>,
+        <http://pid.geoscience.gov.au/def/Facility_Type/Yaragadee_DORIS> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Facility Type"@en .
+

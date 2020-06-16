@@ -1,0 +1,78 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Provranks> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Provranks/1> a skos:Concept ;
+    skos:altLabel "1"@en ;
+    skos:definition "A mega-scale tectonic element of the Australian crust"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crustal element"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/2> a skos:Concept ;
+    skos:altLabel "2"@en ;
+    skos:definition "Superbasin (ie, a parent of one or more sedimentary basins); or a major tectonic element such as a large craton or orogen which contain"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "superprovince"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/3> a skos:Concept ;
+    skos:altLabel "3"@en ;
+    skos:definition "A sedimentary basin; a major tectonic zone within a craton or orogen"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "province"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/4> a skos:Concept ;
+    skos:altLabel "4"@en ;
+    skos:definition "A sub-basin or depocentre within a sedimentary basin; a subdivision of a tectonic zone within a craton or orogen"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "subprovince"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/5> a skos:Concept ;
+    skos:altLabel "5"@en ;
+    skos:definition "A subdivision of a subprovince.  Must have a \"subprovince\" parent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "domain"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/6> a skos:Concept ;
+    skos:altLabel "6"@en ;
+    skos:definition "A subdivision of a \"domain\".  Must have a \"domain\" parent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "subdomain"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provranks/7> a skos:Concept ;
+    skos:altLabel "7"@en ;
+    skos:definition "A subdivision of a \"subdomain\".  Must have a \"subdomain\" parent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "microdomain"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Provranks vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Provranks/1>,
+        <http://pid.geoscience.gov.au/def/Provranks/2>,
+        <http://pid.geoscience.gov.au/def/Provranks/3>,
+        <http://pid.geoscience.gov.au/def/Provranks/4>,
+        <http://pid.geoscience.gov.au/def/Provranks/5>,
+        <http://pid.geoscience.gov.au/def/Provranks/6>,
+        <http://pid.geoscience.gov.au/def/Provranks/7> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Provranks"@en .
+

@@ -1,0 +1,96 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Confidence> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Confidence/D> a skos:Concept ;
+    skos:altLabel "D"@en ;
+    skos:definition "Confidence level is highest."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "definite"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/H> a skos:Concept ;
+    skos:altLabel "H"@en ;
+    skos:definition "Confidence level is high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/HM> a skos:Concept ;
+    skos:altLabel "HM"@en ;
+    skos:definition "Confidence level is from moderate to high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high-moderate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/L> a skos:Concept ;
+    skos:altLabel "L"@en ;
+    skos:definition "Confidence level is low."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/M> a skos:Concept ;
+    skos:altLabel "M"@en ;
+    skos:definition "Confidence level is moderate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "moderate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/ML> a skos:Concept ;
+    skos:altLabel "ML"@en ;
+    skos:definition "Confidence level is from low to moderate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low-moderate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/N> a skos:Concept ;
+    skos:altLabel "N"@en ;
+    skos:definition "There is no confidence provided."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "none"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/VH> a skos:Concept ;
+    skos:altLabel "VH"@en ;
+    skos:definition "Confidence level is very high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "very high"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Confidence/VL> a skos:Concept ;
+    skos:altLabel "VL"@en ;
+    skos:definition "Confidence level is very low."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "very low"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Confidence vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Confidence/D>,
+        <http://pid.geoscience.gov.au/def/Confidence/H>,
+        <http://pid.geoscience.gov.au/def/Confidence/HM>,
+        <http://pid.geoscience.gov.au/def/Confidence/L>,
+        <http://pid.geoscience.gov.au/def/Confidence/M>,
+        <http://pid.geoscience.gov.au/def/Confidence/ML>,
+        <http://pid.geoscience.gov.au/def/Confidence/N>,
+        <http://pid.geoscience.gov.au/def/Confidence/VH>,
+        <http://pid.geoscience.gov.au/def/Confidence/VL> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Confidence"@en .
+

@@ -1,0 +1,199 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Equipment_Manufactid> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/3S_Navigation> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3S Navigation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Agilent_Technologies> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Agilent Technologies"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Allen_Osborne_Associates> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Allen Osborne Associates"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Hewlett_Packard> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hewlett Packard"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Javad_Navigation_Systems> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Javad Navigation Systems"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Leica_Geosystems> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Leica Geosystems"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/MINIMAC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MINIMAC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Magellan> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Magellan"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/MicroPulse> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MicroPulse"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/NavCom_Technology,_Inc> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NavCom Technology, Inc"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/NovAtel_Inc,_Inc> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NovAtel Inc, Inc"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Paroscientific> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Paroscientific"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Septentrio_Satellite_Navigation> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Septentrio Satellite Navigation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Smithsonian_Astrophysical_Observatory> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Smithsonian Astrophysical Observatory"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Sokkia_Corp> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sokkia Corp"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Spectra_Precision> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spectra Precision"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Symmetricom> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Symmetricom"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Thales_Navigation> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thales Navigation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Topcon_Positioning_Systems> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Topcon Positioning Systems"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Toshiba> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Toshiba"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Trimble_Navigation_Ltd> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trimble Navigation Ltd"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/True_Time> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "True Time"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Vaisala> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vaisala"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Equipment_Manufactid/Vremya-CH> a skos:Concept ;
+    skos:definition "Russian based manufacturer of Hydrogen Masers"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vremya-CH"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Equipment Manufactid vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Equipment_Manufactid/3S_Navigation>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Agilent_Technologies>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Allen_Osborne_Associates>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Hewlett_Packard>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Javad_Navigation_Systems>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Leica_Geosystems>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/MINIMAC>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Magellan>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/MicroPulse>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/NavCom_Technology,_Inc>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/NovAtel_Inc,_Inc>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Paroscientific>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Septentrio_Satellite_Navigation>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Smithsonian_Astrophysical_Observatory>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Sokkia_Corp>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Spectra_Precision>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Symmetricom>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Thales_Navigation>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Topcon_Positioning_Systems>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Toshiba>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Trimble_Navigation_Ltd>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/True_Time>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Unknown>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Vaisala>,
+        <http://pid.geoscience.gov.au/def/Equipment_Manufactid/Vremya-CH> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Equipment Manufactid"@en .
+

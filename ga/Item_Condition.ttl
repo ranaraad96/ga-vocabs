@@ -1,0 +1,88 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Item_Condition> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/B> a skos:Concept ;
+    skos:altLabel "B"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "broken"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/C> a skos:Concept ;
+    skos:altLabel "C"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "corrupted"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/D> a skos:Concept ;
+    skos:altLabel "D"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "deteriorated"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/M> a skos:Concept ;
+    skos:altLabel "M"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "missing"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/O> a skos:Concept ;
+    skos:altLabel "O"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/S> a skos:Concept ;
+    skos:altLabel "S"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Scanned original disposed"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/U> a skos:Concept ;
+    skos:altLabel "U"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unreadable"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Item_Condition/Z> a skos:Concept ;
+    skos:altLabel "Z"@en ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "disposed"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Item Condition vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Item_Condition/B>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/C>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/D>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/M>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/O>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/S>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/U>,
+        <http://pid.geoscience.gov.au/def/Item_Condition/Z> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Item Condition"@en .
+

@@ -1,0 +1,143 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Commitment> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_2D_SEISMIC_LINEKM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_2D_SEISMIC_LINEKM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_3D_SEISMIC_SQKM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_3D_SEISMIC_SQKM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_OTHER_WORK> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_OTHER_WORK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_SEISMIC_COST_2D> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_SEISMIC_COST_2D"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_SEISMIC_COST_3D> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_SEISMIC_COST_3D"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ACTUAL_WELL_COST> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACTUAL_WELL_COST"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/ANNIVERSARY_DATE> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANNIVERSARY_DATE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_2D_SEISMIC_LINEKM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDICATIVE_2D_SEISMIC_LINEKM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_3D_SEISMIC_SQKM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDICATIVE_3D_SEISMIC_SQKM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_SEISMIC_COST_2D> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDICATIVE_SEISMIC_COST_2D"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_SEISMIC_COST_3D> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDICATIVE_SEISMIC_COST_3D"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_WELL_COST> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDICATIVE_WELL_COST"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/NO_ACTUAL_WELLS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NO_ACTUAL_WELLS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/NO_INDIC_WELLS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NO_INDIC_WELLS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/OTHER_WORK_PROGRAM> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OTHER_WORK_PROGRAM"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/SEISMIC_SURVEY_NAME> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SEISMIC_SURVEY_NAME"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Commitment/WELL_NAME> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL_NAME"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Commitment vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_2D_SEISMIC_LINEKM>,
+        <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_3D_SEISMIC_SQKM>,
+        <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_OTHER_WORK>,
+        <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_SEISMIC_COST_2D>,
+        <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_SEISMIC_COST_3D>,
+        <http://pid.geoscience.gov.au/def/Commitment/ACTUAL_WELL_COST>,
+        <http://pid.geoscience.gov.au/def/Commitment/ANNIVERSARY_DATE>,
+        <http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_2D_SEISMIC_LINEKM>,
+        <http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_3D_SEISMIC_SQKM>,
+        <http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_SEISMIC_COST_2D>,
+        <http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_SEISMIC_COST_3D>,
+        <http://pid.geoscience.gov.au/def/Commitment/INDICATIVE_WELL_COST>,
+        <http://pid.geoscience.gov.au/def/Commitment/NO_ACTUAL_WELLS>,
+        <http://pid.geoscience.gov.au/def/Commitment/NO_INDIC_WELLS>,
+        <http://pid.geoscience.gov.au/def/Commitment/OTHER_WORK_PROGRAM>,
+        <http://pid.geoscience.gov.au/def/Commitment/SEISMIC_SURVEY_NAME>,
+        <http://pid.geoscience.gov.au/def/Commitment/WELL_NAME> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Commitment"@en .
+

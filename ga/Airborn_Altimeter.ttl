@@ -1,0 +1,502 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-10> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-10-19" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Bendix King KRA-10 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bendix King KRA-10"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-10A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Bendix King KRA-10A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bendix King KRA-10A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-405B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2011-03-29" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Bendix King KRA-405B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bendix King KRA-405B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA_10A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2009-01-23" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Bendix King KRA 10A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bendix King KRA 10A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Colins_55A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Colins 55A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Colins 55A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_55A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins 55A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins 55A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-30> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-30 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-30"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-50> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-50 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-50"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-50A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-05-05" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-50A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-50A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-06-04" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-55 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-55"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-55B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-55B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55_radio_altimeter> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2011-06-17" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-55 radio altimeter Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-55 radio altimeter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT-B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT-B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT50_Radio_Altimeter> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2009-09-03" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT50 Radio Altimeter Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT50 Radio Altimeter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-08-24" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT55 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT55"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_+_Sperry_RT-220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-08-24" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT55 + Sperry RT-220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT55 + Sperry RT-220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_Sperry_Stars_AA200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2007-11-19" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT55/Sperry Stars AA200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT55/Sperry Stars AA200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55___Sperry_RT-220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2005-09-29" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT55 & Sperry RT-220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT55 & Sperry RT-220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_radio_altimeter> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-11-13" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT55 radio altimeter Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT55 radio altimeter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT_55B_+_Sperry_AA-200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-11-14" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins ALT 55B + Sperry AA-200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins ALT 55B + Sperry AA-200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_Alt-50> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2004-03-25" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins Alt-50 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins Alt-50"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_Alt-50,_Riegl_LMS-Q1401-> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2003-09-10" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Collins Alt-50, Riegl LMS-Q1401- Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Collins Alt-50, Riegl LMS-Q1401-"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Honeywell_Sperry_AA_330_or_RT220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-01-23" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Honeywell/Sperry AA 330 or RT220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Honeywell/Sperry AA 330 or RT220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/KING_KRA405> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2005-04-04" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "KING KRA405 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "KING KRA405"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/KING_KRA_10A> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "KING KRA 10A Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "KING KRA 10A"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR4045B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-04-10" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KR4045B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KR4045B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR405B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2013-05-21" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KR405B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KR405B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR495B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-11-17" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KR495B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KR495B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-10> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2004-03-26" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KRA-10 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KRA-10"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2003-03-27" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KRA-405 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KRA-405"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2009-02-18" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KRA-405B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KRA-405B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405_radar_altimeter> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2012-04-03" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KRA-405 radar altimeter Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KRA-405 radar altimeter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR_495B> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2011-04-04" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KR 495B Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KR 495B"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR_495B_radalt> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2009-09-14" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King KR 495B radalt Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King KR 495B radalt"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_Kra-405> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King Kra-405 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King Kra-405"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_model_KRA-10> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-11-06" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King model KRA-10 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King model KRA-10"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_model_KRA-405> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2009-03-16" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "King model KRA-405 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "King model KRA-405"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/RT220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2004-10-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "RT220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RT220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/RT_220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2004-10-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "RT 220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RT 220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2007-08-20" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-100> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA-100 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA-100"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-10-16" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA-200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA-200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-210> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA-210 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA-210"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA210> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA210 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA210"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry AA220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry AA220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT-200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2010-07-13" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry RT-200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry RT-200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT-220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2010-04-09" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry RT-220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry RT-220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT220> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry RT220 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry RT220"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT220_radar_alt_> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2007-01-31" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry RT220 radar alt. Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry RT220 radar alt."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA-200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2006-10-18" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry Stars AA-200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry Stars AA-200"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA-200_Radar_altime> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2008-04-09" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry Stars AA-200 Radar altime Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry Stars AA-200 Radar altime"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA200> a skos:Concept ;
+    skos:changeNote [ dcterms:date "2002-07-08" ;
+            rdf:value "Start date for the use of this Airborn_Altimeter" ] ;
+    skos:definition "Sperry Stars AA200 Instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sperry Stars AA200"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2016-11-15T11:29:15"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2016-11-15T11:29:15"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 15-Nov-2016 version of the Airborn Altimeter vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-10>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-10A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA-405B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Bendix_King_KRA_10A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Colins_55A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_55A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-30>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-50>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-50A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-55_radio_altimeter>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT-B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT50_Radio_Altimeter>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_+_Sperry_RT-220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_Sperry_Stars_AA200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55___Sperry_RT-220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT55_radio_altimeter>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_ALT_55B_+_Sperry_AA-200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_Alt-50>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Collins_Alt-50,_Riegl_LMS-Q1401->,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Honeywell_Sperry_AA_330_or_RT220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/KING_KRA405>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/KING_KRA_10A>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR4045B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR405B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR495B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-10>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KRA-405_radar_altimeter>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR_495B>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_KR_495B_radalt>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_Kra-405>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_model_KRA-10>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/King_model_KRA-405>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/RT220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/RT_220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-100>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA-210>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA210>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_AA220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT-200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT-220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT220>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_RT220_radar_alt_>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA-200>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA-200_Radar_altime>,
+        <http://pid.geoscience.gov.au/def/voc/Airborn_Altimeter/Sperry_Stars_AA200> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Airborn Altimeter"@en .
+

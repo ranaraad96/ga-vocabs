@@ -1,0 +1,108 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Provreltypes> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/adjoins> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "adjoins"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/associated_with> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "associated with"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/contains> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "contains"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/interfingers> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "interfingers"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/intrudes> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intrudes"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/intrudes_overlies> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intrudes/overlies"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/is_contained_within> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "is contained within"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/is_intruded_by> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "is intruded by"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/overlaps> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "overlaps"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/overlies> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "overlies"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/overprints> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "overprints"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Provreltypes/underlies> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "underlies"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Provreltypes vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Provreltypes/adjoins>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/associated_with>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/contains>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/interfingers>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/intrudes>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/intrudes_overlies>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/is_contained_within>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/is_intruded_by>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/overlaps>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/overlies>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/overprints>,
+        <http://pid.geoscience.gov.au/def/Provreltypes/underlies> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Provreltypes"@en .
+

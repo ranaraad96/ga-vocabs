@@ -1,0 +1,152 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Pick_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/A> a skos:Concept ;
+    skos:altLabel "A"@en ;
+    skos:definition "All data, including well logs, seismic lines and biostratigraphy reports"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "All Data"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/C> a skos:Concept ;
+    skos:altLabel "C"@en ;
+    skos:definition "Condensed section"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Condensed"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/D> a skos:Concept ;
+    skos:altLabel "D"@en ;
+    skos:definition "Single depth for a palaeo zone"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sngl Depth"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/F> a skos:Concept ;
+    skos:altLabel "F"@en ;
+    skos:definition "Formation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Formation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/K> a skos:Concept ;
+    skos:altLabel "K"@en ;
+    skos:definition "Key horizon"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Key Horiz"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/L> a skos:Concept ;
+    skos:altLabel "L"@en ;
+    skos:definition "Log pick (for non-palaeo log pick)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Log Pick"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/M> a skos:Concept ;
+    skos:altLabel "M"@en ;
+    skos:definition "Maximum age determination"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Max Age"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/N> a skos:Concept ;
+    skos:altLabel "N"@en ;
+    skos:definition "Bottom of overturned section"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Normal"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/P> a skos:Concept ;
+    skos:altLabel "P"@en ;
+    skos:definition "Palaeo zone boundary (determined from logs)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Log Palaeo"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/R> a skos:Concept ;
+    skos:altLabel "R"@en ;
+    skos:definition "Top of overturned section"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reverse"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/S> a skos:Concept ;
+    skos:altLabel "S"@en ;
+    skos:definition "Sequence boundary / Interval"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Seq Bd/Int"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/T> a skos:Concept ;
+    skos:altLabel "T"@en ;
+    skos:definition "Time Slice (AGSO Palaeogeographic Project)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Timeslice"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/U> a skos:Concept ;
+    skos:altLabel "U"@en ;
+    skos:definition "Unconformity/Fault"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Uncon Flt"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/W> a skos:Concept ;
+    skos:altLabel "W"@en ;
+    skos:definition "Well data"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/Y> a skos:Concept ;
+    skos:altLabel "Y"@en ;
+    skos:definition "Youngest age determination"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Min Age"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Pick_Type/Z> a skos:Concept ;
+    skos:altLabel "Z"@en ;
+    skos:definition "Zone boundaries determined from palaeo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palaeo"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Pick Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Pick_Type/A>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/C>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/D>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/F>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/K>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/L>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/M>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/N>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/P>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/R>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/S>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/T>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/U>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/W>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/Y>,
+        <http://pid.geoscience.gov.au/def/Pick_Type/Z> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Pick Type"@en .
+

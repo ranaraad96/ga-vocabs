@@ -1,0 +1,272 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Acerage_release> a skos:Concept ;
+    skos:definition "Offshore acreage released by the various Australian Government-State/NT Joint Authorities."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Acerage release"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Borehole> a skos:Concept ;
+    skos:definition "A generic term for any hole or shaft drilled into the Earth."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Borehole"@en ;
+    skos:scopeNote "A generic term for any hole or shaft drilled into the Earth. A borehole may have many purposes (eg, petroleum, mineral, or groundwater exploration or production; stratigraphic or engineering investigation)."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Country> a skos:Concept ;
+    skos:definition "Country (ISO 3166-1998 Codes or Geonames URIs should be used for instances of countries)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Country"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Drillhole> a skos:Concept ;
+    skos:definition "Any hole drilled into the earth for the purpose of examining the earth material into which it is drilled, excluding holes drilled for petroleum purposes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drillhole"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/ESSCI> a skos:Concept ;
+    skos:definition "Environmentally sustainable sites for CO2 injection."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ESSCI"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Emitter> a skos:Concept ;
+    skos:definition "A CO2 Emission source - including power stations, petroleum fields, gas processing plants, oil refineries, coke production plants."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Emitter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Estuary> a skos:Concept ;
+    skos:definition "The tidal mouth of a large river, where the tide meets the stream."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Estuary"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Exploration_permit> a skos:Concept ;
+    skos:definition "Permit to provide exclusive rights to undertake seismic surveys and drilling in a defined area."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Exploration permit"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Facies> a skos:Concept ;
+    skos:definition "A mass of rock that can be recognized by its composition, structures or fossil content and mapped on the basis of those characteristics."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Facies"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Field_site> a skos:Concept ;
+    skos:definition "Place (site) where an observation and/or measurement was made and/or sampling took place."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Field site"@en ;
+    skos:scopeNote "Place (site) where an observation and/or measurement was made and/or sampling took place. For example observations/measurements/samples of rocks, soil, stream sediments, water, regolith, landform, vegetation, or rock properties."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mapsheet> a skos:Concept ;
+    skos:definition "The bounding polygon of a map as in, for example, the National Mapping 1:250 000 map sheet index. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mapsheet"@en ;
+    skos:scopeNote "The bounding polygon of a map as in, for example, the National Mapping 1:250 000 map sheet index. Mapsheets can be any scale, and include standard mapsheet boundaries and non-standard mapsheet boundaries."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Marsegment> a skos:Concept ;
+    skos:definition "Subsets of a survey, referred to as segments."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Marsegment"@en ;
+    skos:scopeNote "Subsets of a survey, referred to as segments. Operations segments are defined by a substantial change in the recording parameters of a survey, loop segments are defined where the survey loops on itself, and sampling segments identify where the ship may have stopped or slowed for sampling."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineral_deposit> a skos:Concept ;
+    skos:definition "An aggregation of mineralisation that may or may not have resources defined."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mineral deposit"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineral_project> a skos:Concept ;
+    skos:definition "A mining operation or mineral exploration project that includes multiple mineral deposits."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mineral project"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineralised_zone> a skos:Concept ;
+    skos:definition "A mineralised zone may describe a zone of uneconomic mineralisation or an economic orebody. There may be one or more mineralised zone within a specific Mineral Deposit entity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mineralised zone"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Observatory> a skos:Concept ;
+    skos:definition "This entity contains data about observatories - buildings or places set apart for, and furnished with instruments for making, observations of natural phenomena."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observatory"@en ;
+    skos:scopeNote "This entity contains data about observatories - buildings or places set apart for, and furnished with instruments for making, observations of natural phenomena; esp., for magnetic observations, ,astronomical, meteorological."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Pipeline> a skos:Concept ;
+    skos:definition "Containers joining two connection points for the transportation of oil, gas, water or other materials."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pipeline"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Place_name> a skos:Concept ;
+    skos:definition "Gazetteer (geographical index or dictionary) place names, e.g. \"Wagga Wagga\"  region or \"Captains Flats\""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Place name"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Political_region> a skos:Concept ;
+    skos:definition "This entity contains data about political regions and boundaries."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Political region"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Port> a skos:Concept ;
+    skos:definition "Harbour - a place by the sea, or by a river or other waterway, where ships and boats can dock, load, and unload."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Port"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Power_station> a skos:Concept ;
+    skos:definition "Site where fossil fuel, nuclear, hydro, solar, wind, biological or other resources are converted into electrical power."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Power station"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Production_license> a skos:Concept ;
+    skos:definition "Licence granted to holder of exploration permit or retention lease, for the recovery of petroleum following a commercial discovery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Production license"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Project> a skos:Concept ;
+    skos:definition "A GA-defined project."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Project"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Province> a skos:Concept ;
+    skos:definition "The administratoriv unit province."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Province"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Resource_processing_plant> a skos:Concept ;
+    skos:definition "Locality for adding value to raw materials, particularly minerals."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Resource processing plant"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Resource_project> a skos:Concept ;
+    skos:definition "Proposed, planned or developing scheme, including infrastructure, for extracting resources that requires a large amount of time, effort, capital, or planning."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Resource project"@en ;
+    skos:scopeNote "Proposed, planned or developing scheme, including infrastructure, for extracting resources that requires a large amount of time, effort, capital, or planning. Once developed, the type of entity could change to MINE, WELL, RESOURCE PROCESSING PLANT, or something similar."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Retention_lease> a skos:Concept ;
+    skos:definition "Lease granted to holder of exploration permit, where a discovery is not currently commercial but is expected to become so."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Retention lease"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Section> a skos:Concept ;
+    skos:definition "A set of observations and/or measurements and/or samples taken at points or intervals along a line, section or traverse, in any direction at or beneath the earth\"s surface (measured section)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Section"@en ;
+    skos:scopeNote "A set of observations and/or measurements and/or samples taken at points or intervals along a line, section or traverse, in any direction at or beneath the earth\"s surface (measured section). For example, observations of a group of stratigraphic units or regolith zones."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Seismic_line> a skos:Concept ;
+    skos:definition "Information about seismic lines for a given survey.  Each seismic line has a different name, but the parameters of seismic lines in any given segment should be similar."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Seismic line"@en ;
+    skos:scopeNote "Information about seismic lines for a given survey.  Each seismic line has a different name, but the parameters of seismic lines in any given segment should be similar.  A segment may consist of many lines, and a line may fall within more than 1 segment if the operating parameters change."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/State> a skos:Concept ;
+    skos:definition "States and Territories of Australia"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "State"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Survey> a skos:Concept ;
+    skos:broader <http://pid.geoscience.gov.au/def/14595> ;
+    skos:definition "An airborn survey, usually conducted for the collection of marine, gravity or seismic data."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Survey"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Transect> a skos:Concept ;
+    skos:definition "A path along which ocurrences of a phenomena of study are counted or measured."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Transect"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Well> a skos:Concept ;
+    skos:definition "An actual or proposed hole in the ground, to exchange fluids between subsurface reservoir and surface or retrieve rock core or samples or to enable the detection and measurement of rock properties."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Well"@en ;
+    skos:scopeNote "An actual or proposed hole in the ground, designed to exchange fluids between a subsurface reservoir and the surface (or another reservoir) or to retrieve rock core or samples or to enable the detection and measurement of rock properties.  A well (e.g. sidetrack or horizontal well) may originate from another well defined by PARENT."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Wildcat_location> a skos:Concept ;
+    skos:definition "Permit to conduct further exploration and/or appraisal activities within the location blocks to determine more accurately the nature of the discovery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wildcat location"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Feature Of Interest Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Acerage_release>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Borehole>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Country>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Drillhole>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/ESSCI>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Emitter>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Estuary>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Exploration_permit>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Facies>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Field_site>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mapsheet>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Marsegment>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineral_deposit>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineral_project>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Mineralised_zone>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Observatory>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Pipeline>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Place_name>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Political_region>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Port>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Power_station>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Production_license>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Project>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Province>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Resource_processing_plant>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Resource_project>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Retention_lease>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Section>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Seismic_line>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/State>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Survey>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Transect>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Well>,
+        <http://pid.geoscience.gov.au/def/Feature_Of_Interest_Type/Wildcat_location> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Feature Of Interest Type"@en .
+

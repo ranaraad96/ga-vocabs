@@ -1,0 +1,799 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Sample_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/ADSORBED_PHASE> a skos:Concept ;
+    skos:definition "An ion attached to the surface of a mineral"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ADSORBED PHASE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/ANALYTICAL_BLANK> a skos:Concept ;
+    skos:definition "An analytical procedure is run without a \"substitute material\" and results obtained are considered to be the \"analytical blank\". Example 1: An acid digestion procedure is run without a sample, to show"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANALYTICAL BLANK"@en ;
+    skos:scopeNote "An analytical procedure is run without a \"substitute material\" and results obtained are considered to be the \"analytical blank\". Example 1: An acid digestion procedure is run without a sample, to show level of impurities introduced by the acids and the digestion vessels used"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/AUGER_SAMPLE> a skos:Concept ;
+    skos:definition "Sample collected by hand or mechanical auger which enable samples to be taken at intervals down profile. For example regolith, soil or sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AUGER SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/BITUMEN> a skos:Concept ;
+    skos:definition "Solid organic material that forms part of a rock. It can usually be extracted from the rock with organic solvent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BITUMEN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/BITUMEN_COASTAL> a skos:Concept ;
+    skos:definition "Petroleum specimen collected along the coastline, usually washed up on beaches."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BITUMEN COASTAL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION> a skos:Concept ;
+    skos:definition "An experiment to derive the oxygen consumption rate/respiration rates of organic matter conducted in a bottle under controlled light and temperature conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BOTTLE INCUBATION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION_DARK> a skos:Concept ;
+    skos:definition "An experiment to derive the oxygen consumption rate/respiration rates of organic matter conducted in a bottle under no light and controlled temperature conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BOTTLE INCUBATION DARK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION_LIGHT> a skos:Concept ;
+    skos:definition "An experiment to derive the oxygen consumption rate/respiration rates of organic matter conducted in a bottle under controlled light and temperature conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BOTTLE INCUBATION LIGHT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CAVINGS> a skos:Concept ;
+    skos:definition "DRILL CHIPS/CUTTINGS material that is foreign to the depth interval sampled and most likely derived from higher in the stratigraphic column or possibly recirculated within the mud system from previous"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CAVINGS"@en ;
+    skos:scopeNote "DRILL CHIPS/CUTTINGS material that is foreign to the depth interval sampled and most likely derived from higher in the stratigraphic column or possibly recirculated within the mud system from previous drilling activity."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION> a skos:Concept ;
+    skos:definition "An experiment that isolates sediment and overlying water in a benthic chamber. Water samples are collected from the benthic chamber during the incubation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CHAMBER INCUBATION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION_DARK> a skos:Concept ;
+    skos:definition "An experiment that isolates sediment and overlying water in a dark benthic chamber. Incubation water samples are collected from the benthic chamber during the incubation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CHAMBER INCUBATION DARK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION_LIGHT> a skos:Concept ;
+    skos:definition "An experiment that isolates sediment and overlying water in a light benthic chamber. Incubation water samples are collected from the benthic chamber during the incubation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CHAMBER INCUBATION LIGHT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/COKE> a skos:Concept ;
+    skos:definition "A solid of carbonaceous material derived from the destructive distillation of low-ash, low-sulphur bituminous coal."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "COKE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CONCENTRATE> a skos:Concept ;
+    skos:definition "Sample that has been modified to include a specific fraction or the original sample eg. panned or separated sample"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CONCENTRATE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CONDENSATE> a skos:Concept ;
+    skos:definition "A sample that exists as gas in the subsurface but condenses into liquid at the surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CONDENSATE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_AIR> a skos:Concept ;
+    skos:definition "Rock or sediment core derived from a dry, air-cooled diamond drilling method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE AIR"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_BOX> a skos:Concept ;
+    skos:definition "Obtains a large volume or large surface area core with shallow penetration and minimum disturbance. Commonly uses a double spade system."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE BOX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_CATCHER> a skos:Concept ;
+    skos:definition "Sediment sample collected from the end of the core in the core catcher. The core catcher has curved finger-like projections that extend down to the lowest part of the core liner. The core catcher help"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE CATCHER"@en ;
+    skos:scopeNote "Sediment sample collected from the end of the core in the core catcher. The core catcher has curved finger-like projections that extend down to the lowest part of the core liner. The core catcher helps keep the sediment in the core liner when the core is being removed from the surface."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_CONVENTIONAL> a skos:Concept ;
+    skos:definition "Core that has been obtained by diamond bit or tungsten carbide coring using a core barrel with fibreglass inner sleeves. Used in the oil industry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE CONVENTIONAL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_CUTTER> a skos:Concept ;
+    skos:definition "Sediment sample collected from the lowest part of the core assembly at the core cutter. The core cutter has sharp edges which cut and shape the sediment entering the core liner as the corer goes into "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE CUTTER"@en ;
+    skos:scopeNote "Sediment sample collected from the lowest part of the core assembly at the core cutter. The core cutter has sharp edges which cut and shape the sediment entering the core liner as the corer goes into the sediment."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_DIAMOND> a skos:Concept ;
+    skos:definition "Rock or sediment core derived from a liquid-cooled, diamond  or tungsten carbide bit drilling method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE DIAMOND"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_GEOPROBE> a skos:Concept ;
+    skos:definition "High quality core extracted by hydraulic power. Used in rough terrain, soft sand, mud, shallow water, or tight, congested areas. Long high quality cores. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE GEOPROBE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_GRAVITY> a skos:Concept ;
+    skos:definition "Used only where short cores are required. Core barrel is gravity forced. Near surface high quality core."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE GRAVITY"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION> a skos:Concept ;
+    skos:definition "An experiment whereby a sediment core is collected, along with overlying water. The sediment and water are isolated and water samples collected during the core incubation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE INCUBATION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION_DARK> a skos:Concept ;
+    skos:definition "An experiment whereby a sediment core is collected along with overlying water. The sediment and water are incubated under no light and controlled temperature conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE INCUBATION DARK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION_LIGHT> a skos:Concept ;
+    skos:definition "An experiment whereby a sediment core is collected along with overlying water. The sediment and water are incubated under controlled light and temperature conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE INCUBATION LIGHT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_KASTEN> a skos:Concept ;
+    skos:definition "Large volume, reletatively undisturbed sediment core (~3m long) from a Kasten Corer. The corer is constructed of stainless steel and is square in cross-section. A weight of several hundred kilograms o"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE KASTEN"@en ;
+    skos:scopeNote "Large volume, reletatively undisturbed sediment core (~3m long) from a Kasten Corer. The corer is constructed of stainless steel and is square in cross-section. A weight of several hundred kilograms on top of the corer pushes it 2-3 metres into the seabed. It is designed for sedimentological and geochemical sampling of fine-grained sediments. This type of corer obtains relatively undisturbed cores and can preserve the sediment/water interface. This type of core is useful for determining sediment accumulation rates."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_MACKERETH> a skos:Concept ;
+    skos:definition "The Mackereth is a complex coring system utilizing compressed gas to penetrate and recover single-drive moderate (up to 12 m) cores from lakes of diverse depths.  Mackereth cores can be deployed on vi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE MACKERETH"@en ;
+    skos:scopeNote "The Mackereth is a complex coring system utilizing compressed gas to penetrate and recover single-drive moderate (up to 12 m) cores from lakes of diverse depths.  Mackereth cores can be deployed on virutally any small craft and and can be used in water depths up to 80 m."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_PISTON> a skos:Concept ;
+    skos:definition "Uses a piston to drive the core barrel. High quality long cores."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE PISTON"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_PUSH> a skos:Concept ;
+    skos:definition "A pipe that is pushed into the sediment to gain a core that is no longer than 2m long. Can be used in up to 5m of water. Core pipe has a valve on top that is used to create a vacuum  at the top of the"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE PUSH"@en ;
+    skos:scopeNote "A pipe that is pushed into the sediment to gain a core that is no longer than 2m long. Can be used in up to 5m of water. Core pipe has a valve on top that is used to create a vacuum  at the top of the core when pulling the core out of the sediment.  "@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_SONIC> a skos:Concept ;
+    skos:definition "Similar to the vibro-core technique, the drill stem and barrel are vibrated vertically at frequencies between 50Hz and 180Hz such that the sampler barrel advances by slicing through the regolith."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE SONIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_UNSPECIFIED> a skos:Concept ;
+    skos:definition "A variety of coring devices/methods (eg. gravity, piston or push cores) are used with a core barrel  to obtain seafloor samples. Different devices are used for differing sampling requirements such as "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE UNSPECIFIED"@en ;
+    skos:scopeNote "A variety of coring devices/methods (eg. gravity, piston or push cores) are used with a core barrel  to obtain seafloor samples. Different devices are used for differing sampling requirements such as to obtain large surface area volumes as opposed to depth penetration, or drilling into hard rock as opposed to soft unconsolidated sediments."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CORE_VIBRO> a skos:Concept ;
+    skos:definition "Samples include stiff and stony clays, soft rock and sands which can not be sampled using gravity or piston corers. Core is taken using vibrations. Also know as VIBRA. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORE VIBRO"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CTD_inside> a skos:Concept ;
+    skos:definition "Conductivity (salinity), Temperature and Depth measured by an oxygen probe inside the CTD chamber."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CTD inside"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CTD_outside> a skos:Concept ;
+    skos:definition "Conductivity (salinity), Temperature and Depth measured by an oxygen probe outside the CTD chamber."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CTD outside"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/CURRENT_METER> a skos:Concept ;
+    skos:definition "A mooring deployed on the seabed for a finite time during a marine survey to measure sea-levels and current velocities near to the seafloor. Moorings may contain a suite of instruments measuring other"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CURRENT METER"@en ;
+    skos:scopeNote "A mooring deployed on the seabed for a finite time during a marine survey to measure sea-levels and current velocities near to the seafloor. Moorings may contain a suite of instruments measuring other parameters."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_BENTHIC> a skos:Concept ;
+    skos:definition "Seabed sample taken over a small area seaward of the continental shelf. Sample of the upper few cm of rocky sea floor particularly for biota."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DREDGE BENTHIC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_CHAIN_BAG> a skos:Concept ;
+    skos:definition "Sample of large rocks from the sea floor."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DREDGE CHAIN BAG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_DIAMANTINA> a skos:Concept ;
+    skos:definition "Used as a spot dredge to quickly ascertain sea bed geology. Samples give the seabed character unless it is deep when any mud is washed out during retrieval. In shallow water this dredge will return ro"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DREDGE DIAMANTINA"@en ;
+    skos:scopeNote "Used as a spot dredge to quickly ascertain sea bed geology. Samples give the seabed character unless it is deep when any mud is washed out during retrieval. In shallow water this dredge will return rock, mud, benthic samples and any thing else that is on the bottom."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_PIPE> a skos:Concept ;
+    skos:definition "Sample of small fragments and mud from the sea floor. Total weight of the dredge is around 25kg. Comprises a metal pipe linked to the tow cable. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DREDGE PIPE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_UNSPECIFIED> a skos:Concept ;
+    skos:definition "Sample taken from of either benthic or pelagic material using a dredge method. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DREDGE UNSPECIFIED"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DRILLING_FLUID> a skos:Concept ;
+    skos:definition "Fluid used for drill bit lubrication and return of ground rock material from the drill bit, e.g. mud."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRILLING FLUID"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS> a skos:Concept ;
+    skos:definition "Rock or sediment chips or fragments derived from an unspecified method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRILL CHIPS/CUTTINGS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS_PERCUSSION> a skos:Concept ;
+    skos:definition "Rock or sediment chips or fragments derived from a percussion (hammer) method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRILL CHIPS/CUTTINGS PERCUSSION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS_ROTARY_AIR_BLAST> a skos:Concept ;
+    skos:definition "Rock or sediment chips or fragments derived from a rotary method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRILL CHIPS/CUTTINGS ROTARY AIR BLAST"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/FLOAT> a skos:Concept ;
+    skos:definition "Sample taken of an isolated rock fragment, displaced from its original outcrop.  Typically derived from weathering of bedrock."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FLOAT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/FLUID_INCLUSION> a skos:Concept ;
+    skos:definition "Tiny quantity of liquid, vapour, or mixtures of these phases, trapped as impurities within mineral GRAINs."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FLUID INCLUSION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/FORMATION_WATER> a skos:Concept ;
+    skos:definition "Water recovered from a reservoir during the testing of a well."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FORMATION WATER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/FORMATION_WATER_WITH_OIL> a skos:Concept ;
+    skos:definition "A sample containing a mixture of water and oil and may be an immulsion. Water is the main phase and hydrocarbons (e.g. benzene, toluene) are dissolved within the water.  The sample is recovered from a"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FORMATION WATER WITH OIL"@en ;
+    skos:scopeNote "A sample containing a mixture of water and oil and may be an immulsion. Water is the main phase and hydrocarbons (e.g. benzene, toluene) are dissolved within the water.  The sample is recovered from a reservoir during the testing of a well from below the oil/water contact."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/FRACTION> a skos:Concept ;
+    skos:definition "Sample that has been modified to include various size fractions separated from the original sample. For example, a sieved sample"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FRACTION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GAS> a skos:Concept ;
+    skos:definition "A sample that is a gas at the surface. In the subsurface this sample maybe be free of liquid hydrocarbons, contain dissolved liquid hydrocarbons, or be dissolved in oil. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GAS_IN_SOLUTION> a skos:Concept ;
+    skos:definition "A sample of gas that that is exsolved from a liquid, such as water or oil, at the surface or under experimental conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GAS IN SOLUTION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAB_ECKMAN> a skos:Concept ;
+    skos:definition "The Eckman Bottom Grab sampler is designed for sampling in soft bottomed lakes and rivers composed of muck, mud or fine peat"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAB ECKMAN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAB_SHIPEK> a skos:Concept ;
+    skos:definition "Near surface unconsolidated marine sediment sample taken using the Shipek Method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAB SHIPEK"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAB_SMITH_MCINTYRE> a skos:Concept ;
+    skos:definition "Near surface sediment grab sample. Sample has a surface area of 0.1m2. It is useful for quantitative macrobenthos sampling in either shallow or deep water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAB SMITH MCINTYRE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAB_UNSPECIFIED> a skos:Concept ;
+    skos:definition "Surface samples primarily for lithogical and petrographical analyses. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAB UNSPECIFIED"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAB_VAN_VEEN> a skos:Concept ;
+    skos:definition "Quantitative sample of the sediment. Van veen grab has long arms for levering the clam shell scoop."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAB VAN VEEN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GRAIN> a skos:Concept ;
+    skos:definition "An individual mineralogical particle, usually isolated from a THIN SECTION."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GRAIN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/GROUND_WATER> a skos:Concept ;
+    skos:definition "Part of the subsurface water that is in the zone of saturation, i.e., below the water table.  Can be located in one or several aquifers, aquicludes or aquitards."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GROUND WATER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/INCUBATION_WATER_SAMPLE> a skos:Concept ;
+    skos:definition "A water sample collected from a chamber or core incubation for the purpose of use of profiling the water column"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INCUBATION WATER SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/KEROGEN> a skos:Concept ;
+    skos:definition "Immobile organic matter that forms part of a rock. Kerogen cannot be extracted from the rock with organic solvents. Kerogen is concentrated in a pure form by removal of the mineral matter with strong "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "KEROGEN"@en ;
+    skos:scopeNote "Immobile organic matter that forms part of a rock. Kerogen cannot be extracted from the rock with organic solvents. Kerogen is concentrated in a pure form by removal of the mineral matter with strong acids (HCl, HF)."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/LAG> a skos:Concept ;
+    skos:definition "Deposit, commonly thin, or fragments of larger than sand size, spread over the land surface.  Its most common origin is as the coarse material left behind after fine material has been transported away"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LAG"@en ;
+    skos:scopeNote "Deposit, commonly thin, or fragments of larger than sand size, spread over the land surface.  Its most common origin is as the coarse material left behind after fine material has been transported away by wind, or less commonly, sheet flow."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/LOG> a skos:Concept ;
+    skos:definition "A description of a feature in a continuous linear format (e.g. grainsize or lithology logs for drillholes and measured sections) where a sample is not taken. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LOG"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/MUD_GAS> a skos:Concept ;
+    skos:definition "Small amounts of hydrocarbon gases in air that are collected from the circulating mud stream during drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MUD GAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OBSERVATION_ONLY> a skos:Concept ;
+    skos:definition "A description of a feature (e.g. an outcrop) where a sample is not taken."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OBSERVATION ONLY"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OIL_CRUDE> a skos:Concept ;
+    skos:definition "A sample that is liquid in the subsurface and found as part of drilling activity. The sample is obtained and brought to the surface using a variety of drill-testing tools."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OIL CRUDE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OIL_CRUDE_WITH_WATER> a skos:Concept ;
+    skos:definition "A sample containing a mixture of oil and water where oil is the main phase. The sample is recovered from a reservoir during the testing of a well from at or above the oil/water contact."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OIL CRUDE WITH WATER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OIL_REFINED> a skos:Concept ;
+    skos:definition "Oil sample that has been processed in an oil refinery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OIL REFINED"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/ORGCHEM_COAL> a skos:Concept ;
+    skos:definition "A sedimentary rock with >50% organic matter. The organic matter is generally derived from preserved land-plant remains, or less commonly algal remains."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORGCHEM COAL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/ORGCHEM_HAND_SAMPLE> a skos:Concept ;
+    skos:definition "A sample of rock taken at or near Earth surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ORGCHEM HAND SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OUTCROP_SAMPLE> a skos:Concept ;
+    skos:definition "Sample of bedrock material from an outcrop, in which the original rock fabric is preserved."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OUTCROP SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/OVERBANK_DEPOSIT> a skos:Concept ;
+    skos:definition "Alluvium that is deposited outside an alluvial channel from flowing water which has overflowed from the channel.  It includes levees and back swamp deposits."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OVERBANK DEPOSIT"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/PITCH> a skos:Concept ;
+    skos:definition "Any of the various dark heavy viscous and resinous substances obtained as a residue from the distillation of coal-tar or crude oil."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PITCH"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/PIT_TRENCH_SAMPLE> a skos:Concept ;
+    skos:definition "Samples taken at depth from a regolith and/or soil profile.  This includes profiles that are exposed by gullies, costeans, railway cuttings, trenches or rivers as well as those profiles dug as a pit."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PIT/TRENCH SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/PORE_WATER> a skos:Concept ;
+    skos:definition "Interstitial Water - Subsurface water in an interstice."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PORE WATER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/REMOTE_OPERATED_VEHICLE> a skos:Concept ;
+    skos:definition "Sample collected by a remotely operated vehicle"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REMOTE OPERATED VEHICLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/REPLICATE_FIELD> a skos:Concept ;
+    skos:definition "Repeat sample(s) taken in the field over given space and/or time scales to test field heterogeneity of a sampling medium."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REPLICATE FIELD"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/REPLICATE_LABORATORY> a skos:Concept ;
+    skos:definition "Identical split(s) of an original sample submitted blindly to the laboratory to test reproducibility (bias) of results."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REPLICATE LABORATORY"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/RESIN> a skos:Concept ;
+    skos:definition "Solid organic material that forms part of a rock. It is usually associated with coal and derived from the resinous material exuded from land plants."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RESIN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SAMPLE_BLANK> a skos:Concept ;
+    skos:definition "A Sample Blank is used to determine if any impurities are introduced during sample preparation procedures. A \"sample blank material\" substitutes regular \"sample material\" in the procedure. Example 1: "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SAMPLE BLANK"@en ;
+    skos:scopeNote "A Sample Blank is used to determine if any impurities are introduced during sample preparation procedures. A \"sample blank material\" substitutes regular \"sample material\" in the procedure. Example 1: Quartz substitutes a rock sample to determine levels of impurities introduced by grinding equipment. Example 2: Cellulose substitutes vegetable material to determine levels of impurities introduced during sample preparation. Example 3:  Milli_q water is substituted for sample water to determine if impurities are introduced during sample filtering and bottling procedures"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SEEP_GAS> a skos:Concept ;
+    skos:definition "Gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SEEP GAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SEEP_OIL> a skos:Concept ;
+    skos:definition "Crude oil that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SEEP OIL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SEEP_OIL_AND_GAS> a skos:Concept ;
+    skos:definition "Crude oil and gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SEEP OIL AND GAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SEPARATOR_GAS> a skos:Concept ;
+    skos:definition "Natural gas that has been separated from a liquid phase at a surface separator."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SEPARATOR GAS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SIDEWALL_CORE_BULLET> a skos:Concept ;
+    skos:definition "Percussion cores are taken by firing hollow bullets into the formation. The bullets are attached to the tool by fasteners, and are retrieved, along with the core inside, by pulling up the tool and the"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SIDEWALL CORE BULLET"@en ;
+    skos:scopeNote "Percussion cores are taken by firing hollow bullets into the formation. The bullets are attached to the tool by fasteners, and are retrieved, along with the core inside, by pulling up the tool and the fasteners. Percussion coring tools typically hold 20 to 30 bullets, but two or three tools can be combined on one run in the hole."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SIDEWALL_CORE_MECHANICAL> a skos:Concept ;
+    skos:definition "Mechanical tools use hollow rotary drills to cut and then pull out core plugs. Up to 75 plugs can be recovered on one run. With full recovery, cores from typical percussion tools are 1 in. [2.5 cm] in"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SIDEWALL CORE MECHANICAL"@en ;
+    skos:scopeNote "Mechanical tools use hollow rotary drills to cut and then pull out core plugs. Up to 75 plugs can be recovered on one run. With full recovery, cores from typical percussion tools are 1 in. [2.5 cm] in diameter by 1 3/4 in. [4.4 cm] long, while those from mechanical tools are 0.91 in. [2.3 cm] in diameter by 2 in. [5 cm] long. The latter are also known as rotary sidewall cores. "@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SOLID_PHASE> a skos:Concept ;
+    skos:definition "The solid material left over after the pore water has been extracted from a sediment sample."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SOLID PHASE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/STANDARD_REFERENCE_MATERIAL> a skos:Concept ;
+    skos:definition "Known as Standard Reference Material (SRM) or International Standards. A homogenous material is prepared under strict guidelines, divided into numerous aliquots and sent to reputable laboratories worl"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STANDARD REFERENCE MATERIAL"@en ;
+    skos:scopeNote "Known as Standard Reference Material (SRM) or International Standards. A homogenous material is prepared under strict guidelines, divided into numerous aliquots and sent to reputable laboratories world-wide to derive an assigned value. The values for Standard Reference Materials are generally well known published figures. The blended material is used by laboratories to calibrate instruments, analytical techniques and to verify new or improved analytical techniques. For example; Suitable SRMs are often analysed with suites of UNKNOWNS with the results obtained being used as an indication of the standard of the UNKNOWN results in publications."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/STREAM_SEDIMENT> a skos:Concept ;
+    skos:definition "Materials deposited in an alluvial channel from the transport of flowing water.  It is commonly coarser than surrounding deposits and is found in both active and relict channels.  It includes deposits"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STREAM SEDIMENT"@en ;
+    skos:scopeNote "Materials deposited in an alluvial channel from the transport of flowing water.  It is commonly coarser than surrounding deposits and is found in both active and relict channels.  It includes deposits in cut-off meanders, and point bar deposits."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/STRUCTURAL> a skos:Concept ;
+    skos:definition "Samples collected for structural analysis"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "STRUCTURAL"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SUBSURFACE_REGOLITH_SAMPLE> a skos:Concept ;
+    skos:definition "Samples of regolith taken below ground level including soil and organic matter."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SUBSURFACE REGOLITH SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_REGOLITH_SAMPLE> a skos:Concept ;
+    skos:definition "Samples of regolith taken at the ground surface including soil material and organic matter."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SURFACE REGOLITH SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_SEDIMENT_SAMPLE> a skos:Concept ;
+    skos:definition "Sample taken at the sediment surface (sediment/water interface). Sample could be from a lake, estuary, river, seabed and more."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SURFACE SEDIMENT SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_WATER> a skos:Concept ;
+    skos:definition "Water samples from rivers, creeks, lakes, etc."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SURFACE WATER"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/SUSPENDED_SOLIDS> a skos:Concept ;
+    skos:definition "Sediment and biological particles collected from a water column that are separated by filtration and are not dissolved. Solids collected are >0.45um."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SUSPENDED SOLIDS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/THIN_SECTION> a skos:Concept ;
+    skos:definition "Microscopic slide"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "THIN SECTION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/UNDER_WATER_CAMERA> a skos:Concept ;
+    skos:definition "A video/still camera used under water to take picture images /observations of the sea floor (incl. sediment, rocks and biota). Cameras can be vertically dropped from the ship, towed, hand-held by dive"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UNDER WATER CAMERA"@en ;
+    skos:scopeNote "A video/still camera used under water to take picture images /observations of the sea floor (incl. sediment, rocks and biota). Cameras can be vertically dropped from the ship, towed, hand-held by divers, or mounted on remotely operated vehicles (ROVs)."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/UNKNOWN> a skos:Concept ;
+    skos:definition "Sample of an unknown type"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UNKNOWN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/VEGETATION> a skos:Concept ;
+    skos:definition "Any part of a plant whether it be moss, grass, sedge, or the roots, bark, twigs or leaves of trees and shrubs."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VEGETATION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN> a skos:Concept ;
+    skos:definition "The body of water extending between the water surface and the sediment surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WATER COLUMN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN_OBSERVATION> a skos:Concept ;
+    skos:definition "Observation (other than CTD) taken at measured intervals in the water column for the use of profiling the water column."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WATER COLUMN OBSERVATION"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN_SAMPLE> a skos:Concept ;
+    skos:definition "Sample taken at measured intervals in the water column for the use of profiling the water column. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WATER COLUMN SAMPLE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WAX> a skos:Concept ;
+    skos:definition "A light coloured solid precipitated from either a gas or oil sample, either within a pipeline or production plant."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WAX"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WELL_CASE> a skos:Concept ;
+    skos:definition "Information of the well hole and casing size variations with depths."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL CASE"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WELL_DST_TEST> a skos:Concept ;
+    skos:definition "A well test which uses a hydrostatic head to measure the formation pressures and to bring the formation fluids to the surface. The test aims to provide information for determination of potential petro"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL DST TEST"@en ;
+    skos:scopeNote "A well test which uses a hydrostatic head to measure the formation pressures and to bring the formation fluids to the surface. The test aims to provide information for determination of potential petroleum producing formations and their exact depth."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WELL_PROD_TEST> a skos:Concept ;
+    skos:definition "A well test similar to DST test, but on a larger scale and under the production conditions after the well completion is conducted."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL PROD TEST"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WELL_WFT_LOG_RUN> a skos:Concept ;
+    skos:definition "Log run number of a well wireline formation test"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL WFT LOG RUN"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Sample_Type/WELL_WFT_TEST> a skos:Concept ;
+    skos:definition "A type of well test that is taken with a wireline formation tester by inserting a probe into a well wall to withdraw a small amount of formation fluid and to measure the formation pore pressure. This "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WELL WFT TEST"@en ;
+    skos:scopeNote "A type of well test that is taken with a wireline formation tester by inserting a probe into a well wall to withdraw a small amount of formation fluid and to measure the formation pore pressure. This measurement can provide formation pressures along the well hole, thereby giving a measure of pressure with depth or along a horizontal borehole."@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Sample Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Sample_Type/ADSORBED_PHASE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/ANALYTICAL_BLANK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/AUGER_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/BITUMEN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/BITUMEN_COASTAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION_DARK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/BOTTLE_INCUBATION_LIGHT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CAVINGS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION_DARK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CHAMBER_INCUBATION_LIGHT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/COKE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CONCENTRATE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CONDENSATE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_AIR>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_BOX>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_CATCHER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_CONVENTIONAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_CUTTER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_DIAMOND>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_GEOPROBE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_GRAVITY>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION_DARK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_INCUBATION_LIGHT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_KASTEN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_MACKERETH>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_PISTON>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_PUSH>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_SONIC>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_UNSPECIFIED>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CORE_VIBRO>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CTD_inside>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CTD_outside>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/CURRENT_METER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_BENTHIC>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_CHAIN_BAG>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_DIAMANTINA>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_PIPE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DREDGE_UNSPECIFIED>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DRILLING_FLUID>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS_PERCUSSION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/DRILL_CHIPS_CUTTINGS_ROTARY_AIR_BLAST>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/FLOAT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/FLUID_INCLUSION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/FORMATION_WATER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/FORMATION_WATER_WITH_OIL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/FRACTION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GAS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GAS_IN_SOLUTION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAB_ECKMAN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAB_SHIPEK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAB_SMITH_MCINTYRE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAB_UNSPECIFIED>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAB_VAN_VEEN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GRAIN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/GROUND_WATER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/INCUBATION_WATER_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/KEROGEN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/LAG>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/LOG>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/MUD_GAS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OBSERVATION_ONLY>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OIL_CRUDE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OIL_CRUDE_WITH_WATER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OIL_REFINED>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/ORGCHEM_COAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/ORGCHEM_HAND_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OUTCROP_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/OVERBANK_DEPOSIT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/PITCH>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/PIT_TRENCH_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/PORE_WATER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/REMOTE_OPERATED_VEHICLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/REPLICATE_FIELD>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/REPLICATE_LABORATORY>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/RESIN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SAMPLE_BLANK>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SEEP_GAS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SEEP_OIL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SEEP_OIL_AND_GAS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SEPARATOR_GAS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SIDEWALL_CORE_BULLET>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SIDEWALL_CORE_MECHANICAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SOLID_PHASE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/STANDARD_REFERENCE_MATERIAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/STREAM_SEDIMENT>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/STRUCTURAL>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SUBSURFACE_REGOLITH_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_REGOLITH_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_SEDIMENT_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SURFACE_WATER>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/SUSPENDED_SOLIDS>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/THIN_SECTION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/UNDER_WATER_CAMERA>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/UNKNOWN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/VEGETATION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN_OBSERVATION>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WATER_COLUMN_SAMPLE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WAX>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WELL_CASE>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WELL_DST_TEST>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WELL_PROD_TEST>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WELL_WFT_LOG_RUN>,
+        <http://pid.geoscience.gov.au/def/Sample_Type/WELL_WFT_TEST> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Sample Type"@en .
+

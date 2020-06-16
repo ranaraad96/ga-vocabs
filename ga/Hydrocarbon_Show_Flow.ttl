@@ -1,0 +1,134 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C2> a skos:Concept ;
+    skos:altLabel "C2"@en ;
+    skos:definition "Condensate scum, globules or emulsion or unmeasured volume of condensate recovered"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace condensate"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C3> a skos:Concept ;
+    skos:altLabel "C3"@en ;
+    skos:definition "Discrete recovery of clean condensate"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Condensate recovery"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C5> a skos:Concept ;
+    skos:altLabel "C5"@en ;
+    skos:definition "Measured flow rate of clean condensate"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Condensate flow"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G1> a skos:Concept ;
+    skos:altLabel "G1"@en ;
+    skos:definition "Solution gas recovered from water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Solution gas from water"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G2> a skos:Concept ;
+    skos:altLabel "G2"@en ;
+    skos:definition "Unmeasured volume or flow of gas observed or solution gas recovered from water"@en,
+        "Unmeasured volume or flow of solution gas observed or solution gas recovered from oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace gas"@en,
+        "Trace solution gas from oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G3> a skos:Concept ;
+    skos:altLabel "G3"@en ;
+    skos:definition "Discrete recovery of gas"@en,
+        "Discrete recovery of solution gas from oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas recovery"@en,
+        "Solution gas from oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G5> a skos:Concept ;
+    skos:altLabel "G5"@en ;
+    skos:definition "Measured flow rate of gas"@en,
+        "Measured flow rate of solution gas from oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas flow"@en,
+        "Solution gas flow from oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L2> a skos:Concept ;
+    skos:altLabel "L2"@en ;
+    skos:definition "Oil scum, globules or emulsion or unmeasured volume of oil recovered"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L3> a skos:Concept ;
+    skos:altLabel "L3"@en ;
+    skos:definition "Discrete recovery of clean oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil recovery"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L5> a skos:Concept ;
+    skos:altLabel "L5"@en ;
+    skos:definition "Measured flow rate of clean oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oil flow"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NR> a skos:Concept ;
+    skos:altLabel "NR"@en ;
+    skos:definition "Unable to test target zone"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Failed test"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NS> a skos:Concept ;
+    skos:altLabel "NS"@en ;
+    skos:definition "Testing attempted but no samples taken and/or no oil or gas rate observed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No flow or recovery"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NT> a skos:Concept ;
+    skos:altLabel "NT"@en ;
+    skos:definition "No flow tests attempted (Drill stem tests, production tests)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No tests"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Hydrocarbon Show Flow vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C2>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C3>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/C5>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G1>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G2>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G3>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/G5>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L2>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L3>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/L5>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NR>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NS>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Flow/NT> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Hydrocarbon Show Flow"@en .
+

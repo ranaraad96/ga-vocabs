@@ -1,0 +1,108 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Power_Device_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Battery> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Battery"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Battery_Charger> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Battery Charger"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/GPC> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GPC"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/GPC_Charger> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GPC Charger"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/PS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Power_Regulator> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Power Regulator"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Power_Switch> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Power Switch"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Solar_Panel> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Solar Panel"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Surge_Protector> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Surge Protector"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/UPS> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UPS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Unknown> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Power_Device_Type/Wind_Turbine> a skos:Concept ;
+    skos:definition "MANDATORY FIELD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wind Turbine"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Power Device Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Power_Device_Type/Battery>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Battery_Charger>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/GPC>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/GPC_Charger>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/PS>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Power_Regulator>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Power_Switch>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Solar_Panel>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Surge_Protector>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/UPS>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Unknown>,
+        <http://pid.geoscience.gov.au/def/Power_Device_Type/Wind_Turbine> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Power Device Type"@en .
+

@@ -1,0 +1,76 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G0> a skos:Concept ;
+    skos:altLabel "G0"@en ;
+    skos:definition "Gas readings less than approximately 5 times background or total gas less than 1% (50 units)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace gas"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G1> a skos:Concept ;
+    skos:altLabel "G1"@en ;
+    skos:definition "Gas readings between approximately 5 and 10 times background or total gas greater than 1% (50 units)"@en,
+        "Mud gas which is interpreted to be associated with oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas indication"@en,
+        "Solution gas from oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G2> a skos:Concept ;
+    skos:altLabel "G2"@en ;
+    skos:definition "Gas readings more than approximately 10 times background or total gas greater than 1% (50 units) with C4 and/or C5"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas show"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/L1> a skos:Concept ;
+    skos:altLabel "L1"@en ;
+    skos:definition "Oil observed in mud"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trace oil"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/NR> a skos:Concept ;
+    skos:altLabel "NR"@en ;
+    skos:definition "Unable to measure gas"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Failed test"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/NS> a skos:Concept ;
+    skos:altLabel "NS"@en ;
+    skos:definition "No background gas detected"@en,
+        "Trip gas or connection gas"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No background gas"@en,
+        "Trip gas or connection gas"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:issued "2019-03-12T11:48:09"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Hydrocarbon Show Mud Logging vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G0>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G1>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/G2>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/L1>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/NR>,
+        <http://pid.geoscience.gov.au/def/Hydrocarbon_Show_Mud_Logging/NS> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Hydrocarbon Show Mud Logging"@en .
+

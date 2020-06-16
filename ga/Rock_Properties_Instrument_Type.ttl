@@ -1,0 +1,118 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/1> a skos:Concept ;
+    skos:altLabel "1"@en ;
+    skos:definition "An instrument to measure magnetic susceptibility."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "magnetic susceptibility meter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/2> a skos:Concept ;
+    skos:altLabel "2"@en ;
+    skos:definition "An instrument to weigh materials."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "analytical balance"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/200> a skos:Concept ;
+    skos:altLabel "200"@en ;
+    skos:definition "An unknown instrument"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/26848> a skos:Concept ;
+    skos:altLabel "26848"@en ;
+    skos:definition "A device for measuring the porosity of rock materials using mercury"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mercury porosimeter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/3> a skos:Concept ;
+    skos:altLabel "3"@en ;
+    skos:definition "A cryogenically-cooled device for measuring magnetic remanence using superconducting SQUID technology"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cryogenic magnetometer"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/3299855> a skos:Concept ;
+    skos:altLabel "3299855"@en ;
+    skos:definition "An instrument used to weigh large samples to a lower precision than an analytical balance. Typically used in an industrial laboratory rather than a research laboratory."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "industrial balance"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/388342> a skos:Concept ;
+    skos:altLabel "388342"@en ;
+    skos:definition "Instrument for measuring the thermal conductivity of rocks"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "thermal conductivity meter"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/388347> a skos:Concept ;
+    skos:altLabel "388347"@en ;
+    skos:definition "A device for measuring sonic velocity within rock samples"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sonic velocity tool"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/413645> a skos:Concept ;
+    skos:altLabel "413645"@en ;
+    skos:definition "A device for measuring the radioelement content of a rock mass"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gamma-ray spectrometer"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/67> a skos:Concept ;
+    skos:altLabel "67"@en ;
+    skos:definition "A non-cryogenic device for measuring magnetic remanence"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spinner magnetometer"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/85> a skos:Concept ;
+    skos:altLabel "85"@en ;
+    skos:definition "Geotek multi sensor core logger (MSCL)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geotek core logger"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/99> a skos:Concept ;
+    skos:altLabel "99"@en ;
+    skos:definition "A tool or sonde designed to measure a rock property within a bore hole, operated by solid attachment to the drill string, through the end of the drill string, by wireline or autonomously. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bore hole tool"@en ;
+    skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga/voc-wg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/ga> ;
+    sdo:name "Geoscience Australia Vocabulary Working Group" ;
+    sdo:url <https://www.ga.gov.au/data-pubs/datastandards> .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
+
+cs: a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga/voc-wg> ;
+    dcterms:date "2019-03-12T11:48:09.000" ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "This vocabulary created directly from the database"@en ;
+    skos:editorialNote "This file contains the Geoscience Australia 12-Mar-2019 version of the Rock Properties Instrument Type vocabulary"@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/1>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/2>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/200>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/26848>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/3>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/3299855>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/388342>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/388347>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/413645>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/67>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/85>,
+        <http://pid.geoscience.gov.au/def/Rock_Properties_Instrument_Type/99> ;
+    skos:prefLabel "Geoscience Australia Vocabulary - Rock Properties Instrument Type"@en .
+
