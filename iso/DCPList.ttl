@@ -1,122 +1,114 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation/code/DCPList> .
+@prefix cs: <http://def.isotc211.org/iso19115/DCPList> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://linked.data.gov.au/org/ga> a sdo:Organization ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url <https://www.ga.gov.au> .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/COM> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+<http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation/code/DCPList/Z3950> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
         skos:Concept ;
-    dcterms:description "Component Object Model"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Component Object Model"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "COM" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/CORBA> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "Common Object Request Broker Architecture"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Common Object Request Broker Architecture"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "CORBA" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/FTP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "File Transfer Protocol"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "File Transfer Protocol"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "FTP" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/HTTP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "HyperText Transfer Protocol"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "HyperText Transfer Protocol"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "HTTP" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/JAVA> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "Object-oriented programming language"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Object-oriented programming language"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "JAVA" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/SOAP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "Simple Object Access Protocol"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Simple Object Access Protocol"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "SOAP" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/SQL> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "Structured Query Language"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Structured Query Language"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "SQL" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/XML> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "Extensible Markup Language"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    skos:definition "Extensible Markup Language"^^xsd:string ;
-    skos:inScheme cs: ;
-    skos:prefLabel "XML" ;
-    skos:topConceptOf cs: .
-
-<http://registry.it.csiro.au/def/isotc211/DCPList/Z3950> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
-        skos:Concept ;
-    dcterms:description "ISO 23950"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "ISO 23950"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "Z39.50" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DCPList/webServices> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+<http://def.isotc211.org/iso19115/DCPList/COM> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
         skos:Concept ;
-    dcterms:description "Web service"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Component Object Model"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "COM" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/CORBA> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Common Object Request Broker Architecture"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CORBA" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/FTP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "File Transfer Protocol"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FTP" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/HTTP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "HyperText Transfer Protocol"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "HTTP" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/JAVA> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Object-oriented programming language"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JAVA" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/SOAP> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Simple Object Access Protocol"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SOAP" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/SQL> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Structured Query Language"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SQL" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/XML> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Extensible Markup Language"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XML" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/DCPList/webServices> a <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#DCPList>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Web service"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "web Services" ;
     skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.545000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:published "2016-08-09T05:13:45.545000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.318000+00:00"^^xsd:dateTime ;
-    dcterms:description "class of information to which the referencing entity applies"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/DCPList/COM>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/CORBA>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/FTP>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/HTTP>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/JAVA>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/SOAP>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/SQL>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/XML>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/Z3950>,
-        <http://registry.it.csiro.au/def/isotc211/DCPList/webServices> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "class of information to which the referencing entity applies"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation/code/DCPList/Z3950>,
+        <http://def.isotc211.org/iso19115/DCPList/COM>,
+        <http://def.isotc211.org/iso19115/DCPList/CORBA>,
+        <http://def.isotc211.org/iso19115/DCPList/FTP>,
+        <http://def.isotc211.org/iso19115/DCPList/HTTP>,
+        <http://def.isotc211.org/iso19115/DCPList/JAVA>,
+        <http://def.isotc211.org/iso19115/DCPList/SOAP>,
+        <http://def.isotc211.org/iso19115/DCPList/SQL>,
+        <http://def.isotc211.org/iso19115/DCPList/XML>,
+        <http://def.isotc211.org/iso19115/DCPList/webServices> ;
     skos:prefLabel "DCP List - Concept Scheme" .
 

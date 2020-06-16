@@ -1,134 +1,125 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation/code/CI_OnLineFunctionCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://linked.data.gov.au/org/ga> a sdo:Organization ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url <https://www.ga.gov.au> .
-
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/browseGraphic> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/browseGraphic> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "browse graphic provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "browse graphic provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "browse Graphic" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/browsing> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/browsing> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online browsing provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online browsing provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "browsing" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/completeMetadata> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/completeMetadata> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "complete metadata provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "complete metadata provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:notation "complete metadata"^^xsd:string ;
     skos:prefLabel "complete metadata"^^xsd:string ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/download> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/download> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online instructions for transferring data from one storage device or system to another"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online instructions for transferring data from one storage device or system to another"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "download" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/emailService> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/emailService> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online email service provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online email service provided"^^xsd:string ;
     skos:editorialNote "online email service provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "email Service" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/fileAccess> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/fileAccess> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online file access provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online file access provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "file Access" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/information> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/information> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online information about the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online information about the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "information" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/offlineAccess> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/offlineAccess> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online instructions for requesting the resource from the provider"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online instructions for requesting the resource from the provider"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "offline Access" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/order> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/order> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online order process for obtaining the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online order process for obtaining the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "order" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/search> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/search> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online search interface for seeking out information about the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online search interface for seeking out information about the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "search" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/upload> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
+<http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/upload> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_OnLineFunctionCode>,
         skos:Concept ;
-    dcterms:description "online resource upload capability provided"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "online resource upload capability provided"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "upload" ;
     skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.528000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:published "2016-08-09T05:13:45.528000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.234000+00:00"^^xsd:dateTime ;
-    dcterms:description "function performed by the resource"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/browseGraphic>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/browsing>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/completeMetadata>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/download>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/emailService>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/fileAccess>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/information>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/offlineAccess>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/order>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/search>,
-        <http://registry.it.csiro.au/def/isotc211/CI_OnLineFunctionCode/upload> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "function performed by the resource"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/browseGraphic>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/browsing>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/completeMetadata>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/download>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/emailService>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/fileAccess>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/information>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/offlineAccess>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/order>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/search>,
+        <http://def.isotc211.org/iso19115/CI_OnLineFunctionCode/upload> ;
     skos:prefLabel "CI On Line Function Code - Concept Scheme" .
 

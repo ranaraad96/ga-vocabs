@@ -1,310 +1,189 @@
-@prefix cs: <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode> .
-@prefix cs1: <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation/code/MD_ProgressCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/MD_ProgressCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://purl.org/linked-data/registry#> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
-@prefix ns4: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://def.isotc211.org/iso19115/MD_ProgressCode/accepted> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:comment "Is this definition consistent with definition of 'sponsor' in roles - which is more like an advocate, rather than customer."^^xsd:string ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "agreed to by sponsor"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "accepted" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/completed> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "has been completed"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "completed" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/deprecated> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "resource superseded and will become obsolete, use only for historical purposes"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "deprecated" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/final> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "progress concluded and no changes will be accepted"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "final" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/historicalArchive> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "stored in an offline storage facility"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "historical Archive" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/notAccepted> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "rejected by sponsor"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "not Accepted" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/obsolete> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "no longer relevant"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "obsolete" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/onGoing> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "continually being updated"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "on Going" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/pending> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "committed to, but not yet addressed"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pending" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/planned> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "fixed date has been established upon or by which the resource will be created or updated"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planned" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/proposed> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "suggested that development needs to be undertaken"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "proposed" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/required> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "needs to be generated or updated"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "required" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/retired> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "item is no longer recommended for use. It has not been superseded by another item"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "retired" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/superseded> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "replaced by new"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "superseded" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/tentative> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "provisional changes likely before resource becomes final or complete"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tentative" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/underDevelopment> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "currently in the process of being created"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "under Development" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/valid> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "acceptable under specific conditions"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "valid" ;
+    skos:topConceptOf cs: .
+
+<http://def.isotc211.org/iso19115/MD_ProgressCode/withdrawn> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "removed from consideration"^^xsd:string ;
+    skos:inScheme cs: ;
+    skos:prefLabel "withdrawn" ;
+    skos:topConceptOf cs: .
+
 <https://linked.data.gov.au/org/ga> a sdo:Organization ;
     sdo:name "Geoscience Australia" ;
     sdo:url <https://www.ga.gov.au> .
-
-cs: a skos:ConceptScheme ;
-    dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    rdfs:label "CSIRO MD_ProgressCode",
-        "MD Progress Code - Concept Scheme" ;
-    dcterms:published "2016-08-09T05:13:45.607000+00:00"^^xsd:dateTime ;
-    dcterms:modified "2016-08-09T05:13:01.273000+00:00"^^xsd:dateTime ;
-    dcterms:description "status of the resource"^^xsd:string ;
-    dcterms:isFormatOf <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode> ;
-    dcterms:modified "2016-08-09T05:30:04.778000+00:00"^^xsd:dateTime ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:definition [ ns1:entity cs: ;
-            ns1:entityVersion cs::1 ] ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    rdfs:member <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/accepted>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/completed>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/deprecated>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/final>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/historicalArchive>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/notAccepted>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/obsolete>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/onGoing>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/pending>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/planned>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/proposed>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/required>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/retired>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/superseded>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/tentative>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/underDevelopment>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/valid>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/withdrawn> ;
-    ns4:versionInfo 2 ;
-    skos:definition "status of the resource"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/accepted>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/completed>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/deprecated>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/final>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/historicalArchive>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/notAccepted>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/obsolete>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/onGoing>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/pending>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/planned>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/proposed>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/required>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/retired>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/superseded>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/tentative>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/underDevelopment>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/valid>,
-        <http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/withdrawn> ;
-    skos:notation "MD_ProgressCode - ConceptScheme" .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/accepted> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "accepted" ;
-    dcterms:description "agreed to by sponsor"^^xsd:string ;
+cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.607000+00:00"^^xsd:dateTime ;
+    dcterms:creator <https://linked.data.gov.au/org/iso> ;
+    dcterms:isFormatOf <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode> ;
+    dcterms:modified "2016-08-09T05:13:01.273000+00:00"^^xsd:dateTime ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    rdfs:comment "Is this definition consistent with definition of 'sponsor' in roles - which is more like an advocate, rather than customer."^^xsd:string ;
-    ns4:versionInfo 2 ;
-    skos:definition "agreed to by sponsor"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "accepted" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/completed> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "completed" ;
-    dcterms:description "has been completed"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "has been completed"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "completed" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/deprecated> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "deprecated" ;
-    dcterms:description "resource superseded and will become obsolete, use only for historical purposes"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "resource superseded and will become obsolete, use only for historical purposes"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "deprecated" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/final> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "final" ;
-    dcterms:description "progress concluded and no changes will be accepted"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "progress concluded and no changes will be accepted"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "final" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/historicalArchive> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "historical Archive" ;
-    dcterms:description "stored in an offline storage facility"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "stored in an offline storage facility"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "historical Archive" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/notAccepted> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "not Accepted" ;
-    dcterms:description "rejected by sponsor"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "rejected by sponsor"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "not Accepted" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/obsolete> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "obsolete" ;
-    dcterms:description "no longer relevant"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "no longer relevant"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "obsolete" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/onGoing> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "on Going" ;
-    dcterms:description "continually being updated"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "continually being updated"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "on Going" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/pending> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "pending" ;
-    dcterms:description "committed to, but not yet addressed"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "committed to, but not yet addressed"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "pending" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/planned> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "planned" ;
-    dcterms:description "fixed date has been established upon or by which the resource will be created or updated"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "fixed date has been established upon or by which the resource will be created or updated"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "planned" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/proposed> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "proposed" ;
-    dcterms:description "suggested that development needs to be undertaken"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "suggested that development needs to be undertaken"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "proposed" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/required> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "required" ;
-    dcterms:description "needs to be generated or updated"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "needs to be generated or updated"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "required" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/retired> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "retired" ;
-    dcterms:description "item is no longer recommended for use. It has not been superseded by another item"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "item is no longer recommended for use. It has not been superseded by another item"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "retired" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/superseded> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "superseded" ;
-    dcterms:description "replaced by new"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "replaced by new"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "superseded" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/tentative> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "tentative" ;
-    dcterms:description "provisional changes likely before resource becomes final or complete"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "provisional changes likely before resource becomes final or complete"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "tentative" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/underDevelopment> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "under Development" ;
-    dcterms:description "currently in the process of being created"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "currently in the process of being created"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "under Development" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/valid> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "valid" ;
-    dcterms:description "acceptable under specific conditions"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "acceptable under specific conditions"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "valid" ;
-    skos:topConceptOf cs1: .
-
-<http://registry.it.csiro.au/def/isotc211/MD_ProgressCode/withdrawn> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_ProgressCode>,
-        skos:Concept ;
-    rdfs:label "withdrawn" ;
-    dcterms:description "removed from consideration"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
-    ns1:submitter [ ns3:accountName "simon.cox@csiro.au" ;
-            ns3:name "Simon Cox" ] ;
-    ns4:versionInfo 2 ;
-    skos:definition "removed from consideration"^^xsd:string ;
-    skos:inScheme cs1: ;
-    skos:prefLabel "withdrawn" ;
-    skos:topConceptOf cs1: .
+    skos:definition "status of the resource"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/MD_ProgressCode/accepted>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/completed>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/deprecated>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/final>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/historicalArchive>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/notAccepted>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/obsolete>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/onGoing>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/pending>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/planned>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/proposed>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/required>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/retired>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/superseded>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/tentative>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/underDevelopment>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/valid>,
+        <http://def.isotc211.org/iso19115/MD_ProgressCode/withdrawn> ;
+    skos:notation "MD_ProgressCode - ConceptScheme" ;
+    skos:prefLabel "MD Progress Code - Concept Scheme" .
 

@@ -1,8 +1,6 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation/code/CI_RoleCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/CI_RoleCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://purl.org/linked-data/registry#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -12,218 +10,196 @@
     sdo:name "Geoscience Australia" ;
     sdo:url <https://www.ga.gov.au> .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/author> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<https://linked.data.gov.au/org/iso> a sdo:Organization ;
+    sdo:name "International Organization for Standardization" ;
+    sdo:url <https://www.iso.org> .
+
+<http://def.isotc211.org/iso19115/CI_RoleCode/author> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who authored the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who authored the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "author" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/coAuthor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/coAuthor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who jointly authors the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who jointly authors the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "co Author" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/collaborator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/collaborator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who assists with the generation of the resource other than the principal investigator"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who assists with the generation of the resource other than the principal investigator"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "collaborator" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/contributor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/contributor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party contributing to the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party contributing to the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "contributor" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/custodian> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/custodian> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "custodian" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/distributor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/distributor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who distributes the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who distributes the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "distributor" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/editor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/editor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who reviewed or modified the resource to improve the content"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who reviewed or modified the resource to improve the content"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "editor" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/funder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/funder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party providing monetary support for the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party providing monetary support for the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "funder" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/mediator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/mediator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "a class of entity that mediates access to the resource and for whom the resource is intended or useful"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a class of entity that mediates access to the resource and for whom the resource is intended or useful"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "mediator" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/originator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/originator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who created the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who created the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "originator" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/owner> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/owner> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party that owns the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that owns the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "owner" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/pointOfContact> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who can be contacted for acquiring knowledge about or acquisition of the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who can be contacted for acquiring knowledge about or acquisition of the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "point Of Contact" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/principalInvestigator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/principalInvestigator> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "key party responsible for gathering information and conducting research"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "key party responsible for gathering information and conducting research"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "principal Investigator" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/processor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/processor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who has processed the data in a manner such that the resource has been modified"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who has processed the data in a manner such that the resource has been modified"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "processor" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/publisher> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/publisher> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who published the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who published the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "publisher" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/resourceProvider> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/resourceProvider> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party that supplies the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party that supplies the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "resource Provider" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/rightsHolder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/rightsHolder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party owning or managing rights over the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party owning or managing rights over the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "rights Holder" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/sponsor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/sponsor> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who speaks for the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
     rdfs:comment "This definition sounds like an 'advocate'. Elsewhere the term'sponsor' is used more for customer or client (e.g. see definition of MD_ProgressCode/accepted)"^^xsd:string ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who speaks for the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "sponsor" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/stakeholder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/stakeholder> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who has an interest in the resource or the use of the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who has an interest in the resource or the use of the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "stakeholder" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/CI_RoleCode/user> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
+<http://def.isotc211.org/iso19115/CI_RoleCode/user> a <http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#CI_RoleCode>,
         skos:Concept ;
-    dcterms:description "party who uses the resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "party who uses the resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "user" ;
     skos:topConceptOf cs: .
 
-<https://linked.data.gov.au/org/iso> a sdo:Organization ;
-    sdo:name "International Organization for Standardization" ;
-    sdo:url <https://www.iso.org> .
-
-cs: a ns1:Register,
-        skos:ConceptScheme,
-        <http://www.w3.org/ns/ldp#Container> ;
-    dcterms:published "2016-08-09T05:13:45.538000+00:00"^^xsd:dateTime ;
+cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.538000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.322000+00:00"^^xsd:dateTime ;
-    dcterms:description "<p>Function performed by the responsible party. </p><p>From <a href=\"https://www.iso.org/standard/53798.html\">ISO 19115-1:2014 </a> codelist <a href=\"http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.html\">CI_RoleCode</a>.</p>"^^rdf:HTML ;
-    dcterms:modified "2018-06-03T07:26:42.060000+00:00"^^xsd:dateTime ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
     owl:versionInfo 3 ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/author>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/coAuthor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/collaborator>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/contributor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/custodian>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/distributor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/editor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/funder>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/mediator>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/originator>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/owner>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/principalInvestigator>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/processor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/publisher>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/resourceProvider>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/rightsHolder>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/sponsor>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/stakeholder>,
-        <http://registry.it.csiro.au/def/isotc211/CI_RoleCode/user> ;
+    skos:definition "Function performed by the responsible party."@en ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/CI_RoleCode/author>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/coAuthor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/collaborator>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/contributor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/custodian>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/distributor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/editor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/funder>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/mediator>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/originator>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/owner>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/pointOfContact>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/principalInvestigator>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/processor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/publisher>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/resourceProvider>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/rightsHolder>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/sponsor>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/stakeholder>,
+        <http://def.isotc211.org/iso19115/CI_RoleCode/user> ;
     skos:prefLabel "CI Role Code - Concept Scheme" .
 

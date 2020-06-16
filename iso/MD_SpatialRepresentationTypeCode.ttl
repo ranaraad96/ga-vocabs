@@ -1,82 +1,78 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation/code/MD_SpatialRepresentationTypeCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://linked.data.gov.au/org/ga> a sdo:Organization ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url <https://www.ga.gov.au> .
-
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/grid> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/grid> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "grid data are used to represent geographic data"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "grid data are used to represent geographic data"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "grid" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/stereoModel> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/stereoModel> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "stereo Model" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/textTable> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/textTable> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "textual or tabular data are used to represent geographic data"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "textual or tabular data are used to represent geographic data"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "text Table" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/tin> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/tin> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "triangulated irregular network"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "triangulated irregular network"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "tin" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/vector> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/vector> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "vector data are used to represent geographic data"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "vector data are used to represent geographic data"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "vector" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/video> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
+<http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/video> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#MD_SpatialRepresentationTypeCode>,
         skos:Concept ;
-    dcterms:description "scene from a video recording"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "scene from a video recording"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "video" ;
     skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.642000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:published "2016-08-09T05:13:45.642000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.195000+00:00"^^xsd:dateTime ;
-    dcterms:description "method used to represent geographic information in the resource"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/grid>,
-        <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/stereoModel>,
-        <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/textTable>,
-        <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/tin>,
-        <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/vector>,
-        <http://registry.it.csiro.au/def/isotc211/MD_SpatialRepresentationTypeCode/video> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "method used to represent geographic information in the resource"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/grid>,
+        <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/stereoModel>,
+        <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/textTable>,
+        <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/tin>,
+        <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/vector>,
+        <http://def.isotc211.org/iso19115/MD_SpatialRepresentationTypeCode/video> ;
     skos:prefLabel "MD Spatial Representation Type Code - Concept Scheme" .
 

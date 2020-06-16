@@ -1,104 +1,97 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/DS_AssociationTypeCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://linked.data.gov.au/org/ga> a sdo:Organization ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url <https://www.ga.gov.au> .
-
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/collectiveTitle> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/collectiveTitle> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description """common title for a collection of resources
-NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."""^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition """common title for a collection of resources
 NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."""^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "collective Title" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/crossReference> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/crossReference> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "reference from one resource to another"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference from one resource to another"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "cross Reference" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/dependency> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/dependency> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "associated through a dependency"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "associated through a dependency"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "dependency" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/isComposedOf> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/isComposedOf> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "reference to resources that are parts of this resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference to resources that are parts of this resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "is Composed Of" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/partOfSeamlessDatabase> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/partOfSeamlessDatabase> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "part of same structured set of data held in a computer"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "part of same structured set of data held in a computer"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "part Of Seamless Database" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/revisionOf> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/revisionOf> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "resource is a revision of associated resource"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is a revision of associated resource"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "revision Of" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/series> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/series> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "associated through a common heritage such as produced to a common product specification"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "associated through a common heritage such as produced to a common product specification"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "series" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/stereoMate> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
+<http://def.isotc211.org/iso19115/DS_AssociationTypeCode/stereoMate> a <http://def.isotc211.org/iso19115/-1/2014/IdentificationInformation#DS_AssociationTypeCode>,
         skos:Concept ;
-    dcterms:description "part of a set of imagery that when used together, provides three-dimensional images"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "part of a set of imagery that when used together, provides three-dimensional images"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "stereo Mate" ;
     skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.548000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:published "2016-08-09T05:13:45.548000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.284000+00:00"^^xsd:dateTime ;
-    dcterms:description "justification for the correlation of two resources"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/collectiveTitle>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/crossReference>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/dependency>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/isComposedOf>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/partOfSeamlessDatabase>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/revisionOf>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/series>,
-        <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/stereoMate> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "justification for the correlation of two resources"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/collectiveTitle>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/crossReference>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/dependency>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/isComposedOf>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/partOfSeamlessDatabase>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/revisionOf>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/series>,
+        <http://def.isotc211.org/iso19115/DS_AssociationTypeCode/stereoMate> ;
     skos:prefLabel "DS Association Type Code - Concept Scheme" .
 

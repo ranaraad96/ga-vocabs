@@ -1,172 +1,159 @@
-@prefix cs: <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation/code/MD_MaintenanceFrequencyCode> .
+@prefix cs: <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://linked.data.gov.au/org/ga> a sdo:Organization ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url <https://www.ga.gov.au> .
-
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/annually> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/annually> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated every year"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated every year"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "annually" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/asNeeded> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/asNeeded> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated as deemed necessary"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated as deemed necessary"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "as Needed" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/biannually> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/biannually> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated twice each year"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated twice each year"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "biannually" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/biennially> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/biennially> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated every 2 years"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated every 2 years"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "biennially" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/continual> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/continual> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is repeatedly and frequently updated"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is repeatedly and frequently updated"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "continual" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/daily> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/daily> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated each day"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated each day"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "daily" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/fortnightly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/fortnightly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated every two weeks"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated every two weeks"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "fortnightly" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/irregular> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/irregular> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated in intervals that are uneven in duration"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated in intervals that are uneven in duration"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "irregular" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/monthly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/monthly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated each month"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated each month"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "monthly" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/notPlanned> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/notPlanned> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "there are no plans to update the data"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "there are no plans to update the data"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "not Planned" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/periodic> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/periodic> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated at regular intervals"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated at regular intervals"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "periodic" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/quarterly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/quarterly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated every three months"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated every three months"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "quarterly" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/semimonthly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/semimonthly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource updated twice monthly"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource updated twice monthly"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "semimonthly" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/unknown> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/unknown> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "frequency of maintenance for the data is not known"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "frequency of maintenance for the data is not known"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown" ;
     skos:topConceptOf cs: .
 
-<http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/weekly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
+<http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/weekly> a <http://def.isotc211.org/iso19115/-1/2014/MaintenanceInformation#MD_MaintenanceFrequencyCode>,
         skos:Concept ;
-    dcterms:description "resource is updated on a weekly basis"^^xsd:string ;
-    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is updated on a weekly basis"^^xsd:string ;
     skos:inScheme cs: ;
     skos:prefLabel "weekly" ;
     skos:topConceptOf cs: .
+
+<https://linked.data.gov.au/org/ga> a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> .
 
 <https://linked.data.gov.au/org/iso> a sdo:Organization ;
     sdo:name "International Organization for Standardization" ;
     sdo:url <https://www.iso.org> .
 
 cs: a skos:ConceptScheme ;
+    dcterms:created "2016-08-09T05:13:45.588000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    dcterms:published "2016-08-09T05:13:45.588000+00:00"^^xsd:dateTime ;
     dcterms:modified "2016-08-09T05:13:01.345000+00:00"^^xsd:dateTime ;
-    dcterms:description "frequency with which modifications and deletions are made to the data after it is first produced"^^xsd:string ;
-    skos:hasTopConcept <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/annually>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/asNeeded>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/biannually>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/biennially>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/continual>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/daily>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/fortnightly>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/irregular>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/monthly>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/notPlanned>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/periodic>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/quarterly>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/semimonthly>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/unknown>,
-        <http://registry.it.csiro.au/def/isotc211/MD_MaintenanceFrequencyCode/weekly> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
+    skos:definition "frequency with which modifications and deletions are made to the data after it is first produced"^^xsd:string ;
+    skos:hasTopConcept <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/annually>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/asNeeded>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/biannually>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/biennially>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/continual>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/daily>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/fortnightly>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/irregular>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/monthly>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/notPlanned>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/periodic>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/quarterly>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/semimonthly>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/unknown>,
+        <http://def.isotc211.org/iso19115/MD_MaintenanceFrequencyCode/weekly> ;
     skos:prefLabel "MD Maintenance Frequency Code - Concept Scheme" .
 
