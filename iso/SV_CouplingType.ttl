@@ -41,7 +41,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2016-08-09T05:13:45.662000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
     dcterms:modified "2016-08-09T05:13:01.301000+00:00"^^xsd:dateTime ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/iso> ;
     dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
     skos:definition "class of information to which the referencing entity applies"^^xsd:string ;
     skos:hasTopConcept <http://def.isotc211.org/iso19115/SV_CouplingType/loose>,

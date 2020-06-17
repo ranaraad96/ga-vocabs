@@ -141,7 +141,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2016-08-09T05:13:45.551000+00:00"^^xsd:dateTime ;
     dcterms:creator <https://linked.data.gov.au/org/iso> ;
     dcterms:modified "2016-08-09T05:13:01.164000+00:00"^^xsd:dateTime ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/iso> ;
     dcterms:source <http://standards.iso.org/iso/19115/-1/ed-1/en/> ;
     skos:definition "type of aggregation activity in which resources are related"^^xsd:string ;
     skos:hasTopConcept <http://def.isotc211.org/iso19115/DS_InitiativeTypeCode/campaign>,
