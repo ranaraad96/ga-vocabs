@@ -1,8 +1,8 @@
 import requests
-from github import Github
+from github import Github, GithubException
 import base64
 from rdflib import Graph
-import load_config as config
+import config
 
 
 def load_one_vocab_from_github(vocab_file_name, folder, base_url, pref_label):
@@ -132,9 +132,9 @@ def load_all_vocabs_details_from_github(folder):
 
     :return: a dict of vocabularies" details
     """
-    print("Loading all vocabs from GitHub")
-    print("Vocabs to be uploaded:")
-    gh = Github(config.GITHUB_USR, config.GITHUB_PWD)
+    print("Loading all {} vocabs from GitHub".format(folder))
+
+    gh = Github(config.GITHUB_TOKEN)
     repo = gh.get_repo("surroundaustralia/ga-vocabs")
     contents = repo.get_contents(folder)
 
@@ -151,7 +151,13 @@ def load_all_vocabs_details_from_github(folder):
         fn = content_file.path.replace(folder + "/", "")
         if fn.endswith(".ttl"):
             print("Reading {}".format(fn))
-            fc = repo.get_contents(folder + "/" + fn)
+            try:
+                fc = repo.get_contents(folder + "/" + fn)
+            except GithubException as e:
+                for err in e.data.get('errors'):
+                    if err['code'] == 'too_large':
+                        print("File is above 1MB, using Data API call")
+                        fc = repo.get_git_blob(content_file.sha)
             data = base64.b64decode(fc.content).decode("utf-8")
             g = Graph().parse(data=data, format="turtle")
             q = """
@@ -241,26 +247,29 @@ def create_repo(repo_config):
 
 if __name__ == "__main__":
     # purge the repo
-    # purge_repo()
+    #purge_repo()
 
-    folder = "ga"
-    # folder = "ggic"
-    # folder = "iso"
-    # folder = "nasa" - too big
-    # folder = "odm2"
-    # folder = "rva"
+    folders = [
+        #"ga",
+        #"ggic",
+        #"iso",
+        "nasa",
+        #"odm2",
+        #"rva",
+    ]
 
-    # generate vocab index from GitHub
-    VOCABS = load_all_vocabs_details_from_github(folder)
+    for folder in folders:
+        # generate vocab index from GitHub
+        VOCABS = load_all_vocabs_details_from_github(folder)
 
-    print("\nLoading vocabs:")
-    # Load all vocabs
-    for file_name, details in VOCABS.items():
-        print("Loading {}".format(file_name))
-        x = load_one_vocab_from_github(
-            file_name,
-            folder,
-            details["context_uri"],
-            details["pref_label"]
-        )
-        print(x)
+        print("\nLoading {} vocabs:".format(folder))
+        # Load all vocabs
+        for file_name, details in VOCABS.items():
+            print("Loading {}".format(file_name))
+            x = load_one_vocab_from_github(
+                file_name,
+                folder,
+                details["context_uri"],
+                details["pref_label"]
+            )
+            print(x)
