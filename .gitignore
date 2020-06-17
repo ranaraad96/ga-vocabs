@@ -141,4 +141,7 @@ dmypy.json
 cython_debug/
 
 # config for loading script
-config.py
+!/_scripts/config.py
+
+# JetBrains config
+.idea/
