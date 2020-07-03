@@ -145,3 +145,7 @@ cython_debug/
 
 # JetBrains config
 .idea/
+
+# Mac
+.DS_Store
+
