@@ -874,7 +874,7 @@ cs: a skos:ConceptScheme ;
     skos:editorialNote "This file contains the 2015 version of the GGIC mineral temement type vocabulary. Compilation and review in MS-Excel spreadsheet, converted to SKOS using GSML_SKOS_fromXLS_2015.02.xslt."@en ;
     skos:hasTopConcept tt:exploration,
         tt:production ;
-    skos:prefLabel "GGIC Tenement Type" ;
+    skos:prefLabel "GGIC Tenement Type"@en ;
     dcterms:provenance "This vocabulary is expressed for the first time here"@en ;
     dcterms:source "This vocabulary is expressed for the first time here" .
 
