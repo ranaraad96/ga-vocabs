@@ -25,7 +25,7 @@ cs: a skos:ConceptScheme ;
     skos:definition "Broken VocPrez SKOS: no prefLabel for Concept"@en ;
     dcterms:modified "2017-09-06"^^xsd:date ;
     dcterms:issued "2017-09-06"^^xsd:date ;
-    owl:versionInfo "v0.1"^^xsd:string ;
+    owl:versionInfo "v0.2"^^xsd:string ;
     skos:hasTopConcept :work-authority ;
     skos:prefLabel "Broken Vocab - VP SKOS" .
 
