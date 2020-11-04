@@ -25,5 +25,5 @@ cs: a skos:ConceptScheme ;
     dcterms:issued "2017-09-06"^^xsd:date ;
     owl:versionInfo "v0.1"^^xsd:string ;
     skos:hasTopConcept :work-authority ;
-    skos:prefLabel "Fake Broken Vocab" .
+    skos:prefLabel "Broken Vocab - RDF" .
 
