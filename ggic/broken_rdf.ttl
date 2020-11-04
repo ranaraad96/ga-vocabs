@@ -6,7 +6,7 @@
 @prefix sdo: <https://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix : <http://rexample.com/vocab/fakeb/> .
+@prefix : <http://rexample.com/vocab/broken-rdf/> .
 
 
 :work-authority a skos:Concept ;
