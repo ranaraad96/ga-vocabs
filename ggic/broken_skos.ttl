@@ -21,10 +21,10 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <http://www.geoscience.gov.au> ;
     dcterms:publisher <http://www.geoscience.gov.au> ;
     dcterms:created "2015-11-26"^^xsd:date ;
-    skos:definition "Broken SKOS: no prefLabel for Concpet above"@en ;
+    skos:definition "Broken VocPrez SKOS: no prefLabel for Concept above"@en ;
     dcterms:modified "2017-09-06"^^xsd:date ;
     dcterms:issued "2017-09-06"^^xsd:date ;
     owl:versionInfo "v0.1"^^xsd:string ;
     skos:hasTopConcept :work-authority ;
-    skos:prefLabel "Fake Broken Vocab" .
+    skos:prefLabel "Broken Vocab - VP SKOS" .
 
