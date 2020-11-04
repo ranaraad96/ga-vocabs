@@ -14,13 +14,14 @@
     dcterms:provenance "VIC"@en ;
     skos:definition "VIC -"@en ;
     skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
-    skos:prefLabel "work authority"@en .
+    # skos:prefLabel "work authority"@en 
+.
 
 cs: a skos:ConceptScheme ;
     dcterms:creator <http://www.geoscience.gov.au> ;
     dcterms:publisher <http://www.geoscience.gov.au> ;
     dcterms:created "2015-11-26"^^xsd:date ;
-    skos:definition "This concept scheme defines terms used to describe the type of mineral tenements granted in Australian and New Zealand jurisdictions (eg, exploration licence, mining lease)."@en ;
+    skos:definition "Broken SKOS: no prefLabel for Concpet above"@en ;
     dcterms:modified "2017-09-06"^^xsd:date ;
     dcterms:issued "2017-09-06"^^xsd:date ;
     owl:versionInfo "v0.1"^^xsd:string ;
