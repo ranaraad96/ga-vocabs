@@ -15,7 +15,7 @@
     skos:definition "Blah blah blah"@en ;
     skos:inScheme cs: ; 
     rdfs:isDefinedBy cs: ;
-    # skos:prefLabel "work authority"@en 
+    skos:prefLabel "work authority"@en 
 .
 
 cs: a skos:ConceptScheme ;
