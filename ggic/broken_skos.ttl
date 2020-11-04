@@ -1,4 +1,4 @@
-@prefix cs: <http://rexample.com/vocab/fakeb> .
+@prefix cs: <http://rexample.com/vocab/brokn-skos> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,13 +7,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix : <http://rexample.com/vocab/fakeb/> .
+@prefix : <http://rexample.com/vocab/broken-skos/> .
 
 
 :work-authority a skos:Concept ;
     dcterms:provenance "VIC"@en ;
-    skos:definition "VIC -"@en ;
-    skos:inScheme cs: ; rdfs:isDefinedBy cs: ;
+    skos:definition "Blah blah blah"@en ;
+    skos:inScheme cs: ; 
+    rdfs:isDefinedBy cs: ;
     # skos:prefLabel "work authority"@en 
 .
 
@@ -21,7 +22,7 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <http://www.geoscience.gov.au> ;
     dcterms:publisher <http://www.geoscience.gov.au> ;
     dcterms:created "2015-11-26"^^xsd:date ;
-    skos:definition "Broken VocPrez SKOS: no prefLabel for Concept above"@en ;
+    skos:definition "Broken VocPrez SKOS: no prefLabel for Concept"@en ;
     dcterms:modified "2017-09-06"^^xsd:date ;
     dcterms:issued "2017-09-06"^^xsd:date ;
     owl:versionInfo "v0.1"^^xsd:string ;
