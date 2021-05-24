@@ -136,6 +136,6 @@ if __name__ == "__main__":
     print([str(x) for x in removed])
 
     # rebuild VocPrez' cache
-    r = httpx.get("http://ga.surroundaustralia.com/cache-reload")
-    assert r.status_code == 200
+    # r = httpx.get("http://ga.surroundaustralia.com/cache-reload")
+    # assert r.status_code == 200
 
