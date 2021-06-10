@@ -47,15 +47,6 @@ def remove_vocabs(vocabs: List[Path], mappings: dict):
             auth=(os.environ["DB_USERNAME"], os.environ["DB_PASSWORD"])
         )
         assert 200 <= r2.status_code <= 300, "Status code was {}".format(r2.status_code)
-    
-    # re-add remaining vocabs in directory to default graph
-    for f in Path(__file__).parent.parent.glob("vocabularies/*.ttl"):
-        r3 = httpx.post(
-            "http://fuseki.surroundaustralia.com/ga-vocabs/update",
-            data={"update": "ADD <{}> TO DEFAULT".format(str(mappings[f.name]))},
-            auth=(os.environ["DB_USERNAME"], os.environ["DB_PASSWORD"])
-        )
-        assert 200 <= r3.status_code <= 300, "Status code was {}".format(r3.status_code)
 
 
 def get_graph_uri_for_vocab(vocab: Path) -> URIRef:
