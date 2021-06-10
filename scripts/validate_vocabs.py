@@ -15,8 +15,12 @@ def main():
     for f in vocabs_dir.iterdir():
         # ...validate each file
         if f.name.endswith(".ttl"):
-            v = validate(str(f), shacl_graph=r.text, shacl_graph_format="ttl")
-            if not v[0]:
+            try:
+                v = validate(str(f), shacl_graph=r.text, shacl_graph_format="ttl")
+                if not v[0]:
+                    invalid_vocabs.append(f)
+            except Exception as e:
+                print(e)
                 invalid_vocabs.append(f)
 
     # check to see if we have any invalid vocabs
