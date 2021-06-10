@@ -47,7 +47,7 @@ def remove_vocabs(vocabs: List[Path], mappings: dict):
     for f in Path(__file__).parent.parent.glob("vocabularies/*.ttl"):
         r2 = httpx.post(
             "http://fuseki.surroundaustralia.com/ga-vocabs/update",
-            data={"update": "ADD <{}> TO DEFAULT".format(str(mappings[f]))},
+            data={"update": "ADD <{}> TO DEFAULT".format(str(mappings[f.name]))},
             auth=(os.environ["DB_USERNAME"], os.environ["DB_PASSWORD"])
         )
         assert 200 <= r2.status_code <= 300, "Status code was {}".format(r.status_code)
