@@ -334,7 +334,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2021-06-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2021-06-09"^^xsd:date ;
-    dcterms:provenance "FGDM database"@en ;
+    dcterms:provenance "FGDM database"^^xsd:string ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Vocabulary of terms to describe the character of induration of rocks and regolith materials."@en ;
