@@ -3,5 +3,6 @@
     "CDCS.ttl": "http://pid.geoscience.gov.au/def/voc/ga/CDCS",
     "OnlineFunction.ttl": "http://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/servicetype"
+    "ServiceType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/servicetype",
+    "uom.ttl": "http://qudt.org/community/ga/voc"
 }
