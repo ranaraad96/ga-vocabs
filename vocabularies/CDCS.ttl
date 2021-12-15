@@ -14,19 +14,19 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earth_observation_imagery> ;
     skos:definition "Photographs of a part of the earth's surface taken by a camera mounted in an aircraft for mapping purposes. This usually consists of a series of overlapping vertical photos taken in strips which can form the basis for mapping."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "aerial_photo"@en .
+    skos:prefLabel "aerial photo"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/ar_ar> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radio_isotopes> ;
     skos:definition "Radioactive isotope dating technique"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "ar_ar"@en .
+    skos:prefLabel "ar ar"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/basement_geology> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
     skos:definition "Includes sub-surface distribution of metamorphic, sedimentary and igneous rocks and interpreted linear structural features such as folds, faults, lineaments and shearzones"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "basement_geology"@en .
+    skos:prefLabel "basement geology"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/biostratigraphy> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology> ;
@@ -44,7 +44,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Coal Seam Methane hole is drilled specifically to discover, asses or produce from a coal seam methane reservoir"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "coal_seam_methane_holes"@en .
+    skos:prefLabel "coal seam methane holes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/density> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/rock_properties> ;
@@ -56,7 +56,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers> ;
     skos:definition "Dissolved solids\" refer to any minerals, salts, metals, cations or anions dissolved in water. "@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "dissolved_solids"@en .
+    skos:prefLabel "dissolved solids"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earthquakes> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/sudden_onset_hazards> ;
@@ -80,7 +80,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/regulatory> ;
     skos:definition "Defined areas for the purposes of oil and mineral exploitation"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "exploration_title"@en .
+    skos:prefLabel "exploration title"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/external> a skos:Concept ;
     skos:definition "External datasets sourced from other Agencies"@en ;
@@ -92,19 +92,19 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_mapping> ;
     skos:definition "Measurements taken at a field site such as structural, spectral (PIMA) or geophysical (magnetic susceptibility)"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "field_measurements"@en .
+    skos:prefLabel "field measurements"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_observations> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_mapping> ;
     skos:definition "Visual observations and photos of the vegetation, landscape and geomorphology at a field site and descriptions of the mineralogy, lithology, alteration of rocks, samples and outcrops at a field site."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "field_observations"@en .
+    skos:prefLabel "field observations"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/flow_systems> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers> ;
     skos:definition "Hydraulic conductivity, porosity, permeability, specific discharge"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "flow_systems"@en .
+    skos:prefLabel "flow systems"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geodetic> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/survey> ;
@@ -128,13 +128,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
     skos:definition "Interpretation using geophysical techniques and data"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "geophysical_interpretation"@en .
+    skos:prefLabel "geophysical interpretation"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geothermal_holes> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Geothermal hole is drilled specifically for the exploration, development, appraisal or monitoring of geothermal plays or resources"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "geothermal_holes"@en .
+    skos:prefLabel "geothermal holes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/gravity> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics> ;
@@ -146,7 +146,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled_source_electromagnetics> ;
     skos:definition "Ground based Electromagnetics surveys"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "ground_em"@en .
+    skos:prefLabel "ground em"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hydro> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry> ;
@@ -176,7 +176,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radio_isotopes> ;
     skos:definition "Radioactive isotope dating technique"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "k_ar"@en .
+    skos:prefLabel "k ar"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/lidar> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earth_observation_imagery> ;
@@ -188,7 +188,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/rock_properties> ;
     skos:definition "Magnetic Susceptibility is the degree of magnetization of a material in response to an applied magnetic field."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "magnetic_susceptibility"@en .
+    skos:prefLabel "magnetic susceptibility"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetics> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics> ;
@@ -206,7 +206,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
     skos:definition "Zones of similar mineralogy caused by heat and pressure"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "metamorphism_maps"@en .
+    skos:prefLabel "metamorphism maps"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/microstructure> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography> ;
@@ -224,13 +224,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Mineral hole is drilled for the exploration, development or resource definition of mineral commodities"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "mineral_holes"@en .
+    skos:prefLabel "mineral holes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/natural_boundaries> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/topographic_relief> ;
     skos:definition "Geographical boundaries such as coastlines"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "natural_boundaries"@en .
+    skos:prefLabel "natural boundaries"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/optical> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earth_observation_imagery> ;
@@ -242,7 +242,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
     skos:definition "Interpretation of the nature and distribution of outcropping (or near-outcropping) rock units and structures, typically in the form of maps.  These maps may include integrated regolith unit information in areas of non-outcropping bedrock."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "outcrop_geology"@en .
+    skos:prefLabel "outcrop geology"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoclimatology> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology> ;
@@ -266,7 +266,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Petroleum Well is drilled for the exploration, development or appraisal of hydrocarbons (oil or gas)"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "petroleum_wells"@en .
+    skos:prefLabel "petroleum wells"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/petrology> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography> ;
@@ -284,7 +284,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/rock_properties> ;
     skos:definition "Porosity and Permeability are two of the primary factors that control the movement and storage of fluids in rocks and sediments. They are intrinsic characteristics of these geologic materials. The exploitation of natural resources, such as groundwater and petroleum, is partly dependent on the properties of porosity and permeability."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "porosity_permeability"@en .
+    skos:prefLabel "porosity permeability"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/provinces> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
@@ -308,7 +308,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radio_isotopes> ;
     skos:definition "Radioactive isotope dating technique"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "rb_sr"@en .
+    skos:prefLabel "rb sr"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/regolith> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
@@ -332,13 +332,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard_events> ;
     skos:definition "Environmental events associated with earth processes that impact Australian communities such as salinity, acid-sulphate soils, coastal erosion, desertification, climate change"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "slow_onset_hazards"@en .
+    skos:prefLabel "slow onset hazards"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/sm_nd> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radio_isotopes> ;
     skos:definition "Radioactive isotope dating technique"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "sm_nd"@en .
+    skos:prefLabel "sm nd"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/society> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure> ;
@@ -356,13 +356,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry> ;
     skos:definition "For example, delta 18O/16O"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "stable_isotopes"@en .
+    skos:prefLabel "stable isotopes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/stratigraphic_holes> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Stratigraphic hole is drilled to obtain a record of the Stratigraphic character, composition or property of the rock/soil/regolith units penetrated"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "stratigraphic_holes"@en .
+    skos:prefLabel "stratigraphic holes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/surfaces> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers> ;
@@ -386,13 +386,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard_events> ;
     skos:definition "Sudden emergency events associated with acts of terrorism causing damage to human life or the economy"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "terrorist_events"@en .
+    skos:prefLabel "terrorist events"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/thematic_geology> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> ;
     skos:definition "Geological datasets developed for a specific purpose, such as \"Volcanoes of the World\""@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "thematic_geology"@en .
+    skos:prefLabel "thematic geology"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/thermal> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earth_observation_imagery> ;
@@ -416,7 +416,7 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radio_isotopes> ;
     skos:definition "Radioactive isotope dating technique"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "u_pb"@en .
+    skos:prefLabel "u pb"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/utilities> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure> ;
@@ -428,13 +428,13 @@
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> ;
     skos:definition "A Water Bore is drilled specifically for the exploration, extraction or monitoring of groundwater resources"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "water_bores"@en .
+    skos:prefLabel "water bores"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/wave_velocities> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/rock_properties> ;
     skos:definition "Reflected waves can be generated from a planar boundary in seismic wave speed that can be recorded at the Earth's surface"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "wave_velocities"@en .
+    skos:prefLabel "wave velocities"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquatic> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/natural_habitat> ;
@@ -453,8 +453,7 @@
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/benthic> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquatic>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/organic> ;
-    skos:definition "For example, delta 18O/16O"@en,
-        "The benthic zone is the ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers."@en ;
+    skos:definition "The benthic zone is the ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "benthic"@en .
 
@@ -463,7 +462,7 @@
     skos:definition "The use of non-radiogenic dating studies such as U-Pb ratios"@en ;
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/empa> ;
-    skos:prefLabel "chemical_dating"@en .
+    skos:prefLabel "chemical dating"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology> a skos:Concept ;
     skos:definition "The distribution and movement of groundwater and dissolved materials in the soil and rocks of the Earth's crust (commonly in aquifers)."@en ;
@@ -484,7 +483,7 @@
     skos:definition "Sudden events associated with earth processes that impact Australian communities such as earthquake, landslide, flood, tsunami, wildfire, tropical cyclone, storm surge, severe windstorm"@en ;
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/earthquakes> ;
-    skos:prefLabel "sudden_onset_hazards"@en .
+    skos:prefLabel "sudden onset hazards"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/active> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic>,
@@ -499,7 +498,7 @@
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/political>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/regulatory> ;
-    skos:prefLabel "administrative_boundaries"@en ;
+    skos:prefLabel "administrative boundaries"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled_source_electromagnetics> a skos:Concept ;
@@ -508,7 +507,7 @@
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aem>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/ground_em> ;
-    skos:prefLabel "controlled_source_electromagnetics"@en .
+    skos:prefLabel "controlled source electromagnetics"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_mapping> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/survey> ;
@@ -516,7 +515,7 @@
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_measurements>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/field_observations> ;
-    skos:prefLabel "field_mapping"@en .
+    skos:prefLabel "field mapping"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology> a skos:Concept ;
     skos:definition "Age approximations of earth materials such as rocks, sediments and minerals. Age data resulting from scientific techniques such as radio isotopes and chemical dating."@en ;
@@ -547,7 +546,7 @@
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquatic>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/terrestrial> ;
-    skos:prefLabel "natural_habitat"@en ;
+    skos:prefLabel "natural habitat"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/passive> a skos:Concept ;
@@ -596,7 +595,7 @@
     skos:inScheme cs: ;
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/elevation>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/natural_boundaries> ;
-    skos:prefLabel "topographic_relief"@en .
+    skos:prefLabel "topographic relief"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers> a skos:Concept ;
     skos:broader <http://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology> ;
@@ -613,7 +612,7 @@
     skos:narrower <http://pid.geoscience.gov.au/def/voc/ga/CDCS/slow_onset_hazards>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/sudden_onset_hazards>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/terrorist_events> ;
-    skos:prefLabel "hazard_events"@en ;
+    skos:prefLabel "hazard events"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography> a skos:Concept ;
@@ -662,7 +661,7 @@
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetic_susceptibility>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/porosity_permeability>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/wave_velocities> ;
-    skos:prefLabel "rock_properties"@en ;
+    skos:prefLabel "rock properties"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/survey> a skos:Concept ;
@@ -683,7 +682,7 @@
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/optical>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/radar>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/thermal> ;
-    skos:prefLabel "earth_observation_imagery"@en ;
+    skos:prefLabel "earth observation imagery"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes> a skos:Concept ;
@@ -708,7 +707,7 @@
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/shrimp>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/sm_nd>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/u_pb> ;
-    skos:prefLabel "radio_isotopes"@en .
+    skos:prefLabel "radio isotopes"@en .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive_geology> a skos:Concept ;
     skos:definition "Information related to the interpretation of  baseline geoscientific information integrated with field and petrographic observations and measurements. Examples include the interpretation of geological provinces, outcrop and basement geology, 3D geology models, geophysical imagery stratigraphic cross-sections. "@en ;
@@ -721,7 +720,7 @@
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/provinces>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/regolith>,
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/thematic_geology> ;
-    skos:prefLabel "interpretive_geology"@en ;
+    skos:prefLabel "interpretive geology"@en ;
     skos:topConceptOf cs: .
 
 <http://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics> a skos:Concept ;
@@ -742,7 +741,7 @@
 cs: a skos:ConceptScheme ;
     dcterms:created "2005-01-01"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2021-12-08"^^xsd:date ;
+    dcterms:modified "2021-12-15"^^xsd:date ;
     dcterms:provenance "CIMA information group"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:definition "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014"@en ;
