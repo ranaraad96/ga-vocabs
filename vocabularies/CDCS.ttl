@@ -765,4 +765,3 @@ cs: a skos:ConceptScheme ;
         <http://pid.geoscience.gov.au/def/voc/ga/CDCS/survey> ;
     skos:prefLabel "Legacy GA Corporate Data Classification Scheme"@en ;
     dcat:contactPoint "GAIA" .
-
