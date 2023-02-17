@@ -1,17 +1,17 @@
-name: Handle updated vocabs
+name: Handle updated vocabs Develop
 on:
   push:
-    branches: [ master ]
+    branches: [ develop ]
 
   workflow_dispatch:
 jobs:
   changes:
     runs-on: ubuntu-latest
     steps:
-      - name: Bring in repo - master branch
+      - name: Bring in repo - develop branch
         uses: actions/checkout@v1
         with:
-          ref: master
+          ref: develop
       - name: install Python dependencies
         run: |
           python -m pip install -U pip
@@ -19,13 +19,13 @@ jobs:
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
         with:
-          output: ','        
+          output: ','
       - name: detect file changes
         env:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
             DB_PASSWORD: ${{secrets.DB_PASSWORD}}
-            BASE_DB_URI: ${{vars.BASE_DB_URI_PROD}}
-            WEBSITE_URL: ${{vars.WEBSITE_URL_PROD}}
+            BASE_DB_URI: ${{vars.BASE_DB_URI_NONPROD}}
+            WEBSITE_URL: ${{vars.WEBSITE_URL_NONPROD}}
         run: |
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
