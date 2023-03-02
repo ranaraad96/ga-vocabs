@@ -1,0 +1,191 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/voc/ga/associationtype> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate> a skos:Concept ;
+    dcterms:identifier "StereoMate"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "Stereo Mate"@en ;
+    skos:definition "part of a set of imagery that when used together, provides three-dimensional images"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "StereoMate"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle> a skos:Concept ;
+    dcterms:identifier "collectiveTitle"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "collective Title"@en ;
+    skos:definition "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. "@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collectiveTitle"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference> a skos:Concept ;
+    dcterms:identifier "crossreference"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "Cross Reference"@en ;
+    skos:definition "reference from one resource to another"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crossReference"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency> a skos:Concept ;
+    dcterms:identifier "dependency"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "dependency"@en ;
+    skos:definition "associated through a common heritage such as produced to a common product specification"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dependency"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/generated> a skos:Concept ;
+    dcterms:identifier "generated"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "generated"@en ;
+    skos:definition "inverse of wasGeneratedBy where the domain resource generated the range resource implying that the domain resource is a temporal event, such as a data processing action, and the range resource is an entity"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "generated"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation> a skos:Concept ;
+    dcterms:identifier "hadDerivation"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "had Derivation"@en ;
+    skos:definition "inverse of wasDerivedFrom where the range resource was derived from the domain resource"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hadDerivation"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/informed> a skos:Concept ;
+    dcterms:identifier "informed"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "informed"@en ;
+    skos:definition "inverse of wasInformedBy "@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "informed"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf> a skos:Concept ;
+    dcterms:identifier "isComposedOf"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "is Composed Of"@en ;
+    skos:definition "reference to resources that are parts of this resource"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "isComposedOf"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation> a skos:Concept ;
+    dcterms:identifier "largerWorkCitation"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "Larger Work Citation"@en ;
+    skos:definition "reference to a master resource of which this one is a part"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "largerWorkCitation"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy> a skos:Concept ;
+    dcterms:identifier "operatedOnBy"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "operated On By"@en ;
+    skos:definition "inverse of operatesOn where the domain resource is, or can be, operated on (i.e.queried) by the range resource which must be an agent (i.e. is something that bears some form of responsibility for the operation taking place) "@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "operatedOnBy"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn> a skos:Concept ;
+    dcterms:identifier "operatesOn"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "operates On"@en ;
+    skos:definition "an equivalent relationship to srv:operatesOn from a Service to a Dataset"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "operatesOn"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase> a skos:Concept ;
+    dcterms:identifier "partOfSeamlessDatabase"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "part Of Seamless Database"@en ;
+    skos:definition "part of same structured set of data held in a computer"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "partOfSeamlessDatabase"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf> a skos:Concept ;
+    dcterms:identifier "revisionOf"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "revision Of"@en ;
+    skos:definition "resource is a revision of associated resource"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "revisionOf"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/series> a skos:Concept ;
+    dcterms:identifier "series"^^xsd:token ;
+    dcterms:provenance "https://github.com/ISO-TC211/GOM/blob/master/experimental/codelist-vocabularies/iso19115/-1/2018/DS_AssociationTypeCode.ttl"@en ;
+    skos:altLabel "series"@en ;
+    skos:definition "associated through a common heritage such as produced to a common product specification"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "series"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom> a skos:Concept ;
+    dcterms:identifier "wasDerivedFrom"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "was Derived From"@en ;
+    skos:definition "the domain resource was derived from the range resource which must be an entity (i.e. not an actor with agency or a temporal event) "@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wasDerivedFrom"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy> a skos:Concept ;
+    dcterms:identifier "wasGeneratedBy"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "was Generated By"@en ;
+    skos:definition "the domain resource was generated by the range resource which must have been a temporal event such as a data processing action or a field survey"@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wasGeneratedBy"@eng ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy> a skos:Concept ;
+    dcterms:identifier "wasInformedBy"^^xsd:token ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:altLabel "was Informed By"@en ;
+    skos:definition "The domain resource was informed by the range resource which must have been an Entity (i.e. not an Agent with agency or an Activity temporal event). This is a looser association than wasDerivedFrom and does not indicate direct derivation, as wasDerivedFrom does."@eng ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wasInformedBy"@eng ;
+    skos:topConceptOf cs: .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2019-11-01"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "associationtype"^^xsd:token ;
+    dcterms:modified "2019-11-01"^^xsd:date ;
+    dcterms:provenance "http://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <http://pid.geoscience.gov.au/dataset/ga/147628> ;
+    owl:versionInfo "1.4" ;
+    skos:definition "A SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/generated>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/informed>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/series>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy>,
+        <http://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy> ;
+    skos:prefLabel "GA profile of 19115-1 Associated Resource codelist"@en ;
+    dcat:contactPoint "DPI" .
+
