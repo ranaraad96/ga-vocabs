@@ -4,5 +4,6 @@
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
-    "uom.ttl": "https://qudt.org/community/ga/voc"
+    "uom.ttl": "https://qudt.org/community/ga/voc",
+    "countryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode"
 }
