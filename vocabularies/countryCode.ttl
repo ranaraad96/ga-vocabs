@@ -162,7 +162,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-ACT> a skos:Concept ;
     dcterms:identifier "AU-ACT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-ACT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -171,7 +170,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-NSW> a skos:Concept ;
     dcterms:identifier "AU-NSW"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-NSW"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -180,7 +178,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-NT> a skos:Concept ;
     dcterms:identifier "AU-NT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-NT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -189,7 +186,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-QLD> a skos:Concept ;
     dcterms:identifier "AU-QLD"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-QLD"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -198,7 +194,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-SA> a skos:Concept ;
     dcterms:identifier "AU-SA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-SA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -207,16 +202,22 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-TAS> a skos:Concept ;
     dcterms:identifier "AU-TAS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-TAS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Tasmania"@eng .
 
+<https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-VIC> a skos:Concept ;
+    dcterms:identifier "AU-VIC"^^xsd:token ;
+    skos:altLabel "AU-VIC"@en ;
+    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Victoria"@eng .
+
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-WA> a skos:Concept ;
     dcterms:identifier "AU-WA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
     skos:altLabel "AU-WA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -478,7 +479,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-AB> a skos:Concept ;
     dcterms:identifier "CA-AB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-AB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -488,7 +488,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-BC> a skos:Concept ;
     dcterms:identifier "CA-BC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-BC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -498,7 +497,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-MB> a skos:Concept ;
     dcterms:identifier "CA-MB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-MB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -508,7 +506,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-NB> a skos:Concept ;
     dcterms:identifier "CA-NB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-NB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -518,7 +515,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-NL> a skos:Concept ;
     dcterms:identifier "CA-NL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-NL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -528,7 +524,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-NS> a skos:Concept ;
     dcterms:identifier "CA-NS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-NS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -538,7 +533,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-NT> a skos:Concept ;
     dcterms:identifier "CA-NT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-NT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -548,7 +542,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-NU> a skos:Concept ;
     dcterms:identifier "CA-NU"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-NU"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -558,7 +551,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-ON> a skos:Concept ;
     dcterms:identifier "CA-ON"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-ON"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -568,7 +560,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-PE> a skos:Concept ;
     dcterms:identifier "CA-PE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-PE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -578,7 +569,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-QC> a skos:Concept ;
     dcterms:identifier "CA-QC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-QC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -588,7 +578,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-SK> a skos:Concept ;
     dcterms:identifier "CA-SK"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-SK"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -598,7 +587,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CA-YT> a skos:Concept ;
     dcterms:identifier "CA-YT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
     skos:altLabel "CA-YT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -663,7 +651,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-AI> a skos:Concept ;
     dcterms:identifier "CL-AI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-AI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -672,7 +659,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-AN> a skos:Concept ;
     dcterms:identifier "CL-AN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-AN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -681,7 +667,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-AP> a skos:Concept ;
     dcterms:identifier "CL-AP"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-AP"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -690,7 +675,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-AR> a skos:Concept ;
     dcterms:identifier "CL-AR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-AR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -699,7 +683,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-AT> a skos:Concept ;
     dcterms:identifier "CL-AT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-AT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -708,7 +691,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-BI> a skos:Concept ;
     dcterms:identifier "CL-BI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-BI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -717,7 +699,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-CO> a skos:Concept ;
     dcterms:identifier "CL-CO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-CO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -726,7 +707,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-LI> a skos:Concept ;
     dcterms:identifier "CL-LI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-LI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -735,7 +715,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-LL> a skos:Concept ;
     dcterms:identifier "CL-LL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-LL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -744,7 +723,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-LR> a skos:Concept ;
     dcterms:identifier "CL-LR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-LR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -753,7 +731,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-MA> a skos:Concept ;
     dcterms:identifier "CL-MA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-MA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -762,7 +739,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-ML> a skos:Concept ;
     dcterms:identifier "CL-ML"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-ML"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -771,7 +747,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-NB> a skos:Concept ;
     dcterms:identifier "CL-NB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-NB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -780,7 +755,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-RM> a skos:Concept ;
     dcterms:identifier "CL-RM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-RM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -789,7 +763,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CL-TA> a skos:Concept ;
     dcterms:identifier "CL-TA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
     skos:altLabel "CL-TA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CHL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1874,7 +1847,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-01> a skos:Concept ;
     dcterms:identifier "ME-01"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-01"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1883,7 +1855,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-02> a skos:Concept ;
     dcterms:identifier "ME-02"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-02"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1892,7 +1863,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-03> a skos:Concept ;
     dcterms:identifier "ME-03"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-03"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1901,7 +1871,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-04> a skos:Concept ;
     dcterms:identifier "ME-04"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-04"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1910,7 +1879,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-05> a skos:Concept ;
     dcterms:identifier "ME-05"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-05"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1919,7 +1887,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-06> a skos:Concept ;
     dcterms:identifier "ME-06"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-06"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1928,7 +1895,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-07> a skos:Concept ;
     dcterms:identifier "ME-07"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-07"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1937,7 +1903,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-08> a skos:Concept ;
     dcterms:identifier "ME-08"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-08"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1946,7 +1911,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-09> a skos:Concept ;
     dcterms:identifier "ME-09"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-09"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1955,7 +1919,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-10> a skos:Concept ;
     dcterms:identifier "ME-10"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-10"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1964,7 +1927,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-11> a skos:Concept ;
     dcterms:identifier "ME-11"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-11"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1973,7 +1935,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-12> a skos:Concept ;
     dcterms:identifier "ME-12"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-12"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1982,7 +1943,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-13> a skos:Concept ;
     dcterms:identifier "ME-13"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-13"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -1991,7 +1951,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-14> a skos:Concept ;
     dcterms:identifier "ME-14"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-14"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2000,7 +1959,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-15> a skos:Concept ;
     dcterms:identifier "ME-15"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-15"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2009,7 +1967,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-16> a skos:Concept ;
     dcterms:identifier "ME-16"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-16"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2018,7 +1975,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-17> a skos:Concept ;
     dcterms:identifier "ME-17"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-17"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2027,7 +1983,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-18> a skos:Concept ;
     dcterms:identifier "ME-18"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-18"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2036,7 +1991,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-19> a skos:Concept ;
     dcterms:identifier "ME-19"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-19"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2045,7 +1999,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-20> a skos:Concept ;
     dcterms:identifier "ME-20"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-20"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2054,7 +2007,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-21> a skos:Concept ;
     dcterms:identifier "ME-21"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-21"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2063,7 +2015,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-22> a skos:Concept ;
     dcterms:identifier "ME-22"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-22"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2072,7 +2023,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-23> a skos:Concept ;
     dcterms:identifier "ME-23"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-23"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2081,7 +2031,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ME-24> a skos:Concept ;
     dcterms:identifier "ME-24"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
     skos:altLabel "ME-24"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MNE> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2233,7 +2182,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-AGU> a skos:Concept ;
     dcterms:identifier "MX-AGU"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-AGU"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2242,7 +2190,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-BCN> a skos:Concept ;
     dcterms:identifier "MX-BCN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-BCN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2251,7 +2198,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-BCS> a skos:Concept ;
     dcterms:identifier "MX-BCS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-BCS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2260,7 +2206,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-CAM> a skos:Concept ;
     dcterms:identifier "MX-CAM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-CAM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2269,7 +2214,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-CHH> a skos:Concept ;
     dcterms:identifier "MX-CHH"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-CHH"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2278,7 +2222,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-CHP> a skos:Concept ;
     dcterms:identifier "MX-CHP"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-CHP"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2287,7 +2230,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-CMX> a skos:Concept ;
     dcterms:identifier "MX-CMX"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-CMX"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2296,7 +2238,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-COA> a skos:Concept ;
     dcterms:identifier "MX-COA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-COA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2305,7 +2246,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-COL> a skos:Concept ;
     dcterms:identifier "MX-COL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-COL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2314,7 +2254,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-DUR> a skos:Concept ;
     dcterms:identifier "MX-DUR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-DUR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2323,7 +2262,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-GRO> a skos:Concept ;
     dcterms:identifier "MX-GRO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-GRO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2332,7 +2270,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-GUA> a skos:Concept ;
     dcterms:identifier "MX-GUA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-GUA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2341,7 +2278,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-HID> a skos:Concept ;
     dcterms:identifier "MX-HID"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-HID"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2350,7 +2286,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-JAL> a skos:Concept ;
     dcterms:identifier "MX-JAL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-JAL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2359,7 +2294,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-MEX> a skos:Concept ;
     dcterms:identifier "MX-MEX"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-MEX"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2368,7 +2302,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-MIC> a skos:Concept ;
     dcterms:identifier "MX-MIC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-MIC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2377,7 +2310,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-MOR> a skos:Concept ;
     dcterms:identifier "MX-MOR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-MOR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2386,7 +2318,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-NAY> a skos:Concept ;
     dcterms:identifier "MX-NAY"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-NAY"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2395,7 +2326,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-NLE> a skos:Concept ;
     dcterms:identifier "MX-NLE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-NLE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2404,7 +2334,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-OAX> a skos:Concept ;
     dcterms:identifier "MX-OAX"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-OAX"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2413,7 +2342,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-PUE> a skos:Concept ;
     dcterms:identifier "MX-PUE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-PUE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2422,7 +2350,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-QUE> a skos:Concept ;
     dcterms:identifier "MX-QUE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-QUE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2431,7 +2358,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-ROO> a skos:Concept ;
     dcterms:identifier "MX-ROO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-ROO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2440,7 +2366,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-SIN> a skos:Concept ;
     dcterms:identifier "MX-SIN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-SIN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2449,7 +2374,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-SLP> a skos:Concept ;
     dcterms:identifier "MX-SLP"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-SLP"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2458,7 +2382,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-SON> a skos:Concept ;
     dcterms:identifier "MX-SON"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-SON"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2467,7 +2390,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-TAB> a skos:Concept ;
     dcterms:identifier "MX-TAB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-TAB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2476,7 +2398,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-TAM> a skos:Concept ;
     dcterms:identifier "MX-TAM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-TAM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2485,7 +2406,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-TLA> a skos:Concept ;
     dcterms:identifier "MX-TLA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-TLA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2494,7 +2414,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-VER> a skos:Concept ;
     dcterms:identifier "MX-VER"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-VER"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2503,7 +2422,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-YUC> a skos:Concept ;
     dcterms:identifier "MX-YUC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-YUC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2512,7 +2430,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MX-ZAC> a skos:Concept ;
     dcterms:identifier "MX-ZAC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
     skos:altLabel "MX-ZAC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/MEX> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2664,7 +2581,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-AUK> a skos:Concept ;
     dcterms:identifier "NZ-AUK"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-AUK"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2674,7 +2590,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-BOP> a skos:Concept ;
     dcterms:identifier "NZ-BOP"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-BOP"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2684,7 +2599,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-CAN> a skos:Concept ;
     dcterms:identifier "NZ-CAN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-CAN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2694,7 +2608,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-CIT> a skos:Concept ;
     dcterms:identifier "NZ-CIT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-CIT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2704,7 +2617,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-GIS> a skos:Concept ;
     dcterms:identifier "NZ-GIS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-GIS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2714,7 +2626,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-HKB> a skos:Concept ;
     dcterms:identifier "NZ-HKB"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-HKB"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2724,7 +2635,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-MBH> a skos:Concept ;
     dcterms:identifier "NZ-MBH"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-MBH"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2734,7 +2644,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-MWT> a skos:Concept ;
     dcterms:identifier "NZ-MWT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-MWT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2744,7 +2653,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-NSN> a skos:Concept ;
     dcterms:identifier "NZ-NSN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-NSN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2754,7 +2662,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-NTL> a skos:Concept ;
     dcterms:identifier "NZ-NTL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-NTL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2764,7 +2671,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-OTA> a skos:Concept ;
     dcterms:identifier "NZ-OTA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-OTA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2774,7 +2680,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-STL> a skos:Concept ;
     dcterms:identifier "NZ-STL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-STL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2784,7 +2689,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-TAS> a skos:Concept ;
     dcterms:identifier "NZ-TAS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-TAS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2794,7 +2698,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-TKI> a skos:Concept ;
     dcterms:identifier "NZ-TKI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-TKI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2802,18 +2705,8 @@
     skos:prefLabel "Taranaki"@eng,
         "Taranaki"@mri .
 
-<https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-VIC> a skos:Concept ;
-    dcterms:identifier "NZ-VIC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
-    skos:altLabel "AU-VIC"@en ;
-    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Victoria"@eng ;
-    skos:topConceptOf cs: .
-
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-WGN> a skos:Concept ;
     dcterms:identifier "NZ-WGN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-WGN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2823,7 +2716,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-WKO> a skos:Concept ;
     dcterms:identifier "NZ-WKO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-WKO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2833,7 +2725,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-WTC> a skos:Concept ;
     dcterms:identifier "NZ-WTC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
     skos:altLabel "NZ-WTC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3041,7 +2932,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-00> a skos:Concept ;
     dcterms:identifier "RS-00"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-00"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3050,7 +2940,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-08> a skos:Concept ;
     dcterms:identifier "RS-08"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-08"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3059,7 +2948,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-09> a skos:Concept ;
     dcterms:identifier "RS-09"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-09"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3068,7 +2956,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-10> a skos:Concept ;
     dcterms:identifier "RS-10"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-10"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3077,7 +2964,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-11> a skos:Concept ;
     dcterms:identifier "RS-11"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-11"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3086,7 +2972,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-12> a skos:Concept ;
     dcterms:identifier "RS-12"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-12"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3095,7 +2980,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-13> a skos:Concept ;
     dcterms:identifier "RS-13"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-13"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3104,7 +2988,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-14> a skos:Concept ;
     dcterms:identifier "RS-14"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-14"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3113,7 +2996,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-15> a skos:Concept ;
     dcterms:identifier "RS-15"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-15"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3122,7 +3004,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-16> a skos:Concept ;
     dcterms:identifier "RS-16"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-16"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3131,7 +3012,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-17> a skos:Concept ;
     dcterms:identifier "RS-17"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-17"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3140,7 +3020,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-18> a skos:Concept ;
     dcterms:identifier "RS-18"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-18"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3149,7 +3028,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-19> a skos:Concept ;
     dcterms:identifier "RS-19"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-19"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3158,7 +3036,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-20> a skos:Concept ;
     dcterms:identifier "RS-20"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-20"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3167,7 +3044,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-21> a skos:Concept ;
     dcterms:identifier "RS-21"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-21"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3176,7 +3052,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-22> a skos:Concept ;
     dcterms:identifier "RS-22"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-22"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3185,7 +3060,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-23> a skos:Concept ;
     dcterms:identifier "RS-23"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-23"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3194,7 +3068,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-24> a skos:Concept ;
     dcterms:identifier "RS-24"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-24"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3605,7 +3478,7 @@
         "TUR"@en ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Turkey"@en ;
+    skos:prefLabel "Turkiye"@en ;
     skos:topConceptOf cs: .
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/TUV> a skos:Concept ;
@@ -3687,7 +3560,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-AK> a skos:Concept ;
     dcterms:identifier "US-AK"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-AK"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3696,7 +3568,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-AL> a skos:Concept ;
     dcterms:identifier "US-AL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-AL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3705,7 +3576,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-AR> a skos:Concept ;
     dcterms:identifier "US-AR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-AR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3714,7 +3584,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-AS> a skos:Concept ;
     dcterms:identifier "US-AS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-AS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3723,7 +3592,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-AZ> a skos:Concept ;
     dcterms:identifier "US-AZ"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-AZ"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3732,7 +3600,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-CA> a skos:Concept ;
     dcterms:identifier "US-CA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-CA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3741,7 +3608,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-CO> a skos:Concept ;
     dcterms:identifier "US-CO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-CO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3750,7 +3616,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-CT> a skos:Concept ;
     dcterms:identifier "US-CT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-CT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3759,7 +3624,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-DC> a skos:Concept ;
     dcterms:identifier "US-DC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-DC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3768,7 +3632,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-DE> a skos:Concept ;
     dcterms:identifier "US-DE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-DE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3777,7 +3640,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-FL> a skos:Concept ;
     dcterms:identifier "US-FL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-FL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3786,7 +3648,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-GA> a skos:Concept ;
     dcterms:identifier "US-GA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-GA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3795,7 +3656,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-GU> a skos:Concept ;
     dcterms:identifier "US-GU"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-GU"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3804,7 +3664,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-HI> a skos:Concept ;
     dcterms:identifier "US-HI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-HI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3813,7 +3672,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-IA> a skos:Concept ;
     dcterms:identifier "US-IA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-IA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3822,7 +3680,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-ID> a skos:Concept ;
     dcterms:identifier "US-ID"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-ID"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3831,7 +3688,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-IL> a skos:Concept ;
     dcterms:identifier "US-IL"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-IL"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3840,7 +3696,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-IN> a skos:Concept ;
     dcterms:identifier "US-IN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-IN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3849,7 +3704,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-KS> a skos:Concept ;
     dcterms:identifier "US-KS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-KS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3858,7 +3712,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-KY> a skos:Concept ;
     dcterms:identifier "US-KY"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-KY"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3867,7 +3720,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-LA> a skos:Concept ;
     dcterms:identifier "US-LA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-LA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3876,7 +3728,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MA> a skos:Concept ;
     dcterms:identifier "US-MA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3885,7 +3736,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MD> a skos:Concept ;
     dcterms:identifier "US-MD"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MD"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3894,7 +3744,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-ME> a skos:Concept ;
     dcterms:identifier "US-ME"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-ME"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3903,7 +3752,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MI> a skos:Concept ;
     dcterms:identifier "US-MI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3912,7 +3760,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MN> a skos:Concept ;
     dcterms:identifier "US-MN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3921,7 +3768,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MO> a skos:Concept ;
     dcterms:identifier "US-MO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MO"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3930,7 +3776,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MP> a skos:Concept ;
     dcterms:identifier "US-MP"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MP"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3939,7 +3784,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MS> a skos:Concept ;
     dcterms:identifier "US-MS"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MS"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3948,7 +3792,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-MT> a skos:Concept ;
     dcterms:identifier "US-MT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-MT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3957,7 +3800,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NC> a skos:Concept ;
     dcterms:identifier "US-NC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3966,7 +3808,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-ND> a skos:Concept ;
     dcterms:identifier "US-ND"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-ND"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3975,7 +3816,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NE> a skos:Concept ;
     dcterms:identifier "US-NE"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NE"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3984,7 +3824,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NH> a skos:Concept ;
     dcterms:identifier "US-NH"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NH"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3993,7 +3832,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NJ> a skos:Concept ;
     dcterms:identifier "US-NJ"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NJ"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4002,7 +3840,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NM> a skos:Concept ;
     dcterms:identifier "US-NM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4011,7 +3848,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NV> a skos:Concept ;
     dcterms:identifier "US-NV"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NV"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4020,7 +3856,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-NY> a skos:Concept ;
     dcterms:identifier "US-NY"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-NY"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4029,7 +3864,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-OH> a skos:Concept ;
     dcterms:identifier "US-OH"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-OH"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4038,7 +3872,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-OK> a skos:Concept ;
     dcterms:identifier "US-OK"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-OK"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4047,7 +3880,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-OR> a skos:Concept ;
     dcterms:identifier "US-OR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-OR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4056,7 +3888,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-PA> a skos:Concept ;
     dcterms:identifier "US-PA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-PA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4065,7 +3896,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-PR> a skos:Concept ;
     dcterms:identifier "US-PR"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-PR"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4074,7 +3904,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-RI> a skos:Concept ;
     dcterms:identifier "US-RI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-RI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4083,7 +3912,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-SC> a skos:Concept ;
     dcterms:identifier "US-SC"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-SC"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4092,7 +3920,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-SD> a skos:Concept ;
     dcterms:identifier "US-SD"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-SD"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4101,7 +3928,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-TN> a skos:Concept ;
     dcterms:identifier "US-TN"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-TN"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4110,7 +3936,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-TX> a skos:Concept ;
     dcterms:identifier "US-TX"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-TX"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4119,7 +3944,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-UM> a skos:Concept ;
     dcterms:identifier "US-UM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-UM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4128,7 +3952,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-UT> a skos:Concept ;
     dcterms:identifier "US-UT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-UT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4137,7 +3960,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-VA> a skos:Concept ;
     dcterms:identifier "US-VA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-VA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4146,7 +3968,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-VI> a skos:Concept ;
     dcterms:identifier "US-VI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-VI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4155,7 +3976,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-VT> a skos:Concept ;
     dcterms:identifier "US-VT"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-VT"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4164,7 +3984,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-WA> a skos:Concept ;
     dcterms:identifier "US-WA"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-WA"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4173,7 +3992,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-WI> a skos:Concept ;
     dcterms:identifier "US-WI"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-WI"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4182,7 +4000,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-WV> a skos:Concept ;
     dcterms:identifier "US-WV"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-WV"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4191,7 +4008,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/US-WY> a skos:Concept ;
     dcterms:identifier "US-WY"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
     skos:altLabel "US-WY"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/USA> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4354,7 +4170,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-01> a skos:Concept ;
     dcterms:identifier "RS-01"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-01"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4364,7 +4179,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-02> a skos:Concept ;
     dcterms:identifier "RS-02"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-02"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4374,7 +4188,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-03> a skos:Concept ;
     dcterms:identifier "RS-03"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-03"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4384,7 +4197,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-04> a skos:Concept ;
     dcterms:identifier "RS-04"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-04"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4394,7 +4206,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-05> a skos:Concept ;
     dcterms:identifier "RS-05"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-05"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4404,7 +4215,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-06> a skos:Concept ;
     dcterms:identifier "RS-06"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-06"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4414,7 +4224,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-07> a skos:Concept ;
     dcterms:identifier "RS-07"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-07"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4424,7 +4233,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-25> a skos:Concept ;
     dcterms:identifier "RS-25"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-25"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4434,7 +4242,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-26> a skos:Concept ;
     dcterms:identifier "RS-26"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-26"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4444,7 +4251,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-27> a skos:Concept ;
     dcterms:identifier "RS-27"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-27"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4454,7 +4260,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-28> a skos:Concept ;
     dcterms:identifier "RS-28"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-28"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4464,7 +4269,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-29> a skos:Concept ;
     dcterms:identifier "RS-29"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-29"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
@@ -4474,7 +4278,6 @@
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-KM> a skos:Concept ;
     dcterms:identifier "RS-KM"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
     skos:altLabel "RS-KM"@en ;
     skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4485,6 +4288,21 @@
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-28>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-29> ;
     skos:prefLabel "Kosovo-Metohija"@srp .
+
+<https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO> a skos:Concept ;
+    dcterms:identifier "RS-VO"^^xsd:token ;
+    skos:altLabel "RS-VO"@en ;
+    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-01>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-02>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-03>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-04>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-05>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-06>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-07> ;
+    skos:prefLabel "Vojvodina"@srp .
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> a skos:Concept ;
     dcterms:identifier "AUS"^^xsd:token ;
@@ -4500,25 +4318,10 @@
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-QLD>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-SA>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-TAS>,
+        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-VIC>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-WA> ;
     skos:prefLabel "Australia"@eng ;
     skos:topConceptOf cs: .
-
-<https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-VO> a skos:Concept ;
-    dcterms:identifier "RS-VO"^^xsd:token ;
-    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
-    skos:altLabel "RS-VO"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/countrycode/SRB> ;
-    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
-    skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-01>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-02>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-03>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-04>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-05>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-06>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/RS-07> ;
-    skos:prefLabel "Vojvodina"@srp .
 
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/CAN> a skos:Concept ;
     dcterms:identifier "CAN"^^xsd:token ;
@@ -4792,7 +4595,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2020-11-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "countrycode"^^xsd:token ;
-    dcterms:modified "2020-11-04"^^xsd:date ;
+    dcterms:modified "2020-03-22"^^xsd:date ;
     dcterms:provenance "These codes are sourced from https://www.iso.org/obp/"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1.5" ;
@@ -4967,7 +4770,6 @@ cs: a skos:ConceptScheme ;
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NOR>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NPL>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NRU>,
-        <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZ-VIC>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/NZL>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/OMN>,
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/PAK>,
