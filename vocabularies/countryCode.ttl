@@ -160,6 +160,17 @@
     skos:prefLabel "Antigua and Barbuda"@en ;
     skos:topConceptOf cs: .
 
+<https://pid.geoscience.gov.au/def/voc/ga/countrycode/AUS> a skos:Concept ;
+    dcterms:identifier "AUS"^^xsd:token ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
+    skos:altLabel "36"@en,
+        "AU"@en,
+        "AUS"@en ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australia"@en ;
+    skos:topConceptOf cs: .
+
 <https://pid.geoscience.gov.au/def/voc/ga/countrycode/AU-ACT> a skos:Concept ;
     dcterms:identifier "AU-ACT"^^xsd:token ;
     skos:altLabel "AU-ACT"@en ;
