@@ -5,5 +5,6 @@
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
     "uom.ttl": "https://qudt.org/community/ga/voc",
+    "AnalysisTechniqueBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AnalysisTechniqueBoreholes",
     "countryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode"
 }
