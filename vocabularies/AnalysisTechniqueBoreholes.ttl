@@ -1,0 +1,172 @@
+@prefix cs: <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/atomic_absorption_spectroscopy> a skos:Concept ;
+    dcterms:identifier "atomic_absorption_spectroscopy"^^xsd:token ;
+    skos:definition "Trace element analysis by Atomic Absorption Spectroscopy."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Atomic Absorption Spectroscopy"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/atomic_emission_spectroscopy> a skos:Concept ;
+    dcterms:identifier "atomic_emission_spectroscopy"^^xsd:token ;
+    skos:definition "Trace element analysis by Atomic Emission Spectroscopy."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Atomic Emission Spectroscopy"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/calculation> a skos:Concept ;
+    dcterms:identifier "calculation"^^xsd:token ;
+    skos:definition "Calculated from other entries"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Calculation"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/external> a skos:Concept ;
+    dcterms:identifier "external"^^xsd:token ;
+    skos:definition "Generic entries (unspecified)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "External"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/gravimetry> a skos:Concept ;
+    dcterms:identifier "gravimetry"^^xsd:token ;
+    skos:definition "Gravimetry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gravimetry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp-ms> a skos:Concept ;
+    dcterms:identifier "icp-ms"^^xsd:token ;
+    skos:definition "Inductively coupled plasma mass spectrometry (ICP-MS)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ICP-MS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp-oes> a skos:Concept ;
+    dcterms:identifier "icp-oes"^^xsd:token ;
+    skos:definition "Inductively coupled plasma Optical Emission Spectrometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ICP-OES"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp_unspecified> a skos:Concept ;
+    dcterms:identifier "icp_unspecified"^^xsd:token ;
+    skos:definition "Inductively coupled plasma - unspecified method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ICP unspecified"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/idms> a skos:Concept ;
+    dcterms:identifier "idms"^^xsd:token ;
+    skos:definition "Isotope Dilution Mass Spectrometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IDMS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/idtims> a skos:Concept ;
+    dcterms:identifier "idtims"^^xsd:token ;
+    skos:definition "Isotope Dilution Thermal Ionisation Mass Spectrometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "IDTIMS"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/infrared_determination> a skos:Concept ;
+    dcterms:identifier "infrared_determination"^^xsd:token ;
+    skos:definition "C, CO2 and H2O determined by Infra red LECO carbon and water determinator"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Infrared Determination"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/instrumental_neutron_activation_analysis> a skos:Concept ;
+    dcterms:identifier "instrumental_neutron_activation_analysis"^^xsd:token ;
+    skos:definition "Traces determined by Instrumental Neutron Activation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Instrumental Neutron Activation Analysis."@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/kerogen_determination> a skos:Concept ;
+    dcterms:identifier "kerogen_determination"^^xsd:token ;
+    skos:definition "Kerogen determination"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kerogen determination"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/optical_emission_spectrometry> a skos:Concept ;
+    dcterms:identifier "optical_emission_spectrometry"^^xsd:token ;
+    skos:definition "Traces determined by Optical Emission Spectrometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Optical Emission Spectrometry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/specific_ion_electrode> a skos:Concept ;
+    dcterms:identifier "specific_ion_electrode"^^xsd:token ;
+    skos:definition "Specific Ion Electrode (Ion Selective Electrode) sensor"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Specific Ion Electrode"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/stable_isotope_mass_spectrometry> a skos:Concept ;
+    dcterms:identifier "stable_isotope_mass_spectrometry"^^xsd:token ;
+    skos:definition "Stable Isotope Mass Spectometry"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stable Isotope Mass Spectometry"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/titration> a skos:Concept ;
+    dcterms:identifier "titration"^^xsd:token ;
+    skos:definition "Analysis by wet chemistry and titration"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Titration"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/unknown> a skos:Concept ;
+    dcterms:identifier "unknown"^^xsd:token ;
+    skos:definition "Unknown or unspecified technique"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: .
+
+<http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/xrf> a skos:Concept ;
+    dcterms:identifier "xrf"^^xsd:token ;
+    skos:definition "X-ray fluorescence (XRF)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XRF"@en ;
+    skos:topConceptOf cs: .
+
+cs: a skos:Collection,
+        skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "analysis_technique"^^xsd:token ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Anlysis Technique (GEOCHEM.TECHNIQUES)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    owl:versionInfo "1" ;
+    skos:definition "Analytical techniques used to analyse an inorganic chemistry sample."@en ;
+    skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/atomic_absorption_spectroscopy>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/atomic_emission_spectroscopy>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/calculation>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/external>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/gravimetry>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp-ms>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp-oes>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/icp_unspecified>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/idms>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/idtims>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/infrared_determination>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/instrumental_neutron_activation_analysis>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/kerogen_determination>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/optical_emission_spectrometry>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/specific_ion_electrode>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/stable_isotope_mass_spectrometry>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/titration>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/unknown>,
+        <http://pid.geoscience.gov.au/def/voc/ga/analysis_technique/xrf> ;
+    skos:prefLabel "Analysis Technique "@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" .
+
