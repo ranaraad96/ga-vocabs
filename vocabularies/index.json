@@ -4,6 +4,6 @@
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
-    "AnalysisTechniqueBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AnalysisTechniqueBoreholes",
+    "AnalysisTechniqueBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AnalysisTechniqueBoreholes"
 }
 
