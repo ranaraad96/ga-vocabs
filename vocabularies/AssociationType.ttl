@@ -163,7 +163,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2019-11-01"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "associationtype"^^xsd:token ;
-    dcterms:modified "2023-03-20"^^xsd:date ;
+    dcterms:modified "2023-04-06"^^xsd:date ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/147628> ;
@@ -186,5 +186,5 @@ cs: a skos:ConceptScheme ;
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom>,
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy>,
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy> ;
-    skos:prefLabel "GA Associated Resource"@en ;
+    skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" .
