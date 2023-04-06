@@ -188,3 +188,4 @@ cs: a skos:ConceptScheme ;
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy> ;
     skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" .
+
