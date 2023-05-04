@@ -1,9 +1,10 @@
 {
-    "AssociationType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/associationtype",
-    "CDCS.ttl": "http://pid.geoscience.gov.au/def/voc/ga/CDCS",
-    "CountryCode.ttl": "http://pid.geoscience.gov.au/def/voc/ga/countrycode",
-    "OnlineFunction.ttl": "http://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
-    "ProtocolType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/servicetype",
-    "uom.ttl": "http://qudt.org/community/ga/voc"
+    "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
+    "CDCS.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
+    "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
+    "Uom.ttl": "http://qudt.org/community/ga/voc",
+    "AnalysisTechniqueBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AnalysisTechniqueBoreholes"
 }
+
