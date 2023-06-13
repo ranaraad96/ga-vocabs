@@ -1,4 +1,4 @@
-@prefix cs: <http://pid.geoscience.gov.au/def/voc/ga/contact_type> .
+@prefix cs: <https://pid.geoscience.gov.au/def/voc/ga/contact_type> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -20,9 +20,9 @@
     skos:topConceptOf cs: .
 
 <https://pid.geoscience.gov.au/def/voc/ga/contact_type/angular_unconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/disconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/nonconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact> skos:broader <https://pid.geoscience.gov.au/def/voc/ga/contact_type/unconformable_contact> .
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/disconformable_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/nonconformable_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact> skos:broader <https://pid.geoscience.gov.au/def/voc/ga/contact_type/unconformable_contact> .
 
 <https://pid.geoscience.gov.au/def/voc/ga/contact_type/conformable_contact> a skos:Concept ;
     dcterms:identifier "conformable_contact"^^xsd:token ;
@@ -74,8 +74,8 @@ http://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact> sk
     skos:topConceptOf cs: .
 
 <https://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> skos:broader <https://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_contact> .
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> skos:broader <https://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_contact> .
 
 <https://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact> a skos:Concept ;
     dcterms:identifier "metasomatic_facies_contact"^^xsd:token ;
@@ -131,8 +131,8 @@ http://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> 
     skos:definition "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock."@en ;
     skos:inScheme cs: ;
     skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> ;
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> ;
     skos:prefLabel "metamorphic contact"@en ;
     skos:topConceptOf cs: .
 
@@ -141,25 +141,21 @@ http://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact> 
     skos:definition "A contact separating two geological units in which the younger unit succeeds the older after a substantial hiatus in deposition."@en ;
     skos:inScheme cs: ;
     skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/contact_type/angular_unconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/disconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/nonconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact> ;
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/disconformable_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/nonconformable_contact
+https://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact> ;
     skos:prefLabel "unconformable contact"@en ;
     skos:topConceptOf cs: .
 
-cs: a skos:Collection,
-        skos:ConceptScheme ;
+cs: a skos:ConceptScheme ;
     dcterms:created "2022-08-11"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:hasPart cs: ;
     dcterms:identifier "contact_type"^^xsd:token ;
-    dcterms:isPartOf cs: ;
     dcterms:modified "2022-08-11"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Contact Type (FGDM.LU_LOCAL_CONTACT_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
-    skos:definition "All of the concepts in this vocabulary"@en,
-        "Type of contact that forms the top or base of a geological unit exposed in a borehole, measured section, or field site."@en ;
+    skos:definition "Type of contact that forms the top or base of a geological unit exposed in a borehole, measured section, or field site."@en ;
     skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact>,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/angular_unconformable_contact>,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/conformable_contact>,
@@ -178,24 +174,5 @@ cs: a skos:Collection,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/sheared_contact>,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/unconformable_contact>,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/vein_contact> ;
-    skos:member <https://pid.geoscience.gov.au/def/voc/ga/contact_type/conformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/unconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/angular_unconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/disconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/nonconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/paraconformable_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/faulted_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/sheared_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/metamorphic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/metasomatic_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/alteration_facies_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/sedimentry_intrusive_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/igneous_intrusive_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/igneous_phase_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/vein_contact
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/sea_floor
-http://pid.geoscience.gov.au/def/voc/ga/contact_type/ground_surface> ;
-    skos:prefLabel "Contact Type"@en,
-        "Contact Type - All Concepts "@en ;
+    skos:prefLabel "Contact Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" .
