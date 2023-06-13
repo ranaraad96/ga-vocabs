@@ -1,6 +1,6 @@
 {
     "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
-    "ContactTypeBoreholes.ttl: "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
+    "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
     "CDCS.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
