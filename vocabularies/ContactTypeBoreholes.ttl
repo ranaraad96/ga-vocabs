@@ -159,7 +159,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2022-08-11"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "contact_type"^^xsd:token ;
-    dcterms:modified "2022-08-11"^^xsd:date ;
+    dcterms:modified "2023-06-14"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Contact Type (FGDM.LU_LOCAL_CONTACT_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
@@ -183,6 +183,6 @@ cs: a skos:ConceptScheme ;
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/sheared_contact> ,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/unconformable_contact> ,
         <https://pid.geoscience.gov.au/def/voc/ga/contact_type/vein_contact> ;
-    skos:prefLabel "Contact Type"@en ;
+    skos:prefLabel "Field Geology - Contact Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
 .
