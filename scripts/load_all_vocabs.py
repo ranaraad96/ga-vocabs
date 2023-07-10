@@ -33,7 +33,7 @@ print(uri_mappings)
 for vocab in voc_paths:
     # set the 'context' parameter to the uri of the concept scheme of the vocab
     params = {"context": f"<{str(uri_mappings[vocab.name])}>"}
-
+    print(params)
     # make a post request to the graphDB API to add the contents of the vocab to a named graph
     r = httpx.post(
         ENDPOINT,
