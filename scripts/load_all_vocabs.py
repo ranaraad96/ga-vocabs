@@ -6,6 +6,7 @@ import httpx
 
 BASE_DB_URI = os.environ.get("BASE_DB_URI", None)
 ENDPOINT = f"{BASE_DB_URI}/statements"
+print(ENDPOINT)
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
 
