@@ -27,6 +27,8 @@ index_file = Path(__file__).parent.parent / "vocabularies" / "index.json"
 with open(index_file, "r") as f:
     uri_mappings = json.load(f)
 
+print(uri_mappings)
+
 # load the vocabs to their respective named graphs
 for vocab in voc_paths:
     # set the 'context' parameter to the uri of the concept scheme of the vocab
