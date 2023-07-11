@@ -15,8 +15,8 @@ jobs:
           pip install -r scripts/requirements.txt
       - name: Load all vocabs Test
         env:
-          DB_USERNAME: ${{secrets.DB_USERNAME}}
-          DB_PASSWORD: ${{secrets.DB_PASSWORD}}
+          DB_USERNAME: ${{secrets.DB_USERNAME_TEST}}
+          DB_PASSWORD: ${{secrets.DB_PASSWORD_TEST}}
           BASE_DB_URI: ${{vars.BASE_DB_URI_TEST}}
         run: |
           echo 'Run load script...'
