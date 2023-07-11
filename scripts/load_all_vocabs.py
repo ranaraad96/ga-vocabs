@@ -6,11 +6,8 @@ import httpx
 
 BASE_DB_URI = os.environ.get("BASE_DB_URI", None)
 ENDPOINT = f"{BASE_DB_URI}/statements"
-print(ENDPOINT)
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
-print(DB_USERNAME)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
-print(DB_PASSWORD)
 
 # get a list of pathname strings of all the turtle files in the vocabularies folder
 voc_strings = glob.glob(str(Path(__file__).parent.parent / "vocabularies") + "/*.ttl")
@@ -29,13 +26,11 @@ index_file = Path(__file__).parent.parent / "vocabularies" / "index.json"
 with open(index_file, "r") as f:
     uri_mappings = json.load(f)
 
-print(uri_mappings)
-
 # load the vocabs to their respective named graphs
 for vocab in voc_paths:
     # set the 'context' parameter to the uri of the concept scheme of the vocab
     params = {"context": f"<{str(uri_mappings[vocab.name])}>"}
-    print(params)
+
     # make a post request to the graphDB API to add the contents of the vocab to a named graph
     r = httpx.post(
         ENDPOINT,
