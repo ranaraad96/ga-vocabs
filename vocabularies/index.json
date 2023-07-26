@@ -4,7 +4,7 @@
     "CountryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode",
     "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
     "ContactCharacterBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_character",
-    "ProportionTermBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/porportion_term",
+    "ProportionTermBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/proportion_term",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
