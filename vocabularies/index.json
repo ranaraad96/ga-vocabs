@@ -2,6 +2,7 @@
     "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
     "CDCS.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
     "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
+    "ContactCharacterBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_character",
     "CountryCodes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
