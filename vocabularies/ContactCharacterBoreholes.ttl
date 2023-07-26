@@ -46,6 +46,6 @@ cs: a skos:ConceptScheme ;
     skos:hasTopConcept <http://pid.geoscience.gov.au/def/voc/ga/contact_character/diffuse>,
         <http://pid.geoscience.gov.au/def/voc/ga/contact_character/interfingering>,
         <http://pid.geoscience.gov.au/def/voc/ga/contact_character/sharp> ;
-    skos:prefLabel "Contact Character"@en ;
+    skos:prefLabel "Field Geology - Contact Character"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" .
 
