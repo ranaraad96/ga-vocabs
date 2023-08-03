@@ -8,6 +8,6 @@
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
     "Uom.ttl": "http://qudt.org/community/ga/voc",
-    "AnalysisTechniqueBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AnalysisTechniqueBoreholes"
+    "ProportionTermsBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/proportion_term"
 }
 
