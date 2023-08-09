@@ -5,6 +5,7 @@
     "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
     "ContactCharacterBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_character",
     "FieldSiteTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_type",
+    "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_purpose",
     "ModeOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/mode_of_occurrence",
     "LandformTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/landform_type",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
