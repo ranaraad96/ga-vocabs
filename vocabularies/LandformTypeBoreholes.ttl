@@ -716,7 +716,7 @@ channels as on a pediment."""@en ;
     skos:narrower
         <https://pid.geoscience.gov.au/def/voc/ga/landform_type/depostional_glacial_features> ,
         <https://pid.geoscience.gov.au/def/voc/ga/landform_type/erosional_glacial_features> ;
-    skos:prefLabel " glacial features"@en ;
+    skos:prefLabel "glacial features"@en ;
     skos:topConceptOf cs: ;
 .
 
