@@ -37,7 +37,7 @@ for vocab in voc_paths:
         params=params,
         headers={"Content-Type": "text/turtle"},
         content=open(vocab, "rb").read(),
-        auth=(DB_USERNAME, DB_PASSWORD),
+        auth=(DB_USERNAME, DB_PASSWORD)
     )
 
     # if the http response code is not a successful response print the content of the response and halt the program
