@@ -164,7 +164,7 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "associationtype"^^xsd:token ;
     dcterms:modified "2023-04-06"^^xsd:date ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
+    skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/147628> ;
     owl:versionInfo "1.5" ;
