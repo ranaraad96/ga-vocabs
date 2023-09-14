@@ -17,7 +17,7 @@
     dcterms:contributor <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2021-12-14"^^xsd:date ;
     dcterms:publisher <http://qudt.org> ;
-    dcterms:provenance "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html"@en ;
+    skos:historyNote "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html"@en ;
     skos:hasTopConcept
         unit:GM ,
         unit:KiloGM ,
