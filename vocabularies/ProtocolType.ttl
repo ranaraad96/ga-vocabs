@@ -894,7 +894,7 @@
     dcterms:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
     dcterms:issued "2021-06-09" ;
     dcterms:modified "2023-07-26T01:00:00+00:00"^^xsd:dateTime ;
-    dcterms:provenance "GeoNetwork"@en ;
+    skos:historyNote "GeoNetwork"@en ;
     dcterms:title "Protocol Type"@en ;
     owl:versionInfo "V1.3" ;
     skos:definition "Protocol Type"@en ;
