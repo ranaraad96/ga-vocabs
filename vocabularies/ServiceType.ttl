@@ -283,7 +283,7 @@
     dcterms:creator <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
     dcterms:issued "2018-03-20" ;
     dcterms:modified "2023-07-26T04:41:00+00:00"^^xsd:dateTime ;
-    dcterms:provenance "Geoscience Australia"@en ;
+    skos:historyNote "Geoscience Australia"@en ;
     dcterms:title "Service Type"@en ;
     owl:versionInfo "v1.1" ;
     skos:definition "Service Type"@en ;
