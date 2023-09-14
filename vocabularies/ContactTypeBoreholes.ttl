@@ -160,7 +160,7 @@ cs: a skos:ConceptScheme ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "contact_type"^^xsd:token ;
     dcterms:modified "2023-06-14"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Contact Type (FGDM.LU_LOCAL_CONTACT_TYPE)"@en ;
+    skos:historyNote "Geoscience Australia Contact Type (FGDM.LU_LOCAL_CONTACT_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Type of contact that forms the top or base of a geological unit exposed in a borehole, measured section, or field site."@en ;
