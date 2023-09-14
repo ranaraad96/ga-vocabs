@@ -742,7 +742,7 @@ cs: a skos:ConceptScheme ;
     dcterms:created "2005-01-01"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2023-03-22"^^xsd:date ;
-    dcterms:provenance "CIMA information group"@en ;
+    skos:historyNote "CIMA information group"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:definition "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014"@en ;
     skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative_boundaries>,
