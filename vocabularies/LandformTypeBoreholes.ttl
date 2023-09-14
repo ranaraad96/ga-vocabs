@@ -878,7 +878,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "landform_type"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Landform type (FGDM. LU_LANDFORM_TYPE)"@en ;
+    skos:historyNote "Geoscience Australia Landform type (FGDM. LU_LANDFORM_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
