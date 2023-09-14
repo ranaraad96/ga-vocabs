@@ -117,7 +117,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "field_site_type"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Field Site Types (FGMD. LU_FIELDSITE_TYPE)"@en ;
+    skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU_FIELDSITE_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
