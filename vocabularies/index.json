@@ -6,11 +6,8 @@
     "LandformTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/landform_type",
     "ModeOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/mode_of_occurrence",
     "FieldSiteTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_type",
-    "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_purpose",
-    "CountryCodes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode",
+    "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_purpose", 
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
-    "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
     "Uom.ttl": "http://qudt.org/community/ga/voc",
     "ProportionTermsBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/proportion_term"
 }
