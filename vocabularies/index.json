@@ -1,17 +1,6 @@
 {
-    "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
-    "CDCS.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
     "CountryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode",
-    "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_type",
-    "ContactCharacterBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/contact_character",
-    "FieldSiteTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_type",
-    "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_purpose",
-    "ModeOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/mode_of_occurrence",
-    "LandformTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/landform_type",
-    "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
-    "Uom.ttl": "http://qudt.org/community/ga/voc",
-    "ProportionTermsBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/proportion_term"
+    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
 
