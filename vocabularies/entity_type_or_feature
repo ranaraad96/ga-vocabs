@@ -1,0 +1,451 @@
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature>
+    a skos:Collection ;
+    dcterms:identifier "entity_type_or_feature"^^xsd:token ;
+    dcterms:isPartOf cs: ;
+    skos:definition "All concepts in this vocabulary"@en ;
+    skos:member
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/acreage_release> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/borehole> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/country> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/emitter> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/essci> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/estuary> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/exploration_permit> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/facies> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/field_site> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/laboratory> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mapsheet> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/marsegment> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mine_waste> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_deposit> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_occurrence> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_project> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineralised_zone> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/museum_collection> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/observatory> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/opggsa_reprocessing> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/pipeline> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/place_name> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/political_region> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/port> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/power_station> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/production_licence> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/project> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/province> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_processing_plant> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_project> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/retention_lease> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/section> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/seismicline> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/state> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/strat_unit_definition_location> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/survey> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/well> ,
+        <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/wildcat_location> ;
+    skos:prefLabel "Entity Type or Feature - All concepts "@en ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/acreage_release>
+    a skos:Concept ;
+    dcterms:identifier "acreage_release"^^xsd:token ;
+    skos:definition "Offshore acreage released by the various Australian Government-State/NT Joint Authorities."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "acreage release"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/borehole>
+    a skos:Concept ;
+    dcterms:identifier "borehole"^^xsd:token ;
+    skos:definition "A generic term for any hole or shaft drilled into the Earth. A borehole may have many purposes (eg, petroleum, mineral, or groundwater exploration or production; stratigraphic or engineering investigation)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "borehole"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/country>
+    a skos:Concept ;
+    dcterms:identifier "country"^^xsd:token ;
+    skos:definition "Country name (ISO 3166-1998 Code for the representation of names of countries)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "country"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/emitter>
+    a skos:Concept ;
+    dcterms:identifier "emitter"^^xsd:token ;
+    skos:definition "This entity contains data about CO2 Emission sources - including power stations, petroleum fields, gas processing plants, oil refineries, coke production plants"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "emitter"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/essci>
+    a skos:Concept ;
+    dcterms:identifier "essci"^^xsd:token ;
+    skos:definition "This entity contains data about ESSCIs - environmentally sustainable sites for CO2 injection"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ESSCI"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/estuary>
+    a skos:Concept ;
+    dcterms:identifier "estuary"^^xsd:token ;
+    skos:definition "This entity contains data about Australian estuaries"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "estuary"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/exploration_permit>
+    a skos:Concept ;
+    dcterms:identifier "exploration_permit"^^xsd:token ;
+    skos:definition "Permit to provide exclusive rights to undertake seismic surveys and drilling in a defined area."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "exploration permit"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/facies>
+    a skos:Concept ;
+    dcterms:identifier "facies"^^xsd:token ;
+    skos:definition "This entity contains information about facies - derived from within Australian estuaries"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "facies"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/field_site>
+    a skos:Concept ;
+    dcterms:identifier "field_site"^^xsd:token ;
+    skos:definition "Place (site) where an observation and/or measurement was made and/or sampling took place. For example observations/measurements/samples of rocks, soil, stream sediments, water, regolith, landform, vegetation, or rock properties."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "field site"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/laboratory>
+    a skos:Concept ;
+    dcterms:identifier "laboratory"^^xsd:token ;
+    skos:definition "A facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "laboratory"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mapsheet>
+    a skos:Concept ;
+    dcterms:identifier "mapsheet"^^xsd:token ;
+    skos:definition "A MAPSHEET is the bounding polygon of the map as in, for example, the National Mapping 1:250 000 map sheet index. Mapsheets can be any scale, and include standard mapsheet boundaries and non-standard mapsheet boundaries."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mapsheet"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/marsegment>
+    a skos:Concept ;
+    dcterms:identifier "marsegment"^^xsd:token ;
+    skos:definition "This table contains information on data subsets of a survey, referred to as segments. Operations segments are defined by a substantial change in the recording parameters of a survey, loop segments are defined where the survey loops on itself, and sampling segments identify where the ship may have stopped or slowed for sampling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MARSEGMENT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mine_waste>
+    a skos:Concept ;
+    dcterms:identifier "mine_waste"^^xsd:token ;
+    skos:definition "Locality of mining or processing plant waste, such as tailings dam, slag heap, or dumps"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mine waste"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_deposit>
+    a skos:Concept ;
+    dcterms:identifier "mineral_deposit"^^xsd:token ;
+    skos:definition "An aggregation of mineralisation that may or may not have resources defined"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mineral deposit"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_occurrence>
+    a skos:Concept ;
+    dcterms:identifier "mineral_occurrence"^^xsd:token ;
+    skos:definition "A mineral accumulation in the lithosphere."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mineral occurrence"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_project>
+    a skos:Concept ;
+    dcterms:identifier "mineral_project"^^xsd:token ;
+    skos:definition "A mining operation or mineral exploration project that includes multiple mineral deposits"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mineral project"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineralised_zone>
+    a skos:Concept ;
+    dcterms:identifier "mineralised_zone"^^xsd:token ;
+    skos:definition "A mineralised zone may describe a zone of uneconomic mineralisation or an economic orebody. There may be one or more mineralised zone within a specific Mineral Deposit entity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mineralised zone"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/museum_collection>
+    a skos:Concept ;
+    dcterms:identifier "museum_collection"^^xsd:token ;
+    skos:definition "a generic term for any CPC/PALEO and mineral specimen museum collection."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "museum collection"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/observatory>
+    a skos:Concept ;
+    dcterms:identifier "observatory"^^xsd:token ;
+    skos:definition "This entity contains data about observatories - buildings or places set apart for, and furnished with instruments for making, observations of natural phenomena; esp., for magnetic observations, ,astronomical, meteorological"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "observatory"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/opggsa_reprocessing>
+    a skos:Concept ;
+    dcterms:identifier "opggsa_reprocessing"^^xsd:token ;
+    skos:definition "This entity contains data for reprocessing activities carried out under the Offshore Petroleum and Greenhouse Gas Storage Act."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OPGGSA reprocessing"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/pipeline>
+    a skos:Concept ;
+    dcterms:identifier "pipeline"^^xsd:token ;
+    skos:definition "This entity contains data about pipelines - containers joining two connection points for the transportation of oil, gas, water or other materials"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pipeline"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/place_name>
+    a skos:Concept ;
+    dcterms:identifier "place_name"^^xsd:token ;
+    skos:definition "This entity contains data about Gazetteer place names"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "place name"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/political_region>
+    a skos:Concept ;
+    dcterms:identifier "political_region"^^xsd:token ;
+    skos:definition "This entity contains data about political regions and boundaries."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "political region"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/port>
+    a skos:Concept ;
+    dcterms:identifier "port"^^xsd:token ;
+    skos:definition "Harbour - a place by the sea, or by a river or other waterway,where ships and boats can dock, load, and unload."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "port"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/power_station>
+    a skos:Concept ;
+    dcterms:identifier "power_station"^^xsd:token ;
+    skos:definition "Site where fossil fuel, nuclear, hydro, solar, wind, biological or other resources are converted into electrical power."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "power station"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/production_licence>
+    a skos:Concept ;
+    dcterms:identifier "production_licence"^^xsd:token ;
+    skos:definition "Licence granted to holder of exploration permit or retention lease, for the recovery of petroleum following a commercial discovery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "production licence"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/project>
+    a skos:Concept ;
+    dcterms:identifier "project"^^xsd:token ;
+    skos:definition "This entity contains data about projects"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/province>
+    a skos:Concept ;
+    dcterms:identifier "province"^^xsd:token ;
+    skos:definition "This entity contains data about provinces"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "province"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_processing_plant>
+    a skos:Concept ;
+    dcterms:identifier "resource_processing_plant"^^xsd:token ;
+    skos:definition "Locality for adding value to raw materials, particularly minerals."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "resource processing plant"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_project>
+    a skos:Concept ;
+    dcterms:identifier "resource_project"^^xsd:token ;
+    skos:definition "Proposed, planned or developing scheme, including infrastructure, for extracting resources that requires a large amount of time, effort, capital, or planning. Once developed, the type of entity could change to MINE, WELL, RESOURCE PROCESSING PLANT, or something similar."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "resource project"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/retention_lease>
+    a skos:Concept ;
+    dcterms:identifier "retention_lease"^^xsd:token ;
+    skos:definition "Lease granted to holder of exploration permit, where a discovery is not currently commercial but is expected to become so."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "retention lease"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/section>
+    a skos:Concept ;
+    dcterms:identifier "section"^^xsd:token ;
+    skos:definition "A set of observations and/or measurements and/or samples taken at points or intervals along a line, section or traverse, in any direction at or beneath the earth's surface (measured section). For example, observations of a group of stratigraphic units or regolith zones."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "section"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/seismicline>
+    a skos:Concept ;
+    dcterms:identifier "seismicline"^^xsd:token ;
+    skos:definition "Information about seismic lines for a given survey.  Each seismic line has a different name, but the parameters of seismic lines in any given segment should be similar.  A segment may consist of many lines, and a line may fall within more than 1 segment if the operating parameters change."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "seismic line"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/state>
+    a skos:Concept ;
+    dcterms:identifier "state"^^xsd:token ;
+    skos:definition "All States and Territories (currently only Australian implemented)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "state"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/strat_unit_definition_location>
+    a skos:Concept ;
+    dcterms:identifier "strat_unit_definition_location"^^xsd:token ;
+    skos:definition "The physical points that outline a section or a point that indicates an area that displays the defining characteristics of a stratigraphic unit"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stratigraphic unit definition location"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/survey>
+    a skos:Concept ;
+    dcterms:identifier "survey"^^xsd:token ;
+    skos:definition "This entity contains data for marine, gravity, seismic and airborne surveys."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "survey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/well>
+    a skos:Concept ;
+    dcterms:identifier "well"^^xsd:token ;
+    skos:definition "This entity contains general and header information about wells.  A well is an actual or proposed hole in the ground, designed to exchange fluids between a subsurface reservoir and the surface (or another reservoir) or to retrieve rock core or samples or to enable the detection and measurement of rock properties.  A well (eg sidetrack or horizontal well) may originate from another well defined by PARENT."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "well"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/wildcat_location>
+    a skos:Concept ;
+    dcterms:identifier "wildcat_location"^^xsd:token ;
+    skos:definition "Permit to conduct further exploration and/or appraisal activities within the location blocks to determine more accurately the nature of the discovery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wildcat location"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-04"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:hasPart <http://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature> ;
+    dcterms:identifier "entity_type_or_feature"^^xsd:token ;
+    dcterms:modified "2022-08-04"^^xsd:date ;
+    skos:historyNote "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Type of entity or feature. (eg, measured section, borehole, field site)."@en ;
+    skos:hasTopConcept
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/acreage_release> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/borehole> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/country> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/emitter> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/essci> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/estuary> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/exploration_permit> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/facies> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/field_site> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/laboratory> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mapsheet> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/marsegment> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mine_waste> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_deposit> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_occurrence> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineral_project> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/mineralised_zone> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/museum_collection> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/observatory> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/opggsa_reprocessing> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/pipeline> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/place_name> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/political_region> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/port> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/power_station> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/production_licence> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/project> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/province> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_processing_plant> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/resource_project> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/retention_lease> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/section> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/seismicline> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/state> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/strat_unit_definition_location> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/survey> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/well> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature/wildcat_location> ;
+    skos:prefLabel "General Geology - Entity or Feature Type"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
+.
