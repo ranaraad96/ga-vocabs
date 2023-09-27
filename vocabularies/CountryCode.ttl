@@ -642,7 +642,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "British Columbia"@en ,
-        "Colombie-Britannique"@en ,
         "British Columbia"@eng ,
         "Colombie-Britannique"@fra ;
 .
@@ -669,7 +668,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "New Brunswick"@en ,
-        "Nouveau-Brunswick"@en ,
         "New Brunswick"@eng ,
         "Nouveau-Brunswick"@fra ;
 .
@@ -683,7 +681,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Newfoundland and Labrador"@en ,
-        "Terre-Neuve-et-Labrador"@en ,
         "Newfoundland and Labrador"@eng ,
         "Terre-Neuve-et-Labrador"@fra ;
 .
@@ -696,7 +693,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel
-        "Nouvelle-Ecosse"@en ,
         "Nova Scotia"@en ,
         "Nova Scotia"@eng ,
         "Nouvelle-Ecosse"@fra ;
@@ -711,7 +707,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Northwest Territories"@en ,
-        "Territoires du Nord-Ouest"@en ,
         "Northwest Territories"@eng ,
         "Territoires du Nord-Ouest"@fra ;
 .
@@ -751,7 +746,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Prince Edward Island"@en ,
-        "Île-du-Prince-Édouard"@en ,
         "Prince Edward Island"@eng ,
         "Île-du-Prince-Édouard"@fra ;
 .
@@ -3461,7 +3455,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Auckland"@en ,
-        "Tamaki-makau-rau"@en ,
         "Auckland"@eng ,
         "Tamaki-makau-rau"@mri ;
 .
@@ -3475,7 +3468,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Bay of Plenty"@en ,
-        "Te Moana a Toi Te Huatahi"@en ,
         "Bay of Plenty"@eng ,
         "Te Moana a Toi Te Huatahi"@mri ;
 .
@@ -3489,7 +3481,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Canterbury"@en ,
-        "Waitaha"@en ,
         "Canterbury"@eng ,
         "Waitaha"@mri ;
 .
@@ -3503,7 +3494,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Chatham Islands Territory"@en ,
-        "Wharekauri"@en ,
         "Chatham Islands Territory"@eng ,
         "Wharekauri"@mri ;
 .
@@ -3517,7 +3507,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Gisborne"@en ,
-        "Turanga nui a Kiwa"@en ,
         "Gisborne"@eng ,
         "Turanga nui a Kiwa"@mri ;
 .
@@ -3531,7 +3520,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Hawke's Bay"@en ,
-        "Te Matau a Maui"@en ,
         "Hawke's Bay"@eng ,
         "Te Matau a Maui"@mri ;
 .
@@ -3545,7 +3533,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Marlborough"@en ,
-        "Te Tauihu-o-te-waka"@en ,
         "Marlborough"@eng ,
         "Te Tauihu-o-te-waka"@mri ;
 .
@@ -3559,7 +3546,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Manawatu Whanganui"@en ,
-        "Manawatu-Wanganui"@en ,
         "Manawatu Whanganui"@eng ,
         "Manawatu-Wanganui"@mri ;
 .
@@ -3573,7 +3559,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Nelson"@en ,
-        "Whakatu"@en ,
         "Nelson"@eng ,
         "Whakatu"@mri ;
 .
@@ -3587,7 +3572,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Northland"@en ,
-        "Te Tai tokerau"@en ,
         "Northland"@eng ,
         "Te Tai tokerau"@mri ;
 .
@@ -3600,7 +3584,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel
-        "O Takou"@en ,
         "Otago"@en ,
         "Otago"@eng ,
         "O Takou"@mri ;
@@ -3614,7 +3597,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel
-        "Murihiku"@en ,
         "Southland"@en ,
         "Murihiku"@eng ,
         "Southland"@mri ;
@@ -3629,7 +3611,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel
         "Tasman"@en ,
-        "Te Tai-o-Aorere"@en ,
         "Tasman"@eng ,
         "Te Tai-o-Aorere"@mri ;
 .
@@ -3655,7 +3636,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel
-        "Te Whanga-nui-a-Tara"@en ,
         "Wellington"@en ,
         "Wellington"@eng ,
         "Te Whanga-nui-a-Tara"@mri ;
@@ -3682,7 +3662,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel
-        "Te Taihau a uru"@en ,
         "West Coast"@en ,
         "West Coast"@eng ,
         "Te Taihau a uru"@mri ;
@@ -6196,10 +6175,10 @@ cs:
     dcterms:created "2020-11-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "countrycode"^^xsd:token ;
-    dcterms:modified "2020-03-22"^^xsd:date ;
+    dcterms:modified "2023-09-27"^^xsd:date ;
     skos:historyNote "These codes are sourced from https://www.iso.org/obp/"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    owl:versionInfo "1.5" ;
+    owl:versionInfo "1.6" ;
     skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en ;
     skos:hasTopConcept
         <https://pid.geoscience.gov.au/def/voc/ga/countrycode/ABW> ,
@@ -6454,4 +6433,3 @@ cs:
     skos:prefLabel "GA Country Codes"@en ;
     dcat:contactPoint "DPI" ;
 .
-
