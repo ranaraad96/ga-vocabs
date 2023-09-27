@@ -1,5 +1,4 @@
 {
-    "CountryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/countrycode",
     "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
     "EntityTypeOrFeature.ttl": "https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
