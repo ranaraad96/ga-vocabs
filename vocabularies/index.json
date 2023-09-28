@@ -8,11 +8,11 @@
     "ModeOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/mode_of_occurrence",
     "FieldSiteTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_type",
     "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/field_site_purpose", 
-    "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
+    "ConfidenceLevelBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
     "SampleType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_type",
     "SamplingMethod.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sampling_method",
     "QaStatusCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/QA_status_code",
-    "EntityTypeOrFeature.ttl": "https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature",
+    "EntityTypeOrFeatureBorehole.ttl": "https://pid.geoscience.gov.au/def/voc/ga/entity_type_or_feature",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "Uom.ttl": "http://qudt.org/community/ga/voc",
     "ProportionTermsBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/proportion_term"
