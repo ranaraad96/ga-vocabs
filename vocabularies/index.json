@@ -1,5 +1,6 @@
 {
     "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
+    "SampleMaterialClassBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_material_class",
     "SampleType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_type",
     "SamplingMethod.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sampling_method",
     "QaStatusCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/QA_status_code",
