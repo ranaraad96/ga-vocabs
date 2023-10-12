@@ -7,7 +7,7 @@ SHOW_WARNINGS = True
 
 def main():
     # get the validator
-    r = httpx.get("https://w3id.org/profile/vocpub/validator", follow_redirects=True)
+    r = httpx.get("https://w3id.org/profile/vocpub/validator/4.6", follow_redirects=True)
     assert r.status_code == 200
 
     # for all vocabs...
