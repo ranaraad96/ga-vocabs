@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/effectiveSourceRock>
+:effectiveSourceRock
     a skos:Concept ;
     dcterms:identifier "effectiveSourceRock"^^xsd:token ;
     skos:altLabel "ESR"@en ;
@@ -17,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notASourceRock>
+:notASourceRock
     a skos:Concept ;
     dcterms:identifier "notASourceRock"^^xsd:token ;
     skos:altLabel "NSR"@en ;
@@ -27,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notAssessed>
+:notAssessed
     a skos:Concept ;
     dcterms:identifier "notAssessed"^^xsd:token ;
     skos:altLabel "NA"@en ;
@@ -37,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/potentialSourceRock>
+:potentialSourceRock
     a skos:Concept ;
     dcterms:identifier "potentialSourceRock"^^xsd:token ;
     skos:altLabel "PSR"@en ;
@@ -47,7 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/relicEffectiveSourceRock>
+:relicEffectiveSourceRock
     a skos:Concept ;
     dcterms:identifier "relicEffectiveSourceRock"^^xsd:token ;
     skos:altLabel "RESR"@en ;
@@ -57,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/spentSourceRock>
+:spentSourceRock
     a skos:Concept ;
     dcterms:identifier "spentSourceRock"^^xsd:token ;
     skos:altLabel "SSR"@en ;
@@ -86,12 +87,12 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "The quality of source rock from which organic chemistry samples were obtained."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/effectiveSourceRock> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notASourceRock> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notAssessed> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/potentialSourceRock> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/relicEffectiveSourceRock> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/spentSourceRock> ;
+        :effectiveSourceRock ,
+        :notASourceRock ,
+        :notAssessed ,
+        :potentialSourceRock ,
+        :relicEffectiveSourceRock ,
+        :spentSourceRock ;
     skos:prefLabel "Boreholes Organic Geochemistry - Source Rock Quality"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
 .

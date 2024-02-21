@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/c>
+:c
     a skos:Concept ;
     dcterms:identifier "c"^^xsd:token ;
     skos:definition "This data has been checked. The data was entered by an Internal user."@en ;
@@ -16,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/u>
+:u
     a skos:Concept ;
     dcterms:identifier "u"^^xsd:token ;
     skos:definition "This data has not been checked. The data was entered by an Internal user."@en ;
@@ -44,8 +45,8 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "Indicates the status of whether or not QA of the data for this record has been undertaken (C - Checked, U - Unchecked)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/c> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/u> ;
+        :c ,
+        :u ;
     skos:prefLabel "General Geology - QA Status Code"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater" ;
 .

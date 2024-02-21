@@ -1,4 +1,5 @@
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/field_site_type>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/field-site-type/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/field-site-type>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -7,43 +8,43 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/open_cut_mine>
+:open-cut-mine
     a skos:Concept ;
-    dcterms:identifier "open_cut_mine"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/mine> ;
+    dcterms:identifier "open-cut-mine"^^xsd:token ;
+    skos:broader :mine ;
     skos:definition "Open cut (open pit, open cast) mine workings."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "open cut mine"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/outcrop>
+:outcrop
     a skos:Concept ;
     dcterms:identifier "outcrop"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/natural_land_surface> ;
+    skos:broader :natural-land-surface ;
     skos:definition "An exposure of rock at the Earth surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "outcrop"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/regolith_site>
+:regolith-site
     a skos:Concept ;
-    dcterms:identifier "regolith_site"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/natural_land_surface> ;
+    dcterms:identifier "regolith-site"^^xsd:token ;
+    skos:broader :natural-land-surface ;
     skos:definition "A field site for observation or sampling of unconsolidated regolith material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "regolith site"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/sea_floor>
+:sea-floor
     a skos:Concept ;
-    dcterms:identifier "sea_floor"^^xsd:token ;
+    dcterms:identifier "sea-floor"^^xsd:token ;
     skos:definition "A location on the sea floor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sea floor"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/spring>
+:spring
     a skos:Concept ;
     dcterms:identifier "spring"^^xsd:token ;
     skos:definition "A natural site where water flows from an aquifer to the Earth's surface."@en ;
@@ -52,16 +53,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/underground_mine>
+:underground-mine
     a skos:Concept ;
-    dcterms:identifier "underground_mine"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/mine> ;
+    dcterms:identifier "underground-mine"^^xsd:token ;
+    skos:broader :mine ;
     skos:definition "Underground mine workings."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "underground mine"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/unknown>
+:unknown
     a skos:Concept ;
     dcterms:identifier "unknown"^^xsd:token ;
     skos:definition "The type of field site is unknown or unspecified."@en ;
@@ -70,16 +71,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/water_site>
+:water-site
     a skos:Concept ;
-    dcterms:identifier "water_site"^^xsd:token ;
+    dcterms:identifier "water-site"^^xsd:token ;
     skos:definition "A field site where water is collected at the Earth surface. The origin of the water may be unclear."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water site"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/watercourse>
+:watercourse
     a skos:Concept ;
     dcterms:identifier "watercourse"^^xsd:token ;
     skos:definition "A field site located in a stream or river course, either as a dry bed or with running water."@en ;
@@ -95,26 +96,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/mine>
+:mine
     a skos:Concept ;
     dcterms:identifier "mine"^^xsd:token ;
     skos:definition "An exposure at an open cut or underground mine site."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/open_cut_mine> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/underground_mine> ;
+        :open-cut-mine ,
+        :underground-mine ;
     skos:prefLabel "mine"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/field_site_type/natural_land_surface>
+:natural-land-surface
     a skos:Concept ;
-    dcterms:identifier "natural_land_surface"^^xsd:token ;
+    dcterms:identifier "natural-land-surface"^^xsd:token ;
     skos:definition "Natural land surface"@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/outcrop> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/regolith_site> ;
+        :outcrop ,
+        :regolith-site ;
     skos:prefLabel "natural land surface"@en ;
     skos:topConceptOf cs: ;
 .
@@ -123,21 +124,21 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "field_site_type"^^xsd:token ;
+    dcterms:identifier "field-site-type"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
     skos:definition "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/mine> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/natural_land_surface> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/sea_floor> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/spring> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/unknown> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/water_site> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/field_site_type/watercourse> ;
-    skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU_FIELDSITE_TYPE)"@en ;
+        :mine ,
+        :natural-land-surface ,
+        :sea-floor ,
+        :spring ,
+        :unknown ,
+        :water-site ,
+        :watercourse ;
+    skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU-FIELDSITE-TYPE)"@en ;
     skos:prefLabel "Field Geology - Field Site Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
 .

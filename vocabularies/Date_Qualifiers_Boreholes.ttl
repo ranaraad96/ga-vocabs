@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/dateUnknown>
+:dateUnknown
     a skos:Concept ;
     dcterms:identifier "dateUnknown"^^xsd:token ;
     rdfs:isDefinedBy <http://www.opengis.net/def/nil/OGC/0/unknown> ;
@@ -17,25 +18,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedEarliest>
+:estimatedEarliest
     a skos:Concept ;
     dcterms:identifier "estimatedEarliest"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated> ;
+    skos:broader :estimated ;
     skos:definition "The recorded date is the earliest known date, but it is possible the true date is earlier than what is recorded."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "estimated earliest"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedLatest>
+:estimatedLatest
     a skos:Concept ;
     dcterms:identifier "estimatedLatest"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated> ;
+    skos:broader :estimated ;
     skos:definition "The recorded date is the latest known date, but it is possible the true date is later than what is recorded."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "estimated latest"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/known>
+:known
     a skos:Concept ;
     dcterms:identifier "known"^^xsd:token ;
     skos:definition "The recorded date is known"@en ;
@@ -51,14 +52,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated>
+:estimated
     a skos:Concept ;
     dcterms:identifier "estimated"^^xsd:token ;
     skos:definition "The recorded date is estimated"@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedEarliest> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedLatest> ;
+        :estimatedEarliest ,
+        :estimatedLatest ;
     skos:prefLabel "estimated"@en ;
     skos:topConceptOf cs: ;
 .
@@ -75,9 +76,9 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the confidence or quality in a recorded date "@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/dateUnknown> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/known> ;
+        :dateUnknown ,
+        :estimated ,
+        :known ;
     skos:prefLabel "Borehole Geology - Date Qualifier"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
 .

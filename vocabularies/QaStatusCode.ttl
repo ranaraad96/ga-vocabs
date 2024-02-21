@@ -1,4 +1,4 @@
-PREFIX cs: <http://pid.geoscience.gov.au/def/voc/ga/QA_status_code>
+PREFIX cs: <http://pid.geoscience.gov.au/def/voc/ga/QA-status-code>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -6,7 +6,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/QA_status_code/C>
+<https://pid.geoscience.gov.au/def/voc/ga/QA-status-code/C>
     a skos:Concept ;
     dcterms:identifier "C"^^xsd:token ;
     skos:definition "This data has been checked. The data was entered by an Internal user."@en ;
@@ -15,7 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/QA_status_code/U>
+<https://pid.geoscience.gov.au/def/voc/ga/QA-status-code/U>
     a skos:Concept ;
     dcterms:identifier "U"^^xsd:token ;
     skos:definition "This data has not been checked. The data was entered by an Internal user."@en ;
@@ -28,17 +28,16 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "QA_status_code"^^xsd:token ;
+    dcterms:identifier "QA-status-code"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
-    skos:historyNote "Geoscience Australia QA Status Code (A.QA_STATUS_CODES)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
     skos:definition "Indicates the status of whether or not QA of the data for this record has been undertaken (C - Checked, U - Unchecked)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/QA_status_code/C> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/QA_status_code/U> ;
+        <https://pid.geoscience.gov.au/def/voc/ga/QA-status-code/C> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/QA-status-code/U> ;
+    skos:historyNote "Geoscience Australia QA Status Code (A.QA-STATUS-CODES)"@en ;
     skos:prefLabel "General Geology - QA Status Code"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater" ;
 .
-

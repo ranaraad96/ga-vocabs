@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/acidBottle>
+:acidBottle
     a skos:Concept ;
     dcterms:identifier "acidBottle"^^xsd:token ;
     dcterms:provenance "https://www.netwasgroup.us/services-2/directional-surveying-measurements-and-sensors.html"@en ;
@@ -17,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/collarInclinationOnly>
+:collarInclinationOnly
     a skos:Concept ;
     dcterms:identifier "collarInclinationOnly"^^xsd:token ;
     skos:definition "Borehole path is estimated only from a measurement of the inclination of the drill stem at the collar."@en ;
@@ -26,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/differentialSurvey>
+:differentialSurvey
     a skos:Concept ;
     dcterms:identifier "differentialSurvey"^^xsd:token ;
     skos:definition "Borehole surveyed by a tool that measures the angular differences between fixed points as it moves down or up the hole. The starting angles are known and the differences are added incrementally at each station to obtain the borehole survey angles."@en ;
@@ -35,25 +36,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/ems>
+:ems
     a skos:Concept ;
     dcterms:identifier "ems"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey> ;
+    skos:broader :magneticSurvey ;
     skos:definition "Borehole surveyed with an electronic multi-shot system (EMS)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "EMS"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gpit>
+:gpit
     a skos:Concept ;
     dcterms:identifier "gpit"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey> ;
+    skos:broader :magneticSurvey ;
     skos:definition "The GPIT General-Purpose Inclinometry Tool provides inclinometer measurements. Tool orientation is defined by three parameters: tool deviation, tool azimuth, and relative bearing. The GPIT tool uses both a three-axis inclinometer and a three-axis magnetometer to make measurements for determining these parameters."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPIT"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gyroscopicSurvey>
+:gyroscopicSurvey
     a skos:Concept ;
     dcterms:identifier "gyroscopicSurvey"^^xsd:token ;
     dcterms:provenance "https://petrowiki.spe.org/Directional_survey_instruments#Gyroscopic_sensors"@en ;
@@ -63,17 +64,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mechanicalCompass>
+:mechanicalCompass
     a skos:Concept ;
     dcterms:identifier "mechanicalCompass"^^xsd:token ;
     dcterms:provenance "https://petrowiki.spe.org/Directional_survey_instruments#Mechanical_compass"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey> ;
+    skos:broader :magneticSurvey ;
     skos:definition "Borehole surveyed using a magnetic well surveying instrument with a mechanical compass."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mechanical compass"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mwd>
+:mwd
     a skos:Concept ;
     dcterms:identifier "mwd"^^xsd:token ;
     skos:definition "Survey by a tool that enables 'measurement while drilling' (MWD), including wireline steering tools. In practice it means 'wire-less' measuring systems, e.g. systems using mud pulse or electromagnetic telemetry.  The downhole probe of a MWD system typically comprises three solid state accelerometers to measure inclination and three solid state magnetometers to measure azimuth.  Teledrift is an inclination-only mud pulse MWD system. "@en ;
@@ -82,7 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/totco>
+:totco
     a skos:Concept ;
     dcterms:identifier "totco"^^xsd:token ;
     skos:definition "Borehole surveyed using a single-shot, inclination-only survey tool. These are mechanical inclination indicators, often called by the trade name 'TOTCO' although they are also made by other manufacturers."@en ;
@@ -91,7 +92,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/unkown>
+:unkown
     a skos:Concept ;
     dcterms:identifier "unkown"^^xsd:token ;
     dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
@@ -108,16 +109,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey>
+:magneticSurvey
     a skos:Concept ;
     dcterms:identifier "magneticSurvey"^^xsd:token ;
     dcterms:provenance "https://petrowiki.spe.org/Directional_survey_instruments#Magnetic_sensors"@en ;
     skos:definition "Borehole surveyed using a method that includes a magnetic sensor (electronic or mechanical compass, magnetometer and accelerometer). May be single or multi-shot."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/ems> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gpit> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mechanicalCompass> ;
+        :ems ,
+        :gpit ,
+        :mechanicalCompass ;
     skos:prefLabel "magnetic survey"@en ;
     skos:topConceptOf cs: ;
 .
@@ -134,14 +135,14 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "A vocabulary of common directional survey methods"@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/acidBottle> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/collarInclinationOnly> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/differentialSurvey> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gyroscopicSurvey> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mwd> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/totco> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/unkown> ;
+        :acidBottle ,
+        :collarInclinationOnly ,
+        :differentialSurvey ,
+        :gyroscopicSurvey ,
+        :magneticSurvey ,
+        :mwd ,
+        :totco ,
+        :unkown ;
     skos:prefLabel "Borehole Geology - Directional Survey Method "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
 .

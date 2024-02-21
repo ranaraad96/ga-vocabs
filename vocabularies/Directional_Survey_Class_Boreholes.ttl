@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/azimuthAndInclination>
+:azimuthAndInclination
     a skos:Concept ;
     dcterms:identifier "azimuthAndInclination"^^xsd:token ;
     skos:definition "The directional survey is comprised of azimuth and inclination measurements."@en ;
@@ -16,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/inclinationOnly>
+:inclinationOnly
     a skos:Concept ;
     dcterms:identifier "inclinationOnly"^^xsd:token ;
     skos:definition "The directional survey is comprised of only inclination measurements."@en ;
@@ -44,8 +45,8 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "Terms to denote whether the directional survey is comprised of azimuth and inclination measurements, or only inclination measurements."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/azimuthAndInclination> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/inclinationOnly> ;
+        :azimuthAndInclination ,
+        :inclinationOnly ;
     skos:prefLabel "Borehole Geology - Directional Survey Class"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
 .

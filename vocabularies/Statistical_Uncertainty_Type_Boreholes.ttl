@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/1Sigma>
+:1Sigma
     a skos:Concept ;
     dcterms:identifier "1Sigma"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/1sigma> ;
@@ -18,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/1StandardError>
+:1StandardError
     a skos:Concept ;
     dcterms:identifier "1StandardError"^^xsd:token ;
     rdfs:isDefinedBy <https://en.wikipedia.org/wiki/Standard_error> ;
@@ -29,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/2Sigma>
+:2Sigma
     a skos:Concept ;
     dcterms:identifier "2Sigma"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/2sigma> ;
@@ -40,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/2StandardError>
+:2StandardError
     a skos:Concept ;
     dcterms:identifier "2StandardError"^^xsd:token ;
     rdfs:isDefinedBy <https://en.wikipedia.org/wiki/Standard_error> ;
@@ -51,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/3Sigma>
+:3Sigma
     a skos:Concept ;
     dcterms:identifier "3Sigma"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/3sigma> ;
@@ -62,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/95pcConfidence>
+:95pcConfidence
     a skos:Concept ;
     dcterms:identifier "95pcConfidence"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence> ;
@@ -72,7 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/99pcConfidence>
+:99pcConfidence
     a skos:Concept ;
     dcterms:identifier "99pcConfidence"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence_asymmetric> ;
@@ -82,7 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/alpha95>
+:alpha95
     a skos:Concept ;
     dcterms:identifier "alpha95"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/alpha95> ;
@@ -93,7 +94,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/delta>
+:delta
     a skos:Concept ;
     dcterms:identifier "delta"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/delta> ;
@@ -103,7 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/kappa>
+:kappa
     a skos:Concept ;
     dcterms:identifier "kappa"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/kappa> ;
@@ -113,7 +114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/plusMinus>
+:plusMinus
     a skos:Concept ;
     dcterms:identifier "plusMinus"^^xsd:token ;
     rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/plus_minus> ;
@@ -126,7 +127,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/unknown>
+:unknown
     a skos:Concept ;
     dcterms:identifier "unknown"^^xsd:token ;
     rdfs:isDefinedBy <http://www.opengis.net/def/nil/OGC/0/unknown> ;
@@ -155,18 +156,18 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "The type of statistical uncertainty for rock property measurements (e.g. 1 sigma, 2 sigma, 99 percent confidence, unknown)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/1Sigma> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/1StandardError> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/2Sigma> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/2StandardError> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/3Sigma> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/95pcConfidence> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/99pcConfidence> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/alpha95> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/delta> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/kappa> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/plusMinus> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/statisticalUncertaintyType/unknown> ;
+        :1Sigma ,
+        :1StandardError ,
+        :2Sigma ,
+        :2StandardError ,
+        :3Sigma ,
+        :95pcConfidence ,
+        :99pcConfidence ,
+        :alpha95 ,
+        :delta ,
+        :kappa ,
+        :plusMinus ,
+        :unknown ;
     skos:prefLabel "Geology Rock Properties - Statisitical Uncertainty Type "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
 .

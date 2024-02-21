@@ -1,4 +1,5 @@
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/sample_type>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/sample-type/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/sample-type>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -6,88 +7,88 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/analytical_blank>
+:analytical-blank
     a skos:Concept ;
-    dcterms:identifier "analytical_blank"^^xsd:token ;
+    dcterms:identifier "analytical-blank"^^xsd:token ;
     skos:definition "An analytical procedure run without a \"substitute material\" and results obtained are considered to be the \"analytical blank\". Example 1: An acid digestion procedure is run without a sample, to show level of impurities introduced by the acids and the digestion vessels used."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "analytical blank"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/anthropogenic_material>
+:anthropogenic-material
     a skos:Concept ;
-    dcterms:identifier "anthropogenic_material"^^xsd:token ;
+    dcterms:identifier "anthropogenic-material"^^xsd:token ;
     skos:definition "Anthropogenic material originating from human activity"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "anthropogenic material"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/burn_spot>
+:burn-spot
     a skos:Concept ;
-    dcterms:identifier "burn_spot"^^xsd:token ;
+    dcterms:identifier "burn-spot"^^xsd:token ;
     skos:definition "A part of a grain which is the subject of a detailed analysis via a microprobe beam of electrons or energised ions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "burn spot"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/catchment_outlet_specimen>
+:catchment-outlet-specimen
     a skos:Concept ;
-    dcterms:identifier "catchment_outlet_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated> ;
+    dcterms:identifier "catchment-outlet-specimen"^^xsd:token ;
+    skos:broader :unconsolidated ;
     skos:definition "Terrestrial sediment specimen sampled from close to the lower boundary of a hydrologic catchment; may have an aeolian component mixed in with fluvial sediments."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "catchment outlet specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/cavings>
+:cavings
     a skos:Concept ;
     dcterms:identifier "cavings"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/drill_chips_cuttings> ;
+    skos:broader :drill-chips-cuttings ;
     skos:definition "Drill chips/cuttings material that is foreign to the depth interval sampled and most likely derived from higher in the stratigraphic column or possibly recirculated within the mud system from previous drilling activity."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "cavings"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/coastal_float_specimen>
+:coastal-float-specimen
     a skos:Concept ;
-    dcterms:identifier "coastal_float_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/float_specimen> ;
+    dcterms:identifier "coastal-float-specimen"^^xsd:token ;
+    skos:broader :float-specimen ;
     skos:definition "A float specimen collected along the coastline, usually washed up on beaches. (eg, coastal bitumen)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coastal float specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/coastal_sample>
+:coastal-sample
     a skos:Concept ;
-    dcterms:identifier "coastal_sample"^^xsd:token ;
+    dcterms:identifier "coastal-sample"^^xsd:token ;
     skos:definition "A sample, usually of unconsolidated materials, collected in a coastal environment by any method. May include sediment, rocks, water, and/or organic matter. Coastal is here defined as any location above Lowest Astronomical Tide"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coastal sample"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/core_plug>
+:core-plug
     a skos:Concept ;
-    dcterms:identifier "core_plug"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ;
+    dcterms:identifier "core-plug"^^xsd:token ;
+    skos:broader :core ;
     skos:definition "A small plug (cylinder) of core, typically taken from a larger rock or core sample (ie, a sub-sample)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "core plug"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/core_slice>
+:core-slice
     a skos:Concept ;
-    dcterms:identifier "core_slice"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ;
+    dcterms:identifier "core-slice"^^xsd:token ;
+    skos:broader :core ;
     skos:definition "A section of core that represents a specified depth interval, typically cut from a larger core specimen."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "core slice"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/crush>
+:crush
     a skos:Concept ;
     dcterms:identifier "crush"^^xsd:token ;
     skos:definition "A coarse crushed sample."@en ;
@@ -96,183 +97,183 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/downhole_reservoir_fluid_sample>
+:downhole-reservoir-fluid-sample
     a skos:Concept ;
-    dcterms:identifier "downhole_reservoir_fluid_sample"^^xsd:token ;
+    dcterms:identifier "downhole-reservoir-fluid-sample"^^xsd:token ;
     skos:definition "A fluid sample retrieved from a downhole formation test (WFT)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "downhole reservoir fluid sample"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/drilling_fluid_specimen>
+:drilling-fluid-specimen
     a skos:Concept ;
-    dcterms:identifier "drilling_fluid_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen> ;
+    dcterms:identifier "drilling-fluid-specimen"^^xsd:token ;
+    skos:broader :borehole-specimen ;
     skos:definition "Fluid used for drill bit lubrication and return of ground rock material from the drill bit, e.g. drilling mud."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "drilling fluid specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_specimen>
+:field-site-specimen
     a skos:Concept ;
-    dcterms:identifier "field_site_specimen"^^xsd:token ;
+    dcterms:identifier "field-site-specimen"^^xsd:token ;
     skos:definition "Any specimen of material taken from a field site (eg, rock, sediment, water, hydrocarbon). This generic value is only used where no other information about the specimen type is available."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "field site specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/filtered_water_column_specimen>
+:filtered-water-column-specimen
     a skos:Concept ;
-    dcterms:identifier "filtered_water_column_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_column_specimen> ;
+    dcterms:identifier "filtered-water-column-specimen"^^xsd:token ;
+    skos:broader :water-column-specimen ;
     skos:definition "A water column specimen filtered for suspended solids."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "filtered water column specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/fluid_inclusion>
+:fluid-inclusion
     a skos:Concept ;
-    dcterms:identifier "fluid_inclusion"^^xsd:token ;
+    dcterms:identifier "fluid-inclusion"^^xsd:token ;
     skos:definition "A fluid-filled inclusion in a rock or mineral (may also contain vapour and solids at room temperature)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "fluid inclusion"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/fuild_melt_inclusion_section>
+:fuild-melt-inclusion-section
     a skos:Concept ;
-    dcterms:identifier "fuild_melt_inclusion_section"^^xsd:token ;
+    dcterms:identifier "fuild-melt-inclusion-section"^^xsd:token ;
     skos:definition "A thick section used to examine tiny inclusions of liquid, vapour, solid, or mixtures of these phases, trapped as impurities within mineral grains."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "fluid or melt inclusion section"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/gravel>
+:gravel
     a skos:Concept ;
     dcterms:identifier "gravel"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated> ;
+    skos:broader :unconsolidated ;
     skos:definition "A specimen of unconsolidated gravel size regolith material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "gravel"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/half_core>
+:half-core
     a skos:Concept ;
-    dcterms:identifier "half_core"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ;
+    dcterms:identifier "half-core"^^xsd:token ;
+    skos:broader :core ;
     skos:definition "A cylindrical drill core which has been cut in half parallel to its length."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "half core"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/incubation_water_specimen>
+:incubation-water-specimen
     a skos:Concept ;
-    dcterms:identifier "incubation_water_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_specimen> ;
+    dcterms:identifier "incubation-water-specimen"^^xsd:token ;
+    skos:broader :water-specimen ;
     skos:definition "A water sample collected from a chamber or core incubation for the purpose of use of profiling the water column."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "incubation water specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/melt_inclusion>
+:melt-inclusion
     a skos:Concept ;
-    dcterms:identifier "melt_inclusion"^^xsd:token ;
+    dcterms:identifier "melt-inclusion"^^xsd:token ;
     skos:definition "A glassy inclusion in a rock or mineral (may also contain liquid, vapour and crystals at room temperature)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "melt inclusion"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/microfossil_slide>
+:microfossil-slide
     a skos:Concept ;
-    dcterms:identifier "microfossil_slide"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fossil> ;
+    dcterms:identifier "microfossil-slide"^^xsd:token ;
+    skos:broader :fossil ;
     skos:definition "A slide prepared for microscope analysis of microfossils."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "microfossil slide"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_grain>
+:mineral-grain
     a skos:Concept ;
-    dcterms:identifier "mineral_grain"^^xsd:token ;
+    dcterms:identifier "mineral-grain"^^xsd:token ;
     skos:definition "An individual mineralogical particle, usually isolated from a thin section, or mounted with other grains in a polished mount."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral grain"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_precipitate>
+:mineral-precipitate
     a skos:Concept ;
-    dcterms:identifier "mineral_precipitate"^^xsd:token ;
+    dcterms:identifier "mineral-precipitate"^^xsd:token ;
     skos:definition "A collection of one or more minerals precipitated from solution (eg, salt crust or gypsum crystals precipitated on a salt lake)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral precipitate"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_separate>
+:mineral-separate
     a skos:Concept ;
-    dcterms:identifier "mineral_separate"^^xsd:token ;
+    dcterms:identifier "mineral-separate"^^xsd:token ;
     skos:altLabel "mineral concetrate"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/concentrate> ;
+    skos:broader :concentrate ;
     skos:definition "A collection of mineral grains separated using density and magnetic contrast from other mineral grains."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral separate"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_specimen>
+:mineral-specimen
     a skos:Concept ;
-    dcterms:identifier "mineral_specimen"^^xsd:token ;
+    dcterms:identifier "mineral-specimen"^^xsd:token ;
     skos:definition "A high quality or type mineral specimen, collected for scientific or display purposes in a museum or similar setting"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/observation_log>
+:observation-log
     a skos:Concept ;
-    dcterms:identifier "observation_log"^^xsd:token ;
+    dcterms:identifier "observation-log"^^xsd:token ;
     skos:altLabel
         "borehole observation log"@en ,
         "measured section log"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation> ;
-    skos:definition "A description of a sampling feature in a continuous linear format (e.g. stratigraphic or lithology logs for boreholes and measured sections), where the observation description is not related to a specific collected specimen "@en ;
+    skos:broader :field-site-observation ;
+    skos:definition "A description of a sampling feature in a continuous linear format (e.g. stratigraphic or lithology logs for boreholes and measured sections), where the observation description is not related to a specific collected specimen "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "observation log"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/observation_only>
+:observation-only
     a skos:Concept ;
-    dcterms:identifier "observation_only"^^xsd:token ;
+    dcterms:identifier "observation-only"^^xsd:token ;
     skos:definition "An observation made of a feature, without collection of a physical specimen."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "observation only"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/oriented_core>
+:oriented-core
     a skos:Concept ;
-    dcterms:identifier "oriented_core"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ;
+    dcterms:identifier "oriented-core"^^xsd:token ;
+    skos:broader :core ;
     skos:definition "A drill core specimen taken with its orientation preserved to enable structural or other oriented analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "oriented core"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/oriented_outcrop_specimen>
+:oriented-outcrop-specimen
     a skos:Concept ;
-    dcterms:identifier "oriented_outcrop_specimen"^^xsd:token ;
+    dcterms:identifier "oriented-outcrop-specimen"^^xsd:token ;
     skos:altLabel "oriented hand specimen"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/outcrop_specimen> ;
+    skos:broader :outcrop-specimen ;
     skos:definition "An outcrop specimen taken with its orientation preserved to enable structural or geophysical analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "oriented outcrop specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/pellet>
+:pellet
     a skos:Concept ;
     dcterms:identifier "pellet"^^xsd:token ;
     skos:definition "A specimen that has been ground into a powder and pressed into a pellet."@en ;
@@ -281,7 +282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/photography>
+:photography
     a skos:Concept ;
     dcterms:identifier "photography"^^xsd:token ;
     skos:definition "A digital or film photographic still image"@en ;
@@ -290,34 +291,34 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_mount>
+:polished-mount
     a skos:Concept ;
-    dcterms:identifier "polished_mount"^^xsd:token ;
+    dcterms:identifier "polished-mount"^^xsd:token ;
     skos:definition "Materials mounted in a medium, typically an epoxy glue or resin, and polished."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "polished mount"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_slab>
+:polished-slab
     a skos:Concept ;
-    dcterms:identifier "polished_slab"^^xsd:token ;
+    dcterms:identifier "polished-slab"^^xsd:token ;
     skos:definition "A polished slab of rock material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "polished slab"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_thin_section>
+:polished-thin-section
     a skos:Concept ;
-    dcterms:identifier "polished_thin_section"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/thin_section> ;
+    dcterms:identifier "polished-thin-section"^^xsd:token ;
+    skos:broader :thin-section ;
     skos:definition "A polished thin section of a material for microscope analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "polished thin section"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/powder>
+:powder
     a skos:Concept ;
     dcterms:identifier "powder"^^xsd:token ;
     skos:definition "A specimen that has been ground into a powder."@en ;
@@ -326,43 +327,43 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/powder_tungsten_mill>
+:powder-tungsten-mill
     a skos:Concept ;
-    dcterms:identifier "powder_tungsten_mill"^^xsd:token ;
+    dcterms:identifier "powder-tungsten-mill"^^xsd:token ;
     skos:definition "A specimen that has been ground into a powder in a tungsten alloy mill."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "powder (tungsten mill)"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/quarter_core>
+:quarter-core
     a skos:Concept ;
-    dcterms:identifier "quarter_core"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ;
+    dcterms:identifier "quarter-core"^^xsd:token ;
+    skos:broader :core ;
     skos:definition "A cylindrical drill core which has been cut in quarters parallel to its length."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "quarter core"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_field_specimen>
+:replicate-field-specimen
     a skos:Concept ;
-    dcterms:identifier "replicate_field_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_specimen> ;
+    dcterms:identifier "replicate-field-specimen"^^xsd:token ;
+    skos:broader :replicate-specimen ;
     skos:definition "Repeat specimen taken in the field over given space and/or time scales to test field heterogeneity of a sampling medium.  Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "replicate field specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_laboratory_specimen>
+:replicate-laboratory-specimen
     a skos:Concept ;
-    dcterms:identifier "replicate_laboratory_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_specimen> ;
+    dcterms:identifier "replicate-laboratory-specimen"^^xsd:token ;
+    skos:broader :replicate-specimen ;
     skos:definition "Identical split(s) of an original sample submitted blindly to the laboratory to test reproducibility (bias) of results.  Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "replicate laboratory specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/residue>
+:residue
     a skos:Concept ;
     dcterms:identifier "residue"^^xsd:token ;
     skos:definition "An unspecified residue from a sample preparation or analytical technique."@en ;
@@ -371,116 +372,116 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_chips>
+:rock-chips
     a skos:Concept ;
-    dcterms:identifier "rock_chips"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces> ;
+    dcterms:identifier "rock-chips"^^xsd:token ;
+    skos:broader :rock-pieces ;
     skos:definition "Rock fragments derived from crushing or chipping material other than by drilling (eg, chips from an outcrop or mine channel sampling)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rock chips"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/seabed_subsample>
+:seabed-subsample
     a skos:Concept ;
-    dcterms:identifier "seabed_subsample"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/seabead_sample> ;
+    dcterms:identifier "seabed-subsample"^^xsd:token ;
+    skos:broader :seabead-sample ;
     skos:definition "Specimens of surficial seafloor sediments obtained by sub-sampling the contents of a grab or box core. Depending on the intended analyses, these may be volumetric, gravimetric or qualitative."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "seabed subsample"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/separator_fluid>
+:separator-fluid
     a skos:Concept ;
-    dcterms:identifier "separator_fluid"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction> ;
+    dcterms:identifier "separator-fluid"^^xsd:token ;
+    skos:broader :fraction ;
     skos:definition "Liquid that has been separated from a gas phase at a surface separator."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "separator fluid"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/sieved_sample>
+:sieved-sample
     a skos:Concept ;
-    dcterms:identifier "sieved_sample"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/grainsize_fraction> ;
+    dcterms:identifier "sieved-sample"^^xsd:token ;
+    skos:broader :grainsize-fraction ;
     skos:definition "A grainsize fraction specimen generated by sieving"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sieved sample"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/soil_specimen>
+:soil-specimen
     a skos:Concept ;
-    dcterms:identifier "soil_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated> ;
+    dcterms:identifier "soil-specimen"^^xsd:token ;
+    skos:broader :unconsolidated ;
     skos:definition "A specimen of soil or similar regolith materials, collected by any method."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "soil specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/specimen_blank>
+:specimen-blank
     a skos:Concept ;
-    dcterms:identifier "specimen_blank"^^xsd:token ;
+    dcterms:identifier "specimen-blank"^^xsd:token ;
     skos:altLabel "sample blank"@en ;
-    skos:definition "A specimen blank is used to determine if any impurities are introduced during sample preparation procedures. A \"sample blank material\" substitutes regular \"sample material\" in the procedure. Example 1: Quartz substitutes a rock sample to determine levels of impurities introduced by grinding equipment. Example 2: Cellulose substitutes vegetable material to determine levels of impurities introduced during sample preparation. Example 3: Pure deionized water is substituted for sample water to determine if impurities are introduced during sample filtering and bottling procedures."@en ;
+    skos:definition "A specimen blank is used to determine if any impurities are introduced during sample preparation procedures. A \"sample blank material\" substitutes regular \"sample material\" in the procedure. Example 1: Quartz substitutes a rock sample to determine levels of impurities introduced by grinding equipment. Example 2: Cellulose substitutes vegetable material to determine levels of impurities introduced during sample preparation. Example 3: Pure deionized water is substituted for sample water to determine if impurities are introduced during sample filtering and bottling procedures."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "specimen blank"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/standard_reference_material>
+:standard-reference-material
     a skos:Concept ;
-    dcterms:identifier "standard_reference_material"^^xsd:token ;
-    skos:definition "Also known as SRM,  these samples may range from International Standards and Certified Reference Materials (CRMs) to locally prepared standard samples for use as project reference standards. They are comprised of homogenous material prepared under strict guidelines, divided into numerous aliquots and sent to reputable laboratories to derive an assigned value. The values for Standard Reference Materials are generally well known published figures. SRMs with certified values are used to calibrate instruments or analytical techniques, to quantify analytical accuracy, and to verify new or improved analytical techniques. The material of the reference standard (eg, rock, mineral, water, etc) should be denoted in \"material type\"."@en ;
+    dcterms:identifier "standard-reference-material"^^xsd:token ;
+    skos:definition "Also known as SRM,  these samples may range from International Standards and Certified Reference Materials (CRMs) to locally prepared standard samples for use as project reference standards. They are comprised of homogenous material prepared under strict guidelines, divided into numerous aliquots and sent to reputable laboratories to derive an assigned value. The values for Standard Reference Materials are generally well known published figures. SRMs with certified values are used to calibrate instruments or analytical techniques, to quantify analytical accuracy, and to verify new or improved analytical techniques. The material of the reference standard (eg, rock, mineral, water, etc) should be denoted in \"material type\"."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "standard reference material"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/strained_sample>
+:strained-sample
     a skos:Concept ;
-    dcterms:identifier "strained_sample"^^xsd:token ;
+    dcterms:identifier "strained-sample"^^xsd:token ;
     skos:definition "A specimen, often a rock slab, that has been stained for mineral idenification."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stained sample"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/stream_sediment_specimen>
+:stream-sediment-specimen
     a skos:Concept ;
-    dcterms:identifier "stream_sediment_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated> ;
+    dcterms:identifier "stream-sediment-specimen"^^xsd:token ;
+    skos:broader :unconsolidated ;
     skos:definition "A sample of sediment taken from the bed of a river or stream."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stream sediment specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/thin_section_offcut>
+:thin-section-offcut
     a skos:Concept ;
-    dcterms:identifier "thin_section_offcut"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces> ;
+    dcterms:identifier "thin-section-offcut"^^xsd:token ;
+    skos:broader :rock-pieces ;
     skos:definition "A small slab of rock remaining from the preparation of a thin section."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "thin section offcut"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/unknown>
+:unknown
     a skos:Concept ;
     dcterms:identifier "unknown"^^xsd:token ;
-    skos:definition "The sample_type is unknown"@en ;
+    skos:definition "The sample-type is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/vegetation_specimen>
+:vegetation-specimen
     a skos:Concept ;
-    dcterms:identifier "vegetation_specimen"^^xsd:token ;
+    dcterms:identifier "vegetation-specimen"^^xsd:token ;
     skos:definition "A specimen of vegetation collected by any method."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vegetation specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/video>
+:video
     a skos:Concept ;
     dcterms:identifier "video"^^xsd:token ;
     skos:definition "A digital or film capture of a sequence of still images representing scenes in motion"@en ;
@@ -489,267 +490,267 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/vitrinite_reflectance_specimen>
+:vitrinite-reflectance-specimen
     a skos:Concept ;
-    dcterms:identifier "vitrinite_reflectance_specimen"^^xsd:token ;
+    dcterms:identifier "vitrinite-reflectance-specimen"^^xsd:token ;
     skos:definition "A polished slab, mount, or slide for analysing vitrinite reflectance."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vitrinite reflectance specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_column_observation>
+:water-column-observation
     a skos:Concept ;
-    dcterms:identifier "water_column_observation"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation> ;
+    dcterms:identifier "water-column-observation"^^xsd:token ;
+    skos:broader :field-site-observation ;
     skos:definition "An observation or measurement of the water column recorded by a sonde/probe, typically taken at measured intervals used to profile the water column. No actual specimen is collected but the observation records the water conditions at a particular time and place."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water column observation"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/wireline_log>
+:wireline-log
     a skos:Concept ;
-    dcterms:identifier "wireline_log"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation> ;
+    dcterms:identifier "wireline-log"^^xsd:token ;
+    skos:broader :field-site-observation ;
     skos:definition "A continuous log of measurements made by an instrument in a borehole."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "wireline log"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/concentrate>
+:concentrate
     a skos:Concept ;
     dcterms:identifier "concentrate"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction> ;
+    skos:broader :fraction ;
     skos:definition "A form of substance which has had the majority of its base component (in the case of a liquid: the solvent) removed. Typically this will be the removal of water from a solution or suspension"@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_separate> ;
+    skos:narrower :mineral-separate ;
     skos:prefLabel "concentrate"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/drill_chips_cuttings>
+:drill-chips-cuttings
     a skos:Concept ;
-    dcterms:identifier "drill_chips_cuttings"^^xsd:token ;
+    dcterms:identifier "drill-chips-cuttings"^^xsd:token ;
     skos:altLabel
         "chips"@en ,
         "cuttings"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen> ;
+    skos:broader :borehole-specimen ;
     skos:definition "Rock or sediment chips or fragments derived from any drilling method."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/cavings> ;
+    skos:narrower :cavings ;
     skos:prefLabel "drill chips or cuttings"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/float_specimen>
+:float-specimen
     a skos:Concept ;
-    dcterms:identifier "float_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces> ;
+    dcterms:identifier "float-specimen"^^xsd:token ;
+    skos:broader :rock-pieces ;
     skos:definition "A specimen taken of an isolated fragment or rock or other consolidated earth material, displaced from its original outcrop or location."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/coastal_float_specimen> ;
+    skos:narrower :coastal-float-specimen ;
     skos:prefLabel "float specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/fossil>
+:fossil
     a skos:Concept ;
     dcterms:identifier "fossil"^^xsd:token ;
     skos:definition "A specimen of remains or traces of a plant or animal preserved in the Earth's crust."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/microfossil_slide> ;
+    skos:narrower :microfossil-slide ;
     skos:prefLabel "fossil"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/grainsize_fraction>
+:grainsize-fraction
     a skos:Concept ;
-    dcterms:identifier "grainsize_fraction"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction> ;
+    dcterms:identifier "grainsize-fraction"^^xsd:token ;
+    skos:broader :fraction ;
     skos:definition "A specimen that has been generated by separating various size fractions from the original sample. For example, a sieved sediment sample."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/sieved_sample> ;
+    skos:narrower :sieved-sample ;
     skos:prefLabel "grainsize fraction"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/isotube>
+:isotube
     a skos:Concept ;
     dcterms:identifier "isotube"^^xsd:token ;
     skos:broader
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/gas_specimen> ;
+        :borehole-specimen ,
+        :gas-specimen ;
     skos:definition "A 110ml aluminium cylinder used to collect and store gas from a sampling manifold on a borehole druing mudgas logging. A product of ISOTECH Laboratories."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "IsoTube"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/outcrop_specimen>
+:outcrop-specimen
     a skos:Concept ;
-    dcterms:identifier "outcrop_specimen"^^xsd:token ;
+    dcterms:identifier "outcrop-specimen"^^xsd:token ;
     skos:altLabel "hand specimen"@en ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces> ;
+    skos:broader :rock-pieces ;
     skos:definition "A specimen of material removed from outcropping or near-outcropping bedrock. Includes subterranean rock outcrops (ie, from a mine)."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/oriented_outcrop_specimen> ;
+    skos:narrower :oriented-outcrop-specimen ;
     skos:prefLabel "outcrop specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/seabead_sample>
+:seabead-sample
     a skos:Concept ;
-    dcterms:identifier "seabead_sample"^^xsd:token ;
+    dcterms:identifier "seabead-sample"^^xsd:token ;
     skos:definition "A sample, usually of unconsolidated materials, collected on the seabed by any method. May include sediment, rocks, water, and/or organic matter. Seabed is here defined as any location below Lowest Astronomical Tide"@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/seabed_subsample> ;
+    skos:narrower :seabed-subsample ;
     skos:prefLabel "seabed sample"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/separator_gas>
+:separator-gas
     a skos:Concept ;
-    dcterms:identifier "separator_gas"^^xsd:token ;
+    dcterms:identifier "separator-gas"^^xsd:token ;
     skos:broader
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/gas_specimen> ;
+        :fraction ,
+        :gas-specimen ;
     skos:definition "Natural gas that has been separated from a liquid phase at a surface separator."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "separator gas"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/thin_section>
+:thin-section
     a skos:Concept ;
-    dcterms:identifier "thin_section"^^xsd:token ;
+    dcterms:identifier "thin-section"^^xsd:token ;
     skos:definition "A translucent thin section of a material for microscope analysis."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_thin_section> ;
+    skos:narrower :polished-thin-section ;
     skos:prefLabel "thin section"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_column_specimen>
+:water-column-specimen
     a skos:Concept ;
-    dcterms:identifier "water_column_specimen"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_specimen> ;
+    dcterms:identifier "water-column-specimen"^^xsd:token ;
+    skos:broader :water-specimen ;
     skos:definition "A water specimen taken at measured intervals in the water column. "@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/sample_type/filtered_water_column_specimen> ;
+    skos:narrower :filtered-water-column-specimen ;
     skos:prefLabel "water column specimen"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/gas_specimen>
+:gas-specimen
     a skos:Concept ;
-    dcterms:identifier "gas_specimen"^^xsd:token ;
+    dcterms:identifier "gas-specimen"^^xsd:token ;
     skos:definition "A generic specimen of gas of any type. Includes gas specimen types collected by any method."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/isotube> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/separator_gas> ;
+        :isotube ,
+        :separator-gas ;
     skos:prefLabel "gas specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_specimen>
+:replicate-specimen
     a skos:Concept ;
-    dcterms:identifier "replicate_specimen"^^xsd:token ;
+    dcterms:identifier "replicate-specimen"^^xsd:token ;
     skos:definition "A repeat analytical specimen designed to replicate the original specimen type and method of sample preparation and/or collection. Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_field_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_laboratory_specimen> ;
+        :replicate-field-specimen ,
+        :replicate-laboratory-specimen ;
     skos:prefLabel "replicate specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_specimen>
+:water-specimen
     a skos:Concept ;
-    dcterms:identifier "water_specimen"^^xsd:token ;
+    dcterms:identifier "water-specimen"^^xsd:token ;
     skos:definition "A generic specimen of water of any type. Includes water specimen types collected by any method."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/incubation_water_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_column_specimen> ;
+        :incubation-water-specimen ,
+        :water-column-specimen ;
     skos:prefLabel "water specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen>
+:borehole-specimen
     a skos:Concept ;
-    dcterms:identifier "borehole_specimen"^^xsd:token ;
+    dcterms:identifier "borehole-specimen"^^xsd:token ;
     skos:definition "Any specimen of material taken from a borehole. Only used where no other information about the borehole specimen type is available."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/drill_chips_cuttings> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/drilling_fluid_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/isotube> ;
+        :core ,
+        :drill-chips-cuttings ,
+        :drilling-fluid-specimen ,
+        :isotube ;
     skos:prefLabel "borehole specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation>
+:field-site-observation
     a skos:Concept ;
-    dcterms:identifier "field_site_observation"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation> ;
+    dcterms:identifier "field-site-observation"^^xsd:token ;
+    skos:broader :field-site-observation ;
     skos:definition "An observation made of a field site (eg, an outcrop), without collection of a physical specimen."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_observation> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/observation_log> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_column_observation> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/wireline_log> ;
+        :field-site-observation ,
+        :observation-log ,
+        :water-column-observation ,
+        :wireline-log ;
     skos:prefLabel "field site observation"@en ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction>
+:fraction
     a skos:Concept ;
     dcterms:identifier "fraction"^^xsd:token ;
     skos:definition "A specimen that has been modified to be a specific fraction separated from the original sample eg. a panned or separated sample."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/concentrate> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/grainsize_fraction> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/separator_fluid> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/separator_gas> ;
+        :concentrate ,
+        :grainsize-fraction ,
+        :separator-fluid ,
+        :separator-gas ;
     skos:prefLabel "fraction"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces>
+:rock-pieces
     a skos:Concept ;
-    dcterms:identifier "rock_pieces"^^xsd:token ;
+    dcterms:identifier "rock-pieces"^^xsd:token ;
     skos:definition "Unspecified rock samples or fragments of rock of unknown origin."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/float_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/outcrop_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_chips> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/thin_section_offcut> ;
+        :float-specimen ,
+        :outcrop-specimen ,
+        :rock-chips ,
+        :thin-section-offcut ;
     skos:prefLabel "rock pieces"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated>
+:unconsolidated
     a skos:Concept ;
     dcterms:identifier "unconsolidated"^^xsd:token ;
     skos:definition "A specimen of unconsolidated materials (eg, regolith, sediment, gravel, soil) collected by any method at or near the ground surface, including soil and organic matter."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/catchment_outlet_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/gravel> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/soil_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/stream_sediment_specimen> ;
+        :catchment-outlet-specimen ,
+        :gravel ,
+        :soil-specimen ,
+        :stream-sediment-specimen ;
     skos:prefLabel "unconsolidated surficial specimen"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/sample_type/core>
+:core
     a skos:Concept ;
     dcterms:identifier "core"^^xsd:token ;
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen> ;
+    skos:broader :borehole-specimen ;
     skos:definition "A specimen (often, but not always cylindrical) of rock, regolith, or vegetation."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core_plug> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/core_slice> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/half_core> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/oriented_core> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/quarter_core> ;
+        :core-plug ,
+        :core-slice ,
+        :half-core ,
+        :oriented-core ,
+        :quarter-core ;
     skos:prefLabel "core"@en ;
 .
 
@@ -757,53 +758,52 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "sample_type"^^xsd:token ;
+    dcterms:identifier "sample-type"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
-    skos:historyNote "Geoscience Australia Sample Type (A.LU_SAMPLE_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1.0" ;
     skos:definition "The form, shape, purpose, or environment of a collected specimen or observation. Where possible the sample type description is independent of the material that comprises the specimen (eg, rock, oil, sand), or the sampling method (eg, drilling, dredging), but in practice it is not always possible or convenient to completely separate these concepts from the sample type (eg, water column specimen)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/analytical_blank> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/anthropogenic_material> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/borehole_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/burn_spot> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/coastal_sample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/crush> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/downhole_reservoir_fluid_sample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/field_site_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fluid_inclusion> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fossil> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fraction> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/fuild_melt_inclusion_section> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/gas_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/melt_inclusion> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_grain> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_precipitate> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/mineral_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/observation_only> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/pellet> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/photography> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_mount> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/polished_slab> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/powder> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/powder_tungsten_mill> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/replicate_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/residue> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/rock_pieces> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/seabead_sample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/specimen_blank> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/standard_reference_material> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/strained_sample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/thin_section> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unconsolidated> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/unknown> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/vegetation_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/video> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/vitrinite_reflectance_specimen> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/sample_type/water_specimen> ;
+        :analytical-blank ,
+        :anthropogenic-material ,
+        :borehole-specimen ,
+        :burn-spot ,
+        :coastal-sample ,
+        :crush ,
+        :downhole-reservoir-fluid-sample ,
+        :field-site-specimen ,
+        :fluid-inclusion ,
+        :fossil ,
+        :fraction ,
+        :fuild-melt-inclusion-section ,
+        :gas-specimen ,
+        :melt-inclusion ,
+        :mineral-grain ,
+        :mineral-precipitate ,
+        :mineral-specimen ,
+        :observation-only ,
+        :pellet ,
+        :photography ,
+        :polished-mount ,
+        :polished-slab ,
+        :powder ,
+        :powder-tungsten-mill ,
+        :replicate-specimen ,
+        :residue ,
+        :rock-pieces ,
+        :seabead-sample ,
+        :specimen-blank ,
+        :standard-reference-material ,
+        :strained-sample ,
+        :thin-section ,
+        :unconsolidated ,
+        :unknown ,
+        :vegetation-specimen ,
+        :video ,
+        :vitrinite-reflectance-specimen ,
+        :water-specimen ;
+    skos:historyNote "Geoscience Australia Sample Type (A.LU-SAMPLE-TYPE)"@en ;
     skos:prefLabel "General Geology - Sample Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and " ;
 .
-

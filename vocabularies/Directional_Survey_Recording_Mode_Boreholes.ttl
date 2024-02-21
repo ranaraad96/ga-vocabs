@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/multiShot>
+:multiShot
     a skos:Concept ;
     dcterms:identifier "multiShot"^^xsd:token ;
     skos:definition "Multi-shot recording mode of survey"@en ;
@@ -16,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/singleShot>
+:singleShot
     a skos:Concept ;
     dcterms:identifier "singleShot"^^xsd:token ;
     skos:definition "Single-shot recording mode of survey"@en ;
@@ -44,8 +45,8 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the recording mode of the survey (eg, single-shot, multi-shot)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/multiShot> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/singleShot> ;
+        :multiShot ,
+        :singleShot ;
     skos:prefLabel "Borehole Geology - Directional Survey Recording Mode "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
 .

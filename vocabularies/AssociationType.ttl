@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/associationtype/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/associationtype>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate>
+:StereoMate
     a skos:Concept ;
     dcterms:identifier "StereoMate"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -18,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle>
+:collectiveTitle
     a skos:Concept ;
     dcterms:identifier "collectiveTitle"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -29,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference>
+:crossreference
     a skos:Concept ;
     dcterms:identifier "crossreference"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -40,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency>
+:dependency
     a skos:Concept ;
     dcterms:identifier "dependency"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -51,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/generated>
+:generated
     a skos:Concept ;
     dcterms:identifier "generated"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -62,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation>
+:hadDerivation
     a skos:Concept ;
     dcterms:identifier "hadDerivation"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -73,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/informed>
+:informed
     a skos:Concept ;
     dcterms:identifier "informed"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -84,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf>
+:isComposedOf
     a skos:Concept ;
     dcterms:identifier "isComposedOf"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -95,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation>
+:largerWorkCitation
     a skos:Concept ;
     dcterms:identifier "largerWorkCitation"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -106,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy>
+:operatedOnBy
     a skos:Concept ;
     dcterms:identifier "operatedOnBy"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -117,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn>
+:operatesOn
     a skos:Concept ;
     dcterms:identifier "operatesOn"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -128,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase>
+:partOfSeamlessDatabase
     a skos:Concept ;
     dcterms:identifier "partOfSeamlessDatabase"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -139,7 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf>
+:revisionOf
     a skos:Concept ;
     dcterms:identifier "revisionOf"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -150,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/series>
+:series
     a skos:Concept ;
     dcterms:identifier "series"^^xsd:token ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
@@ -161,7 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom>
+:wasDerivedFrom
     a skos:Concept ;
     dcterms:identifier "wasDerivedFrom"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -172,7 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy>
+:wasGeneratedBy
     a skos:Concept ;
     dcterms:identifier "wasGeneratedBy"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -183,7 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy>
+:wasInformedBy
     a skos:Concept ;
     dcterms:identifier "wasInformedBy"^^xsd:token ;
     dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
@@ -212,23 +213,23 @@ cs:
     owl:versionInfo "1.5" ;
     skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/generated> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/informed> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/series> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy> ;
+        :StereoMate ,
+        :collectiveTitle ,
+        :crossreference ,
+        :dependency ,
+        :generated ,
+        :hadDerivation ,
+        :informed ,
+        :isComposedOf ,
+        :largerWorkCitation ,
+        :operatedOnBy ,
+        :operatesOn ,
+        :partOfSeamlessDatabase ,
+        :revisionOf ,
+        :series ,
+        :wasDerivedFrom ,
+        :wasGeneratedBy ,
+        :wasInformedBy ;
     skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" ;

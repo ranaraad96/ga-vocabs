@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -7,7 +8,7 @@ PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/gridNorth>
+:gridNorth
     a skos:Concept ;
     dcterms:identifier "gridNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
@@ -18,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/magneticNorth>
+:magneticNorth
     a skos:Concept ;
     dcterms:identifier "magneticNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
@@ -29,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/trueNorth>
+:trueNorth
     a skos:Concept ;
     dcterms:identifier "trueNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
@@ -59,9 +60,9 @@ cs:
     owl:versionInfo "1" ;
     skos:definition "The type of North datum used for azimuth measurements (eg, true north, magnetic north, local grid north)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/gridNorth> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/magneticNorth> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/trueNorth> ;
+        :gridNorth ,
+        :magneticNorth ,
+        :trueNorth ;
     skos:prefLabel "Borehole Geology - Directional Survey Azimuth "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
 .
