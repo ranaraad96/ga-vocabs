@@ -8,7 +8,7 @@
     "Confidence_Level_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel",
     "ContactCharacterBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter",
     "ContactTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ContactType",
-    "CountryCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+    "CountryCodes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
     "Date_Qualifiers_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
     "Directional_Survey_Azimuth_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth",
     "Directional_Survey_Class_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass",
