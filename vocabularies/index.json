@@ -23,7 +23,7 @@
     "Legislation_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/Legislation",
     "LocationMethodBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
     "Material_Class_Boreholes_20230927.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SampleMaterialClass",
-    "ModeOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence",
+    "ModesOfOccurrence.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence",
     "OnlineFunction.ttl": "https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions",
     "Petrophysical_Property_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty",
     "ProportionTermsBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms",
