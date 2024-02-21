@@ -2,7 +2,7 @@ from pathlib import Path
 from pyshacl import validate
 import httpx
 
-WARNINGS_INVALID = False # Allows warnings to flag as invalid when true
+WARNINGS_INVALID = False  # Allows warnings to flag as invalid when true
 SHOW_WARNINGS = True
 
 
@@ -48,9 +48,15 @@ def main():
             print(error)
             print("-----")
 
+    ret = True
     if WARNINGS_INVALID:
-        assert len(warning_vocabs.keys()) == 0, "Warning vocabs: {}".format(", ".join([str(x) for x in warning_vocabs.keys()]))
-    assert len(invalid_vocabs.keys()) == 0, "Invalid vocabs: {}".format(", ".join([str(x) for x in invalid_vocabs.keys()]))
+        if len(warning_vocabs.keys()) > 0:
+            print("Warning vocabs: {}".format(", ".join([str(x) for x in warning_vocabs.keys()])))
+            ret = False
+    if len(invalid_vocabs.keys()) > 0:
+        print("Invalid vocabs: {}".format(", ".join([str(x) for x in invalid_vocabs.keys()])))
+        ret = False
+    assert ret
 
 
 if __name__ == "__main__":
