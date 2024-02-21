@@ -10,7 +10,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :c
     a skos:Concept ;
-    dcterms:identifier "c"^^xsd:token ;
     skos:definition "This data has been checked. The data was entered by an Internal user."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "C"@en ;
@@ -19,7 +18,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :u
     a skos:Concept ;
-    dcterms:identifier "u"^^xsd:token ;
     skos:definition "This data has not been checked. The data was entered by an Internal user."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "U"@en ;
@@ -37,7 +35,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "QaStatusCode"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia QA Status Code (A.QA_STATUS_CODES)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;

@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/field-site-type/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/field-site-type>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -124,7 +124,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "field-site-type"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;

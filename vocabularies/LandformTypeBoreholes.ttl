@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/landform-type/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/landform-type>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -10,7 +10,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aeolian-dunes
     a skos:Concept ;
-    dcterms:identifier "aeolian-dunes"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU10"@en ;
     skos:broader :aeolian-landforms ;
@@ -21,7 +20,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aeolian-sheet
     a skos:Concept ;
-    dcterms:identifier "aeolian-sheet"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU20"@en ;
     skos:broader :aeolian-landforms ;
@@ -32,7 +30,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alluvial-fan
     a skos:Concept ;
-    dcterms:identifier "alluvial-fan"^^xsd:token ;
     dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "FA01"@en ;
     skos:broader :fan ;
@@ -43,7 +40,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alluvial-plain
     a skos:Concept ;
-    dcterms:identifier "alluvial-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL10"@en ;
     skos:broader :alluvial-landforms ;
@@ -54,7 +50,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alluvial-swamp
     a skos:Concept ;
-    dcterms:identifier "alluvial-swamp"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL50"@en ;
     skos:broader :alluvial-landforms ;
@@ -65,7 +60,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alluvial-terrace
     a skos:Concept ;
-    dcterms:identifier "alluvial-terrace"^^xsd:token ;
     dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL20"@en ;
     skos:broader :alluvial-landforms ;
@@ -76,7 +70,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :anastomatic-plain
     a skos:Concept ;
-    dcterms:identifier "anastomatic-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL12"@en ;
     skos:broader :alluvial-landforms ;
@@ -87,7 +80,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ash-plain
     a skos:Concept ;
-    dcterms:identifier "ash-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO04"@en ;
     skos:broader :volcano ;
@@ -98,7 +90,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :badlands
     a skos:Concept ;
-    dcterms:identifier "badlands"^^xsd:token ;
     dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER70"@en ;
     skos:broader :erosional-landforms ;
@@ -109,7 +100,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bar-plain
     a skos:Concept ;
-    dcterms:identifier "bar-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL13"@en ;
     skos:broader :alluvial-landforms ;
@@ -120,7 +110,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :beach
     a skos:Concept ;
-    dcterms:identifier "beach"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO08"@en ;
     skos:broader :coastal-lands ;
@@ -131,7 +120,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :beach-ridge
     a skos:Concept ;
-    dcterms:identifier "beach-ridge"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO01"@en ;
     skos:broader :coastal-lands ;
@@ -142,7 +130,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :caldera
     a skos:Concept ;
-    dcterms:identifier "caldera"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO01"@en ;
     skos:broader :volcano ;
@@ -153,7 +140,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :chenier-plain
     a skos:Concept ;
-    dcterms:identifier "chenier-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO02"@en ;
     skos:broader :coastal-lands ;
@@ -164,7 +150,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coastal-dunes
     a skos:Concept ;
-    dcterms:identifier "coastal-dunes"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO06"@en ;
     skos:broader :coastal-lands ;
@@ -175,7 +160,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coastal-plain
     a skos:Concept ;
-    dcterms:identifier "coastal-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO07"@en ;
     skos:broader :coastal-lands ;
@@ -186,7 +170,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :colluvial-fan
     a skos:Concept ;
-    dcterms:identifier "colluvial-fan"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "FA02"@en ;
     skos:broader :fan ;
@@ -197,7 +180,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cone-volcanic
     a skos:Concept ;
-    dcterms:identifier "cone-volcanic"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO02"@en ;
     skos:broader :volcano ;
@@ -212,7 +194,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :covered-plain
     a skos:Concept ;
-    dcterms:identifier "covered-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL14"@en ;
     skos:broader :alluvial-landforms ;
@@ -223,7 +204,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :delta
     a skos:Concept ;
-    dcterms:identifier "delta"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DE00"@en ;
     skos:definition "A flood plain projecting into a sea or lake, with slowly migrating deep alluvial channels, usually moderately spaced, typically forming a divergent distributary network. This landform is aggraded by frequently active overbank and channelled stream flow that is modified by tides."@en ;
@@ -234,7 +214,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :depostional-glacial-features
     a skos:Concept ;
-    dcterms:identifier "depostional-glacial-features"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "GL10"@en ;
     skos:broader :glacial-features ;
@@ -245,7 +224,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :depostional-plain
     a skos:Concept ;
-    dcterms:identifier "depostional-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PL01"@en ;
     skos:broader :plain ;
@@ -256,7 +234,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :drainage-depression
     a skos:Concept ;
-    dcterms:identifier "drainage-depression"^^xsd:token ;
     dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER80"@en ;
     skos:broader :erosional-landforms ;
@@ -268,7 +245,6 @@ the depression to be subdivided into its component parts (e.g. rises, floodplain
 
 :erosional-glacial-features
     a skos:Concept ;
-    dcterms:identifier "erosional-glacial-features"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "GL20"@en ;
     skos:broader :glacial-features ;
@@ -279,7 +255,6 @@ the depression to be subdivided into its component parts (e.g. rises, floodplain
 
 :erosional-plain
     a skos:Concept ;
-    dcterms:identifier "erosional-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER10"@en ;
     skos:broader :erosional-landforms ;
@@ -290,7 +265,6 @@ the depression to be subdivided into its component parts (e.g. rises, floodplain
 
 :escarpment
     a skos:Concept ;
-    dcterms:identifier "escarpment"^^xsd:token ;
     dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER60"@en ;
     skos:broader :erosional-landforms ;
@@ -301,7 +275,6 @@ the depression to be subdivided into its component parts (e.g. rises, floodplain
 
 :etchplain
     a skos:Concept ;
-    dcterms:identifier "etchplain"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER14"@en ;
     skos:broader :erosional-landforms ;
@@ -313,7 +286,6 @@ either partial or complete."""@en ;
 
 :flood-plain
     a skos:Concept ;
-    dcterms:identifier "flood-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL11"@en ;
     skos:broader :alluvial-landforms ;
@@ -324,7 +296,6 @@ either partial or complete."""@en ;
 
 :floodout
     a skos:Concept ;
-    dcterms:identifier "floodout"^^xsd:token ;
     dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL16"@en ;
     skos:broader :alluvial-landforms ;
@@ -335,7 +306,6 @@ either partial or complete."""@en ;
 
 :hills
     a skos:Concept ;
-    dcterms:identifier "hills"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER40"@en ;
     skos:broader :erosional-landforms ;
@@ -346,7 +316,6 @@ either partial or complete."""@en ;
 
 :irregular-dune-field
     a skos:Concept ;
-    dcterms:identifier "irregular-dune-field"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU13"@en ;
     skos:broader :aeolian-landforms ;
@@ -357,7 +326,6 @@ either partial or complete."""@en ;
 
 :karst
     a skos:Concept ;
-    dcterms:identifier "karst"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "KA00"@en ;
     skos:definition "A landform pattern of unspecified relief and slope (for specification use terms such as ‘karst rolling hills’) typically with fixed deep erosional stream channels forming a non-directional disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, with the products being removed through underground channels."@en ;
@@ -368,7 +336,6 @@ either partial or complete."""@en ;
 
 :lacustrine-plain
     a skos:Concept ;
-    dcterms:identifier "lacustrine-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PL02"@en ;
     skos:broader :plain ;
@@ -379,7 +346,6 @@ either partial or complete."""@en ;
 
 :lava-flow
     a skos:Concept ;
-    dcterms:identifier "lava-flow"^^xsd:token ;
     dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO05"@en ;
     skos:broader :volcano ;
@@ -390,7 +356,6 @@ either partial or complete."""@en ;
 
 :lava-plain
     a skos:Concept ;
-    dcterms:identifier "lava-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO03"@en ;
     skos:broader :volcano ;
@@ -401,7 +366,6 @@ either partial or complete."""@en ;
 
 :lava-plateau
     a skos:Concept ;
-    dcterms:identifier "lava-plateau"^^xsd:token ;
     dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO06"@en ;
     skos:broader :volcano ;
@@ -412,7 +376,6 @@ either partial or complete."""@en ;
 
 :longitudinal-dune-field
     a skos:Concept ;
-    dcterms:identifier "longitudinal-dune-field"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU11"@en ;
     skos:broader :aeolian-landforms ;
@@ -423,7 +386,6 @@ either partial or complete."""@en ;
 
 :low-hills
     a skos:Concept ;
-    dcterms:identifier "low-hills"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER30"@en ;
     skos:broader :erosional-landforms ;
@@ -435,7 +397,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :lunette
     a skos:Concept ;
-    dcterms:identifier "lunette"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU15"@en ;
     skos:broader :aeolian-landforms ;
@@ -446,7 +407,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :made-land
     a skos:Concept ;
-    dcterms:identifier "made-land"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "MA00"@en ;
     skos:definition "A landform pattern typically of very low or extremely low relief and with slopes in the classes level and very steep. Sparse, fixed deep artificial steam channels form a non-directional interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
@@ -457,7 +417,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :marine-plain
     a skos:Concept ;
-    dcterms:identifier "marine-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO04"@en ;
     skos:broader :coastal-lands ;
@@ -468,7 +427,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :meander-plain
     a skos:Concept ;
-    dcterms:identifier "meander-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL15"@en ;
     skos:broader :alluvial-landforms ;
@@ -479,7 +437,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :meteor-crater
     a skos:Concept ;
-    dcterms:identifier "meteor-crater"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ME00"@en ;
     skos:definition "A rare landform pattern comprising a circular closed depression with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and now relict."@en ;
@@ -490,7 +447,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :mountains
     a skos:Concept ;
-    dcterms:identifier "mountains"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER50"@en ;
     skos:broader :erosional-landforms ;
@@ -501,7 +457,6 @@ pattern. There is continuously active sheet flow, creep and channelled stream fl
 
 :pediment
     a skos:Concept ;
-    dcterms:identifier "pediment"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER11"@en ;
     skos:broader :erosional-landforms ;
@@ -513,7 +468,6 @@ slopes."""@en ;
 
 :pediplain
     a skos:Concept ;
-    dcterms:identifier "pediplain"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER12"@en ;
     skos:broader :erosional-landforms ;
@@ -525,7 +479,6 @@ channels as on a pediment."""@en ;
 
 :peneplain
     a skos:Concept ;
-    dcterms:identifier "peneplain"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER13"@en ;
     skos:broader :erosional-landforms ;
@@ -536,7 +489,6 @@ channels as on a pediment."""@en ;
 
 :plateau-edge
     a skos:Concept ;
-    dcterms:identifier "plateau-edge"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PT01"@en ;
     skos:broader :plateau ;
@@ -547,7 +499,6 @@ channels as on a pediment."""@en ;
 
 :plateau-surface
     a skos:Concept ;
-    dcterms:identifier "plateau-surface"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PT02"@en ;
     skos:broader :plateau ;
@@ -558,7 +509,6 @@ channels as on a pediment."""@en ;
 
 :playa-plain
     a skos:Concept ;
-    dcterms:identifier "playa-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PL03"@en ;
     skos:broader :plain ;
@@ -569,7 +519,6 @@ channels as on a pediment."""@en ;
 
 :reef
     a skos:Concept ;
-    dcterms:identifier "reef"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO03"@en ;
     skos:definition "A continuously active or relict landform pattern built up to the present sea level, or that of a former time, by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below sea level. Stream channels are generally absent, but there may occasionally be fixed deep erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
@@ -580,7 +529,6 @@ channels as on a pediment."""@en ;
 
 :residual-low-hills
     a skos:Concept ;
-    dcterms:identifier "residual-low-hills"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER31"@en ;
     skos:broader :erosional-landforms ;
@@ -591,7 +539,6 @@ channels as on a pediment."""@en ;
 
 :residual-rise
     a skos:Concept ;
-    dcterms:identifier "residual-rise"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER21"@en ;
     skos:broader :erosional-landforms ;
@@ -602,7 +549,6 @@ channels as on a pediment."""@en ;
 
 :rises
     a skos:Concept ;
-    dcterms:identifier "rises"^^xsd:token ;
     dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER20"@en ;
     skos:broader :erosional-landforms ;
@@ -613,7 +559,6 @@ channels as on a pediment."""@en ;
 
 :sand-plain
     a skos:Concept ;
-    dcterms:identifier "sand-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PL04"@en ;
     skos:broader :plain ;
@@ -624,7 +569,6 @@ channels as on a pediment."""@en ;
 
 :sheet-flood-fan
     a skos:Concept ;
-    dcterms:identifier "sheet-flood-fan"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "FA03"@en ;
     skos:broader :fan ;
@@ -635,7 +579,6 @@ channels as on a pediment."""@en ;
 
 :source-bordering-dune
     a skos:Concept ;
-    dcterms:identifier "source-bordering-dune"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU14"@en ;
     skos:broader :aeolian-landforms ;
@@ -646,7 +589,6 @@ channels as on a pediment."""@en ;
 
 :stagnant-alluvial-plain
     a skos:Concept ;
-    dcterms:identifier "stagnant-alluvial-plain"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL30"@en ;
     skos:broader :alluvial-landforms ;
@@ -657,7 +599,6 @@ channels as on a pediment."""@en ;
 
 :stream-channel
     a skos:Concept ;
-    dcterms:identifier "stream-channel"^^xsd:token ;
     dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL17"@en ;
     skos:broader :alluvial-landforms ;
@@ -668,7 +609,6 @@ channels as on a pediment."""@en ;
 
 :terraced-land
     a skos:Concept ;
-    dcterms:identifier "terraced-land"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL40"@en ;
     skos:broader :alluvial-landforms ;
@@ -679,7 +619,6 @@ channels as on a pediment."""@en ;
 
 :tidal-flat
     a skos:Concept ;
-    dcterms:identifier "tidal-flat"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO05"@en ;
     skos:broader :coastal-lands ;
@@ -690,7 +629,6 @@ channels as on a pediment."""@en ;
 
 :transverse-dune-field
     a skos:Concept ;
-    dcterms:identifier "transverse-dune-field"^^xsd:token ;
     dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU12"@en ;
     skos:broader :aeolian-landforms ;
@@ -701,7 +639,6 @@ channels as on a pediment."""@en ;
 
 :unknown
     a skos:Concept ;
-    dcterms:identifier "unknown"^^xsd:token ;
     skos:definition "The method by which the site was located is unknown."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -717,7 +654,6 @@ channels as on a pediment."""@en ;
 
 :glacial-features
     a skos:Concept ;
-    dcterms:identifier "glacial-features"^^xsd:token ;
     dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "GL00"@en ;
     skos:definition "Also called Glacial landforms. This term covers a wide range of landforms that are produced by glacial processes. In Australia most landforms of this type are all relict, with the exception of Heard Island."@en ;
@@ -731,7 +667,6 @@ channels as on a pediment."""@en ;
 
 :plateau
     a skos:Concept ;
-    dcterms:identifier "plateau"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PT00"@en ;
     skos:definition "A level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
@@ -745,7 +680,6 @@ channels as on a pediment."""@en ;
 
 :fan
     a skos:Concept ;
-    dcterms:identifier "fan"^^xsd:token ;
     dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "FA00"@en ;
     skos:definition "A level (<1 percent slope) to moderately inclined complex landform pattern of extremely low relief with a generally fan-shaped plan form. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern."@en ;
@@ -760,7 +694,6 @@ channels as on a pediment."""@en ;
 
 :plain
     a skos:Concept ;
-    dcterms:identifier "plain"^^xsd:token ;
     dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "PL00"@en ;
     skos:definition "A level to undulating or, rarely, rolling landform pattern of extremely low relief (<9 m). Some types of plains are described under alluvial landforms and some are also described under erosional landforms."@en ;
@@ -776,7 +709,6 @@ channels as on a pediment."""@en ;
 
 :volcano
     a skos:Concept ;
-    dcterms:identifier "volcano"^^xsd:token ;
     dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "VO00"@en ;
     skos:definition "A typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal or radial tributary pattern. The landform is built up by volcanism and modified by erosional agents."@en ;
@@ -794,7 +726,6 @@ channels as on a pediment."""@en ;
 
 :aeolian-landforms
     a skos:Concept ;
-    dcterms:identifier "aeolian-landforms"^^xsd:token ;
     dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "DU00"@en ;
     skos:definition "A landform pattern built up or locally excavated, eroded or aggraded by wind. Mabbutt (1977) provides a useful summary of the variety of aeolian landforms found in arid climates."@en ;
@@ -813,7 +744,6 @@ channels as on a pediment."""@en ;
 
 :coastal-lands
     a skos:Concept ;
-    dcterms:identifier "coastal-lands"^^xsd:token ;
     dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "CO00"@en ;
     skos:definition "A level to gently undulating landform pattern of extremely low relief eroded or aggraded by waves, tides, over-bank or channel flow, or wind. The landform pattern may be either active or relict."@en ;
@@ -833,7 +763,6 @@ channels as on a pediment."""@en ;
 
 :alluvial-landforms
     a skos:Concept ;
-    dcterms:identifier "alluvial-landforms"^^xsd:token ;
     dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "AL00"@en ;
     skos:definition "A complex landform pattern on valley floors, with active, inactive or relict erosion and aggradation by channelled and over-bank stream flow."@en ;
@@ -857,7 +786,6 @@ channels as on a pediment."""@en ;
 
 :erosional-landforms
     a skos:Concept ;
-    dcterms:identifier "erosional-landforms"^^xsd:token ;
     dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
     skos:altLabel "ER00"@en ;
     skos:definition "A landform pattern of very low to high relief and very gentle to steep slopes. The pattern is eroded by continuously active to slightly active or inactive geomorphic processes."@en ;
@@ -885,7 +813,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "landform-type"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;

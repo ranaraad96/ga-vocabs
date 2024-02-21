@@ -10,7 +10,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :azimuthAndInclination
     a skos:Concept ;
-    dcterms:identifier "azimuthAndInclination"^^xsd:token ;
     skos:definition "The directional survey is comprised of azimuth and inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "azimuth and inclination"@en ;
@@ -19,7 +18,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inclinationOnly
     a skos:Concept ;
-    dcterms:identifier "inclinationOnly"^^xsd:token ;
     skos:definition "The directional survey is comprised of only inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "inclination only"@en ;
@@ -37,7 +35,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "DirectionalSurveyClass"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;

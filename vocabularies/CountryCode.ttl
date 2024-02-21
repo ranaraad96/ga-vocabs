@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/countrycodes/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/countrycodes>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>

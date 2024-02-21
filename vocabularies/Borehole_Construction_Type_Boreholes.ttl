@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/boreholeConstructionType/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/boreholeConstructionType>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -73,7 +73,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "boreholeConstructionType"^^xsd:token ;
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Borehole Construction Type database table (BOREHOLE. LU_CONSTRUCTION_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;

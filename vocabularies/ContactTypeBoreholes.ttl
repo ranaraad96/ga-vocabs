@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/contact-type/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/contact-type>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ContactType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ContactType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -9,7 +9,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :conformable-contact
     a skos:Concept ;
-    dcterms:identifier "conformable-contact"^^xsd:token ;
     skos:definition "A contact separating two geological units in which the layers are formed one above the other in order by regular, uninterrupted deposition under the same general conditions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "conformable contact"@en ;
@@ -18,7 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :faulted-contact
     a skos:Concept ;
-    dcterms:identifier "faulted-contact"^^xsd:token ;
     skos:definition "A contact separating two bodies of material across which one body has slid past the other."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "faulted contact"@en ;
@@ -27,7 +25,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ground-surface
     a skos:Concept ;
-    dcterms:identifier "ground-surface"^^xsd:token ;
     skos:definition "The local top surface of the observed geological unit is formed by the ground surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ground surface"@en ;
@@ -36,7 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :igneous-intrusive-contact
     a skos:Concept ;
-    dcterms:identifier "igneous-intrusive-contact"^^xsd:token ;
     skos:definition "An intrusive contact between a younger igneous rock and an older, pre-existing geological unit into which it has been intruded."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "igneous intrusive contact"@en ;
@@ -45,7 +41,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :igneous-phase-contact
     a skos:Concept ;
-    dcterms:identifier "igneous-phase-contact"^^xsd:token ;
     skos:definition "A lithogenetic contact separating lithologically distinct phases of a single intrusive body. Does not denote nature of contact (intrusive or gradation)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "igneous phase contact"@en ;
@@ -54,7 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sea-floor
     a skos:Concept ;
-    dcterms:identifier "sea-floor"^^xsd:token ;
     skos:definition "The local top surface of the observed geological unit is formed by the sea floor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sea floor"@en ;
@@ -63,7 +57,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sedimentry-intrusive-contact
     a skos:Concept ;
-    dcterms:identifier "sedimentry-intrusive-contact"^^xsd:token ;
     skos:definition "An intrusive contact between a sedimentary rock unit and plastic sediment (e.g., clay, chalk, salt, gypsum, etc.), forced upward into it from underlying sediment"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sedimentary intrusive contact"@en ;
@@ -72,7 +65,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sheared-contact
     a skos:Concept ;
-    dcterms:identifier "sheared-contact"^^xsd:token ;
     skos:definition "A faulted contact where the style of deflormation is largely ductile shearing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sheared contact"@en ;
@@ -81,7 +73,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vein-contact
     a skos:Concept ;
-    dcterms:identifier "vein-contact"^^xsd:token ;
     skos:definition "A contact between a metasomatic vein and a lithological unit"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vein contact"@en ;
@@ -97,7 +88,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alteration-facies-contact
     a skos:Concept ;
-    dcterms:identifier "alteration-facies-contact"^^xsd:token ;
     skos:broader :metamorphic-contact ;
     skos:definition "A metasomatic facies contact separating rocks that have undergone alteration of a particular facies from those that have undergone metasomatism of another facies. Alteration is a kind of metasomatism that does not introduce economically important minerals."@en ;
     skos:inScheme cs: ;
@@ -106,7 +96,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :angular-unconformable-contact
     a skos:Concept ;
-    dcterms:identifier "angular-unconformable-contact"^^xsd:token ;
     skos:broader :unconformable-contact ;
     skos:definition "An unconformable contact between two geological units in which the older, underlying rocks dip at an angle different from the younger, overlying strata, usually in which younger sediments rest upon the eroded surface of tilted or folded older rocks."@en ;
     skos:inScheme cs: ;
@@ -115,7 +104,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :disconformable-contact
     a skos:Concept ;
-    dcterms:identifier "disconformable-contact"^^xsd:token ;
     skos:broader :unconformable-contact ;
     skos:definition "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, but in which the contact between the two units is marked by an irregular or uneven surface of appreciable relief."@en ;
     skos:inScheme cs: ;
@@ -124,7 +112,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :metamorphic-facies-contact
     a skos:Concept ;
-    dcterms:identifier "metamorphic-facies-contact"^^xsd:token ;
     skos:broader :metamorphic-contact ;
     skos:definition "A metamorphic contact separating rocks that have undergone metamorphism of a particular facies from those that have undergone metamorphism of another facies."@en ;
     skos:inScheme cs: ;
@@ -133,7 +120,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :metasomatic-facies-contact
     a skos:Concept ;
-    dcterms:identifier "metasomatic-facies-contact"^^xsd:token ;
     skos:broader :metamorphic-contact ;
     skos:definition "A contact separating rocks that have undergone metasomatism of a particular facies from those that have undergone metasomatism of another facies. Metasomatism is distinguished from metamorphism by significant changes in bulk chemistry of the affected rock."@en ;
     skos:inScheme cs: ;
@@ -142,7 +128,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :nonconformable-contact
     a skos:Concept ;
-    dcterms:identifier "nonconformable-contact"^^xsd:token ;
     skos:broader :unconformable-contact ;
     skos:definition "An unconformable contact between an underlying, older nonstratified geological unit (usually intrusive igneous rocks or metamorphics) and an overlying, younger stratified geological unit."@en ;
     skos:inScheme cs: ;
@@ -151,7 +136,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :paraconformable-contact
     a skos:Concept ;
-    dcterms:identifier "paraconformable-contact"^^xsd:token ;
     skos:broader :unconformable-contact ;
     skos:definition "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, in which the contact between the two units is planar, and may be coincident with a bedding plane."@en ;
     skos:inScheme cs: ;
@@ -160,7 +144,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :metamorphic-contact
     a skos:Concept ;
-    dcterms:identifier "metamorphic-contact"^^xsd:token ;
     skos:definition "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -173,7 +156,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unconformable-contact
     a skos:Concept ;
-    dcterms:identifier "unconformable-contact"^^xsd:token ;
     skos:definition "A contact separating two geological units in which the younger unit succeeds the older after a substantial hiatus in deposition."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -189,7 +171,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-11"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "contact-type"^^xsd:token ;
     dcterms:modified "2023-06-14"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;

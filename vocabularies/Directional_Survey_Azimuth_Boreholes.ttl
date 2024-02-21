@@ -10,7 +10,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gridNorth
     a skos:Concept ;
-    dcterms:identifier "gridNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
     skos:definition "Azimuth measurements in this directional survey are relative to a local grid north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north> ;
@@ -21,7 +20,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :magneticNorth
     a skos:Concept ;
-    dcterms:identifier "magneticNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
     skos:definition "Azimuth measurements in this directional survey are relative to magnetic north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/magnetic_north> ;
@@ -32,7 +30,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :trueNorth
     a skos:Concept ;
-    dcterms:identifier "trueNorth"^^xsd:token ;
     dcterms:provenance "GA"@en ;
     skos:definition "Azimuth measurements in this directional survey are relative to true north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/true_north> ;
@@ -52,7 +49,6 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2022-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "DirectionalSurveyAzimuth"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Azimuth Terms (BOREHOLE.LU_DIR_SRVY_AZ_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
