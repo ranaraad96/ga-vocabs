@@ -1,0 +1,285 @@
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/author>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "author"@en ;
+    skos:definition "party who authored the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "author"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/coAuthor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "co-author"@en ;
+    skos:definition "party who jointly authors the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coAuthor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/collaborator>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "collaborator"@en ;
+    skos:definition "party who assists with the generation of the resource other than the principal investigator"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collaborator"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/contributor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "contributor"@en ;
+    skos:definition "party contributing to the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "contributor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/custodian>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "custodian"@en ;
+    skos:definition "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "custodian"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/distributor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "distributor"@en ;
+    skos:definition "party who distributes the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "distributor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/editor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "editor"@en ;
+    skos:definition "party who reviewed or modified the resource to improve the content"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "editor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/funder>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "funder"@en ;
+    skos:definition "party providing monetary support for the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "funder"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/mediator>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "mediator"@en ;
+    skos:definition "a class of entity that mediates access to the resource and for whom the resource is intended or useful"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mediator"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/originator>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "originator"@en ;
+    skos:definition "party who created the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "originator"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/owner>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "owner"@en ;
+    skos:definition "party that owns the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "owner"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/pointOfContact>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "point of contact"@en ;
+    skos:definition "party who can be contacted for acquiring knowledge about or acquisition of the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pointOfContact"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/principallnvestigator>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "principal investigator"@en ;
+    skos:definition "key party responsible for gathering information and conducting research"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "principallnvestigator"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/processor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "processor"@en ;
+    skos:definition "party who has processed the data in a manner such that the resource has been modified"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "processor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/publisher>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "publisher"@en ;
+    skos:definition "party who published the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "publisher"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/resourceProvider>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "resource provider"@en ;
+    skos:definition "party that supplies the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "resourceProvider"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/rightsHolder>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "rights holder"@en ;
+    skos:definition "party owning or managing rights over the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rightsHolder"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/sponsor>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "sponsor"@en ;
+    skos:definition "party who speaks for the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sponsor"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/stakeholder>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "stakeholder"@en ;
+    skos:definition "party who has an interest in the resource or the use of the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stakeholder"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/user>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "user"@en ;
+    skos:definition "party who uses the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "user"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://github.com/ISO-TC211/ontologies/"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/1.0> ;
+    skos:definition "A SKOS vocabulary version of the ISO19115-1 catalogue metadata standard Role Code list used in the GA enterprise catalogue."@en ;
+    skos:hasTopConcept
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/author> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/coAuthor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/collaborator> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/contributor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/custodian> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/distributor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/editor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/funder> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/mediator> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/originator> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/owner> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/pointOfContact> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/principallnvestigator> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/processor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/publisher> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/resourceProvider> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/rightsHolder> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/sponsor> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/stakeholder> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/roleCodeType/user> ;
+    skos:historyNote "This vocabulary is used as a code list in the enterprise catalogue for the classification of points of contact for the data and information in the catalogue."@en ;
+    skos:prefLabel "Role Code Type"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Organization ;
+                    schema:name "L. Sedgman" ;
+                    schema:url ""^^xsd:anyURI ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2022-12-21"^^xsd:date ;
+    schema:dateModified "2024-03-14"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
