@@ -3844,7 +3844,7 @@ cs:
             prov:agent
                 [
                     a schema:Organization ;
-                    schema:name "Marine And Coastal Geoscience" ;
+                    schema:name "Orca Branch" ;
                     schema:url ""^^xsd:anyURI ;
                 ] ;
         ] ,
@@ -3853,7 +3853,7 @@ cs:
             prov:agent
                 [
                     a schema:Organization ;
-                    schema:name "Orca Branch" ;
+                    schema:name "Marine And Coastal Geoscience" ;
                     schema:url ""^^xsd:anyURI ;
                 ] ;
         ] ;
