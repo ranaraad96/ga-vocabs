@@ -1,7 +1,6 @@
 {
     "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
-    "MarineGeomorphSettingProcess.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
     "SampleMaterialClassBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_material_class",
     "SampleType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_type",
     "SamplingMethod.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sampling_method",
