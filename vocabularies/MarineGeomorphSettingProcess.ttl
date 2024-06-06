@@ -4196,7 +4196,6 @@ cs:
         <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/karst_processes> ,
         <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/marine_setting> ,
         <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/mass_movement_processes> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/reef> ,
         <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/salt_karst> ,
         <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/solid_earth_setting> ;
     skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
