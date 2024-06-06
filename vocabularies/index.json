@@ -1,5 +1,8 @@
 {
+    "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AssociationType",
     "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
+    "GeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
+    "Material_Class_Boreholes_20230927.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SampleMaterialClass",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
     "SampleMaterialClassBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_material_class",
     "MarineGeomorphSettingProcess.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
