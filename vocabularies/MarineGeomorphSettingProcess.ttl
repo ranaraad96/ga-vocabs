@@ -322,10 +322,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://zenodo.org/records/7804019"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/biogenic_reef>
-    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/biogenic_processes> ;
-.
-
 <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/black_smokers>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2161,9 +2157,10 @@ from Bell et al. 1997. In: Dowdeswell et al., 2016)."""@en ;
     schema:citation "https://zenodo.org/records/7804019"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/reef>
+<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/biogenic_reef>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings/biogenic_processes> ;
     skos:definition "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (Marine Setting)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "biogenic reef"@en ;
