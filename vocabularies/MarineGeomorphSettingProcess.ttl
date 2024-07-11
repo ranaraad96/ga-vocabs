@@ -2435,7 +2435,7 @@ from Bell et al. 1997. In: Dowdeswell et al., 2016)."""@en ;
     skos:prefLabel "stratovolcano (BGU-T)"@en ;
 .
 
-:streamlined_landfrom
+:streamlined_landform
     skos:broader :Glacial_Setting ;
 .
 
@@ -3812,7 +3812,7 @@ from Bell et al. 1997. In: Dowdeswell et al., 2016)."""@en ;
         :proglacial_meltwater_channel ,
         :rogen_moraine ,
         :sill ,
-        :streamlined_landfrom ,
+        :streamlined_landform ,
         :sub-ice_shelf_keel_scour_mark ,
         :thrust-block_moraine ,
         :trough-mouth_fan ,
