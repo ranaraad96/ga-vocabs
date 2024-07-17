@@ -919,7 +919,7 @@ from Bell et al. 1997. In: Dowdeswell et al., 2016)."""@en ;
     skos:prefLabel "fish trap (BGU-T)"@en ;
 .
 
-:fluival_delta
+:fluvial_delta
     skos:broader :Fluvial_Setting ;
 .
 
@@ -3588,7 +3588,7 @@ from Bell et al. 1997. In: Dowdeswell et al., 2016)."""@en ;
         :drainage_network ,
         :floodplain ,
         :floodplain_terrace ,
-        :fluival_delta ,
+        :fluvial_delta ,
         :fluvial_subaerial_valley ,
         :subaerial_channel ;
     skos:prefLabel "Fluvial Setting"@en ;
