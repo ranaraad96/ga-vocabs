@@ -2,6 +2,7 @@
     "AssociationType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/AssociationType",
     "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
     "GeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
+    "GeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral",
     "MorphologyFeatures.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MorphologyFeatures",
     "Material_Class_Boreholes_20230927.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SampleMaterialClass",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
