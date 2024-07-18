@@ -19,13 +19,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/BGU–sub-type>
+<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/BGU-sub-type>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "BGU-sT"@en ;
     skos:definition "BGU-sT provide more granular classification of BGU-T, but can always be simplified up to their BGU-T, BGU and SETTING/PROCESS categories (Nanson et al., 2023). BGU-sT definitions are not included in this glossary."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "BGU – sub-Type"@en ;
+    skos:prefLabel "BGU - sub-Type"@en ;
     skos:topConceptOf cs: ;
 .
 
