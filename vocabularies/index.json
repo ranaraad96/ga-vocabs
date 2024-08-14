@@ -1,5 +1,4 @@
 {
-    "ConfidenceLevel.ttl": "https://pid.geoscience.gov.au/def/voc/ga/confidence_level",
     "GeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
     "GeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral",
     "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType",
