@@ -9,7 +9,6 @@
     "MarineGeomorphSettingProcess.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
     "SampleType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_type",
     "SamplingMethod.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sampling_method",
-    "QaStatusCode.ttl": "https://pid.geoscience.gov.au/def/voc/ga/QA_status_code",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
